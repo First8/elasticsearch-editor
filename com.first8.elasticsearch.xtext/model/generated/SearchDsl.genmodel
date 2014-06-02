@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/com.first8.elasticsearch.xtext/src-gen" editDirectory="/com.first8.elasticsearch.xtext.edit/src"
+    editorDirectory="/com.first8.elasticsearch.xtext.editor/src" modelPluginID="com.first8.elasticsearch.xtext"
+    forceOverwrite="true" modelName="SearchDsl" updateClasspath="false" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    complianceLevel="5.0" copyrightFields="false" editPluginID="com.first8.elasticsearch.xtext.edit"
+    editorPluginID="com.first8.elasticsearch.xtext.editor" runtimeVersion="2.9">
+  <genPackages prefix="Search" basePackage="com.first8.elasticsearch.dsl" disposableProviderFactory="true"
+      loadInitialization="true" literalsInterface="false" fileExtensions="searchDsl"
+      ecorePackage="SearchDsl.ecore#/">
+    <genClasses ecoreClass="SearchDsl.ecore#//SearchDSL">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//SearchDSL/fields"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//SearchDSL/from"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//SearchDSL/size"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//SearchDSL/sort"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//SearchDSL/query"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//SearchDSL/facets"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//SearchDSL/stats"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//SearchField">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//SearchField/fields"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//SearchField/from"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//SearchField/size"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//SearchField/sort"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//SearchField/query"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//SearchField/facets"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//SearchField/stats"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//Stats">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//Stats/groups"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//Sort">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//Sort/sortvalues"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//SortValue">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//SortValue/sortFieldName"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//SortValue/sortShortObject"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//SortValue/sortObject"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//SortValue/sortByScore"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//ShortSortOject">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//ShortSortOject/sortFieldName"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//ShortSortOject/ascDesc"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//SortObject">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//SortObject/sortFieldName"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//SortObject/sortProperties"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//SortObjectPropertiesObject">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//SortObjectPropertiesObject/sort"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//SortObjectProperty">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//SortObjectProperty/order"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//SortObjectProperty/sortMode"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//SortObjectProperty/missing"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//SORT_MODE">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//SORT_MODE/sortMode"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//ASC_DESC">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//ASC_DESC/ascDesc"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//Fields">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//Fields/selectfields"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//Query">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//Query/query"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//Filter">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//Filter/filter"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//FilterObject"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//FilterType">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//FilterType/and"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//FilterType/bool"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//FilterType/exists"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//FilterType/geoBoundingBox"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//FilterType/geoDistance"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//FilterType/geoDistanceRange"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//FilterType/geoPolygon"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//FilterType/geoShape"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//FilterType/geoHashCell"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//FilterType/hasChild"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//FilterType/hasParent"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//FilterType/ids"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//FilterType/indices"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//FilterType/limit"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//FilterType/matchAll"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//FilterType/missing"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//FilterType/nested"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//FilterType/not"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//FilterType/or"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//FilterType/prefix"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//FilterType/query"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//FilterType/regexp"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//FilterType/script"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//FilterType/term"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//FilterType/terms"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//FilterType/type"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//QueryObject">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//QueryObject/queryType"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//QueryType">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//QueryType/match"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//QueryType/multiMatch"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//QueryType/bool"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//QueryType/common"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//QueryType/constantScore"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//QueryType/disMax"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//QueryType/filtered"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//QueryType/fuzzyLikeThis"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//QueryType/fuzzyLikeThisField"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//QueryType/geoshape"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//QueryType/hasChild"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//QueryType/hasParent"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//QueryType/ids"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//QueryType/indices"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//QueryType/matchAll"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//QueryType/moreLikeThis"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//QueryType/moreLikeThisField"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//QueryType/nested"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//QueryType/queryString"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//QueryType/simpleQuery"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//QueryType/spanFirst"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//QueryType/spanMulti"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//QueryType/spanNear"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//QueryType/spanNot"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//QueryType/spanOr"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//QueryType/spanTerm"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//QueryType/fuzzy"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//QueryType/prefix"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//QueryType/term"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//QueryType/range"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//QueryType/regexp"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//QueryType/wildcard"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//QueryType/terms"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//QueryType/topChildren"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//SpanQuery">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//SpanQuery/spanQuery"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//MultiTermQuery">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//MultiTermQuery/multiTermQuery"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//Facets"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//FacetsObject">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//FacetsObject/facetName"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//FacetsObject/config"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//FacetTypeObject">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//FacetTypeObject/facetType"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//FacetTypeObject/params"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//FacetType">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//FacetType/facetType"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//GeoDistanceFacet"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//GeoDistanceFacetObject">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//GeoDistanceFacetObject/fieldName"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//GeoDistanceFacetObject/point"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//TermsStatsFacet"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//StatisticalFacet"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//StatisticalFacetObject">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//StatisticalFacetObject/field"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//StatisticalFacetObject/script"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//StatisticalFacetObject/fields"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//QueryFacet"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//FilterFacet"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//DateHistogramFacet"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//DateHistogramFacetObject">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//DateHistogramFacetObject/field"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//DateHistogramFacetObject/keyValue"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//DateHistogramFacetObject/keyValueScript"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//HistogramFacet"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//HistogramFacetObject">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//HistogramFacetObject/field"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//HistogramFacetObject/keyValue"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//HistogramFacetObject/keyValueScript"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//RangeFacet"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//RangeFacetObject">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//RangeFacetObject/field"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//RangeFacetObject/keyValue"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//RangeFacetObject/keyValueScript"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//KeyValueField">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//KeyValueField/keyField"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//KeyValueField/valueField"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//KeyValueScript">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//KeyValueScript/keyScript"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//KeyValueScript/valueScript"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//TermsFacet"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//TermsFacetObject">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//TermsFacetObject/params"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//TermsFacetParameter">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//TermsFacetParameter/field"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//TermsFacetParameter/fields"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//TermsFacetParameter/size"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//TermsFacetParameter/order"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//TermsFacetParameter/allTerms"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//TermsFacetParameter/exclude"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//TermsFacetParameter/regex"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//TermsFacetParameter/regexFlags"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//TermsFacetParameter/script"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//TermsFacetParameter/scriptField"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//FacetParameter">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//FacetParameter/global"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//FacetParameter/faceFilter"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//FacetFilterParam"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//AllTermsParam">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//AllTermsParam/allTerms"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//ExcludeParam">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//ExcludeParam/excludeFieldNames"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//ScriptParam">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//ScriptParam/script"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//ScriptFieldParam">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//ScriptFieldParam/fieldName"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//LikeTextParam">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//LikeTextParam/likeQuery"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//LikeTextParam/params"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//MatchQuery">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//MatchQuery/fieldName"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//ShortMatchQueryObject">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//ShortMatchQueryObject/query"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//MatchQueryObject">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//MatchQueryObject/parameters"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//MatchQueryParametersObject">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//MatchQueryParametersObject/query"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//MatchQueryParametersObject/params"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//MultiMatchQuery"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//MultiMatchQueryObject">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//MultiMatchQueryObject/fields"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//MultiMatchQueryObject/params"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//BoolQuery"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//BoolQueryObject">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//BoolQueryObject/clause"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//BoolQueryObject/params"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//BoolClause">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//BoolClause/query"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//CommonQuery"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//CommonQueryObject">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//CommonQueryObject/fieldName"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//CommonQueryObject/parameters"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//CommonQueryParametersObject">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//CommonQueryParametersObject/query"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//CommonQueryParametersObject/params"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//ConstantScoreQuery"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//ConstantScoreQueryObject"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//DisMaxQuery"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//DisMaxQueryObject">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//DisMaxQueryObject/query"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//FilteredQuery"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//FilteredQueryObject">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//FilteredQueryObject/query"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//FilteredQueryObject/filter"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//FuzzyLikeThisQuery"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//FuzzyLikeThisQueryObject"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//FuzzyLikeThisFieldQuery"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//FuzzyLikeThisFieldQueryObject">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//FuzzyLikeThisFieldQueryObject/fieldName"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//FuzzyLikeThisFieldQueryObject/params"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//FuzzyQuery">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//FuzzyQuery/field"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//SimpleFuzzyQueryObject">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//SimpleFuzzyQueryObject/query"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//FuzzyQueryObject">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//FuzzyQueryObject/q"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//FuzzyQueryObjectParameters">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//FuzzyQueryObjectParameters/value"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//FuzzyQueryObjectParameters/params"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//GeoshapeQuery"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//GeoshapeQueryObject">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//GeoshapeQueryObject/fieldName"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//GeoshapeQueryObject/shape"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//HasChildQuery"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//HasChildQueryObject">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//HasChildQueryObject/childType"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//HasChildQueryObject/query"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//HasChildQueryObject/filter"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//HasParentQuery"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//HasParentQueryObject">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//HasParentQueryObject/parentType"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//HasParentQueryObject/query"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//HasParentQueryObject/filter"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//IndicesQuery"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//IndicesQueryObject">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//IndicesQueryObject/query"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//IndicesQueryObject/noMatchQuery"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//MoreLikeThisQuery"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//MoreLikeThisQueryObject"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//MoreLikeThisFieldQuery"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//MoreLikeThisFieldQueryObject">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//MoreLikeThisFieldQueryObject/fieldName"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//MoreLikeThisFieldQueryObject/query"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//MoreLikeThisFieldQueryObject/params"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//NestedQuery"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//NestedQueryObject"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//PrefixQuery">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//PrefixQuery/fieldName"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//SimplePrefixQueryObject">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//SimplePrefixQueryObject/prefix"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//PrefixQueryObject">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//PrefixQueryObject/prefix"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//PrefixQueryParameterObject">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//PrefixQueryParameterObject/value"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//QueryStringQuery"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//QueryStringQueryObject">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//QueryStringQueryObject/query"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//QueryStringQueryObject/params"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//SimpleQueryStringQuery"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//SimpleQueryStringQueryObject">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//SimpleQueryStringQueryObject/query"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//SimpleQueryStringQueryObject/params"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//RangeQuery"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//RangeQueryObject">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//RangeQueryObject/fieldName"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//RangeQueryObject/params"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//RangeQueryParametersObject">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//RangeQueryParametersObject/params"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//RegexpQuery"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//RegexpQueryObject">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//RegexpQueryObject/fieldName"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//RegexpQueryObject/regexp"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//RegexpQueryObject/params"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//RegexpQueryParameterObject">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//RegexpQueryParameterObject/regex"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//RegexpQueryParameterObject/params"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//SpanFirstQuery"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//SpanFirstQueryObject">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//SpanFirstQueryObject/subquery"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//SpanMultiQuery"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//SpanMultiQueryObject"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//SpanNearQuery"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//SpanNearQueryObject">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//SpanNearQueryObject/clauses"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//SpanNearQueryObject/slop"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//SpanNearQueryObject/inOrder"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//SpanNearQueryObject/collectPayloads"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//SpanNotQuery"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//SpanNotQueryObject">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//SpanNotQueryObject/includeQuery"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//SpanNotQueryObject/excludeQuery"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//SpanOrQuery"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//SpanOrQueryObject">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//SpanOrQueryObject/clauses"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//SpanTermQuery"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//SpanTermQueryObject">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//SpanTermQueryObject/fieldName"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//SpanTermQueryObject/params"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//TermQuery"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//TermQueryObject">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//TermQueryObject/fieldName"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//TermQueryObject/term"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//TermQueryObject/params"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//TermQueryParametersObject">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//TermQueryParametersObject/term"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//TermQueryParametersObject/boost"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//TermsQuery"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//TermsQueryObject">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//TermsQueryObject/fieldName"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//TermsQueryObject/terms"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//TopChildrenQuery"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//TopChildrenQueryObject">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//TopChildrenQueryObject/childType"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//TopChildrenQueryObject/query"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//TopChildrenQueryObject/params"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//WildcardQuery"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//AndFilter"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//SimpleAndFilterArray">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//SimpleAndFilterArray/subFilter"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//AndFilterObject"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//BoolFilter"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//BoolFilterObject">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//BoolFilterObject/clause"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//BoolFilterClause">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//BoolFilterClause/filter"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//GeoBoundingBoxFilter"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//GeoBoundingBoxFilterObject">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//GeoBoundingBoxFilterObject/fieldName"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//GeoBoundingBoxFilterObject/boundingBox"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//GeoDistanceFilter"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//GeoDistanceFilterObject">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//GeoDistanceFilterObject/distance"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//GeoDistanceFilterObject/fieldName"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//GeoDistanceFilterObject/point"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//GeoDistanceFilterObject/params"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//GeoDistanceRangeFilter"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//GeoDistanceRangeFilterObject">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//GeoDistanceRangeFilterObject/from"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//GeoDistanceRangeFilterObject/to"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//GeoDistanceRangeFilterObject/fieldName"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//GeoDistanceRangeFilterObject/point"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//GeoPolygonFilter"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//GeoPolygonFilterObject">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//GeoPolygonFilterObject/fieldName"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//GeoPolygonFilterObject/polygon"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//GeoShapeFilter"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//GeoShapeFilterObject">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//GeoShapeFilterObject/fieldName"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//GeoShapeFilterObject/shape"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//GeohashCellFilter"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//GeohashCellFilterObject"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//HasChildFilter"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//HasChildFilterObject">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//HasChildFilterObject/childType"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//HasChildFilterObject/query"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//HasChildFilterObject/filter"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//HasParentFilter"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//HasParentFilterObject">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//HasParentFilterObject/parentType"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//HasParentFilterObject/query"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//HasParentFilterObject/filter"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//IndicesFilter"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//IndicesFilterObject">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//IndicesFilterObject/filter"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//IndicesFilterObject/noMatchFilter"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//NestedFilter"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//NestedFilterObject">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//NestedFilterObject/path"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//NestedFilterObject/filter"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//NotFilter"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//NotFilterObject"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//OrFilter"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//OrFilterArray">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//OrFilterArray/subQuery"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//PrefixFilter"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//PrefixFilterObject">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//PrefixFilterObject/fieldName"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//PrefixFilterObject/prefix"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//QueryFilter"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//FQuery"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//RangeFilter"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//RangeFilterObject">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//RangeFilterObject/fieldName"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//RangeFilterObject/params"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//RangeFilterParametersObject">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//RangeFilterParametersObject/params"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//RegexpFilter"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//RegexpFilterObject">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//RegexpFilterObject/fieldName"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//RegexpFilterObject/regexp"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//RegexpFilterObject/params"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//RegexpFilterParameterObject">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//RegexpFilterParameterObject/regexp"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//RegexpFilterParameterObject/params"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//ScriptFilter"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//ScriptFilterObject">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//ScriptFilterObject/script"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//ScriptFilterObject/params"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//TermFilter"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//TermFilterObject">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//TermFilterObject/fieldName"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//TermFilterObject/term"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//TermsFilter"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//TermsFilterObject">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//TermsFilterObject/fieldName"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//TermsFilterObject/terms"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//TypeFilter"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//TypeFilterObject">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//TypeFilterObject/type"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//GeoShapeObject"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//GeoShape">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//GeoShape/shape"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//GeoShape/indexedShape"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//Polygon">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//Polygon/points"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//BoundingBoxObject">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//BoundingBoxObject/twoPointBoundingBox"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//BoundingBoxObject/verticesBoundingBox"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//TwoPointBoundingBox">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//TwoPointBoundingBox/topLeft"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//TwoPointBoundingBox/bottomRight"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//LatLon">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//LatLon/latLonObject"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//LatLon/latLonArray"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//LatLon/latLonString"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//LatLonArray">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//LatLonArray/lon"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//LatLonArray/lat"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//LatLonString">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//LatLonString/latLonOrHash"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//ShapeObject">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//ShapeObject/shape"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//Shape"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//ShapeType"/>
+    <genClasses ecoreClass="SearchDsl.ecore#//ShapeTypeEnvelope">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//ShapeTypeEnvelope/points"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//Object">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//Object/members"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//Member">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//Member/key"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//Member/value"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//Value">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//Value/object"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//Value/string"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//Value/array"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//Value/bool"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//Value/null"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//Value/number"/>
+    </genClasses>
+    <genClasses ecoreClass="SearchDsl.ecore#//Array">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//Array/values"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

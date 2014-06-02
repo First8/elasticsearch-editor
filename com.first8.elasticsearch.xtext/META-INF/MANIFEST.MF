@@ -1,0 +1,36 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: com.first8.elasticsearch.xtext
+Bundle-Vendor: My Company
+Bundle-Version: 1.0.0.qualifier
+Bundle-SymbolicName: com.first8.elasticsearch.xtext; singleton:=true
+Bundle-ActivationPolicy: lazy
+Require-Bundle: org.eclipse.xtext;visibility:=reexport,
+ org.eclipse.xtext.xbase;resolution:=optional;visibility:=reexport,
+ org.eclipse.xtext.generator;resolution:=optional,
+ org.apache.commons.logging;bundle-version="1.0.4";resolution:=optional,
+ org.eclipse.emf.codegen.ecore;resolution:=optional,
+ org.eclipse.emf.mwe.utils;resolution:=optional,
+ org.eclipse.emf.mwe2.launch;resolution:=optional,
+ org.eclipse.xtext.util,
+ org.eclipse.emf.ecore,
+ org.eclipse.emf.common,
+ org.antlr.runtime,
+ org.eclipse.xtext.common.types,
+ org.objectweb.asm;bundle-version="[5.0.1,6.0.0)";resolution:=optional
+Import-Package: org.apache.log4j,
+ org.eclipse.xtext.xbase.lib
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Export-Package: com.first8.elasticsearch.dsl,
+ com.first8.elasticsearch.dsl.services,
+ com.first8.elasticsearch.dsl.search,
+ com.first8.elasticsearch.dsl.search.impl,
+ com.first8.elasticsearch.dsl.search.util,
+ com.first8.elasticsearch.dsl.serializer,
+ com.first8.elasticsearch.dsl.parser.antlr,
+ com.first8.elasticsearch.dsl.parser.antlr.internal,
+ com.first8.elasticsearch.dsl.validation,
+ com.first8.elasticsearch.dsl.scoping,
+ com.first8.elasticsearch.dsl.generator,
+ com.first8.elasticsearch.dsl.formatting
+

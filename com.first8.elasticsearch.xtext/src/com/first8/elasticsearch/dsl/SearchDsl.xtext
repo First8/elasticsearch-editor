@@ -1,0 +1,1310 @@
+grammar com.first8.elasticsearch.dsl.SearchDsl with org.eclipse.xtext.common.Terminals
+
+generate search "http://www.first8.com/elasticsearch/dsl/SearchDsl"
+
+// conventions used:
+// xxxObject includes the brackets (e.g. '{' something '}')
+// xxxParam are generic optional parameters (e.g. '"size"' ':' INT)
+// xxxParameter is an allowed parameter for the query type xxx
+
+// a xxQuery or xxFilter definition maps the query/filter name. 
+// The actual definition is done in a xxQueryObject or xxFilterObject.
+// If the definition is the same for both a filter or a query, the object is simply called xxObject.
+
+// TODO add _source parameter
+// TODO add script_fields
+// TODO add fielddata_fields
+// TODO http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/query-dsl-multi-term-rewrite.html
+// TODO http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/query-dsl-template-query.html
+// TODO add BoostingQuery, FunctionScoreQUery
+// TODO Aggregations
+ 	
+SearchDSL:
+	'{' 
+		(fields=Fields ',')?
+		(from=From ',')?
+		(size=Size ',')?
+		(sort=Sort ',')?
+		query=Query
+		(',' facets=Facets)?
+		(',' stats=Stats)?
+	'}';
+
+SearchField:
+	(fields=Fields | from=From | size=Size | sort=Sort | query=Query | facets=Facets | stats=Stats); 
+
+Stats:
+	'"stats"' ':' '[' groups+=STRING (',' groups+=STRING)* ']';
+
+From:
+	'"from"' ':' INT;
+
+Size:
+	'"size"' ':' INT;
+
+Sort:
+	'"sort"' ':' '[' (sortvalues+=SortValue) (',' sortvalues+=SortValue)* ']';
+
+SortValue:
+	sortFieldName=STRING | sortShortObject=ShortSortOject | sortObject=SortObject | sortByScore='"_score"';
+	
+ShortSortOject:
+	'{' sortFieldName=STRING ':' ascDesc=ASC_DESC '}';
+	
+SortObject:
+	'{' sortFieldName=STRING ':' sortProperties=SortObjectPropertiesObject '}';	
+
+SortObjectPropertiesObject:
+	'{'	sort+=SortObjectProperty (',' sort+=SortObjectProperty)* '}';
+
+SortObjectProperty:
+		('"order"' ':' order=ASC_DESC) | ('"mode"' ':' sortMode=SORT_MODE) | ('"missing"' ':' missing=STRING);
+
+SORT_MODE:
+	sortMode=('"min"' | '"max"' | '"avg"' | "'sum'");
+	
+ASC_DESC:
+	ascDesc=('"asc"' | '"desc"');			
+
+Fields:
+	'"fields"' ':' selectfields=Array;
+
+Query:
+	'"query"' ':' query=QueryObject;
+
+Filter:
+	'"filter"' ':' filter=FilterObject;
+	
+FilterObject:
+	'{' FilterType '}';
+	
+FilterType:	
+	and=AndFilter | bool=BoolFilter | exists=ExistsFilter | geoBoundingBox=GeoBoundingBoxFilter | 
+	geoDistance=GeoDistanceFilter | geoDistanceRange=GeoDistanceRangeFilter | geoPolygon=GeoPolygonFilter | 
+	geoShape=GeoShapeFilter | geoHashCell=GeohashCellFilter | hasChild=HasChildFilter | hasParent=HasParentFilter | 
+	ids=IdsFilter | indices=IndicesFilter |	limit=LimitFilter | matchAll=MatchAllFilter | missing=MissingFilter | 
+	nested=NestedFilter | not=NotFilter | or=OrFilter | prefix=PrefixFilter | query=QueryFilter | regexp=RegexpFilter | 
+	script=ScriptFilter | term=TermFilter | terms=TermsFilter | type=TypeFilter;
+	
+QueryObject: 
+	'{' queryType=QueryType '}';	
+	
+QueryType:
+	match=MatchQuery | multiMatch=MultiMatchQuery | bool=BoolQuery | common=CommonQuery | 
+	constantScore=ConstantScoreQuery | disMax=DisMaxQuery | filtered=FilteredQuery | fuzzyLikeThis=FuzzyLikeThisQuery | 
+	fuzzyLikeThisField=FuzzyLikeThisFieldQuery | geoshape=GeoshapeQuery | hasChild=HasChildQuery | 
+	hasParent=HasParentQuery | ids=IdsQuery | indices=IndicesQuery | matchAll=MatchAllQuery | 
+	moreLikeThis=MoreLikeThisQuery | moreLikeThisField=MoreLikeThisFieldQuery | nested=NestedQuery | 
+	queryString=QueryStringQuery | 	simpleQuery=SimpleQueryStringQuery | spanFirst=SpanFirstQuery | 
+	spanMulti=SpanMultiQuery | spanNear=SpanNearQuery | spanNot=SpanNotQuery | spanOr=SpanOrQuery | 
+	spanTerm=SpanTermQuery | fuzzy=FuzzyQuery | prefix=PrefixQuery | term=TermQuery | range=RangeQuery | 
+	regexp=RegexpQuery | wildcard=WildcardQuery | terms=TermsQuery | topChildren=TopChildrenQuery;	
+
+SpanQuery:
+	spanQuery=SpanFirstQuery | SpanMultiQuery | SpanNearQuery | SpanNotQuery | SpanOrQuery | SpanTermQuery;
+
+MultiTermQuery:
+	multiTermQuery=FuzzyQuery | PrefixQuery | TermQuery | RangeQuery | RegexpQuery | WildcardQuery;
+
+
+Facets:
+	'"facets"' ':' FacetsObject;
+
+FacetsObject:
+	'{'
+		facetName=STRING ':' config=FacetTypeObject
+	'}'
+;
+
+FacetTypeObject:
+	'{'
+		facetType=FacetType
+		(',' params+=FacetParameter)*
+	'}'
+;
+
+FacetType:
+	facetType=TermsFacet | RangeFacet | HistogramFacet | DateHistogramFacet | FilterFacet | QueryFacet | 
+	StatisticalFacet | TermsStatsFacet | GeoDistanceFacet;
+
+GeoDistanceFacet:
+	'"geo_distance"' ':' GeoDistanceFacetObject;
+	
+GeoDistanceFacetObject:
+	'{'
+		fieldName=STRING ':' point=LatLon
+		',' RangesParam
+	'}'
+;
+
+// TODO
+TermsStatsFacet:
+	'"terms_stats"' ':' Object;
+
+StatisticalFacet:
+	'"statistical"' ':' StatisticalFacetObject;
+	
+StatisticalFacetObject:
+	'{'
+		field=FieldParam | script=ScriptParam | fields=FieldsParam
+	'}'
+;
+
+QueryFacet:
+	Query;
+	
+FilterFacet:
+	Filter;
+	
+DateHistogramFacet:
+	'"date_histogram"' ':' DateHistogramFacetObject;
+	
+DateHistogramFacetObject:
+	'{'
+		(field=FieldParam | keyValue=KeyValueField | keyValueScript=KeyValueScript)
+		',' '"interval"' ':' STRING
+	'}';
+
+HistogramFacet:
+	'"histogram"' ':' HistogramFacetObject;
+	
+HistogramFacetObject:
+	'{'
+		(field=FieldParam | keyValue=KeyValueField | keyValueScript=KeyValueScript)
+		(',' HistogramFacetParameter)*
+	'}';
+	
+HistogramFacetParameter:
+	IntervalParam | TimeIntervalParam
+;
+	
+RangeFacet:
+	'"range"' ':' RangeFacetObject;
+	
+RangeFacetObject:
+	'{'
+		(field=FieldParam | keyValue=KeyValueField | keyValueScript=KeyValueScript)
+		RangesParam
+	'}'
+;	
+
+RangesParam:
+	'"ranges"' ':' '[' RangeObject (',' RangeObject)* ']';
+
+KeyValueField:
+	'"key_field"' ':' keyField=STRING
+	',' '"value_field"' ':' valueField=STRING;
+
+KeyValueScript:
+	'"key_script"' ':' keyScript=STRING
+	',' '"value_script"' ':' valueScript=STRING;
+	
+RangeObject:
+	'{'
+		FromParam | (FromParam ',' ToParam) | ToParam
+	'}';	
+	
+TermsFacet:
+	'"terms"' ':' TermsFacetObject;
+	
+TermsFacetObject:
+	'{'
+		params+=TermsFacetParameter (',' params+=TermsFacetParameter)*
+	'}';
+
+TermsFacetParameter:
+	field=FieldParam | fields=FieldsParam | size=SizeParam | order=OrderParam | allTerms=AllTermsParam | 
+	exclude=ExcludeParam | regex=RegexParam | regexFlags=RegexFlagsParam | script=ScriptParam | 
+	scriptField=ScriptFieldParam
+;
+
+FacetParameter:
+	global=GlobalParam | faceFilter=FacetFilterParam;
+
+FacetFilterParam:
+	'"facet_filter"' ':' Filter;
+
+// Common parameters for queries, filters and facets
+IntervalParam:
+	'"interval"' ':' INT;
+	
+TimeIntervalParam:
+	'"time_interval"' ':' STRING;
+
+FromParam:
+	'"from"' ':' (NUMBER | STRING);	
+
+ToParam:
+	'"to"' ':'  (NUMBER | STRING);	
+	
+SizeParam:
+	'"size"' ':' INT;
+	
+OrderParam:
+	'"order"' ':' ('"count"' | '"term"' | '"reverse_count"' | '"reverse_term"');	
+
+AllTermsParam:
+	'"all_terms"' ':' allTerms=BOOLEAN;
+	
+ExcludeParam:
+	'"exclude"' ':' '[' excludeFieldNames+=STRING (',' excludeFieldNames+=STRING)* ']';
+	
+ScriptParam:
+	'"script"' ':' script=STRING;
+
+ScriptFieldParam:
+	'"script_field"' ':' fieldName=STRING;
+
+RegexParam:
+	'"regex"' ':' STRING;
+	
+RegexFlagsParam:
+	'"regex_flags"' ':' STRING;	
+
+GlobalParam:
+	'"global"' ':' BOOLEAN;
+
+CutoffFrequenceParam:
+	'"cutoff_frequency"' ':' FLOAT;
+
+ZeroTermsQueryParam:
+	'"zero_terms_query"' ':' (NONE_ALL);
+
+MinimumShouldMatchParam:
+	'"minimum_should_match"' ':' (INT | STRING | ComplexMinimumShouldMatch);
+	
+ComplexMinimumShouldMatch:
+	'{'
+		'"low_freq"' ':' INT
+		(',' '"high_freq"' ':' INT)?
+	'}'
+;
+
+ExistenceParam:
+	'"existence"' ':' BOOLEAN;
+	
+NullValueParam:
+	'"null_value"' ':' BOOLEAN;
+
+MinTermFreqParam:
+	'"min_term_freq"' ':' INT;
+	
+LowFreqOperatorParam:
+	'"low_freq_operator"' ':' AND_OR;
+
+OperatorParam:
+	'"operator"' ':' AND_OR;
+	
+BoostParam:
+	'"boost"' ':' FLOAT;	
+
+AnalyzerParam:
+	'"analyzer"' ':' STRING;	
+
+FlagsParam:
+	'"flags"' ':' STRING;
+
+DisableCoordParam:
+	'"disable_coord"' ':' BOOLEAN;	
+
+TieBreakerParam:
+	'"tie_breaker"' ':' FLOAT;
+
+PercentTermsToMatchParam:
+	'"percent_terms_to_match"' ':' FLOAT;
+
+StopWordsParam:
+	'"stop_words"' ':' '[' STRING (',' STRING)* ']';
+
+MinDocFreqParam:
+	'"min_doc_freq"' ':' INT;
+	
+MaxDocFreqParam:
+	'"max_doc_freq"' ':' INT;
+	
+MinWordLengthParam:
+	'"min_word_length"' ':' INT;
+	
+MaxWordLengthParam:
+	'"max_word_length"' ':' INT;
+	
+BoostTermsParam:
+	'"boost_terms"' ':' INT;
+
+GteParam:
+	'"gte"' ':' (STRING | NUMBER);
+	
+GtParam:
+	'"gt"' ':' (STRING | NUMBER);
+	
+LtParam:
+	'"lt"' ':' (STRING | NUMBER);
+	
+LteParam:
+	'"lte"' ':' (STRING | NUMBER);
+
+TypeParam:
+	'"type"' ':' ('"indexed"' | '"memory"');
+	
+SlopParam:
+	'"slop"' ':' INT;
+
+FieldParam:
+	'"field"' ':' STRING;
+	
+FieldsParam:
+	'"fields"' ':' '['
+			STRING (',' STRING)*
+		']'
+;
+
+DefaultFieldParam:
+	'"default_field"' ':' STRING;
+
+DefaultOperatorParam: 
+	'"default_operator"' ':' AND_OR;
+	
+AllowLeadingWildcardParam: 
+	'"allow_leading_wildcard"' ':' BOOLEAN;
+	
+LowercaseExpandedTermsParam:
+	'"lowercase_expanded_terms"' ':' BOOLEAN;
+	
+EnablePositionIncrementsParam:
+	'"enable_position_increments"' ':' BOOLEAN;
+	
+FuzzyMaxExpansionsParam: 
+	'"fuzzy_max_expansions"' ':' INT;
+	
+FuzzyPrefixLengthParam: 
+	'"fuzzy_prefix_length"' ':' INT;
+	
+PhraseSlopParam: 
+	'"phrase_slop"' ':' INT;
+	
+AnalyzeWildcardParam: 
+	'"analyze_wildcard"' ':' BOOLEAN;
+	
+AutoGeneratePhraseQueriesParam: 
+	'"auto_generate_phrase_queries"' ':' BOOLEAN;
+	
+LenientParam: 
+	'"lenient"' ':' BOOLEAN;
+	
+LocaleParam: 
+	'"locale"' ':' STRING;
+
+IgnoreTfParam:
+	'"ignore_tf"' ':' BOOLEAN;
+
+MaxQueryTermsParam:
+	'"max_query_terms"' ':' INT;
+		 
+FuzzinessParam:
+	'"fuzziness"' ':' NUMBER;
+
+PrefixLengthParam:
+	'"prefix_length"' ':' INT;
+	
+MaxExpansionsParam:
+	'"max_expansions"' ':' INT;	
+	
+ScoreModeParam:
+	'"score_mode"' ':' SCORE_MODES;
+
+ScoreParam:
+	'"score"' ':' SCORE_MODES;
+
+IndicesParam:
+	'"indices"' ':' '[' INT (',' INT)* ']';
+	
+IndexParam:
+	'"index"' ':' STRING;
+	
+LikeTextParam:		
+	'"like_text"' ':' likeQuery=STRING;	
+
+EndParam:
+	'"end"' ':' INT;
+
+InOrderParam:
+	'"in_order"' ':' BOOLEAN;
+
+CollectPayloadsParam:
+	'"collect_payloads"' ':' BOOLEAN;
+	
+FactorParam:
+	'"factor"' ':' INT;
+	
+IncrementalFactorParam:
+	'"incremental_factor"' ':' INT;	
+	
+CacheParam:
+		'"_cache"' ':' BOOLEAN;	
+
+DistanceTypeParam:
+	'"distance_type"' ':' ('"arc"' | '"sloppy_arc"' | '"plane"');
+	
+OptimizeBboxParam:
+	'"optimize_bbox"' ':' ('"memory"' | '"indexed"' | '"none"' );
+
+
+// Queries:
+
+MatchQuery:
+	'"match"' ':' (ShortMatchQueryObject | MatchQueryObject);
+	
+ShortMatchQueryObject:
+	'{' fieldName=STRING ':' query=STRING '}' ;	
+
+MatchQueryObject:
+	'{' fieldName=STRING ':' parameters=MatchQueryParametersObject '}' ;	
+
+MatchQueryParametersObject:
+	'{' 
+		'"query"' ':' query=STRING
+		(',' params+=MatchQueryParameter ( ',' params+=MatchQueryParameter)*)?
+	'}'
+;
+
+MatchQueryParameter:
+	OperatorParam | ZeroTermsQueryParam | CutoffFrequenceParam | AnalyzerParam | BoostParam | SlopParam;
+
+MultiMatchQuery:
+	'"multi_match"' ':' MultiMatchQueryObject;
+	
+MultiMatchQueryObject:
+	'{'
+		'"query"' ':' STRING
+		',' fields=FieldsParam
+		(',' params+=MultiMatchQueryParameter ( ',' params+=MultiMatchQueryParameter)*)?
+	'}';
+
+MultiMatchQueryParameter:
+	MultiMatchTypeParam | TieBreakerParam;
+	
+MultiMatchTypeParam:
+	'"type"' ':' MultiMatchTypeParamTypes;
+
+MultiMatchTypeParamTypes:
+	'"best_fields"' |'"most_fields"' |'"cross_fields"' |'"phrase"' |'"phrase_prefix"';
+
+BoolQuery:
+	'"bool"' ':' BoolQueryObject;
+	
+BoolQueryObject: 
+	'{' 
+		clause+=BoolClause (',' clause+=BoolClause)*
+		(',' params+=BoolQueryParameter ( ',' params+=BoolQueryParameter)*)?
+	'}';
+	
+BoolQueryParameter:
+	MinimumShouldMatchParam | BoostParam;
+
+BoolClause:
+	BOOL_CLAUSE ':' query=QueryObject;
+
+CommonQuery: 
+	'"common"' ':' CommonQueryObject;
+
+CommonQueryObject:
+	'{' fieldName=STRING ':' parameters=CommonQueryParametersObject '}' ;
+
+CommonQueryParametersObject: 
+	'{'
+		'"query"' ':' query=STRING
+		(',' params+=CommonQueryParameter ( ',' params+=CommonQueryParameter)*)?
+	'}'
+;	
+CommonQueryParameter:
+	CutoffFrequenceParam | LowFreqOperatorParam | MinimumShouldMatchParam | BoostParam | AnalyzerParam | DisableCoordParam;
+
+ConstantScoreQuery:
+	'"constant_score"' ':' ConstantScoreQueryObject;
+
+ConstantScoreQueryObject:
+	'{' 
+		(Query | Filter)
+		','	BoostParam 	
+	'}'
+;
+
+DisMaxQuery:
+	'"dis_max"' ':' DisMaxQueryObject;
+
+DisMaxQueryObject:
+	'{'
+		TieBreakerParam
+		',' BoostParam
+		',' '"queries"' ':' '['
+			query+=QueryObject
+			( ',' query+=QueryObject)*
+		']'
+	'}'	
+;
+
+FilteredQuery:
+	'"filtered"' ':' FilteredQueryObject;
+
+FilteredQueryObject:
+	'{' query=Query ',' filter=Filter '}';
+
+FuzzyLikeThisQuery:
+	('"flt"' |'"fuzzy_like_this"') ':' FuzzyLikeThisQueryObject;
+	
+FuzzyLikeThisQueryObject:
+	'{'
+		FieldsParam
+		',' LikeTextParam
+		(',' params+=FuzzyLikeThisQueryParameter ( ',' params+=FuzzyLikeThisQueryParameter)*)?
+	'}'
+;
+
+FuzzyLikeThisQueryParameter:
+	IgnoreTfParam | MaxQueryTermsParam | FuzzinessParam | PrefixLengthParam | BoostParam | AnalyzerParam; 
+
+FuzzyLikeThisFieldQuery:
+	('"flt_field"' |'"fuzzy_like_this_field"') ':' FuzzyLikeThisFieldQueryObject;
+	
+FuzzyLikeThisFieldQueryObject:
+	'{'
+		fieldName=STRING ':' '{'
+			'"like_text"' ':' STRING
+			(',' params+=FuzzyLikeThisFieldQueryParameter ( ',' params+=FuzzyLikeThisFieldQueryParameter)*)?
+		'}'
+	'}'
+;
+
+FuzzyLikeThisFieldQueryParameter:
+ IgnoreTfParam | MaxQueryTermsParam | FuzzinessParam | PrefixLengthParam | BoostParam | AnalyzerParam; 
+
+FuzzyQuery:
+	'"fuzzy"' ':' (SimpleFuzzyQueryObject | FuzzyQueryObject);
+
+SimpleFuzzyQueryObject:
+	'{' field=STRING ':' query=STRING '}';
+
+FuzzyQueryObject:
+	'{' field=STRING ':' q=FuzzyQueryObjectParameters '}';
+	
+FuzzyQueryObjectParameters:
+	'"value"' ':' value=STRING
+	(',' params+=FuzzyQueryParameter ( ',' params+=FuzzyQueryParameter)*)?
+;
+
+FuzzyQueryParameter:
+	BoostParam | FuzzinessParam | PrefixLengthParam | MaxExpansionsParam;
+
+GeoshapeQuery:
+	'"geo_shape"' ':' GeoshapeQueryObject;
+
+GeoshapeQueryObject:
+	'{'
+		fieldName=STRING ':' shape=ShapeObject
+	'}'
+;
+
+HasChildQuery:
+	'"has_child"' ':' HasChildQueryObject;
+
+HasChildQueryObject:
+	'{'
+		'"type"' ':' childType=STRING
+		(',' ScoreModeParam)?
+		',' (query=Query|filter=Filter)
+	'}'
+;
+
+HasParentQuery:
+	'"has_parent"' ':' HasParentQueryObject;
+
+HasParentQueryObject:
+	'{'
+		'"type"' ':' parentType=STRING
+		(',' ScoreModeParam)?
+		',' (query=Query|filter=Filter)
+	'}'
+;
+
+IdsQuery:
+	'"ids"' ':' IdsObject;
+	
+IdsObject:
+	'{'
+		('"type"' ':' (STRING | ('[' STRING (',' STRING) ']') ) ',')?
+		'"values"' ':' '[' STRING (',' STRING)* ']'
+	'}'
+;	
+
+IndicesQuery:
+	'"indices"' ':' IndicesQueryObject;
+
+IndicesQueryObject:
+	'{'
+		(IndicesParam | IndexParam)
+		query=Query
+		(',' '"no_match_query"' ':' noMatchQuery=QueryObject)?	
+	'}'
+;
+
+MatchAllQuery:
+	'"match_all"' ':' MatchAllQueryObject;
+
+MatchAllQueryObject:
+	'{' BoostParam? '}';
+
+MoreLikeThisQuery:
+	('"mlt"' | '"more_like_this"') ':' MoreLikeThisQueryObject;
+
+MoreLikeThisQueryObject:
+	'{'
+		FieldsParam
+		',' LikeTextParam
+		(',' params+=MoreLikeThisQueryParameter ( ',' params+=MoreLikeThisQueryParameter)*)?
+	'}'
+;	
+MoreLikeThisQueryParameter:
+	PercentTermsToMatchParam | StopWordsParam | MinDocFreqParam | MaxDocFreqParam | MinWordLengthParam | MaxWordLengthParam |
+	BoostTermsParam | BoostParam | AnalyzerParam | MinTermFreqParam | MaxQueryTermsParam;
+
+MoreLikeThisFieldQuery:
+	('"mlt_field"' | '"more_like_this_field"') ':' MoreLikeThisQueryObject;
+
+MoreLikeThisFieldQueryObject:
+	'{'
+		fieldName=STRING ':' '{'
+			query=LikeTextParam
+			(',' params+=MoreLikeThisFieldQueryParameter ( ',' params+=MoreLikeThisFieldQueryParameter)*)?
+		'}'
+	'}'
+;	
+
+MoreLikeThisFieldQueryParameter:
+	PercentTermsToMatchParam | StopWordsParam | MinDocFreqParam |  MaxDocFreqParam | MinWordLengthParam |
+	MaxWordLengthParam | BoostTermsParam | BoostParam | AnalyzerParam | MinTermFreqParam | MaxQueryTermsParam;
+
+NestedQuery:
+	'"nested"' ':' NestedQueryObject;
+	
+NestedQueryObject:
+	'{'
+		'"path"' ':' STRING
+		',' ScoreModeParam
+		',' Query
+	'}'
+;	
+
+PrefixQuery:
+	'"prefix"' ':' (SimplePrefixQueryObject | PrefixQueryObject);
+	
+SimplePrefixQueryObject:
+	'{'
+		fieldName=STRING ':' prefix=STRING
+	'}'
+;		
+
+PrefixQueryObject:
+	'{'
+		fieldName=STRING ':' prefix=PrefixQueryParameterObject
+	'}'
+;		
+	
+PrefixQueryParameterObject:
+	'{'
+		('"value"'|'"prefix"') ':' value=STRING
+		',' BoostParam
+	'}'
+;
+
+QueryStringQuery:
+	'"query_string"' ':' QueryStringQueryObject;
+	
+QueryStringQueryObject:
+	'{'
+		'"query"' ':' query=STRING
+		(',' params+=QueryStringQueryParameter ( ',' params+=QueryStringQueryParameter)*)?
+	'}'
+;	
+
+QueryStringQueryParameter:
+	FieldsParam | DefaultFieldParam | DefaultOperatorParam | AnalyzerParam | AllowLeadingWildcardParam | LowercaseExpandedTermsParam
+	EnablePositionIncrementsParam | FuzzyMaxExpansionsParam | FuzzinessParam | FuzzyPrefixLengthParam |  PhraseSlopParam | BoostParam |
+	AnalyzeWildcardParam | AutoGeneratePhraseQueriesParam | MinimumShouldMatchParam | LenientParam | LocaleParam; 
+
+SimpleQueryStringQuery:
+	'"simple_query_string"' ':' SimpleQueryStringQueryObject;
+	
+SimpleQueryStringQueryObject:
+	'{'
+		'"query"' ':' query=STRING
+		(',' params+=SimpleQueryStringQueryParameter ( ',' params+=SimpleQueryStringQueryParameter)*)?
+	'}'
+;
+
+SimpleQueryStringQueryParameter:
+	FieldsParam | DefaultOperatorParam | AnalyzerParam | FlagsParam | LowercaseExpandedTermsParam | LocaleParam;
+	
+RangeQuery:
+	'"range"' ':' RangeQueryObject;
+
+RangeQueryObject:
+	'{'
+		fieldName=STRING ':' params=RangeQueryParametersObject
+	'}'
+;
+
+RangeQueryParametersObject:
+	'{'
+		params+=RangeQueryParameter ( ',' params+=RangeQueryParameter)*
+	'}'
+;
+
+RangeQueryParameter:
+	GteParam | GtParam | LtParam | LteParam | BoostParam;
+
+
+RegexpQuery:
+	'"regexp"' ':' RegexpQueryObject;	
+
+RegexpQueryObject:
+	'{'
+		fieldName=STRING ':' (regexp=STRING | params=RegexpQueryParameterObject)
+	'}'
+;
+
+RegexpQueryParameterObject:
+	'{'
+		'"value"' ':' regex=STRING
+		(',' params+=RegexpQueryParameter ( ',' params+=RegexpQueryParameter)*)?
+	'}'
+;
+
+RegexpQueryParameter:
+	BoostParam | FlagsParam;
+
+
+SpanFirstQuery:
+	'"span_first"' ':' SpanFirstQueryObject;
+
+SpanFirstQueryObject:
+	'{'
+		'"match"' ':' '{'
+			subquery=SpanQuery
+		'}' 
+		',' EndParam
+	'}'
+;
+
+SpanMultiQuery:
+	'"span_multi"' ':' SpanMultiQueryObject;
+	
+SpanMultiQueryObject:
+	'{'
+		'"match"' ':' MultiTermQuery
+	'}'
+;
+
+SpanNearQuery:
+	'"span_near"' ':' SpanNearQueryObject;
+	
+SpanNearQueryObject:
+	'{'
+		'"clauses"' ':' '[' clauses+=SpanQuery (',' clauses+=SpanQuery)* ']'
+		',' slop=SlopParam
+		',' inOrder=InOrderParam
+		',' collectPayloads=CollectPayloadsParam
+	'}'
+;
+
+SpanNotQuery:
+	'"span_not"' ':' SpanNotQueryObject;
+
+
+SpanNotQueryObject:
+	'{'
+		'"include"' ':' '{' 
+			includeQuery=SpanQuery 
+		'}'
+		',' '"exclude"' ':' '{' 
+			excludeQuery=SpanQuery 
+		'}'
+	'}'
+;
+
+SpanOrQuery:
+	'"span_or"' ':' SpanOrQueryObject;
+	
+SpanOrQueryObject:
+	'{'
+		'"clauses"' ':' '[' clauses+=SpanQuery (',' clauses+=SpanQuery)* ']'
+	'}'
+;
+
+SpanTermQuery:
+	'"span_term"' ':' SpanTermQueryObject;
+	
+SpanTermQueryObject:
+	'{'
+		fieldName=STRING ':' params=TermQueryObject
+	'}'
+;
+
+TermQuery:
+	'"term"' ':' TermQueryObject;
+
+TermQueryObject:
+	'{'
+		fieldName=STRING ':' (term=SimpleTerm | params=TermQueryParametersObject)
+	'}'
+;
+
+SimpleTerm:
+	STRING;
+	
+TermQueryParametersObject:
+	'{'
+		('"term"' | '"value"') ':' term=STRING
+		',' boost=BoostParam
+	'}'
+;
+
+TermsQuery:
+	('"in"' | '"terms"') ':' TermsQueryObject;
+
+TermsQueryObject:
+	'{'
+		fieldName=STRING ':' '[' terms+=STRING (',' terms+=STRING)* ']'
+		',' MinimumShouldMatchParam
+	'}'
+;
+
+TopChildrenQuery:
+	'"top_children"' ':' TopChildrenQueryObject;
+	
+TopChildrenQueryObject:
+	'{'
+		'"type"' ':' childType=STRING
+		',' query=Query
+		(',' params+=TopChildrenQueryParameter ( ',' params+=TopChildrenQueryParameter)*)?
+	'}'
+;
+
+TopChildrenQueryParameter:
+	ScoreParam | FactorParam | IncrementalFactorParam;
+
+WildcardQuery:
+	'"wildcard"' ':' TermQueryObject;
+
+
+// Filters:
+
+AndFilter:
+	'"and"' ':' (SimpleAndFilterArray | AndFilterObject);
+	
+SimpleAndFilterArray:
+	'[' 
+		'{' subFilter+=Filter (',' subFilter+=Filter)* '}'
+	']'
+; 
+
+AndFilterObject:
+	'{'
+		'"filters"' ':' SimpleAndFilterArray
+		(',' CacheParam)?
+	'}'
+; 
+
+BoolFilter:
+	'"bool"' ':' BoolFilterObject;
+	
+BoolFilterObject: 
+	'{' 
+		clause+=BoolFilterClause (',' clause+=BoolFilterClause)*
+		(',' CacheParam)?
+	'}';
+
+BoolFilterClause:
+	BOOL_CLAUSE ':' filter=FilterObject;
+
+ExistsFilter:
+	'"exists"' ':' ExistsFilterObject;
+	
+ExistsFilterObject:
+	'{' FieldParam '}';		
+
+GeoBoundingBoxFilter:
+	'"geo_bounding_box"' ':' GeoBoundingBoxFilterObject;
+	
+GeoBoundingBoxFilterObject:
+	'{'
+		fieldName=STRING ':' boundingBox=BoundingBoxObject
+		(',' TypeParam)?
+		(',' CacheParam)?
+	'}'
+;
+
+GeoDistanceFilter:
+	'"geo_distance"' ':' GeoDistanceFilterObject;
+
+GeoDistanceFilterObject:
+	'{'
+		'"distance"' ':' distance=STRING
+		',' fieldName=STRING ':' point=LatLon
+		(',' params+=GeoDistanceFilterParameter ( ',' params+=GeoDistanceFilterParameter)*)?
+	'}'
+;
+
+GeoDistanceFilterParameter:
+	DistanceTypeParam | OptimizeBboxParam;
+
+
+GeoDistanceRangeFilter:
+	'"geo_distance_range"' ':' GeoDistanceRangeFilterObject;
+	
+	
+GeoDistanceRangeFilterObject:
+	'{'
+		'"from"' ':' from=STRING
+		',' '"to"' ':' to=STRING
+		',' fieldName=STRING ':' point=LatLon
+	'}'
+;	
+
+GeoPolygonFilter:
+	'"geo_polygon"' ':' GeoPolygonFilterObject;
+
+GeoPolygonFilterObject:
+	'{'
+		fieldName=STRING ':' '{'
+			'"points"' ':' polygon=Polygon
+		'}'
+		(',' CacheParam)?
+	'}'
+;
+
+GeoShapeFilter:
+	'"geo_shape"' ':' GeoShapeFilterObject;
+
+
+GeoShapeFilterObject:
+	'{'
+		fieldName=STRING ':' shape=GeoShapeObject
+		(',' CacheParam)?
+	'}'
+;
+
+GeohashCellFilter:
+	'"geohash_cell"' ':' GeohashCellFilterObject;
+
+GeohashCellFilterObject:
+	'{'
+		'"pin"' ':' LatLon
+		',' '"precision"' ':' (NUMBER|STRING)
+		(',' '"neighbors"' ':' BOOLEAN)?
+	'}'
+;
+
+HasChildFilter:
+	'"has_child"' ':' HasChildFilterObject;
+
+HasChildFilterObject:
+	'{'
+		'""type""' ':' childType=STRING
+		',' (query=Query|filter=Filter)
+	'}'	
+;
+
+HasParentFilter:
+	'"has_parent"' ':' HasParentFilterObject;
+
+HasParentFilterObject:
+	'{'
+		('"type"' |'"parent_type"') ':' parentType=STRING
+		',' (query=Query|filter=Filter)
+	'}'	
+;
+
+IdsFilter:
+	'"ids"' ':' IdsObject;
+	
+	
+IndicesFilter:
+	'"indices"' ':' IndicesFilterObject;
+
+IndicesFilterObject:
+	(IndicesParam | IndexParam)
+	filter=Filter
+	(',' '"no_match_filter"' ':' noMatchFilter=FilterObject)?	
+;	
+
+LimitFilter:
+	'"limit"' ':' LimitFilterObject;
+
+LimitFilterObject:
+	'{'
+		'"value"' ':' INT
+	'}'
+;
+
+MatchAllFilter:
+	'"match_all"' ':' MatchAllFilterObject;
+	
+MatchAllFilterObject:
+	'{' '}';
+	
+MissingFilter:
+	'"missing"' ':' MissingFilterObject;
+	
+MissingFilterObject:
+	'{'
+		FieldParam
+		(',' ExistenceParam)?
+		(',' NullValueParam)?
+	'}';
+
+NestedFilter:
+	'"nested"' ':' NestedFilterObject;
+	
+NestedFilterObject:
+	'{' 
+		'""path""' ':' path=STRING
+		',' filter=Filter	
+		(',' CacheParam)?
+	'}';
+	
+NotFilter:
+	'"not"' ':' NotFilterObject;
+	
+NotFilterObject:
+	'{'
+		Query
+		(',' CacheParam)?
+	'}'		
+;	
+
+OrFilter:
+	'"or"' ':' OrFilterArray;
+	
+OrFilterArray:
+	'['
+		subQuery+=QueryObject (',' subQuery+=QueryObject)*
+	']'
+;	
+
+PrefixFilter:
+	'"prefix"' ':' PrefixFilterObject;
+
+PrefixFilterObject:
+	'{'
+		fieldName=STRING ':' prefix=STRING
+		(',' CacheParam)?
+	'}'
+;
+
+QueryFilter:
+	Query | FQuery
+;
+
+FQuery:
+	'"fquery"' ':' QueryObject
+		(',' CacheParam)?
+;
+
+RangeFilter:
+	'"range"' ':' RangeFilterObject
+;
+
+RangeFilterObject:
+	'{'
+		fieldName=STRING ':' params=RangeQueryParametersObject
+		(',' RangeFilterExecutionParam)?
+		(',' CacheParam)?
+	'}'
+;
+
+RangeFilterExecutionParam:
+	'"execution"' ':' ('"index"' | '"fielddata"');
+	
+RangeFilterParametersObject:
+	'{'
+		params+=RangeQueryParameter ( ',' params+=RangeQueryParameter)*
+	'}'
+;
+
+RangeFilterParameter:
+	GteParam | GtParam | LtParam | LteParam ;
+
+
+RegexpFilter:
+	'"regexp"' ':' RegexpFilterObject;
+
+
+RegexpFilterObject:
+	'{'
+		fieldName=STRING ':' (regexp=STRING | params=RegexpFilterParameterObject)
+	'}'
+;
+
+RegexpFilterParameterObject:
+	'{'
+		'"value"' ':' regexp=STRING
+		(',' params+=RegexpFilterParameter ( ',' params+=RegexpFilterParameter)*)?
+	'}'
+;
+
+RegexpFilterParameter:
+	BoostParam;
+
+
+ScriptFilter:
+	'"script"' ':' ScriptFilterObject;
+
+ScriptFilterObject:
+	'{'
+		'"script"' ':' script=STRING
+		(',' '"params"' ':' params=Object)? 
+		(',' CacheParam)?
+	'}'
+;
+
+TermFilter:
+	'"term"' ':' TermFilterObject;
+
+TermFilterObject:
+	'{'
+		fieldName=STRING ':' term=STRING
+		(',' CacheParam)?
+	'}'
+;
+
+TermsFilter:
+	('"in"' | '"terms"') ':' TermsFilterObject;
+
+TermsFilterObject:
+	'{'
+		fieldName=STRING ':' '[' terms+=STRING (',' terms+=STRING)* ']'
+		(',' TermsFilterExecutionParam)?
+	'}'
+;
+
+TermsFilterExecutionParam:
+	'"execution"' ':' ('"plain"' | '"fielddata"' | '"bool"' | '"and"' | '"or"'| '"bool_nocache"' | '"and_nocache"' | '"or_nocache"');
+
+
+TypeFilter:
+	'"type"' ':' TypeFilterObject;
+	
+TypeFilterObject:
+	'{'
+		'"value"' ':' type=STRING
+	'}'
+;	
+
+
+// Data types:
+GeoShapeObject:
+	'{' GeoShape '}';
+	
+GeoShape:
+	shape=Shape | indexedShape=IndexedShape;
+	
+	
+IndexedShape:
+	'"indexed_shape"' ':' '{'
+		'"id"' ':' STRING
+		',' '"type"' ':' STRING
+		(',' '"index"' ':' STRING)?
+		(',' '"path"' ':' STRING)?
+	'}';	
+
+Polygon:
+	'[' points+=LatLon (',' points+=LatLon)* ']';
+
+
+BoundingBoxObject:
+	'{' twoPointBoundingBox=TwoPointBoundingBox | verticesBoundingBox=VerticesBoundingBox '}';
+	
+TwoPointBoundingBox:	
+	'"top_left"' ':' topLeft=LatLon
+	',' '"bottom_right"' ':' bottomRight=LatLon
+;
+ 
+ 
+VerticesBoundingBox:
+	'"top"' ':' FLOAT
+	',' '"left"' ':' FLOAT
+	',' '"bottom"' ':' FLOAT
+	',' '"right"' ':' FLOAT
+; 
+
+LatLon:
+	latLonObject=LatLonPropertyObject | latLonArray=LatLonArray | latLonString=LatLonString;
+	
+LatLonPropertyObject:
+	'{'
+		'"lat"' ':' FLOAT
+		',' '"lon"' ':' FLOAT
+	'}'
+;	
+
+LatLonArray:
+	'[' lon=FLOAT ',' lat=FLOAT ']';
+	
+LatLonString:
+	latLonOrHash=STRING;
+	
+ShapeObject:
+	'{' shape=Shape '}';
+		
+Shape:
+		'"shape"' ':' '{'
+			ShapeType
+		'}'
+;
+
+ShapeType:
+	ShapeTypeEnvelope;
+
+ShapeTypeEnvelope:
+	'"type"' ':' '"envelope"'
+	',' '"coordinates"' ':' '['
+		points+=LatLonArray (',' points+=LatLonArray)*
+	']'
+;
+
+Object:
+	'{' {Object} (members+=Member)? (',' members+=Member)* '}';
+	
+Member:
+	key=STRING ':' value=Value;
+	
+Value:
+	object=Object | string=STRING | array=Array | bool=BOOLEAN | null=NULL | number=NUMBER;
+ 
+Array:
+	'[' {Array} (values+=Value)? (',' values+=Value)* ']';
+ 
+NUMBER:
+	FLOAT | INT;
+	
+FLOAT:	
+	'-'? INT? '.' INT (('E'|'e') '-'? INT)?;
+ 
+terminal BOOLEAN:
+  'true' | 'false';
+ 
+terminal NULL:
+  'null';
+
+terminal NONE_ALL:
+	'"none"' | '"all"';
+	
+AND_OR:
+	'"and"' | '"or"';
+
+terminal BOOL_CLAUSE:
+	'"must"' | '"must_not"' | '"should"';
+
+terminal SCORE_MODES:
+	'"max"' | '"sum"' | '"avg"' | '"none"';
+	
