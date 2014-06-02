@@ -248,6 +248,7 @@ public class SearchDslParser extends AbstractContentAssistParser {
 					put(grammarAccess.getCacheParamAccess().getGroup(), "rule__CacheParam__Group__0");
 					put(grammarAccess.getDistanceTypeParamAccess().getGroup(), "rule__DistanceTypeParam__Group__0");
 					put(grammarAccess.getOptimizeBboxParamAccess().getGroup(), "rule__OptimizeBboxParam__Group__0");
+					put(grammarAccess.getUseDisMaxParamAccess().getGroup(), "rule__UseDisMaxParam__Group__0");
 					put(grammarAccess.getMatchQueryAccess().getGroup(), "rule__MatchQuery__Group__0");
 					put(grammarAccess.getShortMatchQueryObjectAccess().getGroup(), "rule__ShortMatchQueryObject__Group__0");
 					put(grammarAccess.getMatchQueryObjectAccess().getGroup(), "rule__MatchQueryObject__Group__0");
@@ -326,8 +327,9 @@ public class SearchDslParser extends AbstractContentAssistParser {
 					put(grammarAccess.getPrefixQueryParameterObjectAccess().getGroup(), "rule__PrefixQueryParameterObject__Group__0");
 					put(grammarAccess.getQueryStringQueryAccess().getGroup(), "rule__QueryStringQuery__Group__0");
 					put(grammarAccess.getQueryStringQueryObjectAccess().getGroup(), "rule__QueryStringQueryObject__Group__0");
-					put(grammarAccess.getQueryStringQueryObjectAccess().getGroup_4(), "rule__QueryStringQueryObject__Group_4__0");
-					put(grammarAccess.getQueryStringQueryObjectAccess().getGroup_4_2(), "rule__QueryStringQueryObject__Group_4_2__0");
+					put(grammarAccess.getQueryStringQueryObjectAccess().getGroup_1(), "rule__QueryStringQueryObject__Group_1__0");
+					put(grammarAccess.getQueryStringQueryObjectAccess().getGroup_5(), "rule__QueryStringQueryObject__Group_5__0");
+					put(grammarAccess.getQueryStringQueryObjectAccess().getGroup_5_2(), "rule__QueryStringQueryObject__Group_5_2__0");
 					put(grammarAccess.getQueryStringQueryParameterAccess().getGroup_5(), "rule__QueryStringQueryParameter__Group_5__0");
 					put(grammarAccess.getSimpleQueryStringQueryAccess().getGroup(), "rule__SimpleQueryStringQuery__Group__0");
 					put(grammarAccess.getSimpleQueryStringQueryObjectAccess().getGroup(), "rule__SimpleQueryStringQueryObject__Group__0");
@@ -676,9 +678,9 @@ public class SearchDslParser extends AbstractContentAssistParser {
 					put(grammarAccess.getPrefixQueryObjectAccess().getFieldNameAssignment_1(), "rule__PrefixQueryObject__FieldNameAssignment_1");
 					put(grammarAccess.getPrefixQueryObjectAccess().getPrefixAssignment_3(), "rule__PrefixQueryObject__PrefixAssignment_3");
 					put(grammarAccess.getPrefixQueryParameterObjectAccess().getValueAssignment_3(), "rule__PrefixQueryParameterObject__ValueAssignment_3");
-					put(grammarAccess.getQueryStringQueryObjectAccess().getQueryAssignment_3(), "rule__QueryStringQueryObject__QueryAssignment_3");
-					put(grammarAccess.getQueryStringQueryObjectAccess().getParamsAssignment_4_1(), "rule__QueryStringQueryObject__ParamsAssignment_4_1");
-					put(grammarAccess.getQueryStringQueryObjectAccess().getParamsAssignment_4_2_1(), "rule__QueryStringQueryObject__ParamsAssignment_4_2_1");
+					put(grammarAccess.getQueryStringQueryObjectAccess().getQueryAssignment_4(), "rule__QueryStringQueryObject__QueryAssignment_4");
+					put(grammarAccess.getQueryStringQueryObjectAccess().getParamsAssignment_5_1(), "rule__QueryStringQueryObject__ParamsAssignment_5_1");
+					put(grammarAccess.getQueryStringQueryObjectAccess().getParamsAssignment_5_2_1(), "rule__QueryStringQueryObject__ParamsAssignment_5_2_1");
 					put(grammarAccess.getSimpleQueryStringQueryObjectAccess().getQueryAssignment_3(), "rule__SimpleQueryStringQueryObject__QueryAssignment_3");
 					put(grammarAccess.getSimpleQueryStringQueryObjectAccess().getParamsAssignment_4_1(), "rule__SimpleQueryStringQueryObject__ParamsAssignment_4_1");
 					put(grammarAccess.getSimpleQueryStringQueryObjectAccess().getParamsAssignment_4_2_1(), "rule__SimpleQueryStringQueryObject__ParamsAssignment_4_2_1");

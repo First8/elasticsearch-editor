@@ -3,6 +3,7 @@
  */
 package com.first8.elasticsearch.dsl.formatting;
 
+import com.first8.elasticsearch.dsl.formatting.GenericFormatter;
 import org.eclipse.xtext.formatting.impl.AbstractDeclarativeFormatter;
 import org.eclipse.xtext.formatting.impl.FormattingConfig;
 
@@ -17,5 +18,7 @@ import org.eclipse.xtext.formatting.impl.FormattingConfig;
 @SuppressWarnings("all")
 public class SearchDslFormatter extends AbstractDeclarativeFormatter {
   protected void configureFormatting(final FormattingConfig c) {
+    FormattingConfig _config = this.getConfig();
+    GenericFormatter.genericFormatting(_config, this.grammar);
   }
 }

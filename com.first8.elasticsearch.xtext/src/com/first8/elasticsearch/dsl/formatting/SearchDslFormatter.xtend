@@ -21,6 +21,8 @@ class SearchDslFormatter extends AbstractDeclarativeFormatter {
 //	@Inject extension SearchDslGrammarAccess
 	
 	override protected void configureFormatting(FormattingConfig c) {
+			GenericFormatter.genericFormatting(config, grammar);
+		
 // It's usually a good idea to activate the following three statements.
 // They will add and preserve newlines around comments
 //		c.setLinewrap(0, 1, 2).before(SL_COMMENTRule)

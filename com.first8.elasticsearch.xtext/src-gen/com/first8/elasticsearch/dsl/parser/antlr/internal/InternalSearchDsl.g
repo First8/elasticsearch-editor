@@ -7631,6 +7631,46 @@ ruleOptimizeBboxParam returns [AntlrDatatypeRuleToken current=new AntlrDatatypeR
 
 
 
+// Entry rule entryRuleUseDisMaxParam
+entryRuleUseDisMaxParam returns [String current=null] 
+	:
+	{ newCompositeNode(grammarAccess.getUseDisMaxParamRule()); } 
+	 iv_ruleUseDisMaxParam=ruleUseDisMaxParam 
+	 { $current=$iv_ruleUseDisMaxParam.current.getText(); }  
+	 EOF 
+;
+
+// Rule UseDisMaxParam
+ruleUseDisMaxParam returns [AntlrDatatypeRuleToken current=new AntlrDatatypeRuleToken()] 
+    @init { enterRule(); 
+    }
+    @after { leaveRule(); }:
+(
+	kw='"use_dis_max"' 
+    {
+        $current.merge(kw);
+        newLeafNode(kw, grammarAccess.getUseDisMaxParamAccess().getUse_dis_maxKeyword_0()); 
+    }
+
+	kw=':' 
+    {
+        $current.merge(kw);
+        newLeafNode(kw, grammarAccess.getUseDisMaxParamAccess().getColonKeyword_1()); 
+    }
+    this_BOOLEAN_2=RULE_BOOLEAN    {
+		$current.merge(this_BOOLEAN_2);
+    }
+
+    { 
+    newLeafNode(this_BOOLEAN_2, grammarAccess.getUseDisMaxParamAccess().getBOOLEANTerminalRuleCall_2()); 
+    }
+)
+    ;
+
+
+
+
+
 // Entry rule entryRuleMatchQuery
 entryRuleMatchQuery returns [EObject current=null] 
 	:
@@ -11714,19 +11754,31 @@ ruleQueryStringQueryObject returns [EObject current=null]
     {
     	newLeafNode(otherlv_0, grammarAccess.getQueryStringQueryObjectAccess().getLeftCurlyBracketKeyword_0());
     }
-	otherlv_1='"query"' 
-    {
-    	newLeafNode(otherlv_1, grammarAccess.getQueryStringQueryObjectAccess().getQueryKeyword_1());
+(
+    { 
+        newCompositeNode(grammarAccess.getQueryStringQueryObjectAccess().getFieldsParamParserRuleCall_1_0()); 
     }
-	otherlv_2=':' 
+ruleFieldsParam
+    { 
+        afterParserOrEnumRuleCall();
+    }
+	otherlv_2=',' 
     {
-    	newLeafNode(otherlv_2, grammarAccess.getQueryStringQueryObjectAccess().getColonKeyword_2());
+    	newLeafNode(otherlv_2, grammarAccess.getQueryStringQueryObjectAccess().getCommaKeyword_1_1());
+    }
+)?	otherlv_3='"query"' 
+    {
+    	newLeafNode(otherlv_3, grammarAccess.getQueryStringQueryObjectAccess().getQueryKeyword_2());
+    }
+	otherlv_4=':' 
+    {
+    	newLeafNode(otherlv_4, grammarAccess.getQueryStringQueryObjectAccess().getColonKeyword_3());
     }
 (
 (
-		lv_query_3_0=RULE_STRING
+		lv_query_5_0=RULE_STRING
 		{
-			newLeafNode(lv_query_3_0, grammarAccess.getQueryStringQueryObjectAccess().getQuerySTRINGTerminalRuleCall_3_0()); 
+			newLeafNode(lv_query_5_0, grammarAccess.getQueryStringQueryObjectAccess().getQuerySTRINGTerminalRuleCall_4_0()); 
 		}
 		{
 	        if ($current==null) {
@@ -11735,41 +11787,19 @@ ruleQueryStringQueryObject returns [EObject current=null]
        		setWithLastConsumed(
        			$current, 
        			"query",
-        		lv_query_3_0, 
+        		lv_query_5_0, 
         		"STRING");
-	    }
-
-)
-)(	otherlv_4=',' 
-    {
-    	newLeafNode(otherlv_4, grammarAccess.getQueryStringQueryObjectAccess().getCommaKeyword_4_0());
-    }
-(
-(
-		{ 
-	        newCompositeNode(grammarAccess.getQueryStringQueryObjectAccess().getParamsQueryStringQueryParameterParserRuleCall_4_1_0()); 
-	    }
-		lv_params_5_0=ruleQueryStringQueryParameter		{
-	        if ($current==null) {
-	            $current = createModelElementForParent(grammarAccess.getQueryStringQueryObjectRule());
-	        }
-       		add(
-       			$current, 
-       			"params",
-        		lv_params_5_0, 
-        		"QueryStringQueryParameter");
-	        afterParserOrEnumRuleCall();
 	    }
 
 )
 )(	otherlv_6=',' 
     {
-    	newLeafNode(otherlv_6, grammarAccess.getQueryStringQueryObjectAccess().getCommaKeyword_4_2_0());
+    	newLeafNode(otherlv_6, grammarAccess.getQueryStringQueryObjectAccess().getCommaKeyword_5_0());
     }
 (
 (
 		{ 
-	        newCompositeNode(grammarAccess.getQueryStringQueryObjectAccess().getParamsQueryStringQueryParameterParserRuleCall_4_2_1_0()); 
+	        newCompositeNode(grammarAccess.getQueryStringQueryObjectAccess().getParamsQueryStringQueryParameterParserRuleCall_5_1_0()); 
 	    }
 		lv_params_7_0=ruleQueryStringQueryParameter		{
 	        if ($current==null) {
@@ -11784,9 +11814,31 @@ ruleQueryStringQueryObject returns [EObject current=null]
 	    }
 
 )
-))*)?	otherlv_8='}' 
+)(	otherlv_8=',' 
     {
-    	newLeafNode(otherlv_8, grammarAccess.getQueryStringQueryObjectAccess().getRightCurlyBracketKeyword_5());
+    	newLeafNode(otherlv_8, grammarAccess.getQueryStringQueryObjectAccess().getCommaKeyword_5_2_0());
+    }
+(
+(
+		{ 
+	        newCompositeNode(grammarAccess.getQueryStringQueryObjectAccess().getParamsQueryStringQueryParameterParserRuleCall_5_2_1_0()); 
+	    }
+		lv_params_9_0=ruleQueryStringQueryParameter		{
+	        if ($current==null) {
+	            $current = createModelElementForParent(grammarAccess.getQueryStringQueryObjectRule());
+	        }
+       		add(
+       			$current, 
+       			"params",
+        		lv_params_9_0, 
+        		"QueryStringQueryParameter");
+	        afterParserOrEnumRuleCall();
+	    }
+
+)
+))*)?	otherlv_10='}' 
+    {
+    	newLeafNode(otherlv_10, grammarAccess.getQueryStringQueryObjectAccess().getRightCurlyBracketKeyword_6());
     }
 )
 ;
@@ -12006,6 +12058,18 @@ ruleQueryStringQueryParameter returns [AntlrDatatypeRuleToken current=new AntlrD
     }
     this_LocaleParam_16=ruleLocaleParam    {
 		$current.merge(this_LocaleParam_16);
+    }
+
+    { 
+        afterParserOrEnumRuleCall();
+    }
+
+    |
+    { 
+        newCompositeNode(grammarAccess.getQueryStringQueryParameterAccess().getUseDisMaxParamParserRuleCall_16()); 
+    }
+    this_UseDisMaxParam_17=ruleUseDisMaxParam    {
+		$current.merge(this_UseDisMaxParam_17);
     }
 
     { 

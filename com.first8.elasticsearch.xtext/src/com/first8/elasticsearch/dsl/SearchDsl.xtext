@@ -448,6 +448,8 @@ DistanceTypeParam:
 OptimizeBboxParam:
 	'"optimize_bbox"' ':' ('"memory"' | '"indexed"' | '"none"' );
 
+UseDisMaxParam:
+	'"use_dis_max"' ':' BOOLEAN;
 
 // Queries:
 
@@ -721,6 +723,7 @@ QueryStringQuery:
 	
 QueryStringQueryObject:
 	'{'
+		(FieldsParam ',')?
 		'"query"' ':' query=STRING
 		(',' params+=QueryStringQueryParameter ( ',' params+=QueryStringQueryParameter)*)?
 	'}'
@@ -729,7 +732,7 @@ QueryStringQueryObject:
 QueryStringQueryParameter:
 	FieldsParam | DefaultFieldParam | DefaultOperatorParam | AnalyzerParam | AllowLeadingWildcardParam | LowercaseExpandedTermsParam
 	EnablePositionIncrementsParam | FuzzyMaxExpansionsParam | FuzzinessParam | FuzzyPrefixLengthParam |  PhraseSlopParam | BoostParam |
-	AnalyzeWildcardParam | AutoGeneratePhraseQueriesParam | MinimumShouldMatchParam | LenientParam | LocaleParam; 
+	AnalyzeWildcardParam | AutoGeneratePhraseQueriesParam | MinimumShouldMatchParam | LenientParam | LocaleParam | UseDisMaxParam; 
 
 SimpleQueryStringQuery:
 	'"simple_query_string"' ':' SimpleQueryStringQueryObject;

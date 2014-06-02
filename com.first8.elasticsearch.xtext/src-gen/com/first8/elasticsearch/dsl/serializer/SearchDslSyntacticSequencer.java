@@ -43,6 +43,7 @@ public class SearchDslSyntacticSequencer extends AbstractSyntacticSequencer {
 	protected AbstractElementAlias match_NotFilterObject___CommaKeyword_2_0_CacheParamParserRuleCall_2_1__q;
 	protected AbstractElementAlias match_PrefixFilterObject___CommaKeyword_4_0_CacheParamParserRuleCall_4_1__q;
 	protected AbstractElementAlias match_PrefixQueryParameterObject_PrefixKeyword_1_1_or_ValueKeyword_1_0;
+	protected AbstractElementAlias match_QueryStringQueryObject___FieldsParamParserRuleCall_1_0_CommaKeyword_1_1__q;
 	protected AbstractElementAlias match_RangeFilterObject___CommaKeyword_4_0_RangeFilterExecutionParamParserRuleCall_4_1__q;
 	protected AbstractElementAlias match_RangeFilterObject___CommaKeyword_5_0_CacheParamParserRuleCall_5_1__q;
 	protected AbstractElementAlias match_ScriptFilterObject___CommaKeyword_5_0_CacheParamParserRuleCall_5_1__q;
@@ -80,6 +81,7 @@ public class SearchDslSyntacticSequencer extends AbstractSyntacticSequencer {
 		match_NotFilterObject___CommaKeyword_2_0_CacheParamParserRuleCall_2_1__q = new GroupAlias(false, true, new TokenAlias(false, false, grammarAccess.getNotFilterObjectAccess().getCommaKeyword_2_0()), new TokenAlias(false, false, grammarAccess.getNotFilterObjectAccess().getCacheParamParserRuleCall_2_1()));
 		match_PrefixFilterObject___CommaKeyword_4_0_CacheParamParserRuleCall_4_1__q = new GroupAlias(false, true, new TokenAlias(false, false, grammarAccess.getPrefixFilterObjectAccess().getCommaKeyword_4_0()), new TokenAlias(false, false, grammarAccess.getPrefixFilterObjectAccess().getCacheParamParserRuleCall_4_1()));
 		match_PrefixQueryParameterObject_PrefixKeyword_1_1_or_ValueKeyword_1_0 = new AlternativeAlias(false, false, new TokenAlias(false, false, grammarAccess.getPrefixQueryParameterObjectAccess().getPrefixKeyword_1_1()), new TokenAlias(false, false, grammarAccess.getPrefixQueryParameterObjectAccess().getValueKeyword_1_0()));
+		match_QueryStringQueryObject___FieldsParamParserRuleCall_1_0_CommaKeyword_1_1__q = new GroupAlias(false, true, new TokenAlias(false, false, grammarAccess.getQueryStringQueryObjectAccess().getFieldsParamParserRuleCall_1_0()), new TokenAlias(false, false, grammarAccess.getQueryStringQueryObjectAccess().getCommaKeyword_1_1()));
 		match_RangeFilterObject___CommaKeyword_4_0_RangeFilterExecutionParamParserRuleCall_4_1__q = new GroupAlias(false, true, new TokenAlias(false, false, grammarAccess.getRangeFilterObjectAccess().getCommaKeyword_4_0()), new TokenAlias(false, false, grammarAccess.getRangeFilterObjectAccess().getRangeFilterExecutionParamParserRuleCall_4_1()));
 		match_RangeFilterObject___CommaKeyword_5_0_CacheParamParserRuleCall_5_1__q = new GroupAlias(false, true, new TokenAlias(false, false, grammarAccess.getRangeFilterObjectAccess().getCommaKeyword_5_0()), new TokenAlias(false, false, grammarAccess.getRangeFilterObjectAccess().getCacheParamParserRuleCall_5_1()));
 		match_ScriptFilterObject___CommaKeyword_5_0_CacheParamParserRuleCall_5_1__q = new GroupAlias(false, true, new TokenAlias(false, false, grammarAccess.getScriptFilterObjectAccess().getCommaKeyword_5_0()), new TokenAlias(false, false, grammarAccess.getScriptFilterObjectAccess().getCacheParamParserRuleCall_5_1()));
@@ -372,6 +374,8 @@ public class SearchDslSyntacticSequencer extends AbstractSyntacticSequencer {
 				emit_PrefixFilterObject___CommaKeyword_4_0_CacheParamParserRuleCall_4_1__q(semanticObject, getLastNavigableState(), syntaxNodes);
 			else if(match_PrefixQueryParameterObject_PrefixKeyword_1_1_or_ValueKeyword_1_0.equals(syntax))
 				emit_PrefixQueryParameterObject_PrefixKeyword_1_1_or_ValueKeyword_1_0(semanticObject, getLastNavigableState(), syntaxNodes);
+			else if(match_QueryStringQueryObject___FieldsParamParserRuleCall_1_0_CommaKeyword_1_1__q.equals(syntax))
+				emit_QueryStringQueryObject___FieldsParamParserRuleCall_1_0_CommaKeyword_1_1__q(semanticObject, getLastNavigableState(), syntaxNodes);
 			else if(match_RangeFilterObject___CommaKeyword_4_0_RangeFilterExecutionParamParserRuleCall_4_1__q.equals(syntax))
 				emit_RangeFilterObject___CommaKeyword_4_0_RangeFilterExecutionParamParserRuleCall_4_1__q(semanticObject, getLastNavigableState(), syntaxNodes);
 			else if(match_RangeFilterObject___CommaKeyword_5_0_CacheParamParserRuleCall_5_1__q.equals(syntax))
@@ -500,7 +504,7 @@ public class SearchDslSyntacticSequencer extends AbstractSyntacticSequencer {
 	
 	/**
 	 * Syntax:
-	 *     '"type"' | '"parent_type"'
+	 *     '"parent_type"' | '"type"'
 	 */
 	protected void emit_HasParentFilterObject_Parent_typeKeyword_1_1_or_TypeKeyword_1_0(EObject semanticObject, ISynNavigable transition, List<INode> nodes) {
 		acceptNodes(transition, nodes);
@@ -532,7 +536,7 @@ public class SearchDslSyntacticSequencer extends AbstractSyntacticSequencer {
 	
 	/**
 	 * Syntax:
-	 *     IndexParam | IndicesParam
+	 *     IndicesParam | IndexParam
 	 */
 	protected void emit_IndicesQueryObject_IndexParamParserRuleCall_1_1_or_IndicesParamParserRuleCall_1_0(EObject semanticObject, ISynNavigable transition, List<INode> nodes) {
 		acceptNodes(transition, nodes);
@@ -540,7 +544,7 @@ public class SearchDslSyntacticSequencer extends AbstractSyntacticSequencer {
 	
 	/**
 	 * Syntax:
-	 *     '"mlt_field"' | '"more_like_this_field"'
+	 *     '"more_like_this_field"' | '"mlt_field"'
 	 */
 	protected void emit_MoreLikeThisFieldQuery_Mlt_fieldKeyword_0_0_or_More_like_this_fieldKeyword_0_1(EObject semanticObject, ISynNavigable transition, List<INode> nodes) {
 		acceptNodes(transition, nodes);
@@ -580,9 +584,17 @@ public class SearchDslSyntacticSequencer extends AbstractSyntacticSequencer {
 	
 	/**
 	 * Syntax:
-	 *     '"value"' | '"prefix"'
+	 *     '"prefix"' | '"value"'
 	 */
 	protected void emit_PrefixQueryParameterObject_PrefixKeyword_1_1_or_ValueKeyword_1_0(EObject semanticObject, ISynNavigable transition, List<INode> nodes) {
+		acceptNodes(transition, nodes);
+	}
+	
+	/**
+	 * Syntax:
+	 *     (FieldsParam ',')?
+	 */
+	protected void emit_QueryStringQueryObject___FieldsParamParserRuleCall_1_0_CommaKeyword_1_1__q(EObject semanticObject, ISynNavigable transition, List<INode> nodes) {
 		acceptNodes(transition, nodes);
 	}
 	
@@ -620,7 +632,7 @@ public class SearchDslSyntacticSequencer extends AbstractSyntacticSequencer {
 	
 	/**
 	 * Syntax:
-	 *     '"term"' | '"value"'
+	 *     '"value"' | '"term"'
 	 */
 	protected void emit_TermQueryParametersObject_TermKeyword_1_0_or_ValueKeyword_1_1(EObject semanticObject, ISynNavigable transition, List<INode> nodes) {
 		acceptNodes(transition, nodes);
@@ -644,7 +656,7 @@ public class SearchDslSyntacticSequencer extends AbstractSyntacticSequencer {
 	
 	/**
 	 * Syntax:
-	 *     '"in"' | '"terms"'
+	 *     '"terms"' | '"in"'
 	 */
 	protected void emit_TermsFilter_InKeyword_0_0_or_TermsKeyword_0_1(EObject semanticObject, ISynNavigable transition, List<INode> nodes) {
 		acceptNodes(transition, nodes);

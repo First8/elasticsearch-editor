@@ -56,7 +56,7 @@ public class SearchDslGrammarAccess extends AbstractGrammarElementFinder {
 		//// xxxParameter is an allowed parameter for the query type xxx
 		//// a xxQuery or xxFilter definition maps the query/filter name. 
 		//// The actual definition is done in a xxQueryObject or xxFilterObject.
-		//// If the definition is the same for bot a filter or a query, the object is simply called xxObject.
+		//// If the definition is the same for both a filter or a query, the object is simply called xxObject.
 		//// TODO add _source parameter
 		//// TODO add script_fields
 		//// TODO add fielddata_fields
@@ -4424,6 +4424,30 @@ public class SearchDslGrammarAccess extends AbstractGrammarElementFinder {
 		public Keyword getNoneKeyword_2_2() { return cNoneKeyword_2_2; }
 	}
 
+	public class UseDisMaxParamElements extends AbstractParserRuleElementFinder {
+		private final ParserRule rule = (ParserRule) GrammarUtil.findRuleForName(getGrammar(), "UseDisMaxParam");
+		private final Group cGroup = (Group)rule.eContents().get(1);
+		private final Keyword cUse_dis_maxKeyword_0 = (Keyword)cGroup.eContents().get(0);
+		private final Keyword cColonKeyword_1 = (Keyword)cGroup.eContents().get(1);
+		private final RuleCall cBOOLEANTerminalRuleCall_2 = (RuleCall)cGroup.eContents().get(2);
+		
+		//UseDisMaxParam:
+		//	"\"use_dis_max\"" ":" BOOLEAN;
+		public ParserRule getRule() { return rule; }
+
+		//"\"use_dis_max\"" ":" BOOLEAN
+		public Group getGroup() { return cGroup; }
+
+		//"\"use_dis_max\""
+		public Keyword getUse_dis_maxKeyword_0() { return cUse_dis_maxKeyword_0; }
+
+		//":"
+		public Keyword getColonKeyword_1() { return cColonKeyword_1; }
+
+		//BOOLEAN
+		public RuleCall getBOOLEANTerminalRuleCall_2() { return cBOOLEANTerminalRuleCall_2; }
+	}
+
 	public class MatchQueryElements extends AbstractParserRuleElementFinder {
 		private final ParserRule rule = (ParserRule) GrammarUtil.findRuleForName(getGrammar(), "MatchQuery");
 		private final Group cGroup = (Group)rule.eContents().get(1);
@@ -6965,69 +6989,82 @@ public class SearchDslGrammarAccess extends AbstractGrammarElementFinder {
 		private final ParserRule rule = (ParserRule) GrammarUtil.findRuleForName(getGrammar(), "QueryStringQueryObject");
 		private final Group cGroup = (Group)rule.eContents().get(1);
 		private final Keyword cLeftCurlyBracketKeyword_0 = (Keyword)cGroup.eContents().get(0);
-		private final Keyword cQueryKeyword_1 = (Keyword)cGroup.eContents().get(1);
-		private final Keyword cColonKeyword_2 = (Keyword)cGroup.eContents().get(2);
-		private final Assignment cQueryAssignment_3 = (Assignment)cGroup.eContents().get(3);
-		private final RuleCall cQuerySTRINGTerminalRuleCall_3_0 = (RuleCall)cQueryAssignment_3.eContents().get(0);
-		private final Group cGroup_4 = (Group)cGroup.eContents().get(4);
-		private final Keyword cCommaKeyword_4_0 = (Keyword)cGroup_4.eContents().get(0);
-		private final Assignment cParamsAssignment_4_1 = (Assignment)cGroup_4.eContents().get(1);
-		private final RuleCall cParamsQueryStringQueryParameterParserRuleCall_4_1_0 = (RuleCall)cParamsAssignment_4_1.eContents().get(0);
-		private final Group cGroup_4_2 = (Group)cGroup_4.eContents().get(2);
-		private final Keyword cCommaKeyword_4_2_0 = (Keyword)cGroup_4_2.eContents().get(0);
-		private final Assignment cParamsAssignment_4_2_1 = (Assignment)cGroup_4_2.eContents().get(1);
-		private final RuleCall cParamsQueryStringQueryParameterParserRuleCall_4_2_1_0 = (RuleCall)cParamsAssignment_4_2_1.eContents().get(0);
-		private final Keyword cRightCurlyBracketKeyword_5 = (Keyword)cGroup.eContents().get(5);
+		private final Group cGroup_1 = (Group)cGroup.eContents().get(1);
+		private final RuleCall cFieldsParamParserRuleCall_1_0 = (RuleCall)cGroup_1.eContents().get(0);
+		private final Keyword cCommaKeyword_1_1 = (Keyword)cGroup_1.eContents().get(1);
+		private final Keyword cQueryKeyword_2 = (Keyword)cGroup.eContents().get(2);
+		private final Keyword cColonKeyword_3 = (Keyword)cGroup.eContents().get(3);
+		private final Assignment cQueryAssignment_4 = (Assignment)cGroup.eContents().get(4);
+		private final RuleCall cQuerySTRINGTerminalRuleCall_4_0 = (RuleCall)cQueryAssignment_4.eContents().get(0);
+		private final Group cGroup_5 = (Group)cGroup.eContents().get(5);
+		private final Keyword cCommaKeyword_5_0 = (Keyword)cGroup_5.eContents().get(0);
+		private final Assignment cParamsAssignment_5_1 = (Assignment)cGroup_5.eContents().get(1);
+		private final RuleCall cParamsQueryStringQueryParameterParserRuleCall_5_1_0 = (RuleCall)cParamsAssignment_5_1.eContents().get(0);
+		private final Group cGroup_5_2 = (Group)cGroup_5.eContents().get(2);
+		private final Keyword cCommaKeyword_5_2_0 = (Keyword)cGroup_5_2.eContents().get(0);
+		private final Assignment cParamsAssignment_5_2_1 = (Assignment)cGroup_5_2.eContents().get(1);
+		private final RuleCall cParamsQueryStringQueryParameterParserRuleCall_5_2_1_0 = (RuleCall)cParamsAssignment_5_2_1.eContents().get(0);
+		private final Keyword cRightCurlyBracketKeyword_6 = (Keyword)cGroup.eContents().get(6);
 		
 		//QueryStringQueryObject:
-		//	"{" "\"query\"" ":" query=STRING ("," params+=QueryStringQueryParameter ("," params+=QueryStringQueryParameter)*)?
-		//	"}";
+		//	"{" (FieldsParam ",")? "\"query\"" ":" query=STRING ("," params+=QueryStringQueryParameter (","
+		//	params+=QueryStringQueryParameter)*)? "}";
 		public ParserRule getRule() { return rule; }
 
-		//"{" "\"query\"" ":" query=STRING ("," params+=QueryStringQueryParameter ("," params+=QueryStringQueryParameter)*)? "}"
+		//"{" (FieldsParam ",")? "\"query\"" ":" query=STRING ("," params+=QueryStringQueryParameter (","
+		//params+=QueryStringQueryParameter)*)? "}"
 		public Group getGroup() { return cGroup; }
 
 		//"{"
 		public Keyword getLeftCurlyBracketKeyword_0() { return cLeftCurlyBracketKeyword_0; }
 
+		//(FieldsParam ",")?
+		public Group getGroup_1() { return cGroup_1; }
+
+		//FieldsParam
+		public RuleCall getFieldsParamParserRuleCall_1_0() { return cFieldsParamParserRuleCall_1_0; }
+
+		//","
+		public Keyword getCommaKeyword_1_1() { return cCommaKeyword_1_1; }
+
 		//"\"query\""
-		public Keyword getQueryKeyword_1() { return cQueryKeyword_1; }
+		public Keyword getQueryKeyword_2() { return cQueryKeyword_2; }
 
 		//":"
-		public Keyword getColonKeyword_2() { return cColonKeyword_2; }
+		public Keyword getColonKeyword_3() { return cColonKeyword_3; }
 
 		//query=STRING
-		public Assignment getQueryAssignment_3() { return cQueryAssignment_3; }
+		public Assignment getQueryAssignment_4() { return cQueryAssignment_4; }
 
 		//STRING
-		public RuleCall getQuerySTRINGTerminalRuleCall_3_0() { return cQuerySTRINGTerminalRuleCall_3_0; }
+		public RuleCall getQuerySTRINGTerminalRuleCall_4_0() { return cQuerySTRINGTerminalRuleCall_4_0; }
 
 		//("," params+=QueryStringQueryParameter ("," params+=QueryStringQueryParameter)*)?
-		public Group getGroup_4() { return cGroup_4; }
+		public Group getGroup_5() { return cGroup_5; }
 
 		//","
-		public Keyword getCommaKeyword_4_0() { return cCommaKeyword_4_0; }
+		public Keyword getCommaKeyword_5_0() { return cCommaKeyword_5_0; }
 
 		//params+=QueryStringQueryParameter
-		public Assignment getParamsAssignment_4_1() { return cParamsAssignment_4_1; }
+		public Assignment getParamsAssignment_5_1() { return cParamsAssignment_5_1; }
 
 		//QueryStringQueryParameter
-		public RuleCall getParamsQueryStringQueryParameterParserRuleCall_4_1_0() { return cParamsQueryStringQueryParameterParserRuleCall_4_1_0; }
+		public RuleCall getParamsQueryStringQueryParameterParserRuleCall_5_1_0() { return cParamsQueryStringQueryParameterParserRuleCall_5_1_0; }
 
 		//("," params+=QueryStringQueryParameter)*
-		public Group getGroup_4_2() { return cGroup_4_2; }
+		public Group getGroup_5_2() { return cGroup_5_2; }
 
 		//","
-		public Keyword getCommaKeyword_4_2_0() { return cCommaKeyword_4_2_0; }
+		public Keyword getCommaKeyword_5_2_0() { return cCommaKeyword_5_2_0; }
 
 		//params+=QueryStringQueryParameter
-		public Assignment getParamsAssignment_4_2_1() { return cParamsAssignment_4_2_1; }
+		public Assignment getParamsAssignment_5_2_1() { return cParamsAssignment_5_2_1; }
 
 		//QueryStringQueryParameter
-		public RuleCall getParamsQueryStringQueryParameterParserRuleCall_4_2_1_0() { return cParamsQueryStringQueryParameterParserRuleCall_4_2_1_0; }
+		public RuleCall getParamsQueryStringQueryParameterParserRuleCall_5_2_1_0() { return cParamsQueryStringQueryParameterParserRuleCall_5_2_1_0; }
 
 		//"}"
-		public Keyword getRightCurlyBracketKeyword_5() { return cRightCurlyBracketKeyword_5; }
+		public Keyword getRightCurlyBracketKeyword_6() { return cRightCurlyBracketKeyword_6; }
 	}
 
 	public class QueryStringQueryParameterElements extends AbstractParserRuleElementFinder {
@@ -7051,18 +7088,19 @@ public class SearchDslGrammarAccess extends AbstractGrammarElementFinder {
 		private final RuleCall cMinimumShouldMatchParamParserRuleCall_13 = (RuleCall)cAlternatives.eContents().get(13);
 		private final RuleCall cLenientParamParserRuleCall_14 = (RuleCall)cAlternatives.eContents().get(14);
 		private final RuleCall cLocaleParamParserRuleCall_15 = (RuleCall)cAlternatives.eContents().get(15);
+		private final RuleCall cUseDisMaxParamParserRuleCall_16 = (RuleCall)cAlternatives.eContents().get(16);
 		
 		//QueryStringQueryParameter:
 		//	FieldsParam | DefaultFieldParam | DefaultOperatorParam | AnalyzerParam | AllowLeadingWildcardParam |
 		//	LowercaseExpandedTermsParam EnablePositionIncrementsParam | FuzzyMaxExpansionsParam | FuzzinessParam |
 		//	FuzzyPrefixLengthParam | PhraseSlopParam | BoostParam | AnalyzeWildcardParam | AutoGeneratePhraseQueriesParam |
-		//	MinimumShouldMatchParam | LenientParam | LocaleParam;
+		//	MinimumShouldMatchParam | LenientParam | LocaleParam | UseDisMaxParam;
 		public ParserRule getRule() { return rule; }
 
 		//FieldsParam | DefaultFieldParam | DefaultOperatorParam | AnalyzerParam | AllowLeadingWildcardParam |
 		//LowercaseExpandedTermsParam EnablePositionIncrementsParam | FuzzyMaxExpansionsParam | FuzzinessParam |
 		//FuzzyPrefixLengthParam | PhraseSlopParam | BoostParam | AnalyzeWildcardParam | AutoGeneratePhraseQueriesParam |
-		//MinimumShouldMatchParam | LenientParam | LocaleParam
+		//MinimumShouldMatchParam | LenientParam | LocaleParam | UseDisMaxParam
 		public Alternatives getAlternatives() { return cAlternatives; }
 
 		//FieldsParam
@@ -7118,6 +7156,9 @@ public class SearchDslGrammarAccess extends AbstractGrammarElementFinder {
 
 		//LocaleParam
 		public RuleCall getLocaleParamParserRuleCall_15() { return cLocaleParamParserRuleCall_15; }
+
+		//UseDisMaxParam
+		public RuleCall getUseDisMaxParamParserRuleCall_16() { return cUseDisMaxParamParserRuleCall_16; }
 	}
 
 	public class SimpleQueryStringQueryElements extends AbstractParserRuleElementFinder {
@@ -11921,6 +11962,7 @@ public class SearchDslGrammarAccess extends AbstractGrammarElementFinder {
 	private CacheParamElements pCacheParam;
 	private DistanceTypeParamElements pDistanceTypeParam;
 	private OptimizeBboxParamElements pOptimizeBboxParam;
+	private UseDisMaxParamElements pUseDisMaxParam;
 	private MatchQueryElements pMatchQuery;
 	private ShortMatchQueryObjectElements pShortMatchQueryObject;
 	private MatchQueryObjectElements pMatchQueryObject;
@@ -12150,7 +12192,7 @@ public class SearchDslGrammarAccess extends AbstractGrammarElementFinder {
 	//// xxxParameter is an allowed parameter for the query type xxx
 	//// a xxQuery or xxFilter definition maps the query/filter name. 
 	//// The actual definition is done in a xxQueryObject or xxFilterObject.
-	//// If the definition is the same for bot a filter or a query, the object is simply called xxObject.
+	//// If the definition is the same for both a filter or a query, the object is simply called xxObject.
 	//// TODO add _source parameter
 	//// TODO add script_fields
 	//// TODO add fielddata_fields
@@ -13387,6 +13429,16 @@ public class SearchDslGrammarAccess extends AbstractGrammarElementFinder {
 		return getOptimizeBboxParamAccess().getRule();
 	}
 
+	//UseDisMaxParam:
+	//	"\"use_dis_max\"" ":" BOOLEAN;
+	public UseDisMaxParamElements getUseDisMaxParamAccess() {
+		return (pUseDisMaxParam != null) ? pUseDisMaxParam : (pUseDisMaxParam = new UseDisMaxParamElements());
+	}
+	
+	public ParserRule getUseDisMaxParamRule() {
+		return getUseDisMaxParamAccess().getRule();
+	}
+
 	//// Queries:
 	//MatchQuery:
 	//	"\"match\"" ":" (ShortMatchQueryObject | MatchQueryObject);
@@ -13998,8 +14050,8 @@ public class SearchDslGrammarAccess extends AbstractGrammarElementFinder {
 	}
 
 	//QueryStringQueryObject:
-	//	"{" "\"query\"" ":" query=STRING ("," params+=QueryStringQueryParameter ("," params+=QueryStringQueryParameter)*)?
-	//	"}";
+	//	"{" (FieldsParam ",")? "\"query\"" ":" query=STRING ("," params+=QueryStringQueryParameter (","
+	//	params+=QueryStringQueryParameter)*)? "}";
 	public QueryStringQueryObjectElements getQueryStringQueryObjectAccess() {
 		return (pQueryStringQueryObject != null) ? pQueryStringQueryObject : (pQueryStringQueryObject = new QueryStringQueryObjectElements());
 	}
@@ -14012,7 +14064,7 @@ public class SearchDslGrammarAccess extends AbstractGrammarElementFinder {
 	//	FieldsParam | DefaultFieldParam | DefaultOperatorParam | AnalyzerParam | AllowLeadingWildcardParam |
 	//	LowercaseExpandedTermsParam EnablePositionIncrementsParam | FuzzyMaxExpansionsParam | FuzzinessParam |
 	//	FuzzyPrefixLengthParam | PhraseSlopParam | BoostParam | AnalyzeWildcardParam | AutoGeneratePhraseQueriesParam |
-	//	MinimumShouldMatchParam | LenientParam | LocaleParam;
+	//	MinimumShouldMatchParam | LenientParam | LocaleParam | UseDisMaxParam;
 	public QueryStringQueryParameterElements getQueryStringQueryParameterAccess() {
 		return (pQueryStringQueryParameter != null) ? pQueryStringQueryParameter : (pQueryStringQueryParameter = new QueryStringQueryParameterElements());
 	}
