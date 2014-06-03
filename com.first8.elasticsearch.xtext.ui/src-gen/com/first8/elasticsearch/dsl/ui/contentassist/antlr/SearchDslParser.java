@@ -145,8 +145,8 @@ public class SearchDslParser extends AbstractContentAssistParser {
 					put(grammarAccess.getQueryObjectAccess().getGroup(), "rule__QueryObject__Group__0");
 					put(grammarAccess.getFacetsAccess().getGroup(), "rule__Facets__Group__0");
 					put(grammarAccess.getFacetsObjectAccess().getGroup(), "rule__FacetsObject__Group__0");
+					put(grammarAccess.getFacetsObjectAccess().getGroup_4(), "rule__FacetsObject__Group_4__0");
 					put(grammarAccess.getFacetTypeObjectAccess().getGroup(), "rule__FacetTypeObject__Group__0");
-					put(grammarAccess.getFacetTypeObjectAccess().getGroup_2(), "rule__FacetTypeObject__Group_2__0");
 					put(grammarAccess.getGeoDistanceFacetAccess().getGroup(), "rule__GeoDistanceFacet__Group__0");
 					put(grammarAccess.getGeoDistanceFacetObjectAccess().getGroup(), "rule__GeoDistanceFacetObject__Group__0");
 					put(grammarAccess.getTermsStatsFacetAccess().getGroup(), "rule__TermsStatsFacet__Group__0");
@@ -157,7 +157,6 @@ public class SearchDslParser extends AbstractContentAssistParser {
 					put(grammarAccess.getDateHistogramFacetObjectAccess().getGroup(), "rule__DateHistogramFacetObject__Group__0");
 					put(grammarAccess.getHistogramFacetAccess().getGroup(), "rule__HistogramFacet__Group__0");
 					put(grammarAccess.getHistogramFacetObjectAccess().getGroup(), "rule__HistogramFacetObject__Group__0");
-					put(grammarAccess.getHistogramFacetObjectAccess().getGroup_2(), "rule__HistogramFacetObject__Group_2__0");
 					put(grammarAccess.getRangeFacetAccess().getGroup(), "rule__RangeFacet__Group__0");
 					put(grammarAccess.getRangeFacetObjectAccess().getGroup(), "rule__RangeFacetObject__Group__0");
 					put(grammarAccess.getRangesParamAccess().getGroup(), "rule__RangesParam__Group__0");
@@ -172,6 +171,7 @@ public class SearchDslParser extends AbstractContentAssistParser {
 					put(grammarAccess.getTermsFacetObjectAccess().getGroup_2(), "rule__TermsFacetObject__Group_2__0");
 					put(grammarAccess.getFacetFilterParamAccess().getGroup(), "rule__FacetFilterParam__Group__0");
 					put(grammarAccess.getIntervalParamAccess().getGroup(), "rule__IntervalParam__Group__0");
+					put(grammarAccess.getNestedParamAccess().getGroup(), "rule__NestedParam__Group__0");
 					put(grammarAccess.getTimeIntervalParamAccess().getGroup(), "rule__TimeIntervalParam__Group__0");
 					put(grammarAccess.getFromParamAccess().getGroup(), "rule__FromParam__Group__0");
 					put(grammarAccess.getToParamAccess().getGroup(), "rule__ToParam__Group__0");
@@ -580,8 +580,8 @@ public class SearchDslParser extends AbstractContentAssistParser {
 					put(grammarAccess.getMultiTermQueryAccess().getMultiTermQueryAssignment_0(), "rule__MultiTermQuery__MultiTermQueryAssignment_0");
 					put(grammarAccess.getFacetsObjectAccess().getFacetNameAssignment_1(), "rule__FacetsObject__FacetNameAssignment_1");
 					put(grammarAccess.getFacetsObjectAccess().getConfigAssignment_3(), "rule__FacetsObject__ConfigAssignment_3");
+					put(grammarAccess.getFacetsObjectAccess().getParamsAssignment_4_1(), "rule__FacetsObject__ParamsAssignment_4_1");
 					put(grammarAccess.getFacetTypeObjectAccess().getFacetTypeAssignment_1(), "rule__FacetTypeObject__FacetTypeAssignment_1");
-					put(grammarAccess.getFacetTypeObjectAccess().getParamsAssignment_2_1(), "rule__FacetTypeObject__ParamsAssignment_2_1");
 					put(grammarAccess.getFacetTypeAccess().getFacetTypeAssignment_0(), "rule__FacetType__FacetTypeAssignment_0");
 					put(grammarAccess.getGeoDistanceFacetObjectAccess().getFieldNameAssignment_1(), "rule__GeoDistanceFacetObject__FieldNameAssignment_1");
 					put(grammarAccess.getGeoDistanceFacetObjectAccess().getPointAssignment_3(), "rule__GeoDistanceFacetObject__PointAssignment_3");
@@ -615,6 +615,7 @@ public class SearchDslParser extends AbstractContentAssistParser {
 					put(grammarAccess.getTermsFacetParameterAccess().getScriptFieldAssignment_9(), "rule__TermsFacetParameter__ScriptFieldAssignment_9");
 					put(grammarAccess.getFacetParameterAccess().getGlobalAssignment_0(), "rule__FacetParameter__GlobalAssignment_0");
 					put(grammarAccess.getFacetParameterAccess().getFaceFilterAssignment_1(), "rule__FacetParameter__FaceFilterAssignment_1");
+					put(grammarAccess.getFacetParameterAccess().getNestedAssignment_2(), "rule__FacetParameter__NestedAssignment_2");
 					put(grammarAccess.getAllTermsParamAccess().getAllTermsAssignment_2(), "rule__AllTermsParam__AllTermsAssignment_2");
 					put(grammarAccess.getExcludeParamAccess().getExcludeFieldNamesAssignment_3(), "rule__ExcludeParam__ExcludeFieldNamesAssignment_3");
 					put(grammarAccess.getExcludeParamAccess().getExcludeFieldNamesAssignment_4_1(), "rule__ExcludeParam__ExcludeFieldNamesAssignment_4_1");

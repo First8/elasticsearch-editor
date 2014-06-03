@@ -19,7 +19,7 @@ package com.first8.elasticsearch.dsl.search;
  * @model
  * @generated
  */
-public interface Filter extends FilterFacet, FacetFilterParam, ConstantScoreQueryObject
+public interface Filter extends FilterFacet, ConstantScoreQueryObject
 {
   /**
    * Returns the value of the '<em><b>Filter</b></em>' containment reference.

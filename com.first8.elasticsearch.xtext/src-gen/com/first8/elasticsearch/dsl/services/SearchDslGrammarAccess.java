@@ -1453,13 +1453,17 @@ public class SearchDslGrammarAccess extends AbstractGrammarElementFinder {
 		private final Keyword cColonKeyword_2 = (Keyword)cGroup.eContents().get(2);
 		private final Assignment cConfigAssignment_3 = (Assignment)cGroup.eContents().get(3);
 		private final RuleCall cConfigFacetTypeObjectParserRuleCall_3_0 = (RuleCall)cConfigAssignment_3.eContents().get(0);
-		private final Keyword cRightCurlyBracketKeyword_4 = (Keyword)cGroup.eContents().get(4);
+		private final Group cGroup_4 = (Group)cGroup.eContents().get(4);
+		private final Keyword cCommaKeyword_4_0 = (Keyword)cGroup_4.eContents().get(0);
+		private final Assignment cParamsAssignment_4_1 = (Assignment)cGroup_4.eContents().get(1);
+		private final RuleCall cParamsFacetParameterParserRuleCall_4_1_0 = (RuleCall)cParamsAssignment_4_1.eContents().get(0);
+		private final Keyword cRightCurlyBracketKeyword_5 = (Keyword)cGroup.eContents().get(5);
 		
 		//FacetsObject:
-		//	"{" facetName=STRING ":" config=FacetTypeObject "}";
+		//	"{" facetName=STRING ":" config=FacetTypeObject ("," params+=FacetParameter)* "}";
 		public ParserRule getRule() { return rule; }
 
-		//"{" facetName=STRING ":" config=FacetTypeObject "}"
+		//"{" facetName=STRING ":" config=FacetTypeObject ("," params+=FacetParameter)* "}"
 		public Group getGroup() { return cGroup; }
 
 		//"{"
@@ -1480,8 +1484,20 @@ public class SearchDslGrammarAccess extends AbstractGrammarElementFinder {
 		//FacetTypeObject
 		public RuleCall getConfigFacetTypeObjectParserRuleCall_3_0() { return cConfigFacetTypeObjectParserRuleCall_3_0; }
 
+		//("," params+=FacetParameter)*
+		public Group getGroup_4() { return cGroup_4; }
+
+		//","
+		public Keyword getCommaKeyword_4_0() { return cCommaKeyword_4_0; }
+
+		//params+=FacetParameter
+		public Assignment getParamsAssignment_4_1() { return cParamsAssignment_4_1; }
+
+		//FacetParameter
+		public RuleCall getParamsFacetParameterParserRuleCall_4_1_0() { return cParamsFacetParameterParserRuleCall_4_1_0; }
+
 		//"}"
-		public Keyword getRightCurlyBracketKeyword_4() { return cRightCurlyBracketKeyword_4; }
+		public Keyword getRightCurlyBracketKeyword_5() { return cRightCurlyBracketKeyword_5; }
 	}
 
 	public class FacetTypeObjectElements extends AbstractParserRuleElementFinder {
@@ -1490,17 +1506,13 @@ public class SearchDslGrammarAccess extends AbstractGrammarElementFinder {
 		private final Keyword cLeftCurlyBracketKeyword_0 = (Keyword)cGroup.eContents().get(0);
 		private final Assignment cFacetTypeAssignment_1 = (Assignment)cGroup.eContents().get(1);
 		private final RuleCall cFacetTypeFacetTypeParserRuleCall_1_0 = (RuleCall)cFacetTypeAssignment_1.eContents().get(0);
-		private final Group cGroup_2 = (Group)cGroup.eContents().get(2);
-		private final Keyword cCommaKeyword_2_0 = (Keyword)cGroup_2.eContents().get(0);
-		private final Assignment cParamsAssignment_2_1 = (Assignment)cGroup_2.eContents().get(1);
-		private final RuleCall cParamsFacetParameterParserRuleCall_2_1_0 = (RuleCall)cParamsAssignment_2_1.eContents().get(0);
-		private final Keyword cRightCurlyBracketKeyword_3 = (Keyword)cGroup.eContents().get(3);
+		private final Keyword cRightCurlyBracketKeyword_2 = (Keyword)cGroup.eContents().get(2);
 		
 		//FacetTypeObject:
-		//	"{" facetType=FacetType ("," params+=FacetParameter)* "}";
+		//	"{" facetType=FacetType "}";
 		public ParserRule getRule() { return rule; }
 
-		//"{" facetType=FacetType ("," params+=FacetParameter)* "}"
+		//"{" facetType=FacetType "}"
 		public Group getGroup() { return cGroup; }
 
 		//"{"
@@ -1512,20 +1524,8 @@ public class SearchDslGrammarAccess extends AbstractGrammarElementFinder {
 		//FacetType
 		public RuleCall getFacetTypeFacetTypeParserRuleCall_1_0() { return cFacetTypeFacetTypeParserRuleCall_1_0; }
 
-		//("," params+=FacetParameter)*
-		public Group getGroup_2() { return cGroup_2; }
-
-		//","
-		public Keyword getCommaKeyword_2_0() { return cCommaKeyword_2_0; }
-
-		//params+=FacetParameter
-		public Assignment getParamsAssignment_2_1() { return cParamsAssignment_2_1; }
-
-		//FacetParameter
-		public RuleCall getParamsFacetParameterParserRuleCall_2_1_0() { return cParamsFacetParameterParserRuleCall_2_1_0; }
-
 		//"}"
-		public Keyword getRightCurlyBracketKeyword_3() { return cRightCurlyBracketKeyword_3; }
+		public Keyword getRightCurlyBracketKeyword_2() { return cRightCurlyBracketKeyword_2; }
 	}
 
 	public class FacetTypeElements extends AbstractParserRuleElementFinder {
@@ -1902,16 +1902,15 @@ public class SearchDslGrammarAccess extends AbstractGrammarElementFinder {
 		private final RuleCall cKeyValueKeyValueFieldParserRuleCall_1_1_0 = (RuleCall)cKeyValueAssignment_1_1.eContents().get(0);
 		private final Assignment cKeyValueScriptAssignment_1_2 = (Assignment)cAlternatives_1.eContents().get(2);
 		private final RuleCall cKeyValueScriptKeyValueScriptParserRuleCall_1_2_0 = (RuleCall)cKeyValueScriptAssignment_1_2.eContents().get(0);
-		private final Group cGroup_2 = (Group)cGroup.eContents().get(2);
-		private final Keyword cCommaKeyword_2_0 = (Keyword)cGroup_2.eContents().get(0);
-		private final RuleCall cHistogramFacetParameterParserRuleCall_2_1 = (RuleCall)cGroup_2.eContents().get(1);
-		private final Keyword cRightCurlyBracketKeyword_3 = (Keyword)cGroup.eContents().get(3);
+		private final Keyword cCommaKeyword_2 = (Keyword)cGroup.eContents().get(2);
+		private final RuleCall cHistogramFacetParameterParserRuleCall_3 = (RuleCall)cGroup.eContents().get(3);
+		private final Keyword cRightCurlyBracketKeyword_4 = (Keyword)cGroup.eContents().get(4);
 		
 		//HistogramFacetObject:
-		//	"{" (field=FieldParam | keyValue=KeyValueField | keyValueScript=KeyValueScript) ("," HistogramFacetParameter)* "}";
+		//	"{" (field=FieldParam | keyValue=KeyValueField | keyValueScript=KeyValueScript) "," HistogramFacetParameter "}";
 		public ParserRule getRule() { return rule; }
 
-		//"{" (field=FieldParam | keyValue=KeyValueField | keyValueScript=KeyValueScript) ("," HistogramFacetParameter)* "}"
+		//"{" (field=FieldParam | keyValue=KeyValueField | keyValueScript=KeyValueScript) "," HistogramFacetParameter "}"
 		public Group getGroup() { return cGroup; }
 
 		//"{"
@@ -1938,17 +1937,14 @@ public class SearchDslGrammarAccess extends AbstractGrammarElementFinder {
 		//KeyValueScript
 		public RuleCall getKeyValueScriptKeyValueScriptParserRuleCall_1_2_0() { return cKeyValueScriptKeyValueScriptParserRuleCall_1_2_0; }
 
-		//("," HistogramFacetParameter)*
-		public Group getGroup_2() { return cGroup_2; }
-
 		//","
-		public Keyword getCommaKeyword_2_0() { return cCommaKeyword_2_0; }
+		public Keyword getCommaKeyword_2() { return cCommaKeyword_2; }
 
 		//HistogramFacetParameter
-		public RuleCall getHistogramFacetParameterParserRuleCall_2_1() { return cHistogramFacetParameterParserRuleCall_2_1; }
+		public RuleCall getHistogramFacetParameterParserRuleCall_3() { return cHistogramFacetParameterParserRuleCall_3; }
 
 		//"}"
-		public Keyword getRightCurlyBracketKeyword_3() { return cRightCurlyBracketKeyword_3; }
+		public Keyword getRightCurlyBracketKeyword_4() { return cRightCurlyBracketKeyword_4; }
 	}
 
 	public class HistogramFacetParameterElements extends AbstractParserRuleElementFinder {
@@ -2410,12 +2406,14 @@ public class SearchDslGrammarAccess extends AbstractGrammarElementFinder {
 		private final RuleCall cGlobalGlobalParamParserRuleCall_0_0 = (RuleCall)cGlobalAssignment_0.eContents().get(0);
 		private final Assignment cFaceFilterAssignment_1 = (Assignment)cAlternatives.eContents().get(1);
 		private final RuleCall cFaceFilterFacetFilterParamParserRuleCall_1_0 = (RuleCall)cFaceFilterAssignment_1.eContents().get(0);
+		private final Assignment cNestedAssignment_2 = (Assignment)cAlternatives.eContents().get(2);
+		private final RuleCall cNestedNestedParamParserRuleCall_2_0 = (RuleCall)cNestedAssignment_2.eContents().get(0);
 		
 		//FacetParameter:
-		//	global=GlobalParam | faceFilter=FacetFilterParam;
+		//	global=GlobalParam | faceFilter=FacetFilterParam | nested=NestedParam;
 		public ParserRule getRule() { return rule; }
 
-		//global=GlobalParam | faceFilter=FacetFilterParam
+		//global=GlobalParam | faceFilter=FacetFilterParam | nested=NestedParam
 		public Alternatives getAlternatives() { return cAlternatives; }
 
 		//global=GlobalParam
@@ -2429,6 +2427,12 @@ public class SearchDslGrammarAccess extends AbstractGrammarElementFinder {
 
 		//FacetFilterParam
 		public RuleCall getFaceFilterFacetFilterParamParserRuleCall_1_0() { return cFaceFilterFacetFilterParamParserRuleCall_1_0; }
+
+		//nested=NestedParam
+		public Assignment getNestedAssignment_2() { return cNestedAssignment_2; }
+
+		//NestedParam
+		public RuleCall getNestedNestedParamParserRuleCall_2_0() { return cNestedNestedParamParserRuleCall_2_0; }
 	}
 
 	public class FacetFilterParamElements extends AbstractParserRuleElementFinder {
@@ -2436,13 +2440,13 @@ public class SearchDslGrammarAccess extends AbstractGrammarElementFinder {
 		private final Group cGroup = (Group)rule.eContents().get(1);
 		private final Keyword cFacet_filterKeyword_0 = (Keyword)cGroup.eContents().get(0);
 		private final Keyword cColonKeyword_1 = (Keyword)cGroup.eContents().get(1);
-		private final RuleCall cFilterParserRuleCall_2 = (RuleCall)cGroup.eContents().get(2);
+		private final RuleCall cFilterObjectParserRuleCall_2 = (RuleCall)cGroup.eContents().get(2);
 		
 		//FacetFilterParam:
-		//	"\"facet_filter\"" ":" Filter;
+		//	"\"facet_filter\"" ":" FilterObject;
 		public ParserRule getRule() { return rule; }
 
-		//"\"facet_filter\"" ":" Filter
+		//"\"facet_filter\"" ":" FilterObject
 		public Group getGroup() { return cGroup; }
 
 		//"\"facet_filter\""
@@ -2451,8 +2455,8 @@ public class SearchDslGrammarAccess extends AbstractGrammarElementFinder {
 		//":"
 		public Keyword getColonKeyword_1() { return cColonKeyword_1; }
 
-		//Filter
-		public RuleCall getFilterParserRuleCall_2() { return cFilterParserRuleCall_2; }
+		//FilterObject
+		public RuleCall getFilterObjectParserRuleCall_2() { return cFilterObjectParserRuleCall_2; }
 	}
 
 	public class IntervalParamElements extends AbstractParserRuleElementFinder {
@@ -2478,6 +2482,30 @@ public class SearchDslGrammarAccess extends AbstractGrammarElementFinder {
 
 		//INT
 		public RuleCall getINTTerminalRuleCall_2() { return cINTTerminalRuleCall_2; }
+	}
+
+	public class NestedParamElements extends AbstractParserRuleElementFinder {
+		private final ParserRule rule = (ParserRule) GrammarUtil.findRuleForName(getGrammar(), "NestedParam");
+		private final Group cGroup = (Group)rule.eContents().get(1);
+		private final Keyword cNestedKeyword_0 = (Keyword)cGroup.eContents().get(0);
+		private final Keyword cColonKeyword_1 = (Keyword)cGroup.eContents().get(1);
+		private final RuleCall cSTRINGTerminalRuleCall_2 = (RuleCall)cGroup.eContents().get(2);
+		
+		//NestedParam:
+		//	"\"nested\"" ":" STRING;
+		public ParserRule getRule() { return rule; }
+
+		//"\"nested\"" ":" STRING
+		public Group getGroup() { return cGroup; }
+
+		//"\"nested\""
+		public Keyword getNestedKeyword_0() { return cNestedKeyword_0; }
+
+		//":"
+		public Keyword getColonKeyword_1() { return cColonKeyword_1; }
+
+		//STRING
+		public RuleCall getSTRINGTerminalRuleCall_2() { return cSTRINGTerminalRuleCall_2; }
 	}
 
 	public class TimeIntervalParamElements extends AbstractParserRuleElementFinder {
@@ -11891,6 +11919,7 @@ public class SearchDslGrammarAccess extends AbstractGrammarElementFinder {
 	private FacetParameterElements pFacetParameter;
 	private FacetFilterParamElements pFacetFilterParam;
 	private IntervalParamElements pIntervalParam;
+	private NestedParamElements pNestedParam;
 	private TimeIntervalParamElements pTimeIntervalParam;
 	private FromParamElements pFromParam;
 	private ToParamElements pToParam;
@@ -12445,7 +12474,7 @@ public class SearchDslGrammarAccess extends AbstractGrammarElementFinder {
 	}
 
 	//FacetsObject:
-	//	"{" facetName=STRING ":" config=FacetTypeObject "}";
+	//	"{" facetName=STRING ":" config=FacetTypeObject ("," params+=FacetParameter)* "}";
 	public FacetsObjectElements getFacetsObjectAccess() {
 		return (pFacetsObject != null) ? pFacetsObject : (pFacetsObject = new FacetsObjectElements());
 	}
@@ -12455,7 +12484,7 @@ public class SearchDslGrammarAccess extends AbstractGrammarElementFinder {
 	}
 
 	//FacetTypeObject:
-	//	"{" facetType=FacetType ("," params+=FacetParameter)* "}";
+	//	"{" facetType=FacetType "}";
 	public FacetTypeObjectElements getFacetTypeObjectAccess() {
 		return (pFacetTypeObject != null) ? pFacetTypeObject : (pFacetTypeObject = new FacetTypeObjectElements());
 	}
@@ -12577,7 +12606,7 @@ public class SearchDslGrammarAccess extends AbstractGrammarElementFinder {
 	}
 
 	//HistogramFacetObject:
-	//	"{" (field=FieldParam | keyValue=KeyValueField | keyValueScript=KeyValueScript) ("," HistogramFacetParameter)* "}";
+	//	"{" (field=FieldParam | keyValue=KeyValueField | keyValueScript=KeyValueScript) "," HistogramFacetParameter "}";
 	public HistogramFacetObjectElements getHistogramFacetObjectAccess() {
 		return (pHistogramFacetObject != null) ? pHistogramFacetObject : (pHistogramFacetObject = new HistogramFacetObjectElements());
 	}
@@ -12689,7 +12718,7 @@ public class SearchDslGrammarAccess extends AbstractGrammarElementFinder {
 	}
 
 	//FacetParameter:
-	//	global=GlobalParam | faceFilter=FacetFilterParam;
+	//	global=GlobalParam | faceFilter=FacetFilterParam | nested=NestedParam;
 	public FacetParameterElements getFacetParameterAccess() {
 		return (pFacetParameter != null) ? pFacetParameter : (pFacetParameter = new FacetParameterElements());
 	}
@@ -12699,7 +12728,7 @@ public class SearchDslGrammarAccess extends AbstractGrammarElementFinder {
 	}
 
 	//FacetFilterParam:
-	//	"\"facet_filter\"" ":" Filter;
+	//	"\"facet_filter\"" ":" FilterObject;
 	public FacetFilterParamElements getFacetFilterParamAccess() {
 		return (pFacetFilterParam != null) ? pFacetFilterParam : (pFacetFilterParam = new FacetFilterParamElements());
 	}
@@ -12717,6 +12746,16 @@ public class SearchDslGrammarAccess extends AbstractGrammarElementFinder {
 	
 	public ParserRule getIntervalParamRule() {
 		return getIntervalParamAccess().getRule();
+	}
+
+	//NestedParam:
+	//	"\"nested\"" ":" STRING;
+	public NestedParamElements getNestedParamAccess() {
+		return (pNestedParam != null) ? pNestedParam : (pNestedParam = new NestedParamElements());
+	}
+	
+	public ParserRule getNestedParamRule() {
+		return getNestedParamAccess().getRule();
 	}
 
 	//TimeIntervalParam:

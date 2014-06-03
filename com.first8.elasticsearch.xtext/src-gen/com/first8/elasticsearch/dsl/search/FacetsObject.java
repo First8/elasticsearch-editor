@@ -2,6 +2,7 @@
  */
 package com.first8.elasticsearch.dsl.search;
 
+import org.eclipse.emf.common.util.EList;
 
 /**
  * <!-- begin-user-doc -->
@@ -13,6 +14,7 @@ package com.first8.elasticsearch.dsl.search;
  * <ul>
  *   <li>{@link com.first8.elasticsearch.dsl.search.FacetsObject#getFacetName <em>Facet Name</em>}</li>
  *   <li>{@link com.first8.elasticsearch.dsl.search.FacetsObject#getConfig <em>Config</em>}</li>
+ *   <li>{@link com.first8.elasticsearch.dsl.search.FacetsObject#getParams <em>Params</em>}</li>
  * </ul>
  * </p>
  *
@@ -73,5 +75,21 @@ public interface FacetsObject extends Facets
    * @generated
    */
   void setConfig(FacetTypeObject value);
+
+  /**
+   * Returns the value of the '<em><b>Params</b></em>' containment reference list.
+   * The list contents are of type {@link com.first8.elasticsearch.dsl.search.FacetParameter}.
+   * <!-- begin-user-doc -->
+   * <p>
+   * If the meaning of the '<em>Params</em>' containment reference list isn't clear,
+   * there really should be more of a description here...
+   * </p>
+   * <!-- end-user-doc -->
+   * @return the value of the '<em>Params</em>' containment reference list.
+   * @see com.first8.elasticsearch.dsl.search.SearchPackage#getFacetsObject_Params()
+   * @model containment="true"
+   * @generated
+   */
+  EList<FacetParameter> getParams();
 
 } // FacetsObject

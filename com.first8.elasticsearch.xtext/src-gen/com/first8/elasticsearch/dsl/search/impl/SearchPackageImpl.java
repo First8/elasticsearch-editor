@@ -2702,6 +2702,16 @@ public class SearchPackageImpl extends EPackageImpl implements SearchPackage
    * <!-- end-user-doc -->
    * @generated
    */
+  public EReference getFacetsObject_Params()
+  {
+        return (EReference)getFacetsObject().getEStructuralFeatures().get(2);
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
   public EClass getFacetTypeObject()
   {
     if (facetTypeObjectEClass == null)
@@ -2719,16 +2729,6 @@ public class SearchPackageImpl extends EPackageImpl implements SearchPackage
   public EReference getFacetTypeObject_FacetType()
   {
         return (EReference)getFacetTypeObject().getEStructuralFeatures().get(0);
-  }
-
-  /**
-   * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
-   * @generated
-   */
-  public EReference getFacetTypeObject_Params()
-  {
-        return (EReference)getFacetTypeObject().getEStructuralFeatures().get(1);
   }
 
   /**
@@ -3329,6 +3329,16 @@ public class SearchPackageImpl extends EPackageImpl implements SearchPackage
   public EReference getFacetParameter_FaceFilter()
   {
         return (EReference)getFacetParameter().getEStructuralFeatures().get(1);
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  public EAttribute getFacetParameter_Nested()
+  {
+        return (EAttribute)getFacetParameter().getEStructuralFeatures().get(2);
   }
 
   /**

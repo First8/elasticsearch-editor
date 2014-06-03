@@ -113,13 +113,13 @@ Facets:
 FacetsObject:
 	'{'
 		facetName=STRING ':' config=FacetTypeObject
+		(',' params+=FacetParameter)*
 	'}'
 ;
 
 FacetTypeObject:
 	'{'
 		facetType=FacetType
-		(',' params+=FacetParameter)*
 	'}'
 ;
 
@@ -171,7 +171,7 @@ HistogramFacet:
 HistogramFacetObject:
 	'{'
 		(field=FieldParam | keyValue=KeyValueField | keyValueScript=KeyValueScript)
-		(',' HistogramFacetParameter)*
+		',' HistogramFacetParameter
 	'}';
 	
 HistogramFacetParameter:
@@ -219,14 +219,17 @@ TermsFacetParameter:
 ;
 
 FacetParameter:
-	global=GlobalParam | faceFilter=FacetFilterParam;
+	global=GlobalParam | faceFilter=FacetFilterParam | nested=NestedParam;
 
 FacetFilterParam:
-	'"facet_filter"' ':' Filter;
+	'"facet_filter"' ':' FilterObject;
 
 // Common parameters for queries, filters and facets
 IntervalParam:
 	'"interval"' ':' INT;
+	
+NestedParam:
+	'"nested"' ':' STRING;
 	
 TimeIntervalParam:
 	'"time_interval"' ':' STRING;

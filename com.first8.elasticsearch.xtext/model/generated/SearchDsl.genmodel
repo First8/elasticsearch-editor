@@ -147,10 +147,10 @@
     <genClasses ecoreClass="SearchDsl.ecore#//FacetsObject">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//FacetsObject/facetName"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//FacetsObject/config"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//FacetsObject/params"/>
     </genClasses>
     <genClasses ecoreClass="SearchDsl.ecore#//FacetTypeObject">
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//FacetTypeObject/facetType"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//FacetTypeObject/params"/>
     </genClasses>
     <genClasses ecoreClass="SearchDsl.ecore#//FacetType">
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//FacetType/facetType"/>
@@ -214,6 +214,7 @@
     <genClasses ecoreClass="SearchDsl.ecore#//FacetParameter">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//FacetParameter/global"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SearchDsl.ecore#//FacetParameter/faceFilter"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SearchDsl.ecore#//FacetParameter/nested"/>
     </genClasses>
     <genClasses ecoreClass="SearchDsl.ecore#//FacetFilterParam"/>
     <genClasses ecoreClass="SearchDsl.ecore#//AllTermsParam">

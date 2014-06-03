@@ -363,7 +363,6 @@ public class SearchSwitch<T> extends Switch<T>
         Filter filter = (Filter)theEObject;
         T result = caseFilter(filter);
         if (result == null) result = caseFilterFacet(filter);
-        if (result == null) result = caseFacetFilterParam(filter);
         if (result == null) result = caseConstantScoreQueryObject(filter);
         if (result == null) result = caseFacetType(filter);
         if (result == null) result = caseConstantScoreQuery(filter);
@@ -374,6 +373,7 @@ public class SearchSwitch<T> extends Switch<T>
       {
         FilterObject filterObject = (FilterObject)theEObject;
         T result = caseFilterObject(filterObject);
+        if (result == null) result = caseFacetFilterParam(filterObject);
         if (result == null) result = defaultCase(theEObject);
         return result;
       }
@@ -382,6 +382,7 @@ public class SearchSwitch<T> extends Switch<T>
         FilterType filterType = (FilterType)theEObject;
         T result = caseFilterType(filterType);
         if (result == null) result = caseFilterObject(filterType);
+        if (result == null) result = caseFacetFilterParam(filterType);
         if (result == null) result = defaultCase(theEObject);
         return result;
       }

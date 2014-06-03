@@ -2,26 +2,18 @@
  */
 package com.first8.elasticsearch.dsl.search.impl;
 
-import com.first8.elasticsearch.dsl.search.FacetParameter;
 import com.first8.elasticsearch.dsl.search.FacetType;
 import com.first8.elasticsearch.dsl.search.FacetTypeObject;
 import com.first8.elasticsearch.dsl.search.SearchPackage;
 
-import java.util.Collection;
-
 import org.eclipse.emf.common.notify.Notification;
 import org.eclipse.emf.common.notify.NotificationChain;
-
-import org.eclipse.emf.common.util.EList;
 
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.InternalEObject;
 
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
 import org.eclipse.emf.ecore.impl.MinimalEObjectImpl;
-
-import org.eclipse.emf.ecore.util.EObjectContainmentEList;
-import org.eclipse.emf.ecore.util.InternalEList;
 
 /**
  * <!-- begin-user-doc -->
@@ -31,7 +23,6 @@ import org.eclipse.emf.ecore.util.InternalEList;
  * The following features are implemented:
  * <ul>
  *   <li>{@link com.first8.elasticsearch.dsl.search.impl.FacetTypeObjectImpl#getFacetType <em>Facet Type</em>}</li>
- *   <li>{@link com.first8.elasticsearch.dsl.search.impl.FacetTypeObjectImpl#getParams <em>Params</em>}</li>
  * </ul>
  * </p>
  *
@@ -48,16 +39,6 @@ public class FacetTypeObjectImpl extends MinimalEObjectImpl.Container implements
    * @ordered
    */
   protected FacetType facetType;
-
-  /**
-   * The cached value of the '{@link #getParams() <em>Params</em>}' containment reference list.
-   * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
-   * @see #getParams()
-   * @generated
-   * @ordered
-   */
-  protected EList<FacetParameter> params;
 
   /**
    * <!-- begin-user-doc -->
@@ -133,20 +114,6 @@ public class FacetTypeObjectImpl extends MinimalEObjectImpl.Container implements
    * <!-- end-user-doc -->
    * @generated
    */
-  public EList<FacetParameter> getParams()
-  {
-    if (params == null)
-    {
-      params = new EObjectContainmentEList<FacetParameter>(FacetParameter.class, this, SearchPackage.FACET_TYPE_OBJECT__PARAMS);
-    }
-    return params;
-  }
-
-  /**
-   * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
-   * @generated
-   */
   @Override
   public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs)
   {
@@ -154,8 +121,6 @@ public class FacetTypeObjectImpl extends MinimalEObjectImpl.Container implements
     {
       case SearchPackage.FACET_TYPE_OBJECT__FACET_TYPE:
         return basicSetFacetType(null, msgs);
-      case SearchPackage.FACET_TYPE_OBJECT__PARAMS:
-        return ((InternalEList<?>)getParams()).basicRemove(otherEnd, msgs);
     }
     return super.eInverseRemove(otherEnd, featureID, msgs);
   }
@@ -172,8 +137,6 @@ public class FacetTypeObjectImpl extends MinimalEObjectImpl.Container implements
     {
       case SearchPackage.FACET_TYPE_OBJECT__FACET_TYPE:
         return getFacetType();
-      case SearchPackage.FACET_TYPE_OBJECT__PARAMS:
-        return getParams();
     }
     return super.eGet(featureID, resolve, coreType);
   }
@@ -183,7 +146,6 @@ public class FacetTypeObjectImpl extends MinimalEObjectImpl.Container implements
    * <!-- end-user-doc -->
    * @generated
    */
-  @SuppressWarnings("unchecked")
   @Override
   public void eSet(int featureID, Object newValue)
   {
@@ -191,10 +153,6 @@ public class FacetTypeObjectImpl extends MinimalEObjectImpl.Container implements
     {
       case SearchPackage.FACET_TYPE_OBJECT__FACET_TYPE:
         setFacetType((FacetType)newValue);
-        return;
-      case SearchPackage.FACET_TYPE_OBJECT__PARAMS:
-        getParams().clear();
-        getParams().addAll((Collection<? extends FacetParameter>)newValue);
         return;
     }
     super.eSet(featureID, newValue);
@@ -213,9 +171,6 @@ public class FacetTypeObjectImpl extends MinimalEObjectImpl.Container implements
       case SearchPackage.FACET_TYPE_OBJECT__FACET_TYPE:
         setFacetType((FacetType)null);
         return;
-      case SearchPackage.FACET_TYPE_OBJECT__PARAMS:
-        getParams().clear();
-        return;
     }
     super.eUnset(featureID);
   }
@@ -232,8 +187,6 @@ public class FacetTypeObjectImpl extends MinimalEObjectImpl.Container implements
     {
       case SearchPackage.FACET_TYPE_OBJECT__FACET_TYPE:
         return facetType != null;
-      case SearchPackage.FACET_TYPE_OBJECT__PARAMS:
-        return params != null && !params.isEmpty();
     }
     return super.eIsSet(featureID);
   }

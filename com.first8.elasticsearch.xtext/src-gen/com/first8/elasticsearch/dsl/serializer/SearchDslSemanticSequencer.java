@@ -250,7 +250,6 @@ public class SearchDslSemanticSequencer extends AbstractDelegatingSemanticSequen
 			case SearchPackage.FILTER:
 				if(context == grammarAccess.getConstantScoreQueryRule() ||
 				   context == grammarAccess.getConstantScoreQueryObjectRule() ||
-				   context == grammarAccess.getFacetFilterParamRule() ||
 				   context == grammarAccess.getFacetTypeRule() ||
 				   context == grammarAccess.getFilterRule() ||
 				   context == grammarAccess.getFilterFacetRule()) {
@@ -259,7 +258,8 @@ public class SearchDslSemanticSequencer extends AbstractDelegatingSemanticSequen
 				}
 				else break;
 			case SearchPackage.FILTER_TYPE:
-				if(context == grammarAccess.getFilterObjectRule() ||
+				if(context == grammarAccess.getFacetFilterParamRule() ||
+				   context == grammarAccess.getFilterObjectRule() ||
 				   context == grammarAccess.getFilterTypeRule()) {
 					sequence_FilterType(context, (FilterType) semanticObject); 
 					return; 
@@ -1063,7 +1063,7 @@ public class SearchDslSemanticSequencer extends AbstractDelegatingSemanticSequen
 	
 	/**
 	 * Constraint:
-	 *     (global=GlobalParam | faceFilter=FacetFilterParam)
+	 *     (global=GlobalParam | faceFilter=FacetFilterParam | nested=NestedParam)
 	 */
 	protected void sequence_FacetParameter(EObject context, FacetParameter semanticObject) {
 		genericSequencer.createSequence(context, semanticObject);
@@ -1072,10 +1072,17 @@ public class SearchDslSemanticSequencer extends AbstractDelegatingSemanticSequen
 	
 	/**
 	 * Constraint:
-	 *     (facetType=FacetType params+=FacetParameter*)
+	 *     facetType=FacetType
 	 */
 	protected void sequence_FacetTypeObject(EObject context, FacetTypeObject semanticObject) {
-		genericSequencer.createSequence(context, semanticObject);
+		if(errorAcceptor != null) {
+			if(transientValues.isValueTransient(semanticObject, SearchPackage.eINSTANCE.getFacetTypeObject_FacetType()) == ValueTransient.YES)
+				errorAcceptor.accept(diagnosticProvider.createFeatureValueMissing(semanticObject, SearchPackage.eINSTANCE.getFacetTypeObject_FacetType()));
+		}
+		INodesForEObjectProvider nodes = createNodeProvider(semanticObject);
+		SequenceFeeder feeder = createSequencerFeeder(semanticObject, nodes);
+		feeder.accept(grammarAccess.getFacetTypeObjectAccess().getFacetTypeFacetTypeParserRuleCall_1_0(), semanticObject.getFacetType());
+		feeder.finish();
 	}
 	
 	
@@ -1097,20 +1104,10 @@ public class SearchDslSemanticSequencer extends AbstractDelegatingSemanticSequen
 	
 	/**
 	 * Constraint:
-	 *     (facetName=STRING config=FacetTypeObject)
+	 *     (facetName=STRING config=FacetTypeObject params+=FacetParameter*)
 	 */
 	protected void sequence_FacetsObject(EObject context, FacetsObject semanticObject) {
-		if(errorAcceptor != null) {
-			if(transientValues.isValueTransient(semanticObject, SearchPackage.eINSTANCE.getFacetsObject_FacetName()) == ValueTransient.YES)
-				errorAcceptor.accept(diagnosticProvider.createFeatureValueMissing(semanticObject, SearchPackage.eINSTANCE.getFacetsObject_FacetName()));
-			if(transientValues.isValueTransient(semanticObject, SearchPackage.eINSTANCE.getFacetsObject_Config()) == ValueTransient.YES)
-				errorAcceptor.accept(diagnosticProvider.createFeatureValueMissing(semanticObject, SearchPackage.eINSTANCE.getFacetsObject_Config()));
-		}
-		INodesForEObjectProvider nodes = createNodeProvider(semanticObject);
-		SequenceFeeder feeder = createSequencerFeeder(semanticObject, nodes);
-		feeder.accept(grammarAccess.getFacetsObjectAccess().getFacetNameSTRINGTerminalRuleCall_1_0(), semanticObject.getFacetName());
-		feeder.accept(grammarAccess.getFacetsObjectAccess().getConfigFacetTypeObjectParserRuleCall_3_0(), semanticObject.getConfig());
-		feeder.finish();
+		genericSequencer.createSequence(context, semanticObject);
 	}
 	
 	

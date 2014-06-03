@@ -2,8 +2,6 @@
  */
 package com.first8.elasticsearch.dsl.search;
 
-import org.eclipse.emf.common.util.EList;
-
 import org.eclipse.emf.ecore.EObject;
 
 /**
@@ -15,7 +13,6 @@ import org.eclipse.emf.ecore.EObject;
  * The following features are supported:
  * <ul>
  *   <li>{@link com.first8.elasticsearch.dsl.search.FacetTypeObject#getFacetType <em>Facet Type</em>}</li>
- *   <li>{@link com.first8.elasticsearch.dsl.search.FacetTypeObject#getParams <em>Params</em>}</li>
  * </ul>
  * </p>
  *
@@ -50,21 +47,5 @@ public interface FacetTypeObject extends EObject
    * @generated
    */
   void setFacetType(FacetType value);
-
-  /**
-   * Returns the value of the '<em><b>Params</b></em>' containment reference list.
-   * The list contents are of type {@link com.first8.elasticsearch.dsl.search.FacetParameter}.
-   * <!-- begin-user-doc -->
-   * <p>
-   * If the meaning of the '<em>Params</em>' containment reference list isn't clear,
-   * there really should be more of a description here...
-   * </p>
-   * <!-- end-user-doc -->
-   * @return the value of the '<em>Params</em>' containment reference list.
-   * @see com.first8.elasticsearch.dsl.search.SearchPackage#getFacetTypeObject_Params()
-   * @model containment="true"
-   * @generated
-   */
-  EList<FacetParameter> getParams();
 
 } // FacetTypeObject

@@ -2,7 +2,6 @@
  */
 package com.first8.elasticsearch.dsl.search;
 
-import org.eclipse.emf.ecore.EObject;
 
 /**
  * <!-- begin-user-doc -->
@@ -14,6 +13,6 @@ import org.eclipse.emf.ecore.EObject;
  * @model
  * @generated
  */
-public interface FilterObject extends EObject
+public interface FilterObject extends FacetFilterParam
 {
 } // FilterObject

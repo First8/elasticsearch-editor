@@ -24,6 +24,7 @@ import org.eclipse.emf.ecore.impl.MinimalEObjectImpl;
  * <ul>
  *   <li>{@link com.first8.elasticsearch.dsl.search.impl.FacetParameterImpl#getGlobal <em>Global</em>}</li>
  *   <li>{@link com.first8.elasticsearch.dsl.search.impl.FacetParameterImpl#getFaceFilter <em>Face Filter</em>}</li>
+ *   <li>{@link com.first8.elasticsearch.dsl.search.impl.FacetParameterImpl#getNested <em>Nested</em>}</li>
  * </ul>
  * </p>
  *
@@ -60,6 +61,26 @@ public class FacetParameterImpl extends MinimalEObjectImpl.Container implements 
    * @ordered
    */
   protected FacetFilterParam faceFilter;
+
+  /**
+   * The default value of the '{@link #getNested() <em>Nested</em>}' attribute.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @see #getNested()
+   * @generated
+   * @ordered
+   */
+  protected static final String NESTED_EDEFAULT = null;
+
+  /**
+   * The cached value of the '{@link #getNested() <em>Nested</em>}' attribute.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @see #getNested()
+   * @generated
+   * @ordered
+   */
+  protected String nested = NESTED_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -158,6 +179,29 @@ public class FacetParameterImpl extends MinimalEObjectImpl.Container implements 
    * <!-- end-user-doc -->
    * @generated
    */
+  public String getNested()
+  {
+    return nested;
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  public void setNested(String newNested)
+  {
+    String oldNested = nested;
+    nested = newNested;
+    if (eNotificationRequired())
+      eNotify(new ENotificationImpl(this, Notification.SET, SearchPackage.FACET_PARAMETER__NESTED, oldNested, nested));
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
   @Override
   public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs)
   {
@@ -183,6 +227,8 @@ public class FacetParameterImpl extends MinimalEObjectImpl.Container implements 
         return getGlobal();
       case SearchPackage.FACET_PARAMETER__FACE_FILTER:
         return getFaceFilter();
+      case SearchPackage.FACET_PARAMETER__NESTED:
+        return getNested();
     }
     return super.eGet(featureID, resolve, coreType);
   }
@@ -202,6 +248,9 @@ public class FacetParameterImpl extends MinimalEObjectImpl.Container implements 
         return;
       case SearchPackage.FACET_PARAMETER__FACE_FILTER:
         setFaceFilter((FacetFilterParam)newValue);
+        return;
+      case SearchPackage.FACET_PARAMETER__NESTED:
+        setNested((String)newValue);
         return;
     }
     super.eSet(featureID, newValue);
@@ -223,6 +272,9 @@ public class FacetParameterImpl extends MinimalEObjectImpl.Container implements 
       case SearchPackage.FACET_PARAMETER__FACE_FILTER:
         setFaceFilter((FacetFilterParam)null);
         return;
+      case SearchPackage.FACET_PARAMETER__NESTED:
+        setNested(NESTED_EDEFAULT);
+        return;
     }
     super.eUnset(featureID);
   }
@@ -241,6 +293,8 @@ public class FacetParameterImpl extends MinimalEObjectImpl.Container implements 
         return GLOBAL_EDEFAULT == null ? global != null : !GLOBAL_EDEFAULT.equals(global);
       case SearchPackage.FACET_PARAMETER__FACE_FILTER:
         return faceFilter != null;
+      case SearchPackage.FACET_PARAMETER__NESTED:
+        return NESTED_EDEFAULT == null ? nested != null : !NESTED_EDEFAULT.equals(nested);
     }
     return super.eIsSet(featureID);
   }
@@ -258,6 +312,8 @@ public class FacetParameterImpl extends MinimalEObjectImpl.Container implements 
     StringBuffer result = new StringBuffer(super.toString());
     result.append(" (global: ");
     result.append(global);
+    result.append(", nested: ");
+    result.append(nested);
     result.append(')');
     return result.toString();
   }

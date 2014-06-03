@@ -10,7 +10,8 @@ import org.eclipse.xtext.formatting.impl.FormattingConfig;
 import org.eclipse.xtext.util.Pair;
 
 /**
- * Based on http://blog.dietmar-stoll.de/2011/02/quickly-formatting-dsls-with-xtext.html.
+ * Based on
+ * http://blog.dietmar-stoll.de/2011/02/quickly-formatting-dsls-with-xtext.html.
  */
 public class GenericFormatter {
 
@@ -37,16 +38,14 @@ public class GenericFormatter {
 			// indentation between
 			config.setIndentation(pair.getFirst(), pair.getSecond());
 			// and a linewrap before the last '{'
-			config.setLinewrap(1).before(pair.getSecond());
+			 config.setLinewrap(1).before(pair.getSecond());
 		}
 
 		// linewrap before all keywords
-		final Set<String> allKeywords = GrammarUtil.getAllKeywords(grammar
-				.getGrammar());
-		final List<Keyword> keywords = grammar.findKeywords(allKeywords
-				.toArray(new String[allKeywords.size()]));
+
+		final List<Keyword> keywords = grammar.findKeywords(",", "{");
 		for (final Keyword keyword : keywords) {
-			config.setLinewrap().before(keyword);
+			config.setLinewrap().after(keyword);
 		}
 	}
 }

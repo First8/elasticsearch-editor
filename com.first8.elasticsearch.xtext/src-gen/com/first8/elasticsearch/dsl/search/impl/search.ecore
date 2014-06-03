@@ -79,11 +79,11 @@
     <eStructuralFeatures xsi:type="ecore:EReference" name="query" eType="#//QueryObject"
         containment="true"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="Filter" eSuperTypes="#//FilterFacet #//FacetFilterParam #//ConstantScoreQueryObject">
+  <eClassifiers xsi:type="ecore:EClass" name="Filter" eSuperTypes="#//FilterFacet #//ConstantScoreQueryObject">
     <eStructuralFeatures xsi:type="ecore:EReference" name="filter" eType="#//FilterObject"
         containment="true"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="FilterObject"/>
+  <eClassifiers xsi:type="ecore:EClass" name="FilterObject" eSuperTypes="#//FacetFilterParam"/>
   <eClassifiers xsi:type="ecore:EClass" name="FilterType" eSuperTypes="#//FilterObject">
     <eStructuralFeatures xsi:type="ecore:EReference" name="and" eType="#//AndFilter"
         containment="true"/>
@@ -218,12 +218,12 @@
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="facetName" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="config" eType="#//FacetTypeObject"
         containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="params" upperBound="-1"
+        eType="#//FacetParameter" containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="FacetTypeObject">
     <eStructuralFeatures xsi:type="ecore:EReference" name="facetType" eType="#//FacetType"
         containment="true"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="params" upperBound="-1"
-        eType="#//FacetParameter" containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="FacetType">
     <eStructuralFeatures xsi:type="ecore:EReference" name="facetType" eType="#//TermsFacet"
@@ -302,6 +302,7 @@
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="global" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="faceFilter" eType="#//FacetFilterParam"
         containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="nested" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="FacetFilterParam"/>
   <eClassifiers xsi:type="ecore:EClass" name="AllTermsParam">

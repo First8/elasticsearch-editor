@@ -1044,10 +1044,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__54;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:49:7: ( '\"time_interval\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:49:9: '\"time_interval\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:49:7: ( '\"nested\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:49:9: '\"nested\"'
             {
-            match("\"time_interval\""); 
+            match("\"nested\""); 
 
 
             }
@@ -1065,10 +1065,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__55;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:50:7: ( '\"to\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:50:9: '\"to\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:50:7: ( '\"time_interval\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:50:9: '\"time_interval\"'
             {
-            match("\"to\""); 
+            match("\"time_interval\""); 
 
 
             }
@@ -1086,10 +1086,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__56;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:51:7: ( '\"count\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:51:9: '\"count\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:51:7: ( '\"to\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:51:9: '\"to\"'
             {
-            match("\"count\""); 
+            match("\"to\""); 
 
 
             }
@@ -1107,10 +1107,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__57;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:52:7: ( '\"term\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:52:9: '\"term\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:52:7: ( '\"count\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:52:9: '\"count\"'
             {
-            match("\"term\""); 
+            match("\"count\""); 
 
 
             }
@@ -1128,10 +1128,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__58;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:53:7: ( '\"reverse_count\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:53:9: '\"reverse_count\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:53:7: ( '\"term\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:53:9: '\"term\"'
             {
-            match("\"reverse_count\""); 
+            match("\"term\""); 
 
 
             }
@@ -1149,10 +1149,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__59;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:54:7: ( '\"reverse_term\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:54:9: '\"reverse_term\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:54:7: ( '\"reverse_count\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:54:9: '\"reverse_count\"'
             {
-            match("\"reverse_term\""); 
+            match("\"reverse_count\""); 
 
 
             }
@@ -1170,10 +1170,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__60;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:55:7: ( '\"all_terms\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:55:9: '\"all_terms\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:55:7: ( '\"reverse_term\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:55:9: '\"reverse_term\"'
             {
-            match("\"all_terms\""); 
+            match("\"reverse_term\""); 
 
 
             }
@@ -1191,10 +1191,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__61;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:56:7: ( '\"exclude\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:56:9: '\"exclude\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:56:7: ( '\"all_terms\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:56:9: '\"all_terms\"'
             {
-            match("\"exclude\""); 
+            match("\"all_terms\""); 
 
 
             }
@@ -1212,10 +1212,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__62;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:57:7: ( '\"script\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:57:9: '\"script\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:57:7: ( '\"exclude\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:57:9: '\"exclude\"'
             {
-            match("\"script\""); 
+            match("\"exclude\""); 
 
 
             }
@@ -1233,10 +1233,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__63;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:58:7: ( '\"script_field\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:58:9: '\"script_field\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:58:7: ( '\"script\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:58:9: '\"script\"'
             {
-            match("\"script_field\""); 
+            match("\"script\""); 
 
 
             }
@@ -1254,10 +1254,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__64;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:59:7: ( '\"regex\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:59:9: '\"regex\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:59:7: ( '\"script_field\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:59:9: '\"script_field\"'
             {
-            match("\"regex\""); 
+            match("\"script_field\""); 
 
 
             }
@@ -1275,10 +1275,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__65;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:60:7: ( '\"regex_flags\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:60:9: '\"regex_flags\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:60:7: ( '\"regex\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:60:9: '\"regex\"'
             {
-            match("\"regex_flags\""); 
+            match("\"regex\""); 
 
 
             }
@@ -1296,10 +1296,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__66;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:61:7: ( '\"global\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:61:9: '\"global\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:61:7: ( '\"regex_flags\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:61:9: '\"regex_flags\"'
             {
-            match("\"global\""); 
+            match("\"regex_flags\""); 
 
 
             }
@@ -1317,10 +1317,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__67;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:62:7: ( '\"cutoff_frequency\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:62:9: '\"cutoff_frequency\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:62:7: ( '\"global\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:62:9: '\"global\"'
             {
-            match("\"cutoff_frequency\""); 
+            match("\"global\""); 
 
 
             }
@@ -1338,10 +1338,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__68;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:63:7: ( '\"zero_terms_query\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:63:9: '\"zero_terms_query\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:63:7: ( '\"cutoff_frequency\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:63:9: '\"cutoff_frequency\"'
             {
-            match("\"zero_terms_query\""); 
+            match("\"cutoff_frequency\""); 
 
 
             }
@@ -1359,10 +1359,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__69;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:64:7: ( '\"minimum_should_match\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:64:9: '\"minimum_should_match\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:64:7: ( '\"zero_terms_query\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:64:9: '\"zero_terms_query\"'
             {
-            match("\"minimum_should_match\""); 
+            match("\"zero_terms_query\""); 
 
 
             }
@@ -1380,10 +1380,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__70;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:65:7: ( '\"low_freq\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:65:9: '\"low_freq\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:65:7: ( '\"minimum_should_match\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:65:9: '\"minimum_should_match\"'
             {
-            match("\"low_freq\""); 
+            match("\"minimum_should_match\""); 
 
 
             }
@@ -1401,10 +1401,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__71;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:66:7: ( '\"high_freq\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:66:9: '\"high_freq\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:66:7: ( '\"low_freq\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:66:9: '\"low_freq\"'
             {
-            match("\"high_freq\""); 
+            match("\"low_freq\""); 
 
 
             }
@@ -1422,10 +1422,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__72;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:67:7: ( '\"existence\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:67:9: '\"existence\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:67:7: ( '\"high_freq\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:67:9: '\"high_freq\"'
             {
-            match("\"existence\""); 
+            match("\"high_freq\""); 
 
 
             }
@@ -1443,10 +1443,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__73;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:68:7: ( '\"null_value\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:68:9: '\"null_value\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:68:7: ( '\"existence\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:68:9: '\"existence\"'
             {
-            match("\"null_value\""); 
+            match("\"existence\""); 
 
 
             }
@@ -1464,10 +1464,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__74;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:69:7: ( '\"min_term_freq\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:69:9: '\"min_term_freq\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:69:7: ( '\"null_value\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:69:9: '\"null_value\"'
             {
-            match("\"min_term_freq\""); 
+            match("\"null_value\""); 
 
 
             }
@@ -1485,10 +1485,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__75;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:70:7: ( '\"low_freq_operator\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:70:9: '\"low_freq_operator\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:70:7: ( '\"min_term_freq\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:70:9: '\"min_term_freq\"'
             {
-            match("\"low_freq_operator\""); 
+            match("\"min_term_freq\""); 
 
 
             }
@@ -1506,10 +1506,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__76;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:71:7: ( '\"operator\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:71:9: '\"operator\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:71:7: ( '\"low_freq_operator\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:71:9: '\"low_freq_operator\"'
             {
-            match("\"operator\""); 
+            match("\"low_freq_operator\""); 
 
 
             }
@@ -1527,10 +1527,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__77;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:72:7: ( '\"boost\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:72:9: '\"boost\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:72:7: ( '\"operator\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:72:9: '\"operator\"'
             {
-            match("\"boost\""); 
+            match("\"operator\""); 
 
 
             }
@@ -1548,10 +1548,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__78;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:73:7: ( '\"analyzer\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:73:9: '\"analyzer\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:73:7: ( '\"boost\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:73:9: '\"boost\"'
             {
-            match("\"analyzer\""); 
+            match("\"boost\""); 
 
 
             }
@@ -1569,10 +1569,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__79;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:74:7: ( '\"flags\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:74:9: '\"flags\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:74:7: ( '\"analyzer\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:74:9: '\"analyzer\"'
             {
-            match("\"flags\""); 
+            match("\"analyzer\""); 
 
 
             }
@@ -1590,10 +1590,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__80;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:75:7: ( '\"disable_coord\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:75:9: '\"disable_coord\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:75:7: ( '\"flags\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:75:9: '\"flags\"'
             {
-            match("\"disable_coord\""); 
+            match("\"flags\""); 
 
 
             }
@@ -1611,10 +1611,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__81;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:76:7: ( '\"tie_breaker\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:76:9: '\"tie_breaker\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:76:7: ( '\"disable_coord\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:76:9: '\"disable_coord\"'
             {
-            match("\"tie_breaker\""); 
+            match("\"disable_coord\""); 
 
 
             }
@@ -1632,10 +1632,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__82;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:77:7: ( '\"percent_terms_to_match\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:77:9: '\"percent_terms_to_match\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:77:7: ( '\"tie_breaker\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:77:9: '\"tie_breaker\"'
             {
-            match("\"percent_terms_to_match\""); 
+            match("\"tie_breaker\""); 
 
 
             }
@@ -1653,10 +1653,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__83;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:78:7: ( '\"stop_words\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:78:9: '\"stop_words\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:78:7: ( '\"percent_terms_to_match\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:78:9: '\"percent_terms_to_match\"'
             {
-            match("\"stop_words\""); 
+            match("\"percent_terms_to_match\""); 
 
 
             }
@@ -1674,10 +1674,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__84;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:79:7: ( '\"min_doc_freq\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:79:9: '\"min_doc_freq\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:79:7: ( '\"stop_words\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:79:9: '\"stop_words\"'
             {
-            match("\"min_doc_freq\""); 
+            match("\"stop_words\""); 
 
 
             }
@@ -1695,10 +1695,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__85;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:80:7: ( '\"max_doc_freq\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:80:9: '\"max_doc_freq\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:80:7: ( '\"min_doc_freq\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:80:9: '\"min_doc_freq\"'
             {
-            match("\"max_doc_freq\""); 
+            match("\"min_doc_freq\""); 
 
 
             }
@@ -1716,10 +1716,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__86;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:81:7: ( '\"min_word_length\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:81:9: '\"min_word_length\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:81:7: ( '\"max_doc_freq\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:81:9: '\"max_doc_freq\"'
             {
-            match("\"min_word_length\""); 
+            match("\"max_doc_freq\""); 
 
 
             }
@@ -1737,10 +1737,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__87;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:82:7: ( '\"max_word_length\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:82:9: '\"max_word_length\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:82:7: ( '\"min_word_length\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:82:9: '\"min_word_length\"'
             {
-            match("\"max_word_length\""); 
+            match("\"min_word_length\""); 
 
 
             }
@@ -1758,10 +1758,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__88;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:83:7: ( '\"boost_terms\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:83:9: '\"boost_terms\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:83:7: ( '\"max_word_length\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:83:9: '\"max_word_length\"'
             {
-            match("\"boost_terms\""); 
+            match("\"max_word_length\""); 
 
 
             }
@@ -1779,10 +1779,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__89;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:84:7: ( '\"gte\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:84:9: '\"gte\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:84:7: ( '\"boost_terms\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:84:9: '\"boost_terms\"'
             {
-            match("\"gte\""); 
+            match("\"boost_terms\""); 
 
 
             }
@@ -1800,10 +1800,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__90;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:85:7: ( '\"gt\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:85:9: '\"gt\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:85:7: ( '\"gte\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:85:9: '\"gte\"'
             {
-            match("\"gt\""); 
+            match("\"gte\""); 
 
 
             }
@@ -1821,10 +1821,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__91;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:86:7: ( '\"lt\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:86:9: '\"lt\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:86:7: ( '\"gt\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:86:9: '\"gt\"'
             {
-            match("\"lt\""); 
+            match("\"gt\""); 
 
 
             }
@@ -1842,10 +1842,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__92;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:87:7: ( '\"lte\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:87:9: '\"lte\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:87:7: ( '\"lt\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:87:9: '\"lt\"'
             {
-            match("\"lte\""); 
+            match("\"lt\""); 
 
 
             }
@@ -1863,10 +1863,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__93;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:88:7: ( '\"type\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:88:9: '\"type\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:88:7: ( '\"lte\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:88:9: '\"lte\"'
             {
-            match("\"type\""); 
+            match("\"lte\""); 
 
 
             }
@@ -1884,10 +1884,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__94;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:89:7: ( '\"indexed\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:89:9: '\"indexed\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:89:7: ( '\"type\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:89:9: '\"type\"'
             {
-            match("\"indexed\""); 
+            match("\"type\""); 
 
 
             }
@@ -1905,10 +1905,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__95;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:90:7: ( '\"memory\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:90:9: '\"memory\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:90:7: ( '\"indexed\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:90:9: '\"indexed\"'
             {
-            match("\"memory\""); 
+            match("\"indexed\""); 
 
 
             }
@@ -1926,10 +1926,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__96;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:91:7: ( '\"slop\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:91:9: '\"slop\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:91:7: ( '\"memory\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:91:9: '\"memory\"'
             {
-            match("\"slop\""); 
+            match("\"memory\""); 
 
 
             }
@@ -1947,10 +1947,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__97;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:92:7: ( '\"field\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:92:9: '\"field\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:92:7: ( '\"slop\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:92:9: '\"slop\"'
             {
-            match("\"field\""); 
+            match("\"slop\""); 
 
 
             }
@@ -1968,10 +1968,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__98;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:93:7: ( '\"default_field\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:93:9: '\"default_field\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:93:7: ( '\"field\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:93:9: '\"field\"'
             {
-            match("\"default_field\""); 
+            match("\"field\""); 
 
 
             }
@@ -1989,10 +1989,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__99;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:94:7: ( '\"default_operator\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:94:9: '\"default_operator\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:94:7: ( '\"default_field\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:94:9: '\"default_field\"'
             {
-            match("\"default_operator\""); 
+            match("\"default_field\""); 
 
 
             }
@@ -2010,10 +2010,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__100;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:95:8: ( '\"allow_leading_wildcard\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:95:10: '\"allow_leading_wildcard\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:95:8: ( '\"default_operator\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:95:10: '\"default_operator\"'
             {
-            match("\"allow_leading_wildcard\""); 
+            match("\"default_operator\""); 
 
 
             }
@@ -2031,10 +2031,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__101;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:96:8: ( '\"lowercase_expanded_terms\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:96:10: '\"lowercase_expanded_terms\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:96:8: ( '\"allow_leading_wildcard\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:96:10: '\"allow_leading_wildcard\"'
             {
-            match("\"lowercase_expanded_terms\""); 
+            match("\"allow_leading_wildcard\""); 
 
 
             }
@@ -2052,10 +2052,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__102;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:97:8: ( '\"enable_position_increments\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:97:10: '\"enable_position_increments\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:97:8: ( '\"lowercase_expanded_terms\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:97:10: '\"lowercase_expanded_terms\"'
             {
-            match("\"enable_position_increments\""); 
+            match("\"lowercase_expanded_terms\""); 
 
 
             }
@@ -2073,10 +2073,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__103;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:98:8: ( '\"fuzzy_max_expansions\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:98:10: '\"fuzzy_max_expansions\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:98:8: ( '\"enable_position_increments\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:98:10: '\"enable_position_increments\"'
             {
-            match("\"fuzzy_max_expansions\""); 
+            match("\"enable_position_increments\""); 
 
 
             }
@@ -2094,10 +2094,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__104;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:99:8: ( '\"fuzzy_prefix_length\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:99:10: '\"fuzzy_prefix_length\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:99:8: ( '\"fuzzy_max_expansions\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:99:10: '\"fuzzy_max_expansions\"'
             {
-            match("\"fuzzy_prefix_length\""); 
+            match("\"fuzzy_max_expansions\""); 
 
 
             }
@@ -2115,10 +2115,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__105;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:100:8: ( '\"phrase_slop\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:100:10: '\"phrase_slop\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:100:8: ( '\"fuzzy_prefix_length\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:100:10: '\"fuzzy_prefix_length\"'
             {
-            match("\"phrase_slop\""); 
+            match("\"fuzzy_prefix_length\""); 
 
 
             }
@@ -2136,10 +2136,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__106;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:101:8: ( '\"analyze_wildcard\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:101:10: '\"analyze_wildcard\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:101:8: ( '\"phrase_slop\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:101:10: '\"phrase_slop\"'
             {
-            match("\"analyze_wildcard\""); 
+            match("\"phrase_slop\""); 
 
 
             }
@@ -2157,10 +2157,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__107;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:102:8: ( '\"auto_generate_phrase_queries\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:102:10: '\"auto_generate_phrase_queries\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:102:8: ( '\"analyze_wildcard\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:102:10: '\"analyze_wildcard\"'
             {
-            match("\"auto_generate_phrase_queries\""); 
+            match("\"analyze_wildcard\""); 
 
 
             }
@@ -2178,10 +2178,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__108;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:103:8: ( '\"lenient\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:103:10: '\"lenient\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:103:8: ( '\"auto_generate_phrase_queries\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:103:10: '\"auto_generate_phrase_queries\"'
             {
-            match("\"lenient\""); 
+            match("\"auto_generate_phrase_queries\""); 
 
 
             }
@@ -2199,10 +2199,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__109;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:104:8: ( '\"locale\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:104:10: '\"locale\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:104:8: ( '\"lenient\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:104:10: '\"lenient\"'
             {
-            match("\"locale\""); 
+            match("\"lenient\""); 
 
 
             }
@@ -2220,10 +2220,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__110;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:105:8: ( '\"ignore_tf\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:105:10: '\"ignore_tf\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:105:8: ( '\"locale\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:105:10: '\"locale\"'
             {
-            match("\"ignore_tf\""); 
+            match("\"locale\""); 
 
 
             }
@@ -2241,10 +2241,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__111;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:106:8: ( '\"max_query_terms\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:106:10: '\"max_query_terms\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:106:8: ( '\"ignore_tf\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:106:10: '\"ignore_tf\"'
             {
-            match("\"max_query_terms\""); 
+            match("\"ignore_tf\""); 
 
 
             }
@@ -2262,10 +2262,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__112;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:107:8: ( '\"fuzziness\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:107:10: '\"fuzziness\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:107:8: ( '\"max_query_terms\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:107:10: '\"max_query_terms\"'
             {
-            match("\"fuzziness\""); 
+            match("\"max_query_terms\""); 
 
 
             }
@@ -2283,10 +2283,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__113;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:108:8: ( '\"prefix_length\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:108:10: '\"prefix_length\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:108:8: ( '\"fuzziness\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:108:10: '\"fuzziness\"'
             {
-            match("\"prefix_length\""); 
+            match("\"fuzziness\""); 
 
 
             }
@@ -2304,10 +2304,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__114;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:109:8: ( '\"max_expansions\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:109:10: '\"max_expansions\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:109:8: ( '\"prefix_length\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:109:10: '\"prefix_length\"'
             {
-            match("\"max_expansions\""); 
+            match("\"prefix_length\""); 
 
 
             }
@@ -2325,10 +2325,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__115;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:110:8: ( '\"score_mode\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:110:10: '\"score_mode\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:110:8: ( '\"max_expansions\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:110:10: '\"max_expansions\"'
             {
-            match("\"score_mode\""); 
+            match("\"max_expansions\""); 
 
 
             }
@@ -2346,10 +2346,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__116;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:111:8: ( '\"score\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:111:10: '\"score\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:111:8: ( '\"score_mode\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:111:10: '\"score_mode\"'
             {
-            match("\"score\""); 
+            match("\"score_mode\""); 
 
 
             }
@@ -2367,10 +2367,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__117;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:112:8: ( '\"indices\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:112:10: '\"indices\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:112:8: ( '\"score\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:112:10: '\"score\"'
             {
-            match("\"indices\""); 
+            match("\"score\""); 
 
 
             }
@@ -2388,10 +2388,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__118;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:113:8: ( '\"index\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:113:10: '\"index\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:113:8: ( '\"indices\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:113:10: '\"indices\"'
             {
-            match("\"index\""); 
+            match("\"indices\""); 
 
 
             }
@@ -2409,10 +2409,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__119;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:114:8: ( '\"like_text\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:114:10: '\"like_text\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:114:8: ( '\"index\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:114:10: '\"index\"'
             {
-            match("\"like_text\""); 
+            match("\"index\""); 
 
 
             }
@@ -2430,10 +2430,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__120;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:115:8: ( '\"end\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:115:10: '\"end\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:115:8: ( '\"like_text\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:115:10: '\"like_text\"'
             {
-            match("\"end\""); 
+            match("\"like_text\""); 
 
 
             }
@@ -2451,10 +2451,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__121;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:116:8: ( '\"in_order\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:116:10: '\"in_order\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:116:8: ( '\"end\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:116:10: '\"end\"'
             {
-            match("\"in_order\""); 
+            match("\"end\""); 
 
 
             }
@@ -2472,10 +2472,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__122;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:117:8: ( '\"collect_payloads\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:117:10: '\"collect_payloads\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:117:8: ( '\"in_order\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:117:10: '\"in_order\"'
             {
-            match("\"collect_payloads\""); 
+            match("\"in_order\""); 
 
 
             }
@@ -2493,10 +2493,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__123;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:118:8: ( '\"factor\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:118:10: '\"factor\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:118:8: ( '\"collect_payloads\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:118:10: '\"collect_payloads\"'
             {
-            match("\"factor\""); 
+            match("\"collect_payloads\""); 
 
 
             }
@@ -2514,10 +2514,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__124;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:119:8: ( '\"incremental_factor\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:119:10: '\"incremental_factor\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:119:8: ( '\"factor\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:119:10: '\"factor\"'
             {
-            match("\"incremental_factor\""); 
+            match("\"factor\""); 
 
 
             }
@@ -2535,10 +2535,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__125;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:120:8: ( '\"_cache\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:120:10: '\"_cache\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:120:8: ( '\"incremental_factor\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:120:10: '\"incremental_factor\"'
             {
-            match("\"_cache\""); 
+            match("\"incremental_factor\""); 
 
 
             }
@@ -2556,10 +2556,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__126;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:121:8: ( '\"distance_type\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:121:10: '\"distance_type\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:121:8: ( '\"_cache\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:121:10: '\"_cache\"'
             {
-            match("\"distance_type\""); 
+            match("\"_cache\""); 
 
 
             }
@@ -2577,10 +2577,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__127;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:122:8: ( '\"arc\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:122:10: '\"arc\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:122:8: ( '\"distance_type\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:122:10: '\"distance_type\"'
             {
-            match("\"arc\""); 
+            match("\"distance_type\""); 
 
 
             }
@@ -2598,10 +2598,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__128;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:123:8: ( '\"sloppy_arc\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:123:10: '\"sloppy_arc\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:123:8: ( '\"arc\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:123:10: '\"arc\"'
             {
-            match("\"sloppy_arc\""); 
+            match("\"arc\""); 
 
 
             }
@@ -2619,10 +2619,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__129;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:124:8: ( '\"plane\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:124:10: '\"plane\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:124:8: ( '\"sloppy_arc\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:124:10: '\"sloppy_arc\"'
             {
-            match("\"plane\""); 
+            match("\"sloppy_arc\""); 
 
 
             }
@@ -2640,10 +2640,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__130;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:125:8: ( '\"optimize_bbox\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:125:10: '\"optimize_bbox\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:125:8: ( '\"plane\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:125:10: '\"plane\"'
             {
-            match("\"optimize_bbox\""); 
+            match("\"plane\""); 
 
 
             }
@@ -2661,10 +2661,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__131;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:126:8: ( '\"none\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:126:10: '\"none\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:126:8: ( '\"optimize_bbox\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:126:10: '\"optimize_bbox\"'
             {
-            match("\"none\""); 
+            match("\"optimize_bbox\""); 
 
 
             }
@@ -2682,10 +2682,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__132;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:127:8: ( '\"use_dis_max\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:127:10: '\"use_dis_max\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:127:8: ( '\"none\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:127:10: '\"none\"'
             {
-            match("\"use_dis_max\""); 
+            match("\"none\""); 
 
 
             }
@@ -2703,10 +2703,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__133;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:128:8: ( '\"match\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:128:10: '\"match\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:128:8: ( '\"use_dis_max\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:128:10: '\"use_dis_max\"'
             {
-            match("\"match\""); 
+            match("\"use_dis_max\""); 
 
 
             }
@@ -2724,10 +2724,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__134;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:129:8: ( '\"multi_match\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:129:10: '\"multi_match\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:129:8: ( '\"match\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:129:10: '\"match\"'
             {
-            match("\"multi_match\""); 
+            match("\"match\""); 
 
 
             }
@@ -2745,10 +2745,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__135;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:130:8: ( '\"best_fields\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:130:10: '\"best_fields\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:130:8: ( '\"multi_match\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:130:10: '\"multi_match\"'
             {
-            match("\"best_fields\""); 
+            match("\"multi_match\""); 
 
 
             }
@@ -2766,10 +2766,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__136;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:131:8: ( '\"most_fields\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:131:10: '\"most_fields\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:131:8: ( '\"best_fields\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:131:10: '\"best_fields\"'
             {
-            match("\"most_fields\""); 
+            match("\"best_fields\""); 
 
 
             }
@@ -2787,10 +2787,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__137;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:132:8: ( '\"cross_fields\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:132:10: '\"cross_fields\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:132:8: ( '\"most_fields\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:132:10: '\"most_fields\"'
             {
-            match("\"cross_fields\""); 
+            match("\"most_fields\""); 
 
 
             }
@@ -2808,10 +2808,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__138;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:133:8: ( '\"phrase\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:133:10: '\"phrase\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:133:8: ( '\"cross_fields\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:133:10: '\"cross_fields\"'
             {
-            match("\"phrase\""); 
+            match("\"cross_fields\""); 
 
 
             }
@@ -2829,10 +2829,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__139;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:134:8: ( '\"phrase_prefix\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:134:10: '\"phrase_prefix\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:134:8: ( '\"phrase\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:134:10: '\"phrase\"'
             {
-            match("\"phrase_prefix\""); 
+            match("\"phrase\""); 
 
 
             }
@@ -2850,10 +2850,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__140;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:135:8: ( '\"bool\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:135:10: '\"bool\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:135:8: ( '\"phrase_prefix\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:135:10: '\"phrase_prefix\"'
             {
-            match("\"bool\""); 
+            match("\"phrase_prefix\""); 
 
 
             }
@@ -2871,10 +2871,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__141;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:136:8: ( '\"common\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:136:10: '\"common\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:136:8: ( '\"bool\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:136:10: '\"bool\"'
             {
-            match("\"common\""); 
+            match("\"bool\""); 
 
 
             }
@@ -2892,10 +2892,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__142;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:137:8: ( '\"constant_score\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:137:10: '\"constant_score\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:137:8: ( '\"common\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:137:10: '\"common\"'
             {
-            match("\"constant_score\""); 
+            match("\"common\""); 
 
 
             }
@@ -2913,10 +2913,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__143;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:138:8: ( '\"dis_max\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:138:10: '\"dis_max\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:138:8: ( '\"constant_score\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:138:10: '\"constant_score\"'
             {
-            match("\"dis_max\""); 
+            match("\"constant_score\""); 
 
 
             }
@@ -2934,10 +2934,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__144;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:139:8: ( '\"queries\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:139:10: '\"queries\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:139:8: ( '\"dis_max\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:139:10: '\"dis_max\"'
             {
-            match("\"queries\""); 
+            match("\"dis_max\""); 
 
 
             }
@@ -2955,10 +2955,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__145;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:140:8: ( '\"filtered\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:140:10: '\"filtered\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:140:8: ( '\"queries\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:140:10: '\"queries\"'
             {
-            match("\"filtered\""); 
+            match("\"queries\""); 
 
 
             }
@@ -2976,10 +2976,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__146;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:141:8: ( '\"flt\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:141:10: '\"flt\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:141:8: ( '\"filtered\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:141:10: '\"filtered\"'
             {
-            match("\"flt\""); 
+            match("\"filtered\""); 
 
 
             }
@@ -2997,10 +2997,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__147;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:142:8: ( '\"fuzzy_like_this\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:142:10: '\"fuzzy_like_this\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:142:8: ( '\"flt\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:142:10: '\"flt\"'
             {
-            match("\"fuzzy_like_this\""); 
+            match("\"flt\""); 
 
 
             }
@@ -3018,10 +3018,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__148;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:143:8: ( '\"flt_field\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:143:10: '\"flt_field\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:143:8: ( '\"fuzzy_like_this\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:143:10: '\"fuzzy_like_this\"'
             {
-            match("\"flt_field\""); 
+            match("\"fuzzy_like_this\""); 
 
 
             }
@@ -3039,10 +3039,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__149;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:144:8: ( '\"fuzzy_like_this_field\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:144:10: '\"fuzzy_like_this_field\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:144:8: ( '\"flt_field\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:144:10: '\"flt_field\"'
             {
-            match("\"fuzzy_like_this_field\""); 
+            match("\"flt_field\""); 
 
 
             }
@@ -3060,10 +3060,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__150;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:145:8: ( '\"fuzzy\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:145:10: '\"fuzzy\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:145:8: ( '\"fuzzy_like_this_field\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:145:10: '\"fuzzy_like_this_field\"'
             {
-            match("\"fuzzy\""); 
+            match("\"fuzzy_like_this_field\""); 
 
 
             }
@@ -3081,10 +3081,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__151;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:146:8: ( '\"value\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:146:10: '\"value\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:146:8: ( '\"fuzzy\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:146:10: '\"fuzzy\"'
             {
-            match("\"value\""); 
+            match("\"fuzzy\""); 
 
 
             }
@@ -3102,10 +3102,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__152;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:147:8: ( '\"geo_shape\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:147:10: '\"geo_shape\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:147:8: ( '\"value\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:147:10: '\"value\"'
             {
-            match("\"geo_shape\""); 
+            match("\"value\""); 
 
 
             }
@@ -3123,10 +3123,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__153;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:148:8: ( '\"has_child\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:148:10: '\"has_child\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:148:8: ( '\"geo_shape\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:148:10: '\"geo_shape\"'
             {
-            match("\"has_child\""); 
+            match("\"geo_shape\""); 
 
 
             }
@@ -3144,10 +3144,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__154;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:149:8: ( '\"has_parent\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:149:10: '\"has_parent\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:149:8: ( '\"has_child\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:149:10: '\"has_child\"'
             {
-            match("\"has_parent\""); 
+            match("\"has_child\""); 
 
 
             }
@@ -3165,10 +3165,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__155;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:150:8: ( '\"ids\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:150:10: '\"ids\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:150:8: ( '\"has_parent\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:150:10: '\"has_parent\"'
             {
-            match("\"ids\""); 
+            match("\"has_parent\""); 
 
 
             }
@@ -3186,10 +3186,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__156;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:151:8: ( '\"values\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:151:10: '\"values\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:151:8: ( '\"ids\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:151:10: '\"ids\"'
             {
-            match("\"values\""); 
+            match("\"ids\""); 
 
 
             }
@@ -3207,10 +3207,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__157;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:152:8: ( '\"no_match_query\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:152:10: '\"no_match_query\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:152:8: ( '\"values\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:152:10: '\"values\"'
             {
-            match("\"no_match_query\""); 
+            match("\"values\""); 
 
 
             }
@@ -3228,10 +3228,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__158;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:153:8: ( '\"match_all\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:153:10: '\"match_all\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:153:8: ( '\"no_match_query\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:153:10: '\"no_match_query\"'
             {
-            match("\"match_all\""); 
+            match("\"no_match_query\""); 
 
 
             }
@@ -3249,10 +3249,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__159;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:154:8: ( '\"mlt\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:154:10: '\"mlt\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:154:8: ( '\"match_all\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:154:10: '\"match_all\"'
             {
-            match("\"mlt\""); 
+            match("\"match_all\""); 
 
 
             }
@@ -3270,10 +3270,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__160;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:155:8: ( '\"more_like_this\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:155:10: '\"more_like_this\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:155:8: ( '\"mlt\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:155:10: '\"mlt\"'
             {
-            match("\"more_like_this\""); 
+            match("\"mlt\""); 
 
 
             }
@@ -3291,10 +3291,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__161;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:156:8: ( '\"mlt_field\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:156:10: '\"mlt_field\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:156:8: ( '\"more_like_this\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:156:10: '\"more_like_this\"'
             {
-            match("\"mlt_field\""); 
+            match("\"more_like_this\""); 
 
 
             }
@@ -3312,10 +3312,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__162;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:157:8: ( '\"more_like_this_field\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:157:10: '\"more_like_this_field\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:157:8: ( '\"mlt_field\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:157:10: '\"mlt_field\"'
             {
-            match("\"more_like_this_field\""); 
+            match("\"mlt_field\""); 
 
 
             }
@@ -3333,10 +3333,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = T__163;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:158:8: ( '\"nested\"' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:158:10: '\"nested\"'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:158:8: ( '\"more_like_this_field\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:158:10: '\"more_like_this_field\"'
             {
-            match("\"nested\""); 
+            match("\"more_like_this_field\""); 
 
 
             }
@@ -4610,10 +4610,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = RULE_BOOLEAN;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19390:14: ( ( 'true' | 'false' ) )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19390:16: ( 'true' | 'false' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19449:14: ( ( 'true' | 'false' ) )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19449:16: ( 'true' | 'false' )
             {
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19390:16: ( 'true' | 'false' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19449:16: ( 'true' | 'false' )
             int alt1=2;
             int LA1_0 = input.LA(1);
 
@@ -4631,7 +4631,7 @@ public class InternalSearchDslLexer extends Lexer {
             }
             switch (alt1) {
                 case 1 :
-                    // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19390:17: 'true'
+                    // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19449:17: 'true'
                     {
                     match("true"); 
 
@@ -4639,7 +4639,7 @@ public class InternalSearchDslLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19390:24: 'false'
+                    // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19449:24: 'false'
                     {
                     match("false"); 
 
@@ -4665,8 +4665,8 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = RULE_NULL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19392:11: ( 'null' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19392:13: 'null'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19451:11: ( 'null' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19451:13: 'null'
             {
             match("null"); 
 
@@ -4686,10 +4686,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = RULE_NONE_ALL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19394:15: ( ( '\"none\"' | '\"all\"' ) )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19394:17: ( '\"none\"' | '\"all\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19453:15: ( ( '\"none\"' | '\"all\"' ) )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19453:17: ( '\"none\"' | '\"all\"' )
             {
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19394:17: ( '\"none\"' | '\"all\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19453:17: ( '\"none\"' | '\"all\"' )
             int alt2=2;
             int LA2_0 = input.LA(1);
 
@@ -4717,7 +4717,7 @@ public class InternalSearchDslLexer extends Lexer {
             }
             switch (alt2) {
                 case 1 :
-                    // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19394:18: '\"none\"'
+                    // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19453:18: '\"none\"'
                     {
                     match("\"none\""); 
 
@@ -4725,7 +4725,7 @@ public class InternalSearchDslLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19394:27: '\"all\"'
+                    // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19453:27: '\"all\"'
                     {
                     match("\"all\""); 
 
@@ -4751,10 +4751,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = RULE_BOOL_CLAUSE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19396:18: ( ( '\"must\"' | '\"must_not\"' | '\"should\"' ) )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19396:20: ( '\"must\"' | '\"must_not\"' | '\"should\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19455:18: ( ( '\"must\"' | '\"must_not\"' | '\"should\"' ) )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19455:20: ( '\"must\"' | '\"must_not\"' | '\"should\"' )
             {
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19396:20: ( '\"must\"' | '\"must_not\"' | '\"should\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19455:20: ( '\"must\"' | '\"must_not\"' | '\"should\"' )
             int alt3=3;
             int LA3_0 = input.LA(1);
 
@@ -4825,7 +4825,7 @@ public class InternalSearchDslLexer extends Lexer {
             }
             switch (alt3) {
                 case 1 :
-                    // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19396:21: '\"must\"'
+                    // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19455:21: '\"must\"'
                     {
                     match("\"must\""); 
 
@@ -4833,7 +4833,7 @@ public class InternalSearchDslLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19396:30: '\"must_not\"'
+                    // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19455:30: '\"must_not\"'
                     {
                     match("\"must_not\""); 
 
@@ -4841,7 +4841,7 @@ public class InternalSearchDslLexer extends Lexer {
                     }
                     break;
                 case 3 :
-                    // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19396:43: '\"should\"'
+                    // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19455:43: '\"should\"'
                     {
                     match("\"should\""); 
 
@@ -4867,10 +4867,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = RULE_SCORE_MODES;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19398:18: ( ( '\"max\"' | '\"sum\"' | '\"avg\"' | '\"none\"' ) )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19398:20: ( '\"max\"' | '\"sum\"' | '\"avg\"' | '\"none\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19457:18: ( ( '\"max\"' | '\"sum\"' | '\"avg\"' | '\"none\"' ) )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19457:20: ( '\"max\"' | '\"sum\"' | '\"avg\"' | '\"none\"' )
             {
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19398:20: ( '\"max\"' | '\"sum\"' | '\"avg\"' | '\"none\"' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19457:20: ( '\"max\"' | '\"sum\"' | '\"avg\"' | '\"none\"' )
             int alt4=4;
             int LA4_0 = input.LA(1);
 
@@ -4912,7 +4912,7 @@ public class InternalSearchDslLexer extends Lexer {
             }
             switch (alt4) {
                 case 1 :
-                    // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19398:21: '\"max\"'
+                    // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19457:21: '\"max\"'
                     {
                     match("\"max\""); 
 
@@ -4920,7 +4920,7 @@ public class InternalSearchDslLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19398:29: '\"sum\"'
+                    // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19457:29: '\"sum\"'
                     {
                     match("\"sum\""); 
 
@@ -4928,7 +4928,7 @@ public class InternalSearchDslLexer extends Lexer {
                     }
                     break;
                 case 3 :
-                    // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19398:37: '\"avg\"'
+                    // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19457:37: '\"avg\"'
                     {
                     match("\"avg\""); 
 
@@ -4936,7 +4936,7 @@ public class InternalSearchDslLexer extends Lexer {
                     }
                     break;
                 case 4 :
-                    // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19398:45: '\"none\"'
+                    // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19457:45: '\"none\"'
                     {
                     match("\"none\""); 
 
@@ -4962,10 +4962,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = RULE_ID;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19400:9: ( ( '^' )? ( 'a' .. 'z' | 'A' .. 'Z' | '_' ) ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' )* )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19400:11: ( '^' )? ( 'a' .. 'z' | 'A' .. 'Z' | '_' ) ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' )*
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19459:9: ( ( '^' )? ( 'a' .. 'z' | 'A' .. 'Z' | '_' ) ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' )* )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19459:11: ( '^' )? ( 'a' .. 'z' | 'A' .. 'Z' | '_' ) ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' )*
             {
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19400:11: ( '^' )?
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19459:11: ( '^' )?
             int alt5=2;
             int LA5_0 = input.LA(1);
 
@@ -4974,7 +4974,7 @@ public class InternalSearchDslLexer extends Lexer {
             }
             switch (alt5) {
                 case 1 :
-                    // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19400:11: '^'
+                    // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19459:11: '^'
                     {
                     match('^'); 
 
@@ -4992,7 +4992,7 @@ public class InternalSearchDslLexer extends Lexer {
                 recover(mse);
                 throw mse;}
 
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19400:40: ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' )*
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19459:40: ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' )*
             loop6:
             do {
                 int alt6=2;
@@ -5041,10 +5041,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = RULE_INT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19402:10: ( ( '0' .. '9' )+ )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19402:12: ( '0' .. '9' )+
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19461:10: ( ( '0' .. '9' )+ )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19461:12: ( '0' .. '9' )+
             {
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19402:12: ( '0' .. '9' )+
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19461:12: ( '0' .. '9' )+
             int cnt7=0;
             loop7:
             do {
@@ -5058,7 +5058,7 @@ public class InternalSearchDslLexer extends Lexer {
 
                 switch (alt7) {
             	case 1 :
-            	    // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19402:13: '0' .. '9'
+            	    // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19461:13: '0' .. '9'
             	    {
             	    matchRange('0','9'); 
 
@@ -5090,10 +5090,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = RULE_STRING;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19404:13: ( ( '\"' ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | 'u' | '\"' | '\\'' | '\\\\' ) | ~ ( ( '\\\\' | '\"' ) ) )* '\"' | '\\'' ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | 'u' | '\"' | '\\'' | '\\\\' ) | ~ ( ( '\\\\' | '\\'' ) ) )* '\\'' ) )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19404:15: ( '\"' ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | 'u' | '\"' | '\\'' | '\\\\' ) | ~ ( ( '\\\\' | '\"' ) ) )* '\"' | '\\'' ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | 'u' | '\"' | '\\'' | '\\\\' ) | ~ ( ( '\\\\' | '\\'' ) ) )* '\\'' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19463:13: ( ( '\"' ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | 'u' | '\"' | '\\'' | '\\\\' ) | ~ ( ( '\\\\' | '\"' ) ) )* '\"' | '\\'' ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | 'u' | '\"' | '\\'' | '\\\\' ) | ~ ( ( '\\\\' | '\\'' ) ) )* '\\'' ) )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19463:15: ( '\"' ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | 'u' | '\"' | '\\'' | '\\\\' ) | ~ ( ( '\\\\' | '\"' ) ) )* '\"' | '\\'' ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | 'u' | '\"' | '\\'' | '\\\\' ) | ~ ( ( '\\\\' | '\\'' ) ) )* '\\'' )
             {
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19404:15: ( '\"' ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | 'u' | '\"' | '\\'' | '\\\\' ) | ~ ( ( '\\\\' | '\"' ) ) )* '\"' | '\\'' ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | 'u' | '\"' | '\\'' | '\\\\' ) | ~ ( ( '\\\\' | '\\'' ) ) )* '\\'' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19463:15: ( '\"' ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | 'u' | '\"' | '\\'' | '\\\\' ) | ~ ( ( '\\\\' | '\"' ) ) )* '\"' | '\\'' ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | 'u' | '\"' | '\\'' | '\\\\' ) | ~ ( ( '\\\\' | '\\'' ) ) )* '\\'' )
             int alt10=2;
             int LA10_0 = input.LA(1);
 
@@ -5111,10 +5111,10 @@ public class InternalSearchDslLexer extends Lexer {
             }
             switch (alt10) {
                 case 1 :
-                    // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19404:16: '\"' ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | 'u' | '\"' | '\\'' | '\\\\' ) | ~ ( ( '\\\\' | '\"' ) ) )* '\"'
+                    // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19463:16: '\"' ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | 'u' | '\"' | '\\'' | '\\\\' ) | ~ ( ( '\\\\' | '\"' ) ) )* '\"'
                     {
                     match('\"'); 
-                    // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19404:20: ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | 'u' | '\"' | '\\'' | '\\\\' ) | ~ ( ( '\\\\' | '\"' ) ) )*
+                    // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19463:20: ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | 'u' | '\"' | '\\'' | '\\\\' ) | ~ ( ( '\\\\' | '\"' ) ) )*
                     loop8:
                     do {
                         int alt8=3;
@@ -5130,7 +5130,7 @@ public class InternalSearchDslLexer extends Lexer {
 
                         switch (alt8) {
                     	case 1 :
-                    	    // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19404:21: '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | 'u' | '\"' | '\\'' | '\\\\' )
+                    	    // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19463:21: '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | 'u' | '\"' | '\\'' | '\\\\' )
                     	    {
                     	    match('\\'); 
                     	    if ( input.LA(1)=='\"'||input.LA(1)=='\''||input.LA(1)=='\\'||input.LA(1)=='b'||input.LA(1)=='f'||input.LA(1)=='n'||input.LA(1)=='r'||(input.LA(1)>='t' && input.LA(1)<='u') ) {
@@ -5146,7 +5146,7 @@ public class InternalSearchDslLexer extends Lexer {
                     	    }
                     	    break;
                     	case 2 :
-                    	    // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19404:66: ~ ( ( '\\\\' | '\"' ) )
+                    	    // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19463:66: ~ ( ( '\\\\' | '\"' ) )
                     	    {
                     	    if ( (input.LA(1)>='\u0000' && input.LA(1)<='!')||(input.LA(1)>='#' && input.LA(1)<='[')||(input.LA(1)>=']' && input.LA(1)<='\uFFFF') ) {
                     	        input.consume();
@@ -5171,10 +5171,10 @@ public class InternalSearchDslLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19404:86: '\\'' ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | 'u' | '\"' | '\\'' | '\\\\' ) | ~ ( ( '\\\\' | '\\'' ) ) )* '\\''
+                    // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19463:86: '\\'' ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | 'u' | '\"' | '\\'' | '\\\\' ) | ~ ( ( '\\\\' | '\\'' ) ) )* '\\''
                     {
                     match('\''); 
-                    // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19404:91: ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | 'u' | '\"' | '\\'' | '\\\\' ) | ~ ( ( '\\\\' | '\\'' ) ) )*
+                    // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19463:91: ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | 'u' | '\"' | '\\'' | '\\\\' ) | ~ ( ( '\\\\' | '\\'' ) ) )*
                     loop9:
                     do {
                         int alt9=3;
@@ -5190,7 +5190,7 @@ public class InternalSearchDslLexer extends Lexer {
 
                         switch (alt9) {
                     	case 1 :
-                    	    // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19404:92: '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | 'u' | '\"' | '\\'' | '\\\\' )
+                    	    // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19463:92: '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | 'u' | '\"' | '\\'' | '\\\\' )
                     	    {
                     	    match('\\'); 
                     	    if ( input.LA(1)=='\"'||input.LA(1)=='\''||input.LA(1)=='\\'||input.LA(1)=='b'||input.LA(1)=='f'||input.LA(1)=='n'||input.LA(1)=='r'||(input.LA(1)>='t' && input.LA(1)<='u') ) {
@@ -5206,7 +5206,7 @@ public class InternalSearchDslLexer extends Lexer {
                     	    }
                     	    break;
                     	case 2 :
-                    	    // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19404:137: ~ ( ( '\\\\' | '\\'' ) )
+                    	    // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19463:137: ~ ( ( '\\\\' | '\\'' ) )
                     	    {
                     	    if ( (input.LA(1)>='\u0000' && input.LA(1)<='&')||(input.LA(1)>='(' && input.LA(1)<='[')||(input.LA(1)>=']' && input.LA(1)<='\uFFFF') ) {
                     	        input.consume();
@@ -5249,12 +5249,12 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = RULE_ML_COMMENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19406:17: ( '/*' ( options {greedy=false; } : . )* '*/' )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19406:19: '/*' ( options {greedy=false; } : . )* '*/'
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19465:17: ( '/*' ( options {greedy=false; } : . )* '*/' )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19465:19: '/*' ( options {greedy=false; } : . )* '*/'
             {
             match("/*"); 
 
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19406:24: ( options {greedy=false; } : . )*
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19465:24: ( options {greedy=false; } : . )*
             loop11:
             do {
                 int alt11=2;
@@ -5279,7 +5279,7 @@ public class InternalSearchDslLexer extends Lexer {
 
                 switch (alt11) {
             	case 1 :
-            	    // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19406:52: .
+            	    // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19465:52: .
             	    {
             	    matchAny(); 
 
@@ -5309,12 +5309,12 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = RULE_SL_COMMENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19408:17: ( '//' (~ ( ( '\\n' | '\\r' ) ) )* ( ( '\\r' )? '\\n' )? )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19408:19: '//' (~ ( ( '\\n' | '\\r' ) ) )* ( ( '\\r' )? '\\n' )?
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19467:17: ( '//' (~ ( ( '\\n' | '\\r' ) ) )* ( ( '\\r' )? '\\n' )? )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19467:19: '//' (~ ( ( '\\n' | '\\r' ) ) )* ( ( '\\r' )? '\\n' )?
             {
             match("//"); 
 
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19408:24: (~ ( ( '\\n' | '\\r' ) ) )*
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19467:24: (~ ( ( '\\n' | '\\r' ) ) )*
             loop12:
             do {
                 int alt12=2;
@@ -5327,7 +5327,7 @@ public class InternalSearchDslLexer extends Lexer {
 
                 switch (alt12) {
             	case 1 :
-            	    // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19408:24: ~ ( ( '\\n' | '\\r' ) )
+            	    // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19467:24: ~ ( ( '\\n' | '\\r' ) )
             	    {
             	    if ( (input.LA(1)>='\u0000' && input.LA(1)<='\t')||(input.LA(1)>='\u000B' && input.LA(1)<='\f')||(input.LA(1)>='\u000E' && input.LA(1)<='\uFFFF') ) {
             	        input.consume();
@@ -5347,7 +5347,7 @@ public class InternalSearchDslLexer extends Lexer {
                 }
             } while (true);
 
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19408:40: ( ( '\\r' )? '\\n' )?
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19467:40: ( ( '\\r' )? '\\n' )?
             int alt14=2;
             int LA14_0 = input.LA(1);
 
@@ -5356,9 +5356,9 @@ public class InternalSearchDslLexer extends Lexer {
             }
             switch (alt14) {
                 case 1 :
-                    // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19408:41: ( '\\r' )? '\\n'
+                    // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19467:41: ( '\\r' )? '\\n'
                     {
-                    // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19408:41: ( '\\r' )?
+                    // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19467:41: ( '\\r' )?
                     int alt13=2;
                     int LA13_0 = input.LA(1);
 
@@ -5367,7 +5367,7 @@ public class InternalSearchDslLexer extends Lexer {
                     }
                     switch (alt13) {
                         case 1 :
-                            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19408:41: '\\r'
+                            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19467:41: '\\r'
                             {
                             match('\r'); 
 
@@ -5399,10 +5399,10 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = RULE_WS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19410:9: ( ( ' ' | '\\t' | '\\r' | '\\n' )+ )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19410:11: ( ' ' | '\\t' | '\\r' | '\\n' )+
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19469:9: ( ( ' ' | '\\t' | '\\r' | '\\n' )+ )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19469:11: ( ' ' | '\\t' | '\\r' | '\\n' )+
             {
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19410:11: ( ' ' | '\\t' | '\\r' | '\\n' )+
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19469:11: ( ' ' | '\\t' | '\\r' | '\\n' )+
             int cnt15=0;
             loop15:
             do {
@@ -5456,8 +5456,8 @@ public class InternalSearchDslLexer extends Lexer {
         try {
             int _type = RULE_ANY_OTHER;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19412:16: ( . )
-            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19412:18: .
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19471:16: ( . )
+            // ../com.first8.elasticsearch.xtext/src-gen/com/first8/elasticsearch/dsl/parser/antlr/internal/InternalSearchDsl.g:19471:18: .
             {
             matchAny(); 
 
@@ -7033,399 +7033,395 @@ public class InternalSearchDslLexer extends Lexer {
         "\1\0\3\uffff\1\0\3\uffff\1\0\2\uffff\2\60\1\162\1\141\1\165\1\101"+
         "\2\uffff\1\52\5\uffff\30\0\1\160\4\uffff\1\0\5\uffff\1\165\2\154"+
         "\4\uffff\115\0\2\uffff\1\0\1\145\1\163\1\154\27\0\1\uffff\35\0\1"+
-        "\uffff\3\0\1\uffff\6\0\1\uffff\2\0\1\uffff\33\0\1\uffff\32\0\1\60"+
+        "\uffff\3\0\1\uffff\6\0\1\uffff\2\0\1\uffff\41\0\1\uffff\24\0\1\60"+
         "\1\145\1\60\13\0\1\uffff\6\0\1\uffff\6\0\1\uffff\7\0\1\uffff\2\0"+
         "\1\uffff\5\0\1\uffff\1\0\2\uffff\2\0\1\uffff\1\0\1\uffff\2\0\1\uffff"+
-        "\12\0\2\uffff\3\0\1\uffff\1\0\1\uffff\7\0\1\uffff\1\0\2\uffff\25"+
-        "\0\1\uffff\5\0\3\uffff\4\0\1\uffff\3\0\1\uffff\20\0\1\uffff\2\0"+
+        "\12\0\2\uffff\3\0\1\uffff\1\0\1\uffff\7\0\1\uffff\1\0\2\uffff\16"+
+        "\0\1\uffff\14\0\1\uffff\5\0\3\uffff\4\0\1\uffff\16\0\1\uffff\2\0"+
         "\2\uffff\1\60\1\uffff\3\0\1\uffff\1\0\1\uffff\2\0\1\uffff\4\0\2"+
         "\uffff\5\0\1\uffff\12\0\1\uffff\3\0\1\uffff\4\0\1\uffff\7\0\1\uffff"+
         "\1\0\1\uffff\1\0\2\uffff\2\0\1\uffff\1\0\1\uffff\2\0\2\uffff\15"+
-        "\0\1\uffff\1\0\1\uffff\4\0\2\uffff\7\0\1\uffff\27\0\1\uffff\5\0"+
-        "\2\uffff\1\0\1\uffff\2\0\1\uffff\1\0\1\uffff\1\0\1\uffff\3\0\1\uffff"+
-        "\11\0\1\uffff\3\0\1\uffff\2\0\2\uffff\2\0\1\uffff\1\0\1\uffff\2"+
-        "\0\2\uffff\6\0\1\uffff\1\0\1\uffff\1\0\1\uffff\5\0\1\uffff\2\0\1"+
-        "\uffff\4\0\1\uffff\3\0\1\uffff\13\0\1\uffff\3\0\1\uffff\7\0\1\uffff"+
-        "\5\0\1\uffff\11\0\2\uffff\4\0\1\uffff\2\0\1\uffff\11\0\1\uffff\2"+
-        "\0\1\uffff\2\0\1\uffff\3\0\1\uffff\1\0\1\uffff\22\0\1\uffff\1\0"+
-        "\1\uffff\1\0\1\uffff\3\0\1\uffff\1\0\1\uffff\7\0\3\uffff\5\0\1\uffff"+
-        "\3\0\1\uffff\2\0\1\uffff\7\0\4\uffff\1\0\1\uffff\2\0\1\uffff\1\0"+
-        "\2\uffff\4\0\1\uffff\1\0\4\uffff\16\0\1\uffff\1\0\1\uffff\15\0\1"+
-        "\uffff\7\0\1\uffff\1\0\1\uffff\6\0\1\uffff\11\0\2\uffff\1\0\1\uffff"+
-        "\1\0\2\uffff\4\0\3\uffff\1\0\1\uffff\7\0\1\uffff\6\0\1\uffff\2\0"+
-        "\1\uffff\2\0\1\uffff\1\0\1\uffff\3\0\1\uffff\3\0\1\uffff\1\0\1\uffff"+
-        "\1\0\2\uffff\1\0\2\uffff\5\0\1\uffff\7\0\1\uffff\1\0\1\uffff\1\0"+
-        "\1\uffff\1\0\2\uffff\1\0\1\uffff\5\0\3\uffff\5\0\1\uffff\11\0\1"+
-        "\uffff\15\0\1\uffff\1\0\1\uffff\5\0\1\uffff\6\0\1\uffff\1\0\1\uffff"+
-        "\2\0\1\uffff\5\0\1\uffff\2\0\1\uffff\4\0\1\uffff\1\0\1\uffff\4\0"+
-        "\2\uffff\1\0\1\uffff\6\0\2\uffff\3\0\1\uffff\4\0\1\uffff\4\0\1\uffff"+
-        "\1\0\1\uffff\2\0\2\uffff\13\0\2\uffff\2\0\2\uffff\7\0\1\uffff\3"+
-        "\0\1\uffff\12\0\1\uffff\3\0\1\uffff\10\0\2\uffff\1\0\1\uffff\11"+
-        "\0\3\uffff\1\0\2\uffff\1\0\1\uffff\21\0\2\uffff\3\0\1\uffff\1\0"+
-        "\1\uffff\2\0\1\uffff\17\0\1\uffff\10\0\5\uffff\1\0\1\uffff\3\0\1"+
-        "\uffff\1\0\1\uffff\13\0\1\uffff\1\0\2\uffff\1\0\1\uffff\10\0\1\uffff"+
-        "\2\0\1\uffff\7\0\2\uffff\1\0\1\uffff\1\0\4\uffff\4\0\1\uffff\10"+
-        "\0\2\uffff\1\0\1\uffff\1\0\1\uffff\2\0\1\uffff\3\0\1\uffff\10\0"+
-        "\1\uffff\2\0\1\uffff\1\0\1\uffff\2\0\7\uffff\1\0\1\uffff\3\0\2\uffff"+
-        "\13\0\1\uffff\1\0\2\uffff\13\0\1\uffff\11\0\5\uffff\3\0\2\uffff"+
-        "\7\0\2\uffff\4\0\2\uffff\2\0\1\uffff\10\0\1\uffff\2\0\2\uffff\2"+
-        "\0\4\uffff\4\0\1\uffff\1\0\1\uffff\11\0\1\uffff\2\0\1\uffff\11\0"+
-        "\1\uffff\1\0\1\uffff\1\0\1\uffff\3\0\1\uffff\2\0\3\uffff\3\0\1\uffff"+
-        "\6\0\1\uffff\2\0\1\uffff\2\0\1\uffff\1\0\1\uffff\2\0\3\uffff\1\0"+
-        "\2\uffff\4\0\1\uffff\3\0\1\uffff\1\0\1\uffff\3\0\1\uffff\2\0\1\uffff"+
-        "\6\0\2\uffff\2\0\3\uffff\1\0\2\uffff\3\0\4\uffff\2\0\1\uffff\1\0"+
-        "\1\uffff\6\0\4\uffff\1\0\1\uffff\2\0\2\uffff\1\0\2\uffff\3\0\1\uffff"+
-        "\2\0\2\uffff\1\0\1\uffff\6\0\1\uffff\2\0\4\uffff\2\0\4\uffff\1\0"+
-        "\3\uffff\3\0\1\uffff\6\0\2\uffff\1\0\2\uffff\4\0\2\uffff\2\0\1\uffff"+
-        "\3\0\1\uffff\3\0\1\uffff\1\0\3\uffff\2\0\2\uffff\1\0\1\uffff\1\0"+
-        "\1\uffff\5\0\1\uffff\2\0\2\uffff\3\0\1\uffff\1\0\1\uffff\2\0\4\uffff"+
-        "\4\0\1\uffff\4\0\1\uffff\5\0\2\uffff\4\0\1\uffff\3\0\3\uffff\1\0"+
-        "\1\uffff\1\0\1\uffff\1\0\1\uffff\1\0\2\uffff\1\0\1\uffff\2\0\1\uffff"+
-        "\10\0\1\uffff\1\0\1\uffff\1\0\1\uffff\1\0\2\uffff\1\0\2\uffff\12"+
-        "\0\2\uffff\1\0\1\uffff\2\0\1\uffff\1\0\1\uffff\5\0\2\uffff\3\0\3"+
-        "\uffff\1\0\2\uffff\5\0\4\uffff\5\0\2\uffff\3\0\2\uffff\3\0\1\uffff"+
-        "\2\0\1\uffff\2\0\1\uffff\1\0\1\uffff\1\0\3\uffff";
+        "\0\1\uffff\1\0\1\uffff\4\0\2\uffff\7\0\1\uffff\16\0\1\uffff\1\0"+
+        "\1\uffff\14\0\1\uffff\5\0\2\uffff\1\0\1\uffff\2\0\1\uffff\1\0\1"+
+        "\uffff\11\0\1\uffff\3\0\1\uffff\2\0\2\uffff\2\0\1\uffff\1\0\1\uffff"+
+        "\2\0\2\uffff\6\0\1\uffff\1\0\1\uffff\1\0\1\uffff\5\0\1\uffff\2\0"+
+        "\1\uffff\4\0\1\uffff\3\0\1\uffff\13\0\1\uffff\3\0\1\uffff\7\0\1"+
+        "\uffff\5\0\1\uffff\11\0\2\uffff\4\0\1\uffff\2\0\1\uffff\11\0\1\uffff"+
+        "\2\0\1\uffff\2\0\1\uffff\3\0\1\uffff\4\0\1\uffff\1\0\1\uffff\22"+
+        "\0\1\uffff\1\0\2\uffff\1\0\1\uffff\7\0\3\uffff\5\0\1\uffff\3\0\1"+
+        "\uffff\2\0\1\uffff\7\0\4\uffff\1\0\1\uffff\2\0\1\uffff\1\0\2\uffff"+
+        "\4\0\1\uffff\1\0\4\uffff\16\0\1\uffff\1\0\1\uffff\15\0\1\uffff\7"+
+        "\0\1\uffff\1\0\1\uffff\6\0\1\uffff\11\0\2\uffff\1\0\1\uffff\1\0"+
+        "\2\uffff\4\0\3\uffff\3\0\1\uffff\1\0\1\uffff\7\0\1\uffff\6\0\1\uffff"+
+        "\2\0\2\uffff\3\0\1\uffff\3\0\1\uffff\1\0\1\uffff\1\0\2\uffff\1\0"+
+        "\2\uffff\5\0\1\uffff\7\0\1\uffff\1\0\1\uffff\1\0\1\uffff\1\0\2\uffff"+
+        "\1\0\1\uffff\5\0\3\uffff\5\0\1\uffff\11\0\1\uffff\15\0\1\uffff\1"+
+        "\0\1\uffff\5\0\1\uffff\6\0\1\uffff\1\0\1\uffff\2\0\1\uffff\5\0\1"+
+        "\uffff\2\0\1\uffff\4\0\2\uffff\4\0\1\uffff\4\0\2\uffff\1\0\1\uffff"+
+        "\6\0\2\uffff\4\0\1\uffff\4\0\1\uffff\1\0\1\uffff\2\0\2\uffff\13"+
+        "\0\2\uffff\2\0\2\uffff\7\0\1\uffff\3\0\1\uffff\12\0\1\uffff\3\0"+
+        "\1\uffff\10\0\2\uffff\1\0\1\uffff\11\0\3\uffff\1\0\2\uffff\1\0\1"+
+        "\uffff\24\0\2\uffff\3\0\1\uffff\1\0\1\uffff\2\0\1\uffff\14\0\1\uffff"+
+        "\10\0\5\uffff\1\0\1\uffff\3\0\1\uffff\1\0\1\uffff\13\0\1\uffff\1"+
+        "\0\2\uffff\1\0\1\uffff\10\0\1\uffff\2\0\1\uffff\7\0\2\uffff\1\0"+
+        "\1\uffff\1\0\4\uffff\4\0\1\uffff\3\0\1\uffff\10\0\2\uffff\1\0\1"+
+        "\uffff\1\0\1\uffff\2\0\1\uffff\10\0\1\uffff\2\0\1\uffff\1\0\1\uffff"+
+        "\2\0\7\uffff\1\0\1\uffff\3\0\2\uffff\13\0\1\uffff\1\0\2\uffff\13"+
+        "\0\1\uffff\11\0\5\uffff\3\0\2\uffff\2\0\2\uffff\7\0\2\uffff\4\0"+
+        "\1\uffff\10\0\1\uffff\2\0\2\uffff\2\0\4\uffff\4\0\1\uffff\1\0\1"+
+        "\uffff\11\0\1\uffff\2\0\1\uffff\11\0\1\uffff\1\0\1\uffff\1\0\1\uffff"+
+        "\3\0\1\uffff\2\0\3\uffff\1\0\1\uffff\4\0\1\uffff\6\0\1\uffff\2\0"+
+        "\1\uffff\1\0\1\uffff\2\0\3\uffff\1\0\2\uffff\4\0\1\uffff\3\0\1\uffff"+
+        "\1\0\1\uffff\3\0\1\uffff\2\0\1\uffff\6\0\2\uffff\2\0\3\uffff\1\0"+
+        "\2\uffff\3\0\4\uffff\4\0\1\uffff\1\0\1\uffff\4\0\4\uffff\1\0\1\uffff"+
+        "\2\0\2\uffff\1\0\2\uffff\3\0\1\uffff\2\0\2\uffff\1\0\1\uffff\6\0"+
+        "\1\uffff\2\0\4\uffff\2\0\4\uffff\1\0\3\uffff\5\0\1\uffff\4\0\2\uffff"+
+        "\1\0\2\uffff\4\0\2\uffff\2\0\1\uffff\3\0\1\uffff\3\0\1\uffff\1\0"+
+        "\3\uffff\2\0\2\uffff\1\0\2\uffff\2\0\1\uffff\6\0\2\uffff\3\0\1\uffff"+
+        "\1\0\1\uffff\2\0\4\uffff\4\0\1\uffff\3\0\2\uffff\1\0\1\uffff\11"+
+        "\0\1\uffff\3\0\3\uffff\1\0\1\uffff\1\0\1\uffff\1\0\1\uffff\1\0\3"+
+        "\uffff\1\0\1\uffff\12\0\1\uffff\1\0\1\uffff\1\0\1\uffff\1\0\2\uffff"+
+        "\1\0\2\uffff\12\0\2\uffff\1\0\1\uffff\2\0\1\uffff\1\0\1\uffff\5"+
+        "\0\2\uffff\3\0\3\uffff\1\0\2\uffff\5\0\4\uffff\5\0\2\uffff\3\0\2"+
+        "\uffff\3\0\1\uffff\2\0\1\uffff\2\0\1\uffff\1\0\1\uffff\1\0\3\uffff";
     static final String DFA16_maxS =
         "\1\uffff\3\uffff\1\uffff\3\uffff\1\uffff\2\uffff\2\172\1\162\1\141"+
         "\1\165\1\172\2\uffff\1\57\5\uffff\30\uffff\1\164\4\uffff\1\uffff"+
         "\5\uffff\1\165\2\154\4\uffff\115\uffff\2\uffff\1\uffff\1\145\1\163"+
         "\1\154\27\uffff\1\uffff\35\uffff\1\uffff\3\uffff\1\uffff\6\uffff"+
-        "\1\uffff\2\uffff\1\uffff\33\uffff\1\uffff\32\uffff\1\172\1\145\1"+
+        "\1\uffff\2\uffff\1\uffff\41\uffff\1\uffff\24\uffff\1\172\1\145\1"+
         "\172\13\uffff\1\uffff\6\uffff\1\uffff\6\uffff\1\uffff\7\uffff\1"+
         "\uffff\2\uffff\1\uffff\5\uffff\1\uffff\1\uffff\2\uffff\2\uffff\1"+
         "\uffff\1\uffff\1\uffff\2\uffff\1\uffff\12\uffff\2\uffff\3\uffff"+
-        "\1\uffff\1\uffff\1\uffff\7\uffff\1\uffff\1\uffff\2\uffff\25\uffff"+
-        "\1\uffff\5\uffff\3\uffff\4\uffff\1\uffff\3\uffff\1\uffff\20\uffff"+
+        "\1\uffff\1\uffff\1\uffff\7\uffff\1\uffff\1\uffff\2\uffff\16\uffff"+
+        "\1\uffff\14\uffff\1\uffff\5\uffff\3\uffff\4\uffff\1\uffff\16\uffff"+
         "\1\uffff\2\uffff\2\uffff\1\172\1\uffff\3\uffff\1\uffff\1\uffff\1"+
         "\uffff\2\uffff\1\uffff\4\uffff\2\uffff\5\uffff\1\uffff\12\uffff"+
         "\1\uffff\3\uffff\1\uffff\4\uffff\1\uffff\7\uffff\1\uffff\1\uffff"+
         "\1\uffff\1\uffff\2\uffff\2\uffff\1\uffff\1\uffff\1\uffff\2\uffff"+
         "\2\uffff\15\uffff\1\uffff\1\uffff\1\uffff\4\uffff\2\uffff\7\uffff"+
-        "\1\uffff\27\uffff\1\uffff\5\uffff\2\uffff\1\uffff\1\uffff\2\uffff"+
-        "\1\uffff\1\uffff\1\uffff\1\uffff\1\uffff\3\uffff\1\uffff\11\uffff"+
+        "\1\uffff\16\uffff\1\uffff\1\uffff\1\uffff\14\uffff\1\uffff\5\uffff"+
+        "\2\uffff\1\uffff\1\uffff\2\uffff\1\uffff\1\uffff\1\uffff\11\uffff"+
         "\1\uffff\3\uffff\1\uffff\2\uffff\2\uffff\2\uffff\1\uffff\1\uffff"+
         "\1\uffff\2\uffff\2\uffff\6\uffff\1\uffff\1\uffff\1\uffff\1\uffff"+
         "\1\uffff\5\uffff\1\uffff\2\uffff\1\uffff\4\uffff\1\uffff\3\uffff"+
         "\1\uffff\13\uffff\1\uffff\3\uffff\1\uffff\7\uffff\1\uffff\5\uffff"+
         "\1\uffff\11\uffff\2\uffff\4\uffff\1\uffff\2\uffff\1\uffff\11\uffff"+
-        "\1\uffff\2\uffff\1\uffff\2\uffff\1\uffff\3\uffff\1\uffff\1\uffff"+
-        "\1\uffff\22\uffff\1\uffff\1\uffff\1\uffff\1\uffff\1\uffff\3\uffff"+
-        "\1\uffff\1\uffff\1\uffff\7\uffff\3\uffff\5\uffff\1\uffff\3\uffff"+
-        "\1\uffff\2\uffff\1\uffff\7\uffff\4\uffff\1\uffff\1\uffff\2\uffff"+
-        "\1\uffff\1\uffff\2\uffff\4\uffff\1\uffff\1\uffff\4\uffff\16\uffff"+
-        "\1\uffff\1\uffff\1\uffff\15\uffff\1\uffff\7\uffff\1\uffff\1\uffff"+
-        "\1\uffff\6\uffff\1\uffff\11\uffff\2\uffff\1\uffff\1\uffff\1\uffff"+
-        "\2\uffff\4\uffff\3\uffff\1\uffff\1\uffff\7\uffff\1\uffff\6\uffff"+
-        "\1\uffff\2\uffff\1\uffff\2\uffff\1\uffff\1\uffff\1\uffff\3\uffff"+
-        "\1\uffff\3\uffff\1\uffff\1\uffff\1\uffff\1\uffff\2\uffff\1\uffff"+
-        "\2\uffff\5\uffff\1\uffff\7\uffff\1\uffff\1\uffff\1\uffff\1\uffff"+
-        "\1\uffff\1\uffff\2\uffff\1\uffff\1\uffff\5\uffff\3\uffff\5\uffff"+
-        "\1\uffff\11\uffff\1\uffff\15\uffff\1\uffff\1\uffff\1\uffff\5\uffff"+
-        "\1\uffff\6\uffff\1\uffff\1\uffff\1\uffff\2\uffff\1\uffff\5\uffff"+
-        "\1\uffff\2\uffff\1\uffff\4\uffff\1\uffff\1\uffff\1\uffff\4\uffff"+
-        "\2\uffff\1\uffff\1\uffff\6\uffff\2\uffff\3\uffff\1\uffff\4\uffff"+
-        "\1\uffff\4\uffff\1\uffff\1\uffff\1\uffff\2\uffff\2\uffff\13\uffff"+
-        "\2\uffff\2\uffff\2\uffff\7\uffff\1\uffff\3\uffff\1\uffff\12\uffff"+
-        "\1\uffff\3\uffff\1\uffff\10\uffff\2\uffff\1\uffff\1\uffff\11\uffff"+
-        "\3\uffff\1\uffff\2\uffff\1\uffff\1\uffff\21\uffff\2\uffff\3\uffff"+
-        "\1\uffff\1\uffff\1\uffff\2\uffff\1\uffff\17\uffff\1\uffff\10\uffff"+
-        "\5\uffff\1\uffff\1\uffff\3\uffff\1\uffff\1\uffff\1\uffff\13\uffff"+
-        "\1\uffff\1\uffff\2\uffff\1\uffff\1\uffff\10\uffff\1\uffff\2\uffff"+
-        "\1\uffff\7\uffff\2\uffff\1\uffff\1\uffff\1\uffff\4\uffff\4\uffff"+
-        "\1\uffff\10\uffff\2\uffff\1\uffff\1\uffff\1\uffff\1\uffff\2\uffff"+
-        "\1\uffff\3\uffff\1\uffff\10\uffff\1\uffff\2\uffff\1\uffff\1\uffff"+
-        "\1\uffff\2\uffff\7\uffff\1\uffff\1\uffff\3\uffff\2\uffff\13\uffff"+
-        "\1\uffff\1\uffff\2\uffff\13\uffff\1\uffff\11\uffff\5\uffff\3\uffff"+
-        "\2\uffff\7\uffff\2\uffff\4\uffff\2\uffff\2\uffff\1\uffff\10\uffff"+
-        "\1\uffff\2\uffff\2\uffff\2\uffff\4\uffff\4\uffff\1\uffff\1\uffff"+
-        "\1\uffff\11\uffff\1\uffff\2\uffff\1\uffff\11\uffff\1\uffff\1\uffff"+
-        "\1\uffff\1\uffff\1\uffff\3\uffff\1\uffff\2\uffff\3\uffff\3\uffff"+
-        "\1\uffff\6\uffff\1\uffff\2\uffff\1\uffff\2\uffff\1\uffff\1\uffff"+
-        "\1\uffff\2\uffff\3\uffff\1\uffff\2\uffff\4\uffff\1\uffff\3\uffff"+
-        "\1\uffff\1\uffff\1\uffff\3\uffff\1\uffff\2\uffff\1\uffff\6\uffff"+
-        "\2\uffff\2\uffff\3\uffff\1\uffff\2\uffff\3\uffff\4\uffff\2\uffff"+
-        "\1\uffff\1\uffff\1\uffff\6\uffff\4\uffff\1\uffff\1\uffff\2\uffff"+
-        "\2\uffff\1\uffff\2\uffff\3\uffff\1\uffff\2\uffff\2\uffff\1\uffff"+
-        "\1\uffff\6\uffff\1\uffff\2\uffff\4\uffff\2\uffff\4\uffff\1\uffff"+
-        "\3\uffff\3\uffff\1\uffff\6\uffff\2\uffff\1\uffff\2\uffff\4\uffff"+
-        "\2\uffff\2\uffff\1\uffff\3\uffff\1\uffff\3\uffff\1\uffff\1\uffff"+
-        "\3\uffff\2\uffff\2\uffff\1\uffff\1\uffff\1\uffff\1\uffff\5\uffff"+
-        "\1\uffff\2\uffff\2\uffff\3\uffff\1\uffff\1\uffff\1\uffff\2\uffff"+
-        "\4\uffff\4\uffff\1\uffff\4\uffff\1\uffff\5\uffff\2\uffff\4\uffff"+
-        "\1\uffff\3\uffff\3\uffff\1\uffff\1\uffff\1\uffff\1\uffff\1\uffff"+
-        "\1\uffff\1\uffff\2\uffff\1\uffff\1\uffff\2\uffff\1\uffff\10\uffff"+
+        "\1\uffff\2\uffff\1\uffff\2\uffff\1\uffff\3\uffff\1\uffff\4\uffff"+
+        "\1\uffff\1\uffff\1\uffff\22\uffff\1\uffff\1\uffff\2\uffff\1\uffff"+
+        "\1\uffff\7\uffff\3\uffff\5\uffff\1\uffff\3\uffff\1\uffff\2\uffff"+
+        "\1\uffff\7\uffff\4\uffff\1\uffff\1\uffff\2\uffff\1\uffff\1\uffff"+
+        "\2\uffff\4\uffff\1\uffff\1\uffff\4\uffff\16\uffff\1\uffff\1\uffff"+
+        "\1\uffff\15\uffff\1\uffff\7\uffff\1\uffff\1\uffff\1\uffff\6\uffff"+
+        "\1\uffff\11\uffff\2\uffff\1\uffff\1\uffff\1\uffff\2\uffff\4\uffff"+
+        "\3\uffff\3\uffff\1\uffff\1\uffff\1\uffff\7\uffff\1\uffff\6\uffff"+
+        "\1\uffff\2\uffff\2\uffff\3\uffff\1\uffff\3\uffff\1\uffff\1\uffff"+
+        "\1\uffff\1\uffff\2\uffff\1\uffff\2\uffff\5\uffff\1\uffff\7\uffff"+
         "\1\uffff\1\uffff\1\uffff\1\uffff\1\uffff\1\uffff\2\uffff\1\uffff"+
-        "\2\uffff\12\uffff\2\uffff\1\uffff\1\uffff\2\uffff\1\uffff\1\uffff"+
-        "\1\uffff\5\uffff\2\uffff\3\uffff\3\uffff\1\uffff\2\uffff\5\uffff"+
-        "\4\uffff\5\uffff\2\uffff\3\uffff\2\uffff\3\uffff\1\uffff\2\uffff"+
-        "\1\uffff\2\uffff\1\uffff\1\uffff\1\uffff\1\uffff\3\uffff";
+        "\1\uffff\5\uffff\3\uffff\5\uffff\1\uffff\11\uffff\1\uffff\15\uffff"+
+        "\1\uffff\1\uffff\1\uffff\5\uffff\1\uffff\6\uffff\1\uffff\1\uffff"+
+        "\1\uffff\2\uffff\1\uffff\5\uffff\1\uffff\2\uffff\1\uffff\4\uffff"+
+        "\2\uffff\4\uffff\1\uffff\4\uffff\2\uffff\1\uffff\1\uffff\6\uffff"+
+        "\2\uffff\4\uffff\1\uffff\4\uffff\1\uffff\1\uffff\1\uffff\2\uffff"+
+        "\2\uffff\13\uffff\2\uffff\2\uffff\2\uffff\7\uffff\1\uffff\3\uffff"+
+        "\1\uffff\12\uffff\1\uffff\3\uffff\1\uffff\10\uffff\2\uffff\1\uffff"+
+        "\1\uffff\11\uffff\3\uffff\1\uffff\2\uffff\1\uffff\1\uffff\24\uffff"+
+        "\2\uffff\3\uffff\1\uffff\1\uffff\1\uffff\2\uffff\1\uffff\14\uffff"+
+        "\1\uffff\10\uffff\5\uffff\1\uffff\1\uffff\3\uffff\1\uffff\1\uffff"+
+        "\1\uffff\13\uffff\1\uffff\1\uffff\2\uffff\1\uffff\1\uffff\10\uffff"+
+        "\1\uffff\2\uffff\1\uffff\7\uffff\2\uffff\1\uffff\1\uffff\1\uffff"+
+        "\4\uffff\4\uffff\1\uffff\3\uffff\1\uffff\10\uffff\2\uffff\1\uffff"+
+        "\1\uffff\1\uffff\1\uffff\2\uffff\1\uffff\10\uffff\1\uffff\2\uffff"+
+        "\1\uffff\1\uffff\1\uffff\2\uffff\7\uffff\1\uffff\1\uffff\3\uffff"+
+        "\2\uffff\13\uffff\1\uffff\1\uffff\2\uffff\13\uffff\1\uffff\11\uffff"+
+        "\5\uffff\3\uffff\2\uffff\2\uffff\2\uffff\7\uffff\2\uffff\4\uffff"+
+        "\1\uffff\10\uffff\1\uffff\2\uffff\2\uffff\2\uffff\4\uffff\4\uffff"+
+        "\1\uffff\1\uffff\1\uffff\11\uffff\1\uffff\2\uffff\1\uffff\11\uffff"+
+        "\1\uffff\1\uffff\1\uffff\1\uffff\1\uffff\3\uffff\1\uffff\2\uffff"+
+        "\3\uffff\1\uffff\1\uffff\4\uffff\1\uffff\6\uffff\1\uffff\2\uffff"+
+        "\1\uffff\1\uffff\1\uffff\2\uffff\3\uffff\1\uffff\2\uffff\4\uffff"+
+        "\1\uffff\3\uffff\1\uffff\1\uffff\1\uffff\3\uffff\1\uffff\2\uffff"+
+        "\1\uffff\6\uffff\2\uffff\2\uffff\3\uffff\1\uffff\2\uffff\3\uffff"+
+        "\4\uffff\4\uffff\1\uffff\1\uffff\1\uffff\4\uffff\4\uffff\1\uffff"+
+        "\1\uffff\2\uffff\2\uffff\1\uffff\2\uffff\3\uffff\1\uffff\2\uffff"+
+        "\2\uffff\1\uffff\1\uffff\6\uffff\1\uffff\2\uffff\4\uffff\2\uffff"+
+        "\4\uffff\1\uffff\3\uffff\5\uffff\1\uffff\4\uffff\2\uffff\1\uffff"+
+        "\2\uffff\4\uffff\2\uffff\2\uffff\1\uffff\3\uffff\1\uffff\3\uffff"+
+        "\1\uffff\1\uffff\3\uffff\2\uffff\2\uffff\1\uffff\2\uffff\2\uffff"+
+        "\1\uffff\6\uffff\2\uffff\3\uffff\1\uffff\1\uffff\1\uffff\2\uffff"+
+        "\4\uffff\4\uffff\1\uffff\3\uffff\2\uffff\1\uffff\1\uffff\11\uffff"+
+        "\1\uffff\3\uffff\3\uffff\1\uffff\1\uffff\1\uffff\1\uffff\1\uffff"+
+        "\1\uffff\1\uffff\3\uffff\1\uffff\1\uffff\12\uffff\1\uffff\1\uffff"+
+        "\1\uffff\1\uffff\1\uffff\1\uffff\2\uffff\1\uffff\2\uffff\12\uffff"+
+        "\2\uffff\1\uffff\1\uffff\2\uffff\1\uffff\1\uffff\1\uffff\5\uffff"+
+        "\2\uffff\3\uffff\3\uffff\1\uffff\2\uffff\5\uffff\4\uffff\5\uffff"+
+        "\2\uffff\3\uffff\2\uffff\3\uffff\1\uffff\2\uffff\1\uffff\2\uffff"+
+        "\1\uffff\1\uffff\1\uffff\1\uffff\3\uffff";
     static final String DFA16_acceptS =
         "\1\uffff\1\1\1\2\1\3\1\uffff\1\5\1\6\1\7\1\uffff\1\u00cd\1\u00ce"+
         "\6\uffff\1\u00d6\1\u00d7\1\uffff\1\u00db\1\u00dc\1\1\1\2\1\3\31"+
         "\uffff\1\u00d8\1\5\1\6\1\7\1\uffff\1\u00cd\1\u00ce\1\u00d6\1\u00cf"+
         "\1\u00d0\3\uffff\1\u00d7\1\u00d9\1\u00da\1\u00db\115\uffff\1\u00b1"+
-        "\1\u00b5\33\uffff\1\u00b7\35\uffff\1\113\3\uffff\1\50\6\uffff\1"+
-        "\u00a2\2\uffff\1\u00c1\33\uffff\1\114\50\uffff\1\u00d5\6\uffff\1"+
-        "\u0083\6\uffff\1\u00b7\7\uffff\1\17\2\uffff\1\20\5\uffff\1\u0090"+
-        "\1\uffff\1\21\1\23\2\uffff\1\u00d3\1\uffff\1\u00a5\2\uffff\1\160"+
-        "\12\uffff\1\112\1\113\3\uffff\1\50\1\uffff\1\u00c4\7\uffff\1\u00a2"+
-        "\1\uffff\1\u008c\1\u00c1\25\uffff\1\151\5\uffff\1\u00c9\1\114\1"+
-        "\115\4\uffff\1\u00c8\3\uffff\1\u00b6\20\uffff\1\u00ae\2\uffff\1"+
+        "\1\u00b5\33\uffff\1\u00b7\35\uffff\1\114\3\uffff\1\51\6\uffff\1"+
+        "\u00a2\2\uffff\1\u00c1\41\uffff\1\115\42\uffff\1\u00d5\6\uffff\1"+
+        "\u0084\6\uffff\1\u00b7\7\uffff\1\17\2\uffff\1\20\5\uffff\1\u0091"+
+        "\1\uffff\1\21\1\23\2\uffff\1\u00d3\1\uffff\1\u00a5\2\uffff\1\161"+
+        "\12\uffff\1\113\1\114\3\uffff\1\51\1\uffff\1\u00c4\7\uffff\1\u00a2"+
+        "\1\uffff\1\u008d\1\u00c1\16\uffff\1\u00b6\14\uffff\1\152\5\uffff"+
+        "\1\u00c9\1\115\1\116\4\uffff\1\u00c8\16\uffff\1\u00ae\2\uffff\1"+
         "\22\1\u00d1\1\uffff\1\u00d2\3\uffff\1\11\1\uffff\1\12\2\uffff\1"+
-        "\121\4\uffff\1\u00d5\1\10\5\uffff\1\u0083\12\uffff\1\15\3\uffff"+
-        "\1\17\4\uffff\1\20\7\uffff\1\u00d4\1\uffff\1\u0090\1\uffff\1\21"+
-        "\1\23\2\uffff\1\u00d3\1\uffff\1\u00a5\2\uffff\1\160\1\24\15\uffff"+
-        "\1\112\1\uffff\1\52\4\uffff\1\u00c4\1\116\7\uffff\1\u008c\27\uffff"+
-        "\1\151\5\uffff\1\u00c9\1\115\1\uffff\1\u00c5\2\uffff\1\u00c8\1\uffff"+
-        "\1\164\1\uffff\1\u00b6\3\uffff\1\175\11\uffff\1\u0095\3\uffff\1"+
-        "\u00ae\2\uffff\1\22\1\4\2\uffff\1\11\1\uffff\1\12\2\uffff\1\145"+
-        "\1\121\6\uffff\1\u00ca\1\uffff\1\10\1\uffff\1\122\5\uffff\1\100"+
-        "\2\uffff\1\u0087\4\uffff\1\14\3\uffff\1\15\13\uffff\1\166\3\uffff"+
-        "\1\u00d4\7\uffff\1\24\5\uffff\1\26\11\uffff\1\45\1\52\4\uffff\1"+
-        "\116\2\uffff\1\147\11\uffff\1\37\2\uffff\1\61\2\uffff\1\u00c7\3"+
-        "\uffff\1\u0088\1\uffff\1\51\22\uffff\1\u00c5\1\uffff\1\u00b4\1\uffff"+
-        "\1\164\3\uffff\1\76\1\uffff\1\175\7\uffff\1\162\1\u00bc\1\u0095"+
-        "\5\uffff\1\4\3\uffff\1\57\2\uffff\1\145\7\uffff\1\u00ca\1\u00d4"+
-        "\1\25\1\122\1\uffff\1\27\2\uffff\1\30\1\uffff\1\154\1\100\4\uffff"+
-        "\1\u0087\1\uffff\1\u00b8\1\13\1\156\1\14\16\uffff\1\166\1\uffff"+
-        "\1\120\15\uffff\1\26\7\uffff\1\63\1\uffff\1\45\6\uffff\1\147\11"+
-        "\uffff\1\37\1\40\1\uffff\1\61\1\uffff\1\u0099\1\u00c7\4\uffff\1"+
-        "\u0088\1\u008d\1\51\1\uffff\1\176\7\uffff\1\u00a7\6\uffff\1\136"+
-        "\2\uffff\1\u00b4\2\uffff\1\u0094\1\uffff\1\76\3\uffff\1\u00c6\3"+
-        "\uffff\1\173\1\uffff\1\u0096\1\uffff\1\162\1\u00bc\1\uffff\1\u00bb"+
-        "\1\u00ac\5\uffff\1\57\7\uffff\1\u00a0\1\uffff\1\25\1\uffff\1\27"+
-        "\1\uffff\1\u00a6\1\30\1\uffff\1\154\5\uffff\1\u00b8\1\13\1\156\5"+
-        "\uffff\1\16\11\uffff\1\120\15\uffff\1\u0080\1\uffff\1\u0081\5\uffff"+
-        "\1\63\6\uffff\1\117\1\uffff\1\146\2\uffff\1\u009f\5\uffff\1\40\2"+
-        "\uffff\1\u0099\4\uffff\1\u008d\1\uffff\1\176\4\uffff\1\u009d\1\56"+
-        "\1\uffff\1\u00a7\6\uffff\1\136\1\135\3\uffff\1\u0094\4\uffff\1\u00c6"+
-        "\4\uffff\1\173\1\uffff\1\u0096\2\uffff\1\u00bb\1\u00ac\13\uffff"+
-        "\1\u009e\1\u00a0\2\uffff\1\u0082\1\u00a6\7\uffff\1\75\3\uffff\1"+
-        "\16\12\uffff\1\u00d4\3\uffff\1\77\10\uffff\1\u00a9\1\u0080\1\uffff"+
-        "\1\u0081\11\uffff\1\u00c2\1\35\1\117\1\uffff\1\146\1\152\1\uffff"+
-        "\1\u009f\21\uffff\1\u009d\1\56\3\uffff\1\u00cb\1\uffff\1\67\2\uffff"+
-        "\1\135\17\uffff\1\u00a4\10\uffff\1\u009c\1\u009e\1\u00a1\1\u00ba"+
-        "\1\u0082\1\uffff\1\u0085\3\uffff\1\141\1\uffff\1\75\13\uffff\1\u008f"+
-        "\1\uffff\1\u0092\1\55\1\uffff\1\77\10\uffff\1\u00a9\2\uffff\1\u0089"+
-        "\7\uffff\1\u00c2\1\35\1\uffff\1\152\1\uffff\1\137\1\36\1\70\1\u008a"+
-        "\4\uffff\1\41\10\uffff\1\71\1\u00b9\1\uffff\1\u00cb\1\uffff\1\67"+
-        "\2\uffff\1\150\3\uffff\1\u00b0\10\uffff\1\u00af\2\uffff\1\u00a4"+
-        "\1\uffff\1\104\2\uffff\1\144\1\161\1\u009a\1\u009b\1\u009c\1\u00a1"+
-        "\1\u00ba\1\uffff\1\u0085\3\uffff\1\141\1\u00bf\13\uffff\1\u008f"+
-        "\1\uffff\1\u0092\1\55\13\uffff\1\u0089\11\uffff\1\137\1\36\1\70"+
-        "\1\u008a\1\u008b\3\uffff\1\41\1\43\7\uffff\1\71\1\u00b9\4\uffff"+
-        "\1\150\1\72\2\uffff\1\u00b0\10\uffff\1\u00af\2\uffff\1\33\1\104"+
-        "\2\uffff\1\144\1\161\1\u009a\1\u009b\4\uffff\1\u00bf\1\uffff\1\171"+
-        "\11\uffff\1\167\2\uffff\1\u00be\11\uffff\1\u00ab\1\uffff\1\32\1"+
-        "\uffff\1\102\3\uffff\1\u008b\2\uffff\1\62\1\43\1\42\3\uffff\1\u00cc"+
-        "\6\uffff\1\72\2\uffff\1\111\2\uffff\1\170\1\uffff\1\132\2\uffff"+
-        "\1\u00b2\1\165\1\33\1\uffff\1\60\1\46\4\uffff\1\171\3\uffff\1\105"+
-        "\1\uffff\1\106\3\uffff\1\167\2\uffff\1\u00be\6\uffff\1\u0097\1\31"+
-        "\2\uffff\1\u00ab\1\u00ad\1\32\1\uffff\1\102\1\u00a3\3\uffff\1\54"+
-        "\1\62\1\42\1\44\2\uffff\1\u00cc\1\uffff\1\172\6\uffff\1\111\1\u00bd"+
-        "\1\u00c3\1\170\1\uffff\1\132\2\uffff\1\u00b2\1\165\1\uffff\1\60"+
-        "\1\46\3\uffff\1\163\2\uffff\1\73\1\105\1\uffff\1\106\6\uffff\1\123"+
-        "\2\uffff\1\101\1\157\1\u0097\1\31\2\uffff\1\u00ad\1\47\1\u00a3\1"+
-        "\u00c0\1\uffff\1\53\1\54\1\44\3\uffff\1\172\6\uffff\1\u00bd\1\u00c3"+
-        "\1\uffff\1\174\1\142\4\uffff\1\163\1\u0091\2\uffff\1\73\3\uffff"+
-        "\1\143\3\uffff\1\123\1\uffff\1\34\1\101\1\157\2\uffff\1\47\1\u00c0"+
-        "\1\uffff\1\53\1\uffff\1\177\5\uffff\1\u008e\2\uffff\1\174\1\142"+
-        "\3\uffff\1\u0084\1\uffff\1\u0091\2\uffff\1\107\1\110\1\140\1\143"+
-        "\4\uffff\1\34\4\uffff\1\177\5\uffff\1\u008e\1\u00b3\4\uffff\1\u0084"+
-        "\3\uffff\1\107\1\110\1\140\1\uffff\1\133\1\uffff\1\124\1\uffff\1"+
-        "\u00a8\1\uffff\1\153\1\64\1\uffff\1\65\2\uffff\1\u00b3\10\uffff"+
-        "\1\133\1\uffff\1\124\1\uffff\1\u00a8\1\uffff\1\153\1\64\1\uffff"+
-        "\1\65\1\74\12\uffff\1\u00aa\1\155\1\uffff\1\74\2\uffff\1\u0098\1"+
-        "\uffff\1\131\5\uffff\1\u00aa\1\155\3\uffff\1\u0098\1\130\1\131\1"+
-        "\uffff\1\u0093\1\66\5\uffff\1\130\1\u0086\1\u0093\1\66\5\uffff\1"+
-        "\u0086\1\125\3\uffff\1\103\1\125\3\uffff\1\103\2\uffff\1\126\2\uffff"+
-        "\1\126\1\uffff\1\127\1\uffff\1\127\2\134";
+        "\122\4\uffff\1\u00d5\1\10\5\uffff\1\u0084\12\uffff\1\15\3\uffff"+
+        "\1\17\4\uffff\1\20\7\uffff\1\u00d4\1\uffff\1\u0091\1\uffff\1\21"+
+        "\1\23\2\uffff\1\u00d3\1\uffff\1\u00a5\2\uffff\1\161\1\24\15\uffff"+
+        "\1\113\1\uffff\1\53\4\uffff\1\u00c4\1\117\7\uffff\1\u008d\16\uffff"+
+        "\1\165\1\uffff\1\u00b6\14\uffff\1\152\5\uffff\1\u00c9\1\116\1\uffff"+
+        "\1\u00c5\2\uffff\1\u00c8\1\uffff\1\176\11\uffff\1\u0095\3\uffff"+
+        "\1\u00ae\2\uffff\1\22\1\4\2\uffff\1\11\1\uffff\1\12\2\uffff\1\146"+
+        "\1\122\6\uffff\1\u00ca\1\uffff\1\10\1\uffff\1\123\5\uffff\1\101"+
+        "\2\uffff\1\u0088\4\uffff\1\14\3\uffff\1\15\13\uffff\1\167\3\uffff"+
+        "\1\u00d4\7\uffff\1\24\5\uffff\1\26\11\uffff\1\45\1\53\4\uffff\1"+
+        "\117\2\uffff\1\150\11\uffff\1\37\2\uffff\1\62\2\uffff\1\u00c7\3"+
+        "\uffff\1\u0089\4\uffff\1\165\1\uffff\1\52\22\uffff\1\u00c5\1\uffff"+
+        "\1\u00b4\1\77\1\uffff\1\176\7\uffff\1\163\1\u00bc\1\u0095\5\uffff"+
+        "\1\4\3\uffff\1\60\2\uffff\1\146\7\uffff\1\u00ca\1\u00d4\1\25\1\123"+
+        "\1\uffff\1\27\2\uffff\1\30\1\uffff\1\155\1\101\4\uffff\1\u0088\1"+
+        "\uffff\1\u00b8\1\13\1\157\1\14\16\uffff\1\167\1\uffff\1\121\15\uffff"+
+        "\1\26\7\uffff\1\64\1\uffff\1\45\6\uffff\1\150\11\uffff\1\37\1\40"+
+        "\1\uffff\1\62\1\uffff\1\u0099\1\u00c7\4\uffff\1\u0089\1\u008e\1"+
+        "\47\3\uffff\1\52\1\uffff\1\177\7\uffff\1\u00a7\6\uffff\1\137\2\uffff"+
+        "\1\u00b4\1\77\3\uffff\1\u00c6\3\uffff\1\174\1\uffff\1\u0096\1\uffff"+
+        "\1\163\1\u00bc\1\uffff\1\u00bb\1\u00ac\5\uffff\1\60\7\uffff\1\u00a0"+
+        "\1\uffff\1\25\1\uffff\1\27\1\uffff\1\u00a6\1\30\1\uffff\1\155\5"+
+        "\uffff\1\u00b8\1\13\1\157\5\uffff\1\16\11\uffff\1\121\15\uffff\1"+
+        "\u0081\1\uffff\1\u0082\5\uffff\1\64\6\uffff\1\120\1\uffff\1\147"+
+        "\2\uffff\1\u009f\5\uffff\1\40\2\uffff\1\u0099\4\uffff\1\u008e\1"+
+        "\47\4\uffff\1\177\4\uffff\1\u009d\1\57\1\uffff\1\u00a7\6\uffff\1"+
+        "\137\1\136\4\uffff\1\u00c6\4\uffff\1\174\1\uffff\1\u0096\2\uffff"+
+        "\1\u00bb\1\u00ac\13\uffff\1\u009e\1\u00a0\2\uffff\1\u0083\1\u00a6"+
+        "\7\uffff\1\76\3\uffff\1\16\12\uffff\1\u00d4\3\uffff\1\100\10\uffff"+
+        "\1\u00a9\1\u0081\1\uffff\1\u0082\11\uffff\1\u00c2\1\35\1\120\1\uffff"+
+        "\1\147\1\153\1\uffff\1\u009f\24\uffff\1\u009d\1\57\3\uffff\1\u00cb"+
+        "\1\uffff\1\70\2\uffff\1\136\14\uffff\1\u00a4\10\uffff\1\u009c\1"+
+        "\u009e\1\u00a1\1\u00ba\1\u0083\1\uffff\1\u0086\3\uffff\1\142\1\uffff"+
+        "\1\76\13\uffff\1\u0090\1\uffff\1\u0093\1\56\1\uffff\1\100\10\uffff"+
+        "\1\u00a9\2\uffff\1\u008a\7\uffff\1\u00c2\1\35\1\uffff\1\153\1\uffff"+
+        "\1\140\1\36\1\71\1\u008b\4\uffff\1\41\3\uffff\1\u00b0\10\uffff\1"+
+        "\72\1\u00b9\1\uffff\1\u00cb\1\uffff\1\70\2\uffff\1\151\10\uffff"+
+        "\1\u00af\2\uffff\1\u00a4\1\uffff\1\105\2\uffff\1\145\1\162\1\u009a"+
+        "\1\u009b\1\u009c\1\u00a1\1\u00ba\1\uffff\1\u0086\3\uffff\1\142\1"+
+        "\u00bf\13\uffff\1\u0090\1\uffff\1\u0093\1\56\13\uffff\1\u008a\11"+
+        "\uffff\1\140\1\36\1\71\1\u008b\1\u008c\3\uffff\1\41\1\43\2\uffff"+
+        "\1\u00b0\1\73\7\uffff\1\72\1\u00b9\4\uffff\1\151\10\uffff\1\u00af"+
+        "\2\uffff\1\33\1\105\2\uffff\1\145\1\162\1\u009a\1\u009b\4\uffff"+
+        "\1\u00bf\1\uffff\1\172\11\uffff\1\170\2\uffff\1\u00be\11\uffff\1"+
+        "\u00ab\1\uffff\1\32\1\uffff\1\103\3\uffff\1\u008c\2\uffff\1\63\1"+
+        "\43\1\42\1\uffff\1\73\4\uffff\1\u00cc\6\uffff\1\112\2\uffff\1\171"+
+        "\1\uffff\1\133\2\uffff\1\u00b2\1\166\1\33\1\uffff\1\61\1\46\4\uffff"+
+        "\1\172\3\uffff\1\106\1\uffff\1\107\3\uffff\1\170\2\uffff\1\u00be"+
+        "\6\uffff\1\u0097\1\31\2\uffff\1\u00ab\1\u00ad\1\32\1\uffff\1\103"+
+        "\1\u00a3\3\uffff\1\55\1\63\1\42\1\44\4\uffff\1\u00cc\1\uffff\1\173"+
+        "\4\uffff\1\112\1\u00bd\1\u00c3\1\171\1\uffff\1\133\2\uffff\1\u00b2"+
+        "\1\166\1\uffff\1\61\1\46\3\uffff\1\164\2\uffff\1\74\1\106\1\uffff"+
+        "\1\107\6\uffff\1\124\2\uffff\1\102\1\160\1\u0097\1\31\2\uffff\1"+
+        "\u00ad\1\50\1\u00a3\1\u00c0\1\uffff\1\54\1\55\1\44\5\uffff\1\173"+
+        "\4\uffff\1\u00bd\1\u00c3\1\uffff\1\175\1\143\4\uffff\1\164\1\u0092"+
+        "\2\uffff\1\74\3\uffff\1\144\3\uffff\1\124\1\uffff\1\34\1\102\1\160"+
+        "\2\uffff\1\50\1\u00c0\1\uffff\1\54\1\u008f\2\uffff\1\u0080\6\uffff"+
+        "\1\175\1\143\3\uffff\1\u0085\1\uffff\1\u0092\2\uffff\1\110\1\111"+
+        "\1\141\1\144\4\uffff\1\34\3\uffff\1\u008f\1\u00b3\1\uffff\1\u0080"+
+        "\11\uffff\1\u0085\3\uffff\1\110\1\111\1\141\1\uffff\1\134\1\uffff"+
+        "\1\125\1\uffff\1\u00a8\1\uffff\1\u00b3\1\154\1\65\1\uffff\1\66\12"+
+        "\uffff\1\134\1\uffff\1\125\1\uffff\1\u00a8\1\uffff\1\154\1\65\1"+
+        "\uffff\1\66\1\75\12\uffff\1\u00aa\1\156\1\uffff\1\75\2\uffff\1\u0098"+
+        "\1\uffff\1\132\5\uffff\1\u00aa\1\156\3\uffff\1\u0098\1\131\1\132"+
+        "\1\uffff\1\u0094\1\67\5\uffff\1\131\1\u0087\1\u0094\1\67\5\uffff"+
+        "\1\u0087\1\126\3\uffff\1\104\1\126\3\uffff\1\104\2\uffff\1\127\2"+
+        "\uffff\1\127\1\uffff\1\130\1\uffff\1\130\2\135";
     static final String DFA16_specialS =
-        "\1\u042f\3\uffff\1\100\3\uffff\1\u0435\20\uffff\1\u0418\1\u02b6"+
-        "\1\u02e8\1\u0142\1\u0254\1\u023c\1\u0430\1\u00a6\1\u0147\1\u0403"+
-        "\1\u04a1\1\u02df\1\u0350\1\u012e\1\u028c\1\u0424\1\u027e\1\66\1"+
-        "\u0429\1\u038f\1\u0425\1\u049e\1\u024a\1\u033a\5\uffff\1\u0491\14"+
-        "\uffff\1\u02da\1\u03b0\1\u0453\1\u0105\1\u040f\1\u0412\1\u02d4\1"+
-        "\u0401\1\u044d\1\u02e0\1\u0404\1\u017e\1\u0417\1\u039a\1\u0457\1"+
-        "\u022a\1\u02e1\1\u03ea\1\u040e\1\u01e5\1\u02ba\1\u00fb\1\u0447\1"+
-        "\u04b0\1\u042a\1\u0467\1\u016e\1\u043e\1\u018d\1\u0234\1\u0416\1"+
-        "\u0482\1\u042c\1\u00aa\1\u01fa\1\42\1\u0351\1\u02c9\1\u025f\1\u0166"+
-        "\1\u00f8\1\u01a9\1\u01b3\1\u00f2\1\u01e2\1\u046c\1\u0106\1\u02a7"+
-        "\1\u03df\1\u0131\1\u0290\1\u0286\1\47\1\u0273\1\u0320\1\u041f\1"+
-        "\u030b\1\67\1\u0454\1\u035d\1\u04a9\1\u0495\1\u03e3\1\144\1\u0462"+
-        "\1\u00bc\1\u01bc\1\u0260\1\u00a7\1\u01eb\1\u03c4\1\16\1\u0434\1"+
-        "\u0360\1\u036e\1\u024b\1\u033b\2\uffff\1\u0493\3\uffff\1\155\1\u00c0"+
-        "\1\u0450\1\u02fe\1\u0455\1\u020c\1\u0419\1\u0410\1\u0413\1\u03e6"+
-        "\1\u03fd\1\u0402\1\u044e\1\23\1\u010d\1\u0405\1\u0089\1\u043b\1"+
-        "\u041a\1\u039c\1\u0458\1\u022b\1\u045c\1\uffff\1\u03c1\1\u0082\1"+
-        "\u023f\1\u045f\1\u026a\1\u04bd\1\u0461\1\u00c4\1\u0217\1\u0436\1"+
-        "\u00fc\1\u0256\1\u02ec\1\u04b3\1\u042b\1\u0468\1\u0170\1\u0372\1"+
-        "\u018c\1\u018e\1\u0235\1\u0469\1\u0395\1\u0483\1\u042d\1\u00ae\1"+
-        "\u01fc\1\43\1\u00f6\1\uffff\1\u02ca\1\u04d0\1\u009d\1\uffff\1\u04a2"+
-        "\1\u00f9\1\u048f\1\u042e\1\u01fe\1\u0452\1\uffff\1\u01b4\1\u02d2"+
-        "\1\uffff\1\u0499\1\130\1\u046d\1\u010a\1\u01d3\1\u043c\1\u03e0\1"+
-        "\u0134\1\u0291\1\u04db\1\u0205\1\u0288\1\u0292\1\u03f0\1\50\1\u0274"+
-        "\1\u0321\1\14\1\u0426\1\u03a0\1\u0146\1\u01fd\1\u03e9\1\70\1\u0421"+
-        "\1\u01af\1\u03e5\1\uffff\1\u00f7\1\u01aa\1\u03dc\1\u01f4\1\u0391"+
-        "\1\u03e4\1\145\1\u0441\1\u008c\1\u0394\1\u02f1\1\u037b\1\u041e\1"+
-        "\u0287\1\u0261\1\u00a8\1\u01ec\1\u03c8\1\21\1\u02f5\1\u01e4\1\u0361"+
-        "\1\u036f\1\u024c\1\u033c\1\u0496\3\uffff\1\156\1\u00c1\1\u0451\1"+
-        "\u02ff\1\u0456\1\u020f\1\u041b\1\u0411\1\u0414\1\u03e7\1\u03fe\1"+
-        "\uffff\1\u044f\1\26\1\u010e\1\u0100\1\u0218\1\u008a\1\uffff\1\u02af"+
-        "\1\u041d\1\u039d\1\u0459\1\u022c\1\u045d\1\uffff\1\u03c2\1\u0083"+
-        "\1\u0240\1\u0460\1\u026b\1\u04be\1\u0463\1\uffff\1\107\1\u0422\1"+
-        "\uffff\1\u027f\1\u0437\1\u00fd\1\u0257\1\u02ef\1\uffff\1\u02e2\2"+
-        "\uffff\1\6\1\u0119\1\uffff\1\u0375\1\uffff\1\u03b9\1\u018f\1\uffff"+
-        "\1\u046a\1\u0396\1\u0484\1\u008f\1\u0470\1\u02a0\1\u00b2\1\u03dd"+
-        "\1\u0365\1\44\2\uffff\1\u02cb\1\u04d1\1\u009e\1\uffff\1\u01a5\1"+
-        "\uffff\1\u00fa\1\u0490\1\u02b5\1\u01ed\1\u01ff\1\u021b\1\u0328\1"+
-        "\uffff\1\u01b5\2\uffff\1\u049a\1\131\1\u046e\1\u010b\1\u01d4\1\u043d"+
-        "\1\u03e1\1\u0137\1\u0296\1\u04dc\1\u0206\1\u0289\1\u0293\1\u03f1"+
-        "\1\51\1\u0275\1\u0322\1\15\1\u0427\1\u03a1\1\u0148\1\uffff\1\u03eb"+
-        "\1\71\1\u02aa\1\u012c\1\u01b0\3\uffff\1\u01ab\1\u03de\1\u01f5\1"+
-        "\u0392\1\uffff\1\146\1\u0445\1\u008d\1\uffff\1\u02f2\1\u037c\1\u0310"+
-        "\1\137\1\u028a\1\u0262\1\u00a9\1\u01ee\1\u0431\1\u0370\1\u023d\1"+
-        "\u03ae\1\u02f6\1\u0382\1\u03ab\1\u0362\1\uffff\1\u024d\1\u033d\4"+
-        "\uffff\1\u0443\1\u047b\1\u00c2\1\uffff\1\u0300\1\uffff\1\u0212\1"+
-        "\u041c\1\uffff\1\u0236\1\u0415\1\u03e8\1\u03ff\2\uffff\1\32\1\u010f"+
-        "\1\u0101\1\u0219\1\u008b\1\uffff\1\u02b0\1\u0204\1\u01c7\1\u039e"+
-        "\1\u045a\1\u022d\1\u045e\1\u03c3\1\u0084\1\u0241\1\uffff\1\u026c"+
-        "\1\u04bf\1\u0464\1\uffff\1\110\1\157\1\u00c9\1\u00d9\1\uffff\1\u00d1"+
-        "\1\u00e4\1\u01bb\1\u01d8\1\u0438\1\u00fe\1\u0258\1\uffff\1\u03f9"+
-        "\1\uffff\1\u02e3\2\uffff\1\7\1\u011a\1\uffff\1\u0378\1\uffff\1\u03ba"+
-        "\1\u0190\2\uffff\1\u0397\1\u0485\1\u0091\1\u0471\1\u02a1\1\u03db"+
-        "\1\u02a4\1\u0406\1\u02bf\1\u0344\1\u0358\1\u0366\1\45\1\uffff\1"+
-        "\u0108\1\uffff\1\u04d2\1\u009f\1\u0332\1\u03d1\2\uffff\1\u0492\1"+
-        "\u02b7\1\u01ef\1\u0200\1\u021c\1\u0329\1\u01b6\1\uffff\1\u049b\1"+
-        "\132\1\u02c4\1\u02cc\1\u010c\1\u01d5\1\u043f\1\u03e2\1\u04a4\1\u04af"+
-        "\1\u029b\1\u04dd\1\u0207\1\u028b\1\u0294\1\u03f2\1\52\1\u0276\1"+
-        "\u0323\1\17\1\u0428\1\u03a2\1\u0149\1\uffff\1\u03ec\1\72\1\u02ab"+
-        "\1\u012d\1\u01b1\2\uffff\1\u01ac\1\uffff\1\u01f6\1\u0393\1\uffff"+
-        "\1\147\1\uffff\1\u008e\1\uffff\1\u02f3\1\u037d\1\u0312\1\uffff\1"+
-        "\u03b1\1\u028d\1\u0263\1\u00ab\1\u01f1\1\u0432\1\u0371\1\u023e\1"+
-        "\u03af\1\uffff\1\u0383\1\u03ac\1\u0363\1\uffff\1\u024e\1\u033e\2"+
-        "\uffff\1\u047c\1\u00c3\1\uffff\1\u0301\1\uffff\1\u0215\1\u01e6\2"+
-        "\uffff\1\u0237\1\u0313\1\u0318\1\170\1\u032c\1\u032e\1\uffff\1\u0400"+
-        "\1\uffff\1\u046b\1\uffff\1\u03a7\1\u0113\1\u046f\1\u04c6\1\u021a"+
-        "\1\uffff\1\u02b1\1\u0420\1\uffff\1\u01c8\1\u039f\1\u045b\1\u022e"+
-        "\1\uffff\1\u03c5\1\u0085\1\u0242\1\uffff\1\u026d\1\u04c0\1\u0465"+
-        "\1\111\1\160\1\u00ca\1\u00da\1\u00d2\1\u00e5\1\u01bd\1\u01d9\1\uffff"+
-        "\1\u02db\1\u00ff\1\u0259\1\uffff\1\u03fa\1\u02e4\1\10\1\u011b\1"+
-        "\u0379\1\u03bb\1\u0191\1\uffff\1\u0398\1\u0486\1\u0092\1\u0472\1"+
-        "\u02a2\1\uffff\1\u02f7\1\u02a5\1\u0407\1\u02c0\1\u0345\1\u0359\1"+
-        "\u0367\1\46\1\u0473\2\uffff\1\u04d3\1\u00a0\1\u0333\1\u03d2\1\uffff"+
-        "\1\u0494\1\u0439\1\uffff\1\u01f0\1\u0201\1\u021d\1\u032a\1\u01b7"+
-        "\1\u049c\1\133\1\u02c5\1\u02cd\1\uffff\1\u04a3\1\u01d6\1\uffff\1"+
-        "\34\1\u0311\1\uffff\1\u04a5\1\u04b1\1\u0154\1\uffff\1\u02d3\1\uffff"+
-        "\1\u0208\1\u028e\1\u0295\1\u03f3\1\53\1\u0277\1\u0324\1\20\1\140"+
-        "\1\u0343\1\u03a3\1\u014a\1\u03ed\1\73\1\u02ac\1\u012f\1\u01b2\1"+
-        "\u01ad\1\uffff\1\u01f7\1\uffff\1\150\1\uffff\1\u0090\1\u02f4\1\u037e"+
-        "\1\uffff\1\u00ef\1\uffff\1\u03b2\1\u028f\1\u0264\1\u00ac\1\u01f3"+
-        "\1\u0433\1\u0373\3\uffff\1\u0384\1\u03ad\1\u0364\1\u024f\1\u033f"+
-        "\1\uffff\1\u047d\1\u00c5\1\u0302\1\uffff\1\24\1\u01e7\1\uffff\1"+
-        "\u0238\1\u0314\1\u0319\1\u031d\1\u0326\1\u032d\1\u032f\4\uffff\1"+
-        "\u03a8\1\uffff\1\u02a8\1\u0342\1\uffff\1\u04c8\2\uffff\1\u02b2\1"+
-        "\u0160\1\u0171\1\u0440\1\uffff\1\u01c9\4\uffff\1\u03c6\1\u0086\1"+
-        "\u0243\1\u026e\1\u04c1\1\u0466\1\112\1\161\1\u00cb\1\u00db\1\u00d3"+
-        "\1\u00e6\1\u01be\1\u01db\1\uffff\1\u02dc\1\uffff\1\u025a\1\u03fb"+
-        "\1\u02e5\1\11\1\u011c\1\u037a\1\u03bc\1\u0192\1\u0399\1\u0487\1"+
-        "\u0094\1\u0474\1\u02a3\1\uffff\1\u02f8\1\u02a6\1\u0408\1\u02c1\1"+
-        "\u0346\1\u035a\1\u0368\1\uffff\1\u0475\1\uffff\1\u04d4\1\u00a1\1"+
-        "\u0334\1\u03d3\1\u0497\1\u043a\1\uffff\1\u01f2\1\u0202\1\u021e\1"+
-        "\u032b\1\u01b8\1\u049d\1\134\1\u02c6\1\u02ce\2\uffff\1\u01d7\1\uffff"+
-        "\1\35\2\uffff\1\u04a6\1\u04b2\1\u04aa\1\u04b7\3\uffff\1\u0209\1"+
-        "\uffff\1\u0297\1\u03f4\1\54\1\u0278\1\u0325\1\22\1\141\1\uffff\1"+
-        "\u03a4\1\u014b\1\u03ee\1\74\1\u02ad\1\u0130\1\uffff\1\u01ae\1\u01f8"+
-        "\1\uffff\1\151\1\u0093\1\uffff\1\u037f\1\uffff\1\u00f0\1\u03b3\1"+
-        "\u03d5\1\uffff\1\u0265\1\u00ad\1\u0423\1\uffff\1\u01cc\1\uffff\1"+
-        "\u0374\2\uffff\1\u0385\2\uffff\1\u0250\1\u0340\1\u047e\1\u00c6\1"+
-        "\u0303\1\uffff\1\25\1\u01e8\1\u0239\1\u0315\1\u031a\1\u031e\1\u0327"+
-        "\1\uffff\1\u0330\1\uffff\1\u03a9\1\uffff\1\u02a9\2\uffff\1\u04c9"+
-        "\1\uffff\1\u02b3\1\u0161\1\u0172\1\u0442\1\u01ca\3\uffff\1\u03c7"+
-        "\1\u0087\1\u0244\1\u026f\1\u04c2\1\uffff\1\113\1\162\1\u00cc\1\u00dc"+
-        "\1\u00d4\1\u00e7\1\u01bf\1\u01dc\1\u02dd\1\uffff\1\u025b\1\u03fc"+
-        "\1\u02e6\1\12\1\u011d\1\u0088\1\u0183\1\u03bd\1\u0193\1\u039b\1"+
-        "\u0488\1\u0095\1\u0476\1\uffff\1\u02f9\1\uffff\1\u0409\1\u02c2\1"+
-        "\u0347\1\u035b\1\u0369\1\uffff\1\u0477\1\u04d5\1\u00a2\1\u0335\1"+
-        "\u03d4\1\u0498\1\uffff\1\u03cb\1\uffff\1\u0203\1\u021f\1\uffff\1"+
-        "\u01b9\1\u049f\1\135\1\u02c7\1\u02cf\1\uffff\1\u01da\1\36\1\uffff"+
-        "\1\u04a7\1\u04b4\1\u04ab\1\u04b8\1\uffff\1\u020a\1\uffff\1\u0298"+
-        "\1\u03f5\1\55\1\u0279\2\uffff\1\142\1\uffff\1\u03a5\1\u014c\1\u03ef"+
-        "\1\75\1\u02ae\1\u0132\2\uffff\1\u01f9\1\152\1\u0096\1\uffff\1\u0380"+
-        "\1\u00f1\1\u03b4\1\u03d6\1\uffff\1\u0266\1\u00af\1\u017f\1\u0280"+
-        "\1\uffff\1\u01cd\1\uffff\1\u0376\1\u0386\2\uffff\1\u0251\1\u0341"+
-        "\1\u047f\1\u00c7\1\u0304\1\27\1\u01e9\1\u023a\1\u0316\1\u031b\1"+
-        "\u031f\2\uffff\1\u0331\1\u03aa\2\uffff\1\u04cb\1\u02b4\1\u0162\1"+
-        "\u0173\1\u0444\1\u01cb\1\u03c9\1\uffff\1\u0245\1\u0270\1\u04c3\1"+
-        "\uffff\1\114\1\163\1\u00cd\1\u00dd\1\u00d5\1\u00e8\1\u01c0\1\u01dd"+
-        "\1\u02de\1\u025c\1\uffff\1\u02e7\1\13\1\u011e\1\uffff\1\u0184\1"+
-        "\u03be\1\u0194\1\u0102\1\u0110\1\u0489\1\u0097\1\u022f\2\uffff\1"+
-        "\u02fa\1\uffff\1\u040a\1\u02c3\1\u0348\1\u035c\1\u036a\1\u0478\1"+
-        "\u04d6\1\u00a3\1\u0336\3\uffff\1\u03cc\2\uffff\1\u0220\1\uffff\1"+
-        "\u01ba\1\u04a0\1\136\1\u02c8\1\u02d0\1\u04de\1\2\1\37\1\u04a8\1"+
-        "\u04b5\1\u04ac\1\u04b9\1\u020b\1\u0299\1\u03f6\1\56\1\u027a\2\uffff"+
-        "\1\143\1\u03a6\1\u014d\1\uffff\1\76\1\uffff\1\171\1\u0133\1\uffff"+
-        "\1\u01fb\1\153\1\u0098\1\u0381\1\u00f3\1\u03b5\1\u03d7\1\u0267\1"+
-        "\u00b0\1\u0180\1\u0281\1\u01ce\1\u0377\1\u0387\1\u0252\1\uffff\1"+
-        "\u0480\1\u00c8\1\u0305\1\30\1\u01ea\1\u023b\1\u0317\1\u031c\5\uffff"+
-        "\1\u04cc\1\uffff\1\u0163\1\u0174\1\u0446\1\uffff\1\u03ca\1\uffff"+
-        "\1\u0246\1\u0271\1\u04c4\1\115\1\164\1\u00ce\1\u00de\1\u00d6\1\u00e9"+
-        "\1\u01c1\1\u01de\1\uffff\1\u025d\2\uffff\1\u011f\1\uffff\1\u0185"+
-        "\1\u03bf\1\u0195\1\u0103\1\u0111\1\u048a\1\u0099\1\u0230\1\uffff"+
-        "\1\u02fb\1\u040b\1\uffff\1\u0349\1\u035e\1\u036b\1\u0479\1\u04d7"+
-        "\1\u00a4\1\u0337\2\uffff\1\u03cd\1\uffff\1\u0221\4\uffff\1\u02d1"+
-        "\1\u04df\1\3\1\40\1\uffff\1\u04b6\1\u04ad\1\u04ba\1\u020d\1\u029a"+
-        "\1\u03f7\1\57\1\u027b\2\uffff\1\u014e\1\uffff\1\77\1\uffff\1\172"+
-        "\1\u0135\1\uffff\1\154\1\u02d5\1\u038a\1\uffff\1\u00f4\1\u03b6\1"+
-        "\u03d8\1\u0268\1\u00b1\1\u0181\1\u0282\1\u01cf\1\uffff\1\u0388\1"+
-        "\u0253\1\uffff\1\u0481\1\uffff\1\u0306\1\31\7\uffff\1\u04ce\1\uffff"+
-        "\1\u0164\1\u0175\1\u0448\2\uffff\1\u0247\1\u0272\1\u04c5\1\116\1"+
-        "\165\1\u00cf\1\u00df\1\u00d7\1\u00ea\1\u01c2\1\u01df\1\uffff\1\u025e"+
-        "\2\uffff\1\u0120\1\u0186\1\u03c0\1\u0196\1\u0104\1\u0112\1\u048b"+
-        "\1\u009a\1\u0231\1\u02fc\1\u040c\1\uffff\1\u034a\1\u035f\1\u036c"+
-        "\1\u047a\1\u04d8\1\u00a5\1\u0338\1\u03ce\1\u0222\5\uffff\1\u04e0"+
-        "\1\4\1\41\2\uffff\1\u04ae\1\u04bb\1\u020e\1\u029c\1\u03f8\1\60\1"+
-        "\u027c\2\uffff\1\u014f\1\101\1\173\1\u0136\2\uffff\1\u02d6\1\u038b"+
-        "\1\uffff\1\u00f5\1\u03b7\1\u03d9\1\u0269\1\u00b3\1\u0182\1\u0283"+
-        "\1\u01d0\1\uffff\1\u0389\1\u0255\2\uffff\1\u0307\1\33\4\uffff\1"+
-        "\u04cf\1\u0165\1\u0176\1\u0449\1\uffff\1\u0248\1\uffff\1\u04c7\1"+
-        "\117\1\166\1\u00d0\1\u00e0\1\u00d8\1\u00eb\1\u01c3\1\u01e0\1\uffff"+
-        "\1\u0121\1\u0187\1\uffff\1\u0197\1\u0107\1\u0114\1\u048c\1\u009b"+
-        "\1\u0232\1\u02fd\1\u040d\1\u034b\1\uffff\1\u036d\1\uffff\1\u04d9"+
-        "\1\uffff\1\u0339\1\u03cf\1\u0223\1\uffff\1\0\1\5\3\uffff\1\u04bc"+
-        "\1\u0210\1\u029d\1\uffff\1\61\1\u027d\1\u0150\1\102\1\174\1\u0138"+
-        "\1\uffff\1\u02d7\1\u038c\1\uffff\1\u03b8\1\u03da\1\uffff\1\u00b4"+
-        "\1\uffff\1\u0284\1\u01d1\3\uffff\1\u0308\2\uffff\1\u0167\1\u0177"+
-        "\1\u044a\1\u0249\1\uffff\1\u04ca\1\120\1\167\1\uffff\1\u00e1\1\uffff"+
-        "\1\u00ec\1\u01c4\1\u01e1\1\uffff\1\u0122\1\u0188\1\uffff\1\u0198"+
-        "\1\u0109\1\u0115\1\u048d\1\u009c\1\u0233\2\uffff\1\u0352\1\u034c"+
-        "\3\uffff\1\u04da\2\uffff\1\u03d0\1\u0224\1\1\4\uffff\1\u0211\1\u029e"+
-        "\1\uffff\1\62\1\uffff\1\u0151\1\103\1\175\1\u0139\1\u02d8\1\u038d"+
-        "\4\uffff\1\u00b5\1\uffff\1\u0285\1\u01d2\2\uffff\1\u0309\2\uffff"+
-        "\1\u0168\1\u0178\1\u044b\1\uffff\1\u04cd\1\121\2\uffff\1\u00e2\1"+
-        "\uffff\1\u00ed\1\u01c5\1\u01e3\1\u0123\1\u0189\1\u0199\1\uffff\1"+
-        "\u0116\1\u048e\4\uffff\1\u0353\1\u034d\4\uffff\1\u0225\3\uffff\1"+
-        "\u0213\1\u029f\1\63\1\uffff\1\u0152\1\104\1\176\1\u013a\1\u02d9"+
-        "\1\u038e\2\uffff\1\u00b6\2\uffff\1\u030a\1\u0169\1\u0179\1\u044c"+
-        "\2\uffff\1\u02e9\1\122\1\uffff\1\u00e3\1\u00ee\1\u01c6\1\uffff\1"+
-        "\u0124\1\u018a\1\u019a\1\uffff\1\u0117\3\uffff\1\u0354\1\u034e\2"+
-        "\uffff\1\u0226\1\uffff\1\u0214\1\uffff\1\64\1\u0153\1\105\1\177"+
-        "\1\u013b\1\uffff\1\u0390\1\u00b7\2\uffff\1\u030c\1\u016a\1\u017a"+
-        "\1\uffff\1\u02b8\1\uffff\1\u02ea\1\123\4\uffff\1\u0125\1\u018b\1"+
-        "\u019b\1\u0118\1\uffff\1\u0355\1\u034f\1\u0227\1\u0216\1\uffff\1"+
-        "\65\1\u0155\1\106\1\u0080\1\u013c\2\uffff\1\u00b8\1\u030d\1\u016b"+
-        "\1\u017b\1\uffff\1\u02b9\1\u02eb\1\124\3\uffff\1\u0126\1\uffff\1"+
-        "\u019c\1\uffff\1\u0356\1\uffff\1\u0228\2\uffff\1\u0156\1\uffff\1"+
-        "\u0081\1\u013d\1\uffff\1\u00b9\1\u030e\1\u016c\1\u017c\1\u02bb\1"+
-        "\u02ed\1\125\1\u0127\1\uffff\1\u019d\1\uffff\1\u0357\1\uffff\1\u0229"+
-        "\2\uffff\1\u0157\2\uffff\1\u013e\1\u00ba\1\u030f\1\u016d\1\u017d"+
-        "\1\u02bc\1\u02ee\1\126\1\u0128\1\u019e\2\uffff\1\u0158\1\uffff\1"+
-        "\u013f\1\u00bb\1\uffff\1\u016f\1\uffff\1\u02bd\1\u02f0\1\127\1\u0129"+
-        "\1\u019f\2\uffff\1\u0159\1\u0140\1\u00bd\3\uffff\1\u02be\2\uffff"+
-        "\1\u012a\1\u01a0\1\u015a\1\u0141\1\u00be\4\uffff\1\u012b\1\u01a1"+
-        "\1\u015b\1\u0143\1\u00bf\2\uffff\1\u01a2\1\u015c\1\u0144\2\uffff"+
-        "\1\u01a3\1\u015d\1\u0145\1\uffff\1\u01a4\1\u015e\1\uffff\1\u01a6"+
-        "\1\u015f\1\uffff\1\u01a7\1\uffff\1\u01a8\3\uffff}>";
+        "\1\u03f6\3\uffff\1\u046a\3\uffff\1\u0433\20\uffff\1\u041f\1\u02d9"+
+        "\1\u02ea\1\u0148\1\u02a8\1\u0256\1\u042e\1\u00a8\1\u0161\1\u0403"+
+        "\1\u04b3\1\u02e2\1\u035c\1\u012d\1\u0292\1\u00c9\1\u0427\1\u0285"+
+        "\1\71\1\u042a\1\u0426\1\u04b0\1\u024b\1\u0338\5\uffff\1\u0490\14"+
+        "\uffff\1\u02dc\1\u03ad\1\u0450\1\u011c\1\u040f\1\u040c\1\u02d4\1"+
+        "\u03ff\1\u0442\1\u02e6\1\u0401\1\u0184\1\u041b\1\u0392\1\u0454\1"+
+        "\u022c\1\u02e1\1\u03f5\1\u0413\1\u01f0\1\u02ca\1\u00fd\1\u0441\1"+
+        "\u04ba\1\u0428\1\u0465\1\u0171\1\u043d\1\u018f\1\u0236\1\u0414\1"+
+        "\u0481\1\u042b\1\u00ac\1\u01fb\1\45\1\u0354\1\u02c9\1\u0267\1\u0168"+
+        "\1\u00fa\1\u01bf\1\u01b4\1\u00f4\1\u01e3\1\u046c\1\u0104\1\u02b0"+
+        "\1\u03dc\1\u012f\1\u0297\1\u041a\1\147\1\u0464\1\u029e\1\52\1\u0274"+
+        "\1\u031e\1\u0418\1\u030e\1\72\1\u0462\1\u0363\1\u04a7\1\u0499\1"+
+        "\u03e0\1\u01cb\1\u0260\1\u00a9\1\u01f1\1\u03c6\1\21\1\u0432\1\u035d"+
+        "\1\u036c\1\u024c\1\u0339\2\uffff\1\u0492\3\uffff\1\146\1\u00c1\1"+
+        "\u044a\1\u02fc\1\u0451\1\u0214\1\u0415\1\u0410\1\u040d\1\u03e3\1"+
+        "\u03fb\1\u0400\1\u0444\1\26\1\u010e\1\u0402\1\u008b\1\u0439\1\u041d"+
+        "\1\u0393\1\u0455\1\u022d\1\u0459\1\uffff\1\u03be\1\u0084\1\u0240"+
+        "\1\u045c\1\u026b\1\u04c0\1\u045e\1\u00d5\1\u022b\1\u0434\1\u00fe"+
+        "\1\u0257\1\u02eb\1\u04bb\1\u0429\1\u0466\1\u0174\1\u037b\1\u0185"+
+        "\1\u0190\1\u0237\1\u0467\1\u0397\1\u0482\1\u042c\1\u00b0\1\u01fe"+
+        "\1\46\1\u00f8\1\uffff\1\u02cb\1\u04d2\1\u009f\1\uffff\1\u049f\1"+
+        "\u00fb\1\u048e\1\u042d\1\u0200\1\u0453\1\uffff\1\u01b5\1\u02d3\1"+
+        "\uffff\1\u0497\1\132\1\u046d\1\u0106\1\u01d8\1\u043b\1\u03dd\1\u0130"+
+        "\1\u029c\1\u04c8\1\u0374\1\150\1\u043e\1\u008e\1\u0391\1\u04de\1"+
+        "\u0206\1\u028b\1\u028f\1\u03ec\1\53\1\u0275\1\u031f\1\17\1\u0423"+
+        "\1\u0398\1\u0147\1\u01ff\1\u03e6\1\73\1\u0420\1\u01b0\1\u03e2\1"+
+        "\uffff\1\u00f9\1\u01ab\1\u03d9\1\u01f3\1\u038e\1\u03e1\1\u0419\1"+
+        "\u0286\1\u0261\1\u00aa\1\u01f2\1\u03c7\1\24\1\u02f3\1\u01d6\1\u035e"+
+        "\1\u036d\1\u024d\1\u033a\1\u0494\3\uffff\1\151\1\u00c2\1\u044c\1"+
+        "\u02fd\1\u0452\1\u0215\1\u0416\1\u0411\1\u040e\1\u03e4\1\u03fc\1"+
+        "\uffff\1\u0445\1\31\1\u010f\1\u0102\1\u0216\1\u008c\1\uffff\1\u02b1"+
+        "\1\u041e\1\u0394\1\u0456\1\u022e\1\u045a\1\uffff\1\u03bf\1\u0085"+
+        "\1\u0241\1\u045d\1\u026c\1\u04c3\1\u045f\1\uffff\1\111\1\u0421\1"+
+        "\uffff\1\u028a\1\u0435\1\u00ff\1\u0258\1\u02ec\1\uffff\1\u02e3\2"+
+        "\uffff\1\11\1\u011a\1\uffff\1\u037c\1\uffff\1\u03b6\1\u0191\1\uffff"+
+        "\1\u0468\1\u039a\1\u0483\1\u0091\1\u0474\1\u02a1\1\u00b4\1\u03db"+
+        "\1\u0362\1\47\2\uffff\1\u02cc\1\u04d3\1\u00a0\1\uffff\1\u019c\1"+
+        "\uffff\1\u00fc\1\u048f\1\u02b7\1\u01ec\1\u0201\1\u021b\1\u0326\1"+
+        "\uffff\1\u01b6\2\uffff\1\u0498\1\133\1\u046e\1\u0107\1\u01db\1\u043c"+
+        "\1\u03de\1\u0131\1\u029f\1\u04ca\1\u0375\1\152\1\u0440\1\u008f\1"+
+        "\uffff\1\u04df\1\u0207\1\u028c\1\u0290\1\u03ed\1\54\1\u0276\1\u0320"+
+        "\1\20\1\u0424\1\u0399\1\u0149\1\uffff\1\u03e7\1\74\1\u02ab\1\u0132"+
+        "\1\u01b1\3\uffff\1\u01ac\1\u03da\1\u01f4\1\u038f\1\uffff\1\u0314"+
+        "\1\141\1\u0287\1\u0262\1\u00ab\1\u01f5\1\u042f\1\u036e\1\u023e\1"+
+        "\u03ab\1\u02f4\1\u0380\1\u03a8\1\u035f\1\uffff\1\u024e\1\u033b\4"+
+        "\uffff\1\u043a\1\u047a\1\u00c3\1\uffff\1\u02fe\1\uffff\1\u0217\1"+
+        "\u0417\1\uffff\1\u0238\1\u0412\1\u03e5\1\u03fd\2\uffff\1\35\1\u0110"+
+        "\1\u0103\1\u0218\1\u008d\1\uffff\1\u02b2\1\u0221\1\u01c8\1\u0395"+
+        "\1\u0457\1\u022f\1\u045b\1\u03c0\1\u0086\1\u0242\1\uffff\1\u026d"+
+        "\1\u04c5\1\u0460\1\uffff\1\112\1\161\1\u00ca\1\u00db\1\uffff\1\u00d2"+
+        "\1\u00e6\1\u01bc\1\u01d5\1\u0436\1\u0100\1\u0259\1\uffff\1\u03f7"+
+        "\1\uffff\1\u02e4\2\uffff\1\12\1\u011b\1\uffff\1\u037d\1\uffff\1"+
+        "\u03b7\1\u0192\2\uffff\1\u039d\1\u0484\1\u0093\1\u0476\1\u02a2\1"+
+        "\u03d8\1\u02a5\1\u0404\1\u02bf\1\u0342\1\u0355\1\u0364\1\50\1\uffff"+
+        "\1\u0105\1\uffff\1\u04d5\1\u00a1\1\u0330\1\u03ce\2\uffff\1\u0491"+
+        "\1\u02b8\1\u01ed\1\u0202\1\u021c\1\u0327\1\u01b7\1\uffff\1\u049a"+
+        "\1\134\1\u02c4\1\u02cd\1\u0108\1\u01de\1\u043f\1\u03df\1\u04a1\1"+
+        "\u04ac\1\u02a0\1\u04cb\1\u0376\1\153\1\uffff\1\u0090\1\uffff\1\u04e0"+
+        "\1\u0208\1\u028d\1\u0291\1\u03ee\1\55\1\u0277\1\u0321\1\22\1\u0425"+
+        "\1\u039b\1\u014a\1\uffff\1\u03e8\1\75\1\u02ac\1\u0133\1\u01b2\2"+
+        "\uffff\1\u01ad\1\uffff\1\u01f6\1\u0390\1\uffff\1\u0315\1\uffff\1"+
+        "\u03ae\1\u0288\1\u0263\1\u00ad\1\u01f8\1\u0430\1\u036f\1\u023f\1"+
+        "\u03ac\1\uffff\1\u0381\1\u03a9\1\u0360\1\uffff\1\u024f\1\u033c\2"+
+        "\uffff\1\u047b\1\u00c4\1\uffff\1\u02ff\1\uffff\1\u0219\1\u01e7\2"+
+        "\uffff\1\u0239\1\u030f\1\u0316\1\164\1\u032a\1\u032c\1\uffff\1\u03fe"+
+        "\1\uffff\1\u0469\1\uffff\1\u03a4\1\u0114\1\u046b\1\u04bc\1\u021a"+
+        "\1\uffff\1\u02b3\1\u041c\1\uffff\1\u01c9\1\u0396\1\u0458\1\u0230"+
+        "\1\uffff\1\u03c1\1\u0087\1\u0243\1\uffff\1\u026e\1\u04c6\1\u0461"+
+        "\1\113\1\162\1\u00cb\1\u00dc\1\u00d3\1\u00e7\1\u01bd\1\u01d7\1\uffff"+
+        "\1\u02dd\1\u0101\1\u025a\1\uffff\1\u03f8\1\u02e5\1\13\1\u011d\1"+
+        "\u037e\1\u03b8\1\u0193\1\uffff\1\u03a0\1\u0485\1\u0094\1\u0477\1"+
+        "\u02a3\1\uffff\1\u02f5\1\u02a6\1\u0405\1\u02c0\1\u0343\1\u0356\1"+
+        "\u0365\1\51\1\u046f\2\uffff\1\u04d6\1\u00a2\1\u0331\1\u03cf\1\uffff"+
+        "\1\u0493\1\u0437\1\uffff\1\u01ee\1\u0203\1\u021d\1\u0328\1\u01b8"+
+        "\1\u049b\1\135\1\u02c5\1\u02ce\1\uffff\1\u04a0\1\u01e1\1\uffff\1"+
+        "\37\1\u030d\1\uffff\1\u04a2\1\u04ad\1\u014b\1\uffff\1\u02d5\1\u04cd"+
+        "\1\u0377\1\154\1\uffff\1\u0092\1\uffff\1\u0209\1\u028e\1\u0293\1"+
+        "\u03ef\1\56\1\u0278\1\u0322\1\23\1\142\1\u0341\1\u039c\1\u014c\1"+
+        "\u03e9\1\76\1\u02ad\1\u0134\1\u01b3\1\u01ae\1\uffff\1\u01f7\2\uffff"+
+        "\1\u00f1\1\uffff\1\u03af\1\u0289\1\u0264\1\u00ae\1\u01fd\1\u0431"+
+        "\1\u0370\3\uffff\1\u0382\1\u03aa\1\u0361\1\u0250\1\u033d\1\uffff"+
+        "\1\u047c\1\u00c5\1\u0300\1\uffff\1\27\1\u01e8\1\uffff\1\u023a\1"+
+        "\u0310\1\u0317\1\u031b\1\u0324\1\u032b\1\u032d\4\uffff\1\u03a5\1"+
+        "\uffff\1\u02a9\1\u0340\1\uffff\1\u04bd\2\uffff\1\u02b4\1\u0162\1"+
+        "\u0172\1\u0443\1\uffff\1\u01ca\4\uffff\1\u03c2\1\u0088\1\u0244\1"+
+        "\u026f\1\u04c7\1\u0463\1\114\1\163\1\u00cc\1\u00dd\1\u00d4\1\u00e8"+
+        "\1\u01be\1\u01d9\1\uffff\1\u02de\1\uffff\1\u025b\1\u03f9\1\u02e7"+
+        "\1\14\1\u011e\1\u037f\1\u03b9\1\u0194\1\u03a2\1\u0486\1\u0096\1"+
+        "\u0478\1\u02a4\1\uffff\1\u02f6\1\u02a7\1\u0406\1\u02c1\1\u0344\1"+
+        "\u0357\1\u0366\1\uffff\1\u0470\1\uffff\1\u04d7\1\u00a3\1\u0332\1"+
+        "\u03d0\1\u0495\1\u0438\1\uffff\1\u01ef\1\u0204\1\u021e\1\u0329\1"+
+        "\u01b9\1\u049c\1\136\1\u02c6\1\u02cf\2\uffff\1\u01e5\1\uffff\1\40"+
+        "\2\uffff\1\u04a3\1\u04ae\1\u04a6\1\u04b4\3\uffff\1\u0378\1\155\1"+
+        "\u0095\1\uffff\1\u020a\1\uffff\1\u0294\1\u03f0\1\57\1\u0279\1\u0323"+
+        "\1\25\1\143\1\uffff\1\u039e\1\u014d\1\u03ea\1\77\1\u02ae\1\u0135"+
+        "\1\uffff\1\u01af\1\u01f9\2\uffff\1\u00f2\1\u03b0\1\u03d2\1\uffff"+
+        "\1\u0265\1\u00af\1\u0422\1\uffff\1\u01ce\1\uffff\1\u0371\2\uffff"+
+        "\1\u0383\2\uffff\1\u0251\1\u033e\1\u047d\1\u00c6\1\u0301\1\uffff"+
+        "\1\30\1\u01e9\1\u023b\1\u0311\1\u0318\1\u031c\1\u0325\1\uffff\1"+
+        "\u032e\1\uffff\1\u03a6\1\uffff\1\u02aa\2\uffff\1\u04be\1\uffff\1"+
+        "\u02b5\1\u0163\1\u0173\1\u0446\1\u01cc\3\uffff\1\u03c3\1\u0089\1"+
+        "\u0245\1\u0270\1\u04c9\1\uffff\1\115\1\165\1\u00cd\1\u00de\1\u00d6"+
+        "\1\u00e9\1\u01c0\1\u01da\1\u02df\1\uffff\1\u025c\1\u03fa\1\u02e8"+
+        "\1\15\1\u011f\1\u008a\1\u0186\1\u03ba\1\u0195\1\u03a3\1\u0487\1"+
+        "\u0097\1\u0479\1\uffff\1\u02f7\1\uffff\1\u0407\1\u02c2\1\u0345\1"+
+        "\u0358\1\u0367\1\uffff\1\u0471\1\u04d8\1\u00a4\1\u0333\1\u03d1\1"+
+        "\u0496\1\uffff\1\u03c8\1\uffff\1\u0205\1\u021f\1\uffff\1\u01ba\1"+
+        "\u049d\1\137\1\u02c7\1\u02d0\1\uffff\1\u01e6\1\41\1\uffff\1\u04a4"+
+        "\1\u04af\1\u04a8\1\u04b5\2\uffff\1\u0379\1\156\1\u0098\1\u020b\1"+
+        "\uffff\1\u0295\1\u03f1\1\60\1\u027a\2\uffff\1\144\1\uffff\1\u039f"+
+        "\1\u014e\1\u03eb\1\100\1\u02af\1\u0136\2\uffff\1\u01fa\1\u00f3\1"+
+        "\u03b1\1\u03d3\1\uffff\1\u0266\1\u00b1\1\u0180\1\u027f\1\uffff\1"+
+        "\u01cf\1\uffff\1\u0372\1\u0384\2\uffff\1\u0252\1\u033f\1\u047e\1"+
+        "\u00c7\1\u0302\1\32\1\u01ea\1\u023c\1\u0312\1\u0319\1\u031d\2\uffff"+
+        "\1\u032f\1\u03a7\2\uffff\1\u04bf\1\u02b6\1\u0164\1\u0175\1\u0447"+
+        "\1\u01cd\1\u03c4\1\uffff\1\u0246\1\u0271\1\u04cc\1\uffff\1\116\1"+
+        "\166\1\u00ce\1\u00df\1\u00d7\1\u00ea\1\u01c1\1\u01dc\1\u02e0\1\u025d"+
+        "\1\uffff\1\u02e9\1\16\1\u0120\1\uffff\1\u0187\1\u03bb\1\u0196\1"+
+        "\u0109\1\u0111\1\u0488\1\u0099\1\u0231\2\uffff\1\u02f8\1\uffff\1"+
+        "\u0408\1\u02c3\1\u0346\1\u0359\1\u0368\1\u0472\1\u04d9\1\u00a5\1"+
+        "\u0334\3\uffff\1\u03c9\2\uffff\1\u0220\1\uffff\1\u01bb\1\u049e\1"+
+        "\140\1\u02c8\1\u02d1\1\0\1\5\1\42\1\u04a5\1\u04b1\1\u04a9\1\u04b6"+
+        "\1\u037a\1\157\1\u009a\1\u020c\1\u0296\1\u03f2\1\61\1\u027b\2\uffff"+
+        "\1\145\1\u03a1\1\u014f\1\uffff\1\101\1\uffff\1\173\1\u0137\1\uffff"+
+        "\1\u01fc\1\u00f5\1\u03b2\1\u03d4\1\u0268\1\u00b2\1\u0181\1\u0280"+
+        "\1\u01d0\1\u0373\1\u0385\1\u0253\1\uffff\1\u047f\1\u00c8\1\u0303"+
+        "\1\33\1\u01eb\1\u023d\1\u0313\1\u031a\5\uffff\1\u04c1\1\uffff\1"+
+        "\u0165\1\u0176\1\u0448\1\uffff\1\u03c5\1\uffff\1\u0247\1\u0272\1"+
+        "\u04ce\1\117\1\167\1\u00cf\1\u00e0\1\u00d8\1\u00eb\1\u01c2\1\u01dd"+
+        "\1\uffff\1\u025e\2\uffff\1\u0121\1\uffff\1\u0188\1\u03bc\1\u0197"+
+        "\1\u010a\1\u0112\1\u0489\1\u009b\1\u0232\1\uffff\1\u02f9\1\u0409"+
+        "\1\uffff\1\u0347\1\u035a\1\u0369\1\u0473\1\u04da\1\u00a6\1\u0335"+
+        "\2\uffff\1\u03ca\1\uffff\1\u0222\4\uffff\1\u02d2\1\1\1\6\1\43\1"+
+        "\uffff\1\u04b2\1\u04aa\1\u04b7\1\uffff\1\160\1\u02d6\1\u0388\1\u020d"+
+        "\1\u0298\1\u03f3\1\62\1\u027c\2\uffff\1\u0150\1\uffff\1\102\1\uffff"+
+        "\1\174\1\u0138\1\uffff\1\u00f6\1\u03b3\1\u03d5\1\u0269\1\u00b3\1"+
+        "\u0182\1\u0281\1\u01d1\1\uffff\1\u0386\1\u0254\1\uffff\1\u0480\1"+
+        "\uffff\1\u0304\1\34\7\uffff\1\u04c2\1\uffff\1\u0166\1\u0177\1\u0449"+
+        "\2\uffff\1\u0248\1\u0273\1\u04cf\1\120\1\170\1\u00d0\1\u00e1\1\u00d9"+
+        "\1\u00ec\1\u01c3\1\u01df\1\uffff\1\u025f\2\uffff\1\u0122\1\u0189"+
+        "\1\u03bd\1\u0198\1\u010b\1\u0113\1\u048a\1\u009c\1\u0233\1\u02fa"+
+        "\1\u040a\1\uffff\1\u0348\1\u035b\1\u036a\1\u0475\1\u04db\1\u00a7"+
+        "\1\u0336\1\u03cb\1\u0223\5\uffff\1\2\1\7\1\44\2\uffff\1\u04ab\1"+
+        "\u04b8\2\uffff\1\u02d7\1\u0389\1\u020e\1\u0299\1\u03f4\1\63\1\u027d"+
+        "\2\uffff\1\u0151\1\103\1\175\1\u0139\1\uffff\1\u00f7\1\u03b4\1\u03d6"+
+        "\1\u026a\1\u00b5\1\u0183\1\u0282\1\u01d2\1\uffff\1\u0387\1\u0255"+
+        "\2\uffff\1\u0305\1\36\4\uffff\1\u04c4\1\u0167\1\u0178\1\u044b\1"+
+        "\uffff\1\u0249\1\uffff\1\u04d0\1\121\1\171\1\u00d1\1\u00e2\1\u00da"+
+        "\1\u00ed\1\u01c4\1\u01e0\1\uffff\1\u0123\1\u018a\1\uffff\1\u0199"+
+        "\1\u010c\1\u0115\1\u048b\1\u009d\1\u0234\1\u02fb\1\u040b\1\u0349"+
+        "\1\uffff\1\u036b\1\uffff\1\u04dc\1\uffff\1\u0337\1\u03cc\1\u0224"+
+        "\1\uffff\1\3\1\10\3\uffff\1\u04b9\1\uffff\1\u02d8\1\u038a\1\u020f"+
+        "\1\u029a\1\uffff\1\64\1\u027e\1\u0152\1\104\1\176\1\u013a\1\uffff"+
+        "\1\u03b5\1\u03d7\1\uffff\1\u00b6\1\uffff\1\u0283\1\u01d3\3\uffff"+
+        "\1\u0306\2\uffff\1\u0169\1\u0179\1\u044d\1\u024a\1\uffff\1\u04d1"+
+        "\1\122\1\172\1\uffff\1\u00e3\1\uffff\1\u00ee\1\u01c5\1\u01e2\1\uffff"+
+        "\1\u0124\1\u018b\1\uffff\1\u019a\1\u010d\1\u0116\1\u048c\1\u009e"+
+        "\1\u0235\2\uffff\1\u034e\1\u034a\3\uffff\1\u04dd\2\uffff\1\u03cd"+
+        "\1\u0225\1\4\4\uffff\1\u02da\1\u038b\1\u0210\1\u029b\1\uffff\1\65"+
+        "\1\uffff\1\u0153\1\105\1\177\1\u013b\4\uffff\1\u00b7\1\uffff\1\u0284"+
+        "\1\u01d4\2\uffff\1\u0307\2\uffff\1\u016a\1\u017a\1\u044e\1\uffff"+
+        "\1\u04d4\1\123\2\uffff\1\u00e4\1\uffff\1\u00ef\1\u01c6\1\u01e4\1"+
+        "\u0125\1\u018c\1\u019b\1\uffff\1\u0117\1\u048d\4\uffff\1\u034f\1"+
+        "\u034b\4\uffff\1\u0226\3\uffff\1\u02db\1\u038c\1\u0211\1\u029d\1"+
+        "\66\1\uffff\1\u0154\1\106\1\u0080\1\u013c\2\uffff\1\u00b8\2\uffff"+
+        "\1\u0308\1\u016b\1\u017b\1\u044f\2\uffff\1\u02ed\1\124\1\uffff\1"+
+        "\u00e5\1\u00f0\1\u01c7\1\uffff\1\u0126\1\u018d\1\u019d\1\uffff\1"+
+        "\u0118\3\uffff\1\u0350\1\u034c\2\uffff\1\u0227\2\uffff\1\u038d\1"+
+        "\u0212\1\uffff\1\67\1\u0155\1\107\1\u0081\1\u013d\1\u00b9\2\uffff"+
+        "\1\u0309\1\u016c\1\u017c\1\uffff\1\u02b9\1\uffff\1\u02ee\1\125\4"+
+        "\uffff\1\u0127\1\u018e\1\u019e\1\u0119\1\uffff\1\u0351\1\u034d\1"+
+        "\u0228\2\uffff\1\u0213\1\uffff\1\70\1\u0156\1\110\1\u0082\1\u013e"+
+        "\1\u00ba\1\u030a\1\u016d\1\u017d\1\uffff\1\u02ba\1\u02ef\1\126\3"+
+        "\uffff\1\u0128\1\uffff\1\u019f\1\uffff\1\u0352\1\uffff\1\u0229\3"+
+        "\uffff\1\u0157\1\uffff\1\u0083\1\u013f\1\u00bb\1\u030b\1\u016e\1"+
+        "\u017e\1\u02bb\1\u02f0\1\127\1\u0129\1\uffff\1\u01a0\1\uffff\1\u0353"+
+        "\1\uffff\1\u022a\2\uffff\1\u0158\2\uffff\1\u0140\1\u00bc\1\u030c"+
+        "\1\u016f\1\u017f\1\u02bc\1\u02f1\1\130\1\u012a\1\u01a1\2\uffff\1"+
+        "\u0159\1\uffff\1\u0141\1\u00bd\1\uffff\1\u0170\1\uffff\1\u02bd\1"+
+        "\u02f2\1\131\1\u012b\1\u01a2\2\uffff\1\u015a\1\u0142\1\u00be\3\uffff"+
+        "\1\u02be\2\uffff\1\u012c\1\u01a3\1\u015b\1\u0143\1\u00bf\4\uffff"+
+        "\1\u012e\1\u01a4\1\u015c\1\u0144\1\u00c0\2\uffff\1\u01a5\1\u015d"+
+        "\1\u0145\2\uffff\1\u01a6\1\u015e\1\u0146\1\uffff\1\u01a7\1\u015f"+
+        "\1\uffff\1\u01a8\1\u0160\1\uffff\1\u01a9\1\uffff\1\u01aa\3\uffff}>";
     static final String[] DFA16_transitionS = {
             "\11\25\2\24\2\25\1\24\22\25\1\24\1\25\1\4\4\25\1\10\4\25\1\2"+
             "\1\11\1\12\1\23\12\22\1\5\6\25\4\21\1\13\25\21\1\6\1\25\1\7"+
@@ -7434,9 +7430,9 @@ public class InternalSearchDslLexer extends Lexer {
             "",
             "",
             "",
-            "\42\62\1\61\74\62\1\33\1\62\1\36\1\55\1\50\1\37\1\51\1\32\1"+
-            "\41\1\44\1\43\1\62\1\46\1\53\1\35\1\54\1\34\1\56\1\40\1\45\1"+
-            "\31\1\42\1\57\1\47\1\60\2\62\1\52\uff85\62",
+            "\42\62\1\61\74\62\1\33\1\62\1\36\1\55\1\51\1\37\1\52\1\32\1"+
+            "\41\1\44\1\43\1\62\1\46\1\54\1\35\1\50\1\34\1\56\1\40\1\45\1"+
+            "\31\1\42\1\57\1\47\1\60\2\62\1\53\uff85\62",
             "",
             "",
             "",
@@ -7476,12 +7472,12 @@ public class InternalSearchDslLexer extends Lexer {
             "\141\62\1\161\3\62\1\162\3\62\1\163\uff96\62",
             "\145\62\1\164\uff9a\62",
             "\141\62\1\165\uff9e\62",
-            "\154\62\1\171\2\62\1\166\2\62\1\170\2\62\1\167\uff8a\62",
-            "\156\62\1\173\11\62\1\172\uff87\62",
-            "\145\62\1\174\uff9a\62",
-            "\141\62\1\u0081\3\62\1\177\3\62\1\u0080\5\62\1\175\4\62\1\176"+
-            "\uff8b\62",
-            "\145\62\1\u0084\11\62\1\u0083\5\62\1\u0082\uff8a\62",
+            "\145\62\1\166\11\62\1\170\5\62\1\167\uff8a\62",
+            "\154\62\1\174\2\62\1\171\2\62\1\173\2\62\1\172\uff8a\62",
+            "\156\62\1\176\11\62\1\175\uff87\62",
+            "\145\62\1\177\uff9a\62",
+            "\141\62\1\u0084\3\62\1\u0082\3\62\1\u0083\5\62\1\u0080\4\62"+
+            "\1\u0081\uff8b\62",
             "\145\62\1\u0086\11\62\1\u0085\uff90\62",
             "\141\62\1\u008b\3\62\1\u0087\2\62\1\u0088\1\u008d\2\62\1\u008a"+
             "\2\62\1\u008c\2\62\1\u0089\uff8d\62",
@@ -7557,22 +7553,22 @@ public class InternalSearchDslLexer extends Lexer {
             "\147\62\1\u00e0\uff98\62",
             "\171\62\1\u00e1\uff86\62",
             "\154\62\1\u00e2\uff93\62",
-            "\154\62\1\u00e4\1\u00e5\1\u00e6\1\u00e7\5\62\1\u00e3\uff8a"+
+            "\151\62\1\u00e4\11\62\1\u00e3\uff8c\62",
+            "\154\62\1\u00e5\uff93\62",
+            "\137\62\1\u00e7\16\62\1\u00e6\5\62\1\u00e8\uff8b\62",
+            "\154\62\1\u00ea\1\u00eb\1\u00ec\1\u00ed\5\62\1\u00e9\uff8a"+
             "\62",
-            "\164\62\1\u00e8\uff8b\62",
-            "\157\62\1\u00e9\uff90\62",
-            "\141\62\1\u00ea\uff9e\62",
-            "\143\62\1\u00eb\1\62\1\u00ed\3\62\1\u00ec\uff96\62",
-            "\141\62\1\u00ee\2\62\1\u00ef\21\62\1\u00f0\uff89\62",
-            "\162\62\1\u00f1\uff8d\62",
-            "\143\62\1\u00f3\12\62\1\u00f4\10\62\1\u00f2\uff88\62",
-            "\42\62\1\u00f5\102\62\1\u00f6\uff9a\62",
-            "\146\62\1\u00f8\7\62\1\u00f7\uff91\62",
-            "\153\62\1\u00f9\1\62\1\u00fa\uff92\62",
-            "\164\62\1\u00fb\uff8b\62",
-            "\154\62\1\u00fc\uff93\62",
-            "\137\62\1\u00fe\16\62\1\u00fd\5\62\1\u00ff\uff8b\62",
-            "\151\62\1\u0101\11\62\1\u0100\uff8c\62",
+            "\164\62\1\u00ee\uff8b\62",
+            "\157\62\1\u00ef\uff90\62",
+            "\141\62\1\u00f0\uff9e\62",
+            "\143\62\1\u00f1\1\62\1\u00f3\3\62\1\u00f2\uff96\62",
+            "\141\62\1\u00f4\2\62\1\u00f5\21\62\1\u00f6\uff89\62",
+            "\162\62\1\u00f7\uff8d\62",
+            "\143\62\1\u00f9\12\62\1\u00fa\10\62\1\u00f8\uff88\62",
+            "\42\62\1\u00fb\102\62\1\u00fc\uff9a\62",
+            "\146\62\1\u00fe\7\62\1\u00fd\uff91\62",
+            "\153\62\1\u00ff\1\62\1\u0100\uff92\62",
+            "\164\62\1\u0101\uff8b\62",
             "\157\62\1\u0102\4\62\1\u0103\uff8b\62",
             "\163\62\1\u0104\uff8c\62",
             "\162\62\1\u0105\uff8d\62",
@@ -7667,37 +7663,37 @@ public class InternalSearchDslLexer extends Lexer {
             "\150\62\1\u016c\uff97\62",
             "\137\62\1\u016d\uffa0\62",
             "\165\62\1\u016e\uff8a\62",
-            "\156\62\1\u016f\uff91\62",
-            "\154\62\1\u0170\uff93\62",
-            "\155\62\1\u0171\uff92\62",
-            "\163\62\1\u0172\uff8c\62",
-            "\162\62\1\u0173\uff8d\62",
-            "\157\62\1\u0174\uff90\62",
-            "\163\62\1\u0175\uff8c\62",
-            "\165\62\1\u0176\uff8a\62",
-            "\154\62\1\u0177\uff93\62",
+            "\164\62\1\u016f\uff8b\62",
+            "\147\62\1\u0170\uff98\62",
+            "\154\62\1\u0171\uff93\62",
+            "\145\62\1\u0172\uff9a\62",
+            "\155\62\1\u0173\uff92\62",
+            "\42\62\1\u0174\uffdd\62",
+            "\156\62\1\u0175\uff91\62",
+            "\154\62\1\u0176\uff93\62",
+            "\155\62\1\u0177\uff92\62",
             "\163\62\1\u0178\uff8c\62",
-            "\143\62\1\u0179\uff9c\62",
-            "\142\62\1\u017a\uff9d\62",
-            "\42\62\1\u017b\uffdd\62",
-            "\145\62\1\u017c\uff9a\62",
-            "\157\62\1\u017d\uff90\62",
-            "\137\62\1\u017e\5\62\1\u017f\uff9a\62",
-            "\141\62\1\u0180\uff9e\62",
+            "\162\62\1\u0179\uff8d\62",
+            "\157\62\1\u017a\uff90\62",
+            "\163\62\1\u017b\uff8c\62",
+            "\165\62\1\u017c\uff8a\62",
+            "\154\62\1\u017d\uff93\62",
+            "\163\62\1\u017e\uff8c\62",
+            "\143\62\1\u017f\uff9c\62",
+            "\142\62\1\u0180\uff9d\62",
             "\42\62\1\u0181\uffdd\62",
+            "\145\62\1\u0182\uff9a\62",
+            "\157\62\1\u0183\uff90\62",
+            "\137\62\1\u0184\5\62\1\u0185\uff9a\62",
+            "\141\62\1\u0186\uff9e\62",
+            "\42\62\1\u0187\uffdd\62",
             "",
-            "\42\62\1\u0183\uffdd\62",
-            "\151\62\1\u0184\uff96\62",
-            "\164\62\1\u0185\uff8b\62",
-            "\145\62\1\u0186\uff9a\62",
-            "\151\62\1\u0187\uff96\62",
-            "\42\62\1\u0188\uffdd\62",
-            "\154\62\1\u0189\uff93\62",
-            "\145\62\1\u018a\uff9a\62",
-            "\155\62\1\u018b\uff92\62",
-            "\42\62\1\u018c\uffdd\62",
-            "\164\62\1\u018d\uff8b\62",
-            "\147\62\1\u018e\uff98\62",
+            "\42\62\1\u0189\uffdd\62",
+            "\151\62\1\u018a\uff96\62",
+            "\164\62\1\u018b\uff8b\62",
+            "\145\62\1\u018c\uff9a\62",
+            "\151\62\1\u018d\uff96\62",
+            "\42\62\1\u018e\uffdd\62",
             "\154\62\1\u0190\6\62\1\u018f\uff8c\62",
             "\164\62\1\u0191\uff8b\62",
             "\164\62\1\u0192\uff8b\62",
@@ -7808,38 +7804,38 @@ public class InternalSearchDslLexer extends Lexer {
             "\164\62\1\u0208\uff8b\62",
             "\146\62\1\u0209\14\62\1\u020a\uff8c\62",
             "\145\62\1\u020b\uff9a\62",
-            "\164\62\1\u020c\uff8b\62",
-            "\145\62\1\u020d\uff9a\62",
-            "\157\62\1\u020e\uff90\62",
-            "\164\62\1\u020f\uff8b\62",
-            "\144\62\1\u0210\uff9b\62",
-            "\146\62\1\u0211\uff99\62",
-            "\163\62\1\u0212\uff8c\62",
-            "\163\62\1\u0213\uff8c\62",
-            "\165\62\1\u0214\uff8a\62",
-            "\164\62\1\u0215\uff8b\62",
-            "\165\62\1\u0216\uff8a\62",
-            "\154\62\1\u0217\uff93\62",
+            "\145\62\1\u020c\uff9a\62",
+            "\150\62\1\u020d\uff97\62",
+            "\137\62\1\u020e\uffa0\62",
+            "\42\62\1\u020f\uffdd\62",
+            "\141\62\1\u0210\uff9e\62",
             "",
-            "\154\62\1\u0219\uff93\62",
-            "\137\62\1\u021a\uffa0\62",
-            "\146\62\1\u021b\uff99\62",
-            "\162\62\1\u021c\uff8d\62",
+            "\164\62\1\u0212\uff8b\62",
+            "\145\62\1\u0213\uff9a\62",
+            "\157\62\1\u0214\uff90\62",
+            "\164\62\1\u0215\uff8b\62",
+            "\144\62\1\u0216\uff9b\62",
+            "\146\62\1\u0217\uff99\62",
+            "\163\62\1\u0218\uff8c\62",
+            "\163\62\1\u0219\uff8c\62",
+            "\165\62\1\u021a\uff8a\62",
+            "\164\62\1\u021b\uff8b\62",
+            "\165\62\1\u021c\uff8a\62",
             "\154\62\1\u021d\uff93\62",
             "",
+            "\154\62\1\u021f\uff93\62",
+            "\137\62\1\u0220\uffa0\62",
+            "\146\62\1\u0221\uff99\62",
+            "\162\62\1\u0222\uff8d\62",
+            "\154\62\1\u0223\uff93\62",
             "",
             "",
-            "\145\62\1\u0220\uff9a\62",
-            "\42\62\1\u0221\uffdd\62",
-            "\137\62\1\u0222\uffa0\62",
-            "\164\62\1\u0223\uff8b\62",
             "",
-            "\137\62\1\u0225\uffa0\62",
-            "\42\62\1\u0226\uffdd\62",
-            "\141\62\1\u0227\uff9e\62",
+            "\145\62\1\u0226\uff9a\62",
+            "\42\62\1\u0227\uffdd\62",
+            "\137\62\1\u0228\uffa0\62",
+            "\164\62\1\u0229\uff8b\62",
             "",
-            "\145\62\1\u0229\uff9a\62",
-            "\150\62\1\u022a\uff97\62",
             "\164\62\1\u022b\uff8b\62",
             "\42\62\1\u022c\74\62\1\u022d\uffa0\62",
             "\157\62\1\u022e\uff90\62",
@@ -7966,37 +7962,37 @@ public class InternalSearchDslLexer extends Lexer {
             "\151\62\1\u02a6\uff96\62",
             "\143\62\1\u02a7\uff9c\62",
             "\42\62\1\u02a9\74\62\1\u02a8\23\62\1\u02aa\uff8c\62",
-            "\42\62\1\u02ab\uffdd\62",
-            "\143\62\1\u02ac\uff9c\62",
-            "\156\62\1\u02ad\uff91\62",
-            "\141\62\1\u02ae\uff9e\62",
-            "\151\62\1\u02af\uff96\62",
-            "\146\62\1\u02b0\uff99\62",
-            "\137\62\1\u02b1\uffa0\62",
-            "\145\62\1\u02b2\uff9a\62",
-            "\144\62\1\u02b3\uff9b\62",
-            "\145\62\1\u02b4\15\62\1\u02b5\uff8c\62",
-            "\164\62\1\u02b6\uff8b\62",
-            "\145\62\1\u02b7\uff9a\62",
+            "\144\62\1\u02ab\uff9b\62",
+            "\142\62\1\u02ac\uff9d\62",
+            "\166\62\1\u02ad\uff89\62",
             "",
-            "\157\62\1\u02b8\uff90\62",
-            "\164\62\1\u02b9\uff8b\62",
-            "\162\62\1\u02ba\uff8d\62",
-            "\143\62\1\u02bb\uff9c\62",
+            "\164\62\1\u02af\uff8b\62",
+            "",
+            "\42\62\1\u02b0\uffdd\62",
+            "\143\62\1\u02b1\uff9c\62",
+            "\156\62\1\u02b2\uff91\62",
+            "\141\62\1\u02b3\uff9e\62",
+            "\151\62\1\u02b4\uff96\62",
+            "\146\62\1\u02b5\uff99\62",
+            "\137\62\1\u02b6\uffa0\62",
+            "\145\62\1\u02b7\uff9a\62",
+            "\144\62\1\u02b8\uff9b\62",
+            "\145\62\1\u02b9\15\62\1\u02ba\uff8c\62",
+            "\164\62\1\u02bb\uff8b\62",
             "\145\62\1\u02bc\uff9a\62",
             "",
+            "\157\62\1\u02bd\uff90\62",
+            "\164\62\1\u02be\uff8b\62",
+            "\162\62\1\u02bf\uff8d\62",
+            "\143\62\1\u02c0\uff9c\62",
+            "\145\62\1\u02c1\uff9a\62",
             "",
-            "\156\62\1\u02bd\uff91\62",
             "",
-            "\164\62\1\u02bf\uff8b\62",
-            "\42\62\1\u02c0\uffdd\62",
+            "\156\62\1\u02c2\uff91\62",
             "",
-            "\166\62\1\u02c1\uff89\62",
+            "\164\62\1\u02c4\uff8b\62",
+            "\42\62\1\u02c5\uffdd\62",
             "",
-            "\164\62\1\u02c3\uff8b\62",
-            "",
-            "\144\62\1\u02c4\uff9b\62",
-            "\142\62\1\u02c5\uff9d\62",
             "\42\62\1\u02c6\74\62\1\u02c7\uffa0\62",
             "",
             "\156\62\1\u02c9\uff91\62",
@@ -8125,33 +8121,33 @@ public class InternalSearchDslLexer extends Lexer {
             "\146\62\1\u033f\14\62\1\u0340\uff8c\62",
             "",
             "\42\62\1\u0342\uffdd\62",
+            "\42\62\1\u0343\uffdd\62",
+            "\157\62\1\u0344\uff90\62",
+            "\141\62\1\u0345\uff9e\62",
             "",
-            "\164\62\1\u0344\uff8b\62",
-            "\42\62\1\u0345\uffdd\62",
-            "\156\62\1\u0346\uff91\62",
-            "\156\62\1\u0347\uff91\62",
-            "\137\62\1\u0348\uffa0\62",
-            "\146\62\1\u0349\uff99\62",
-            "\163\62\1\u034a\uff8c\62",
-            "\145\62\1\u034b\uff9a\62",
-            "\156\62\1\u034c\uff91\62",
-            "\42\62\1\u034d\uffdd\62",
-            "\151\62\1\u034e\uff96\62",
-            "\137\62\1\u034f\uffa0\62",
-            "\160\62\1\u0350\uff8f\62",
-            "\145\62\1\u0351\uff9a\62",
-            "\145\62\1\u0352\uff9a\62",
-            "\141\62\1\u0353\uff9e\62",
-            "\42\62\1\u0354\uffdd\62",
-            "\164\62\1\u0355\uff8b\62",
+            "\143\62\1\u0346\uff9c\62",
             "",
+            "\164\62\1\u0348\uff8b\62",
+            "\42\62\1\u0349\uffdd\62",
+            "\156\62\1\u034a\uff91\62",
+            "\156\62\1\u034b\uff91\62",
+            "\137\62\1\u034c\uffa0\62",
+            "\146\62\1\u034d\uff99\62",
+            "\163\62\1\u034e\uff8c\62",
+            "\145\62\1\u034f\uff9a\62",
+            "\156\62\1\u0350\uff91\62",
+            "\42\62\1\u0351\uffdd\62",
+            "\151\62\1\u0352\uff96\62",
+            "\137\62\1\u0353\uffa0\62",
+            "\160\62\1\u0354\uff8f\62",
+            "\145\62\1\u0355\uff9a\62",
             "\145\62\1\u0356\uff9a\62",
+            "\141\62\1\u0357\uff9e\62",
+            "\42\62\1\u0358\uffdd\62",
+            "\164\62\1\u0359\uff8b\62",
             "",
-            "\141\62\1\u0358\uff9e\62",
+            "\145\62\1\u035a\uff9a\62",
             "",
-            "\143\62\1\u0359\uff9c\62",
-            "\42\62\1\u035a\uffdd\62",
-            "\157\62\1\u035b\uff90\62",
             "",
             "\164\62\1\u035d\uff8b\62",
             "",
@@ -8278,30 +8274,30 @@ public class InternalSearchDslLexer extends Lexer {
             "",
             "",
             "",
-            "\137\62\1\u03cc\uffa0\62",
+            "\162\62\1\u03cd\uff8d\62",
+            "\154\62\1\u03ce\uff93\62",
+            "\150\62\1\u03cf\uff97\62",
             "",
-            "\164\62\1\u03ce\uff8b\62",
-            "\141\62\1\u03cf\uff9e\62",
-            "\146\62\1\u03d0\uff99\62",
-            "\151\62\1\u03d1\uff96\62",
-            "\42\62\1\u03d2\uffdd\62",
-            "\42\62\1\u03d3\uffdd\62",
-            "\143\62\1\u03d4\uff9c\62",
+            "\137\62\1\u03d0\uffa0\62",
             "",
-            "\157\62\1\u03d6\uff90\62",
-            "\160\62\1\u03d7\uff8f\62",
-            "\145\62\1\u03d8\uff9a\62",
-            "\162\62\1\u03d9\uff8d\62",
-            "\161\62\1\u03da\uff8e\62",
-            "\163\62\1\u03db\uff8c\62",
+            "\164\62\1\u03d2\uff8b\62",
+            "\141\62\1\u03d3\uff9e\62",
+            "\146\62\1\u03d4\uff99\62",
+            "\151\62\1\u03d5\uff96\62",
+            "\42\62\1\u03d6\uffdd\62",
+            "\42\62\1\u03d7\uffdd\62",
+            "\143\62\1\u03d8\uff9c\62",
             "",
-            "\42\62\1\u03dd\uffdd\62",
-            "\170\62\1\u03de\uff87\62",
+            "\157\62\1\u03da\uff90\62",
+            "\160\62\1\u03db\uff8f\62",
+            "\145\62\1\u03dc\uff9a\62",
+            "\162\62\1\u03dd\uff8d\62",
+            "\161\62\1\u03de\uff8e\62",
+            "\163\62\1\u03df\uff8c\62",
             "",
-            "\154\62\1\u03df\uff93\62",
-            "\150\62\1\u03e0\uff97\62",
+            "\42\62\1\u03e1\uffdd\62",
+            "\170\62\1\u03e2\uff87\62",
             "",
-            "\162\62\1\u03e2\uff8d\62",
             "",
             "\145\62\1\u03e3\uff9a\62",
             "\143\62\1\u03e4\uff9c\62",
@@ -8414,29 +8410,29 @@ public class InternalSearchDslLexer extends Lexer {
             "\145\62\1\u0445\uff9a\62",
             "\162\62\1\u0446\uff8d\62",
             "",
-            "\160\62\1\u0447\uff8f\62",
             "",
-            "\137\62\1\u0448\uffa0\62",
-            "\164\62\1\u0449\uff8b\62",
-            "\162\62\1\u044a\uff8d\62",
-            "\145\62\1\u044b\uff9a\62",
+            "\163\62\1\u0447\uff8c\62",
+            "\165\62\1\u0448\uff8a\62",
+            "\137\62\1\u0449\uffa0\62",
+            "\160\62\1\u044a\uff8f\62",
             "",
-            "",
+            "\137\62\1\u044b\uffa0\62",
+            "\164\62\1\u044c\uff8b\62",
+            "\162\62\1\u044d\uff8d\62",
             "\145\62\1\u044e\uff9a\62",
             "",
-            "\156\62\1\u044f\uff91\62",
-            "\157\62\1\u0450\uff90\62",
-            "\42\62\1\u0451\uffdd\62",
-            "\155\62\1\u0452\uff92\62",
-            "\42\62\1\u0453\74\62\1\u0454\uffa0\62",
-            "\145\62\1\u0455\uff9a\62",
+            "",
+            "\145\62\1\u0451\uff9a\62",
+            "",
+            "\156\62\1\u0452\uff91\62",
+            "\157\62\1\u0453\uff90\62",
+            "\42\62\1\u0454\uffdd\62",
+            "\155\62\1\u0455\uff92\62",
+            "\42\62\1\u0456\74\62\1\u0457\uffa0\62",
+            "\145\62\1\u0458\uff9a\62",
             "",
             "",
-            "\164\62\1\u0457\uff8b\62",
-            "\165\62\1\u0458\uff8a\62",
-            "\137\62\1\u0459\uffa0\62",
-            "",
-            "\163\62\1\u045a\uff8c\62",
+            "\164\62\1\u045a\uff8b\62",
             "\162\62\1\u045b\uff8d\62",
             "\141\62\1\u045c\uff9e\62",
             "\151\62\1\u045d\uff96\62",
@@ -8537,25 +8533,25 @@ public class InternalSearchDslLexer extends Lexer {
             "\164\62\1\u04ae\uff8b\62",
             "\154\62\1\u04af\uff93\62",
             "\151\62\1\u04b0\uff96\62",
-            "\141\62\1\u04b1\uff9e\62",
-            "\163\62\1\u04b2\uff8c\62",
-            "\145\62\1\u04b3\uff9a\62",
-            "\145\62\1\u04b4\uff9a\62",
-            "\154\62\1\u04b5\uff93\62",
+            "\42\62\1\u04b1\uffdd\62",
+            "\145\62\1\u04b2\uff9a\62",
+            "\146\62\1\u04b4\12\62\1\u04b3\uff8e\62",
+            "\141\62\1\u04b5\uff9e\62",
+            "\163\62\1\u04b6\uff8c\62",
+            "\145\62\1\u04b7\uff9a\62",
+            "\145\62\1\u04b8\uff9a\62",
+            "\154\62\1\u04b9\uff93\62",
             "",
             "",
-            "\42\62\1\u04b6\uffdd\62",
-            "\42\62\1\u04b7\uffdd\62",
-            "\163\62\1\u04b8\uff8c\62",
+            "\42\62\1\u04ba\uffdd\62",
+            "\42\62\1\u04bb\uffdd\62",
+            "\163\62\1\u04bc\uff8c\62",
             "",
-            "\163\62\1\u04ba\uff8c\62",
+            "\163\62\1\u04be\uff8c\62",
             "",
-            "\157\62\1\u04bc\uff90\62",
-            "\137\62\1\u04bd\uffa0\62",
+            "\157\62\1\u04c0\uff90\62",
+            "\137\62\1\u04c1\uffa0\62",
             "",
-            "\42\62\1\u04be\uffdd\62",
-            "\145\62\1\u04bf\uff9a\62",
-            "\146\62\1\u04c1\12\62\1\u04c0\uff8e\62",
             "\42\62\1\u04c2\uffdd\62",
             "\155\62\1\u04c3\uff92\62",
             "\143\62\1\u04c4\uff9c\62",
@@ -8643,23 +8639,23 @@ public class InternalSearchDslLexer extends Lexer {
             "\42\62\1\u050e\uffdd\62",
             "\144\62\1\u050f\uff9b\62",
             "\160\62\1\u0510\uff8f\62",
-            "\171\62\1\u0511\uff86\62",
-            "\143\62\1\u0512\uff9c\62",
-            "\163\62\1\u0513\uff8c\62",
-            "\161\62\1\u0514\uff8e\62",
-            "\144\62\1\u0515\uff9b\62",
+            "",
+            "\42\62\1\u0512\uffdd\62",
+            "\165\62\1\u0513\uff8a\62",
+            "\151\62\1\u0514\uff96\62",
+            "\171\62\1\u0515\uff86\62",
+            "\143\62\1\u0516\uff9c\62",
+            "\163\62\1\u0517\uff8c\62",
+            "\161\62\1\u0518\uff8e\62",
+            "\144\62\1\u0519\uff9b\62",
             "",
             "",
-            "\151\62\1\u0518\uff96\62",
+            "\151\62\1\u051c\uff96\62",
             "",
-            "\137\62\1\u0519\uffa0\62",
+            "\137\62\1\u051d\uffa0\62",
             "",
-            "\160\62\1\u051a\uff8f\62",
-            "\145\62\1\u051b\uff9a\62",
-            "",
-            "\42\62\1\u051d\uffdd\62",
-            "\165\62\1\u051e\uff8a\62",
-            "\151\62\1\u051f\uff96\62",
+            "\160\62\1\u051e\uff8f\62",
+            "\145\62\1\u051f\uff9a\62",
             "",
             "\163\62\1\u0521\uff8c\62",
             "\150\62\1\u0522\uff97\62",
@@ -8739,21 +8735,21 @@ public class InternalSearchDslLexer extends Lexer {
             "",
             "\42\62\1\u055e\uffdd\62",
             "\164\62\1\u055f\uff8b\62",
-            "\154\62\1\u0560\uff93\62",
-            "\157\62\1\u0561\uff90\62",
-            "\42\62\1\u0562\uffdd\62",
-            "\165\62\1\u0563\uff8a\62",
-            "\163\62\1\u0564\uff8c\62",
             "",
             "",
-            "\164\62\1\u0565\uff8b\62",
-            "\161\62\1\u0566\uff8e\62",
-            "\145\62\1\u0567\uff9a\62",
-            "\170\62\1\u0568\uff87\62",
+            "\145\62\1\u0561\uff9a\62",
+            "\154\62\1\u0562\uff93\62",
+            "\154\62\1\u0563\uff93\62",
+            "\157\62\1\u0564\uff90\62",
+            "\42\62\1\u0565\uffdd\62",
+            "\165\62\1\u0566\uff8a\62",
+            "\163\62\1\u0567\uff8c\62",
             "",
             "",
+            "\164\62\1\u0568\uff8b\62",
+            "\161\62\1\u0569\uff8e\62",
             "\145\62\1\u056a\uff9a\62",
-            "\154\62\1\u056b\uff93\62",
+            "\170\62\1\u056b\uff87\62",
             "",
             "\42\62\1\u056c\uffdd\62",
             "\145\62\1\u056d\uff9a\62",
@@ -8818,18 +8814,18 @@ public class InternalSearchDslLexer extends Lexer {
             "",
             "",
             "\42\62\1\u05a2\uffdd\62",
-            "\157\62\1\u05a3\uff90\62",
-            "\162\62\1\u05a4\uff8d\62",
             "",
-            "\145\62\1\u05a6\uff9a\62",
-            "\42\62\1\u05a7\uffdd\62",
-            "\151\62\1\u05a8\uff96\62",
-            "\165\62\1\u05a9\uff8a\62",
-            "\162\62\1\u05aa\uff8d\62",
-            "\160\62\1\u05ab\uff8f\62",
+            "\162\62\1\u05a3\uff8d\62",
+            "\164\62\1\u05a4\uff8b\62",
+            "\157\62\1\u05a5\uff90\62",
+            "\162\62\1\u05a6\uff8d\62",
             "",
+            "\145\62\1\u05a8\uff9a\62",
+            "\42\62\1\u05a9\uffdd\62",
+            "\151\62\1\u05aa\uff96\62",
+            "\165\62\1\u05ab\uff8a\62",
             "\162\62\1\u05ac\uff8d\62",
-            "\164\62\1\u05ad\uff8b\62",
+            "\160\62\1\u05ad\uff8f\62",
             "",
             "\42\62\1\u05af\uffdd\62",
             "\42\62\1\u05b0\uffdd\62",
@@ -8885,17 +8881,17 @@ public class InternalSearchDslLexer extends Lexer {
             "",
             "",
             "",
-            "\141\62\1\u05dc\uff9e\62",
+            "\171\62\1\u05dc\uff86\62",
             "\145\62\1\u05dd\uff9a\62",
+            "\141\62\1\u05de\uff9e\62",
+            "\145\62\1\u05df\uff9a\62",
             "",
-            "\156\62\1\u05de\uff91\62",
+            "\156\62\1\u05e0\uff91\62",
             "",
-            "\157\62\1\u05e0\uff90\62",
-            "\145\62\1\u05e1\uff9a\62",
-            "\141\62\1\u05e2\uff9e\62",
-            "\141\62\1\u05e3\uff9e\62",
-            "\171\62\1\u05e4\uff86\62",
-            "\145\62\1\u05e5\uff9a\62",
+            "\157\62\1\u05e2\uff90\62",
+            "\145\62\1\u05e3\uff9a\62",
+            "\141\62\1\u05e4\uff9e\62",
+            "\141\62\1\u05e5\uff9e\62",
             "",
             "",
             "",
@@ -8942,16 +8938,16 @@ public class InternalSearchDslLexer extends Lexer {
             "",
             "",
             "",
-            "\144\62\1\u0606\uff9b\62",
-            "\42\62\1\u0607\uffdd\62",
-            "\143\62\1\u0608\uff9c\62",
+            "\42\62\1\u0606\uffdd\62",
+            "\162\62\1\u0607\uff8d\62",
+            "\144\62\1\u0608\uff9b\62",
+            "\42\62\1\u0609\uffdd\62",
+            "\143\62\1\u060a\uff9c\62",
             "",
-            "\156\62\1\u0609\uff91\62",
-            "\162\62\1\u060a\uff8d\62",
-            "\164\62\1\u060b\uff8b\62",
-            "\156\62\1\u060c\uff91\62",
-            "\42\62\1\u060d\uffdd\62",
-            "\162\62\1\u060e\uff8d\62",
+            "\156\62\1\u060b\uff91\62",
+            "\162\62\1\u060c\uff8d\62",
+            "\164\62\1\u060d\uff8b\62",
+            "\156\62\1\u060e\uff91\62",
             "",
             "",
             "\164\62\1\u060f\uff8b\62",
@@ -8984,15 +8980,15 @@ public class InternalSearchDslLexer extends Lexer {
             "",
             "\164\62\1\u0625\uff8b\62",
             "",
-            "\163\62\1\u0626\uff8c\62",
             "",
-            "\171\62\1\u0628\uff86\62",
-            "\137\62\1\u0629\uffa0\62",
+            "\42\62\1\u0627\uffdd\62",
+            "\163\62\1\u0628\uff8c\62",
+            "",
             "\171\62\1\u062a\uff86\62",
-            "\157\62\1\u062b\uff90\62",
-            "\144\62\1\u062c\uff9b\62",
-            "",
-            "\42\62\1\u062e\uffdd\62",
+            "\137\62\1\u062b\uffa0\62",
+            "\171\62\1\u062c\uff86\62",
+            "\157\62\1\u062d\uff90\62",
+            "\144\62\1\u062e\uff9b\62",
             "\157\62\1\u062f\uff90\62",
             "",
             "",
@@ -9016,15 +9012,15 @@ public class InternalSearchDslLexer extends Lexer {
             "\147\62\1\u063e\uff98\62",
             "\42\62\1\u063f\uffdd\62",
             "\157\62\1\u0640\uff90\62",
-            "\42\62\1\u0641\uffdd\62",
+            "",
             "",
             "\42\62\1\u0642\uffdd\62",
-            "\151\62\1\u0643\uff96\62",
-            "\42\62\1\u0644\uffdd\62",
-            "\162\62\1\u0645\uff8d\62",
-            "\145\62\1\u0646\uff9a\62",
             "",
-            "",
+            "\42\62\1\u0643\uffdd\62",
+            "\151\62\1\u0644\uff96\62",
+            "\42\62\1\u0645\uffdd\62",
+            "\162\62\1\u0646\uff8d\62",
+            "\145\62\1\u0647\uff9a\62",
             "\137\62\1\u0648\uffa0\62",
             "\156\62\1\u0649\uff91\62",
             "\157\62\1\u064a\uff90\62",
@@ -9045,11 +9041,11 @@ public class InternalSearchDslLexer extends Lexer {
             "\162\62\1\u0655\uff8d\62",
             "",
             "",
+            "",
             "\156\62\1\u0658\uff91\62",
             "",
             "\42\62\1\u065a\uffdd\62",
             "\144\62\1\u065b\uff9b\62",
-            "",
             "\155\62\1\u065c\uff92\62",
             "\147\62\1\u065d\uff98\62",
             "\156\62\1\u065e\uff91\62",
@@ -14183,124 +14179,145 @@ public class InternalSearchDslLexer extends Lexer {
         }
         protected int specialStateTransition0(IntStream input) {
             int s = -1;
+            int LA16_1088 = input.LA(1);
+            if ( (LA16_1088=='o') ) {s = 1194;}
+            else if ( ((LA16_1088>='\u0000' && LA16_1088<='n')||(LA16_1088>='p' && LA16_1088<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1(IntStream input) {
+            int s = -1;
+            int LA16_1194 = input.LA(1);
+            if ( (LA16_1194=='u') ) {s = 1290;}
+            else if ( ((LA16_1194>='\u0000' && LA16_1194<='t')||(LA16_1194>='v' && LA16_1194<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition2(IntStream input) {
+            int s = -1;
+            int LA16_1290 = input.LA(1);
+            if ( (LA16_1290=='n') ) {s = 1370;}
+            else if ( ((LA16_1290>='\u0000' && LA16_1290<='m')||(LA16_1290>='o' && LA16_1290<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition3(IntStream input) {
+            int s = -1;
             int LA16_1370 = input.LA(1);
             if ( (LA16_1370=='t') ) {s = 1438;}
             else if ( ((LA16_1370>='\u0000' && LA16_1370<='s')||(LA16_1370>='u' && LA16_1370<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1(IntStream input) {
+        protected int specialStateTransition4(IntStream input) {
             int s = -1;
             int LA16_1438 = input.LA(1);
             if ( (LA16_1438=='\"') ) {s = 1497;}
             else if ( ((LA16_1438>='\u0000' && LA16_1438<='!')||(LA16_1438>='#' && LA16_1438<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition2(IntStream input) {
+        protected int specialStateTransition5(IntStream input) {
             int s = -1;
             int LA16_1089 = input.LA(1);
             if ( (LA16_1089=='e') ) {s = 1195;}
             else if ( ((LA16_1089>='\u0000' && LA16_1089<='d')||(LA16_1089>='f' && LA16_1089<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition3(IntStream input) {
+        protected int specialStateTransition6(IntStream input) {
             int s = -1;
             int LA16_1195 = input.LA(1);
             if ( (LA16_1195=='r') ) {s = 1291;}
             else if ( ((LA16_1195>='\u0000' && LA16_1195<='q')||(LA16_1195>='s' && LA16_1195<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition4(IntStream input) {
+        protected int specialStateTransition7(IntStream input) {
             int s = -1;
             int LA16_1291 = input.LA(1);
             if ( (LA16_1291=='m') ) {s = 1371;}
             else if ( ((LA16_1291>='\u0000' && LA16_1291<='l')||(LA16_1291>='n' && LA16_1291<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition5(IntStream input) {
+        protected int specialStateTransition8(IntStream input) {
             int s = -1;
             int LA16_1371 = input.LA(1);
             if ( (LA16_1371=='\"') ) {s = 1439;}
             else if ( ((LA16_1371>='\u0000' && LA16_1371<='!')||(LA16_1371>='#' && LA16_1371<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition6(IntStream input) {
+        protected int specialStateTransition9(IntStream input) {
             int s = -1;
             int LA16_321 = input.LA(1);
             if ( (LA16_321=='t') ) {s = 474;}
             else if ( ((LA16_321>='\u0000' && LA16_321<='s')||(LA16_321>='u' && LA16_321<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition7(IntStream input) {
+        protected int specialStateTransition10(IntStream input) {
             int s = -1;
             int LA16_474 = input.LA(1);
             if ( (LA16_474=='e') ) {s = 631;}
             else if ( ((LA16_474>='\u0000' && LA16_474<='d')||(LA16_474>='f' && LA16_474<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition8(IntStream input) {
+        protected int specialStateTransition11(IntStream input) {
             int s = -1;
             int LA16_631 = input.LA(1);
             if ( (LA16_631=='r') ) {s = 785;}
             else if ( ((LA16_631>='\u0000' && LA16_631<='q')||(LA16_631>='s' && LA16_631<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition9(IntStream input) {
+        protected int specialStateTransition12(IntStream input) {
             int s = -1;
             int LA16_785 = input.LA(1);
             if ( (LA16_785=='m') ) {s = 927;}
             else if ( ((LA16_785>='\u0000' && LA16_785<='l')||(LA16_785>='n' && LA16_785<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition10(IntStream input) {
+        protected int specialStateTransition13(IntStream input) {
             int s = -1;
             int LA16_927 = input.LA(1);
             if ( (LA16_927=='s') ) {s = 1051;}
             else if ( ((LA16_927>='\u0000' && LA16_927<='r')||(LA16_927>='t' && LA16_927<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition11(IntStream input) {
+        protected int specialStateTransition14(IntStream input) {
             int s = -1;
             int LA16_1051 = input.LA(1);
             if ( (LA16_1051=='\"') ) {s = 1162;}
             else if ( ((LA16_1051>='\u0000' && LA16_1051<='!')||(LA16_1051>='#' && LA16_1051<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition12(IntStream input) {
+        protected int specialStateTransition15(IntStream input) {
             int s = -1;
-            int LA16_235 = input.LA(1);
-            if ( (LA16_235=='l') ) {s = 375;}
-            else if ( ((LA16_235>='\u0000' && LA16_235<='k')||(LA16_235>='m' && LA16_235<='\uFFFF')) ) {s = 50;}
+            int LA16_241 = input.LA(1);
+            if ( (LA16_241=='l') ) {s = 381;}
+            else if ( ((LA16_241>='\u0000' && LA16_241<='k')||(LA16_241>='m' && LA16_241<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition13(IntStream input) {
+        protected int specialStateTransition16(IntStream input) {
             int s = -1;
-            int LA16_375 = input.LA(1);
-            if ( (LA16_375=='u') ) {s = 532;}
-            else if ( ((LA16_375>='\u0000' && LA16_375<='t')||(LA16_375>='v' && LA16_375<='\uFFFF')) ) {s = 50;}
+            int LA16_381 = input.LA(1);
+            if ( (LA16_381=='u') ) {s = 538;}
+            else if ( ((LA16_381>='\u0000' && LA16_381<='t')||(LA16_381>='v' && LA16_381<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition14(IntStream input) {
+        protected int specialStateTransition17(IntStream input) {
             int s = -1;
             int LA16_138 = input.LA(1);
             if ( (LA16_138=='a') ) {s = 264;}
             else if ( ((LA16_138>='\u0000' && LA16_138<='`')||(LA16_138>='b' && LA16_138<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition15(IntStream input) {
+        protected int specialStateTransition18(IntStream input) {
             int s = -1;
-            int LA16_532 = input.LA(1);
-            if ( (LA16_532=='d') ) {s = 691;}
-            else if ( ((LA16_532>='\u0000' && LA16_532<='c')||(LA16_532>='e' && LA16_532<='\uFFFF')) ) {s = 50;}
+            int LA16_538 = input.LA(1);
+            if ( (LA16_538=='d') ) {s = 696;}
+            else if ( ((LA16_538>='\u0000' && LA16_538<='c')||(LA16_538>='e' && LA16_538<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition16(IntStream input) {
+        protected int specialStateTransition19(IntStream input) {
             int s = -1;
-            int LA16_691 = input.LA(1);
-            if ( (LA16_691=='e') ) {s = 843;}
-            else if ( ((LA16_691>='\u0000' && LA16_691<='d')||(LA16_691>='f' && LA16_691<='\uFFFF')) ) {s = 50;}
+            int LA16_696 = input.LA(1);
+            if ( (LA16_696=='e') ) {s = 847;}
+            else if ( ((LA16_696>='\u0000' && LA16_696<='d')||(LA16_696>='f' && LA16_696<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition17(IntStream input) {
+        protected int specialStateTransition20(IntStream input) {
             int s = -1;
             int LA16_264 = input.LA(1);
             if ( (LA16_264=='n') ) {s = 407;}
@@ -14308,63 +14325,63 @@ public class InternalSearchDslLexer extends Lexer {
             else if ( ((LA16_264>='\u0000' && LA16_264<='h')||(LA16_264>='j' && LA16_264<='m')||(LA16_264>='o' && LA16_264<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition18(IntStream input) {
+        protected int specialStateTransition21(IntStream input) {
             int s = -1;
-            int LA16_843 = input.LA(1);
-            if ( (LA16_843=='\"') ) {s = 979;}
-            else if ( ((LA16_843>='\u0000' && LA16_843<='!')||(LA16_843>='#' && LA16_843<='\uFFFF')) ) {s = 50;}
+            int LA16_847 = input.LA(1);
+            if ( (LA16_847=='\"') ) {s = 983;}
+            else if ( ((LA16_847>='\u0000' && LA16_847<='!')||(LA16_847>='#' && LA16_847<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition19(IntStream input) {
+        protected int specialStateTransition22(IntStream input) {
             int s = -1;
             int LA16_163 = input.LA(1);
             if ( (LA16_163=='l') ) {s = 288;}
             else if ( ((LA16_163>='\u0000' && LA16_163<='k')||(LA16_163>='m' && LA16_163<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition20(IntStream input) {
+        protected int specialStateTransition23(IntStream input) {
             int s = -1;
             int LA16_733 = input.LA(1);
             if ( (LA16_733=='f') ) {s = 883;}
             else if ( ((LA16_733>='\u0000' && LA16_733<='e')||(LA16_733>='g' && LA16_733<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition21(IntStream input) {
+        protected int specialStateTransition24(IntStream input) {
             int s = -1;
             int LA16_883 = input.LA(1);
             if ( (LA16_883=='i') ) {s = 1015;}
             else if ( ((LA16_883>='\u0000' && LA16_883<='h')||(LA16_883>='j' && LA16_883<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition22(IntStream input) {
+        protected int specialStateTransition25(IntStream input) {
             int s = -1;
             int LA16_288 = input.LA(1);
             if ( (LA16_288=='d') ) {s = 435;}
             else if ( ((LA16_288>='\u0000' && LA16_288<='c')||(LA16_288>='e' && LA16_288<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition23(IntStream input) {
+        protected int specialStateTransition26(IntStream input) {
             int s = -1;
             int LA16_1015 = input.LA(1);
             if ( (LA16_1015=='e') ) {s = 1130;}
             else if ( ((LA16_1015>='\u0000' && LA16_1015<='d')||(LA16_1015>='f' && LA16_1015<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition24(IntStream input) {
+        protected int specialStateTransition27(IntStream input) {
             int s = -1;
             int LA16_1130 = input.LA(1);
             if ( (LA16_1130=='l') ) {s = 1234;}
             else if ( ((LA16_1130>='\u0000' && LA16_1130<='k')||(LA16_1130>='m' && LA16_1130<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition25(IntStream input) {
+        protected int specialStateTransition28(IntStream input) {
             int s = -1;
             int LA16_1234 = input.LA(1);
             if ( (LA16_1234=='d') ) {s = 1327;}
             else if ( ((LA16_1234>='\u0000' && LA16_1234<='c')||(LA16_1234>='e' && LA16_1234<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition26(IntStream input) {
+        protected int specialStateTransition29(IntStream input) {
             int s = -1;
             int LA16_435 = input.LA(1);
             if ( (LA16_435=='s') ) {s = 593;}
@@ -14373,508 +14390,476 @@ public class InternalSearchDslLexer extends Lexer {
             else if ( ((LA16_435>='\u0000' && LA16_435<='!')||(LA16_435>='#' && LA16_435<='c')||(LA16_435>='e' && LA16_435<='r')||(LA16_435>='t' && LA16_435<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition27(IntStream input) {
+        protected int specialStateTransition30(IntStream input) {
             int s = -1;
             int LA16_1327 = input.LA(1);
             if ( (LA16_1327=='\"') ) {s = 1400;}
             else if ( ((LA16_1327>='\u0000' && LA16_1327<='!')||(LA16_1327>='#' && LA16_1327<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition28(IntStream input) {
+        protected int specialStateTransition31(IntStream input) {
             int s = -1;
             int LA16_675 = input.LA(1);
             if ( (LA16_675=='f') ) {s = 826;}
             else if ( ((LA16_675>='\u0000' && LA16_675<='e')||(LA16_675>='g' && LA16_675<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition29(IntStream input) {
+        protected int specialStateTransition32(IntStream input) {
             int s = -1;
             int LA16_826 = input.LA(1);
             if ( (LA16_826=='l') ) {s = 965;}
             else if ( ((LA16_826>='\u0000' && LA16_826<='k')||(LA16_826>='m' && LA16_826<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition30(IntStream input) {
+        protected int specialStateTransition33(IntStream input) {
             int s = -1;
             int LA16_965 = input.LA(1);
             if ( (LA16_965=='a') ) {s = 1090;}
             else if ( ((LA16_965>='\u0000' && LA16_965<='`')||(LA16_965>='b' && LA16_965<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition31(IntStream input) {
+        protected int specialStateTransition34(IntStream input) {
             int s = -1;
             int LA16_1090 = input.LA(1);
             if ( (LA16_1090=='g') ) {s = 1196;}
             else if ( ((LA16_1090>='\u0000' && LA16_1090<='f')||(LA16_1090>='h' && LA16_1090<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition32(IntStream input) {
+        protected int specialStateTransition35(IntStream input) {
             int s = -1;
             int LA16_1196 = input.LA(1);
             if ( (LA16_1196=='s') ) {s = 1292;}
             else if ( ((LA16_1196>='\u0000' && LA16_1196<='r')||(LA16_1196>='t' && LA16_1196<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition33(IntStream input) {
+        protected int specialStateTransition36(IntStream input) {
             int s = -1;
             int LA16_1292 = input.LA(1);
             if ( (LA16_1292=='\"') ) {s = 1372;}
             else if ( ((LA16_1292>='\u0000' && LA16_1292<='!')||(LA16_1292>='#' && LA16_1292<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition34(IntStream input) {
+        protected int specialStateTransition37(IntStream input) {
             int s = -1;
             int LA16_102 = input.LA(1);
             if ( (LA16_102=='o') ) {s = 201;}
             else if ( ((LA16_102>='\u0000' && LA16_102<='n')||(LA16_102>='p' && LA16_102<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition35(IntStream input) {
+        protected int specialStateTransition38(IntStream input) {
             int s = -1;
             int LA16_201 = input.LA(1);
             if ( (LA16_201=='b') ) {s = 338;}
             else if ( ((LA16_201>='\u0000' && LA16_201<='a')||(LA16_201>='c' && LA16_201<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition36(IntStream input) {
+        protected int specialStateTransition39(IntStream input) {
             int s = -1;
             int LA16_338 = input.LA(1);
             if ( (LA16_338=='a') ) {s = 495;}
             else if ( ((LA16_338>='\u0000' && LA16_338<='`')||(LA16_338>='b' && LA16_338<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition37(IntStream input) {
+        protected int specialStateTransition40(IntStream input) {
             int s = -1;
             int LA16_495 = input.LA(1);
             if ( (LA16_495=='l') ) {s = 650;}
             else if ( ((LA16_495>='\u0000' && LA16_495<='k')||(LA16_495>='m' && LA16_495<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition38(IntStream input) {
+        protected int specialStateTransition41(IntStream input) {
             int s = -1;
             int LA16_650 = input.LA(1);
             if ( (LA16_650=='\"') ) {s = 803;}
             else if ( ((LA16_650>='\u0000' && LA16_650<='!')||(LA16_650>='#' && LA16_650<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition39(IntStream input) {
-            int s = -1;
-            int LA16_119 = input.LA(1);
-            if ( (LA16_119=='t') ) {s = 232;}
-            else if ( ((LA16_119>='\u0000' && LA16_119<='s')||(LA16_119>='u' && LA16_119<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition40(IntStream input) {
-            int s = -1;
-            int LA16_232 = input.LA(1);
-            if ( (LA16_232=='o') ) {s = 372;}
-            else if ( ((LA16_232>='\u0000' && LA16_232<='n')||(LA16_232>='p' && LA16_232<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition41(IntStream input) {
-            int s = -1;
-            int LA16_372 = input.LA(1);
-            if ( (LA16_372=='f') ) {s = 529;}
-            else if ( ((LA16_372>='\u0000' && LA16_372<='e')||(LA16_372>='g' && LA16_372<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
         protected int specialStateTransition42(IntStream input) {
             int s = -1;
-            int LA16_529 = input.LA(1);
-            if ( (LA16_529=='f') ) {s = 688;}
-            else if ( ((LA16_529>='\u0000' && LA16_529<='e')||(LA16_529>='g' && LA16_529<='\uFFFF')) ) {s = 50;}
+            int LA16_122 = input.LA(1);
+            if ( (LA16_122=='t') ) {s = 238;}
+            else if ( ((LA16_122>='\u0000' && LA16_122<='s')||(LA16_122>='u' && LA16_122<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition43(IntStream input) {
             int s = -1;
-            int LA16_688 = input.LA(1);
-            if ( (LA16_688=='_') ) {s = 840;}
-            else if ( ((LA16_688>='\u0000' && LA16_688<='^')||(LA16_688>='`' && LA16_688<='\uFFFF')) ) {s = 50;}
+            int LA16_238 = input.LA(1);
+            if ( (LA16_238=='o') ) {s = 378;}
+            else if ( ((LA16_238>='\u0000' && LA16_238<='n')||(LA16_238>='p' && LA16_238<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition44(IntStream input) {
             int s = -1;
-            int LA16_840 = input.LA(1);
-            if ( (LA16_840=='f') ) {s = 976;}
-            else if ( ((LA16_840>='\u0000' && LA16_840<='e')||(LA16_840>='g' && LA16_840<='\uFFFF')) ) {s = 50;}
+            int LA16_378 = input.LA(1);
+            if ( (LA16_378=='f') ) {s = 535;}
+            else if ( ((LA16_378>='\u0000' && LA16_378<='e')||(LA16_378>='g' && LA16_378<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition45(IntStream input) {
             int s = -1;
-            int LA16_976 = input.LA(1);
-            if ( (LA16_976=='r') ) {s = 1098;}
-            else if ( ((LA16_976>='\u0000' && LA16_976<='q')||(LA16_976>='s' && LA16_976<='\uFFFF')) ) {s = 50;}
+            int LA16_535 = input.LA(1);
+            if ( (LA16_535=='f') ) {s = 693;}
+            else if ( ((LA16_535>='\u0000' && LA16_535<='e')||(LA16_535>='g' && LA16_535<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition46(IntStream input) {
             int s = -1;
-            int LA16_1098 = input.LA(1);
-            if ( (LA16_1098=='e') ) {s = 1204;}
-            else if ( ((LA16_1098>='\u0000' && LA16_1098<='d')||(LA16_1098>='f' && LA16_1098<='\uFFFF')) ) {s = 50;}
+            int LA16_693 = input.LA(1);
+            if ( (LA16_693=='_') ) {s = 844;}
+            else if ( ((LA16_693>='\u0000' && LA16_693<='^')||(LA16_693>='`' && LA16_693<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition47(IntStream input) {
             int s = -1;
-            int LA16_1204 = input.LA(1);
-            if ( (LA16_1204=='q') ) {s = 1300;}
-            else if ( ((LA16_1204>='\u0000' && LA16_1204<='p')||(LA16_1204>='r' && LA16_1204<='\uFFFF')) ) {s = 50;}
+            int LA16_844 = input.LA(1);
+            if ( (LA16_844=='f') ) {s = 980;}
+            else if ( ((LA16_844>='\u0000' && LA16_844<='e')||(LA16_844>='g' && LA16_844<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition48(IntStream input) {
             int s = -1;
-            int LA16_1300 = input.LA(1);
-            if ( (LA16_1300=='u') ) {s = 1379;}
-            else if ( ((LA16_1300>='\u0000' && LA16_1300<='t')||(LA16_1300>='v' && LA16_1300<='\uFFFF')) ) {s = 50;}
+            int LA16_980 = input.LA(1);
+            if ( (LA16_980=='r') ) {s = 1101;}
+            else if ( ((LA16_980>='\u0000' && LA16_980<='q')||(LA16_980>='s' && LA16_980<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition49(IntStream input) {
             int s = -1;
-            int LA16_1379 = input.LA(1);
-            if ( (LA16_1379=='e') ) {s = 1446;}
-            else if ( ((LA16_1379>='\u0000' && LA16_1379<='d')||(LA16_1379>='f' && LA16_1379<='\uFFFF')) ) {s = 50;}
+            int LA16_1101 = input.LA(1);
+            if ( (LA16_1101=='e') ) {s = 1208;}
+            else if ( ((LA16_1101>='\u0000' && LA16_1101<='d')||(LA16_1101>='f' && LA16_1101<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition50(IntStream input) {
             int s = -1;
-            int LA16_1446 = input.LA(1);
-            if ( (LA16_1446=='n') ) {s = 1502;}
-            else if ( ((LA16_1446>='\u0000' && LA16_1446<='m')||(LA16_1446>='o' && LA16_1446<='\uFFFF')) ) {s = 50;}
+            int LA16_1208 = input.LA(1);
+            if ( (LA16_1208=='q') ) {s = 1304;}
+            else if ( ((LA16_1208>='\u0000' && LA16_1208<='p')||(LA16_1208>='r' && LA16_1208<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition51(IntStream input) {
             int s = -1;
-            int LA16_1502 = input.LA(1);
-            if ( (LA16_1502=='c') ) {s = 1544;}
-            else if ( ((LA16_1502>='\u0000' && LA16_1502<='b')||(LA16_1502>='d' && LA16_1502<='\uFFFF')) ) {s = 50;}
+            int LA16_1304 = input.LA(1);
+            if ( (LA16_1304=='u') ) {s = 1382;}
+            else if ( ((LA16_1304>='\u0000' && LA16_1304<='t')||(LA16_1304>='v' && LA16_1304<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition52(IntStream input) {
             int s = -1;
-            int LA16_1544 = input.LA(1);
-            if ( (LA16_1544=='y') ) {s = 1576;}
-            else if ( ((LA16_1544>='\u0000' && LA16_1544<='x')||(LA16_1544>='z' && LA16_1544<='\uFFFF')) ) {s = 50;}
+            int LA16_1382 = input.LA(1);
+            if ( (LA16_1382=='e') ) {s = 1448;}
+            else if ( ((LA16_1382>='\u0000' && LA16_1382<='d')||(LA16_1382>='f' && LA16_1382<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition53(IntStream input) {
             int s = -1;
-            int LA16_1576 = input.LA(1);
-            if ( (LA16_1576=='\"') ) {s = 1602;}
-            else if ( ((LA16_1576>='\u0000' && LA16_1576<='!')||(LA16_1576>='#' && LA16_1576<='\uFFFF')) ) {s = 50;}
+            int LA16_1448 = input.LA(1);
+            if ( (LA16_1448=='n') ) {s = 1504;}
+            else if ( ((LA16_1448>='\u0000' && LA16_1448<='m')||(LA16_1448>='o' && LA16_1448<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition54(IntStream input) {
             int s = -1;
-            int LA16_42 = input.LA(1);
-            if ( (LA16_42=='e') ) {s = 124;}
-            else if ( ((LA16_42>='\u0000' && LA16_42<='d')||(LA16_42>='f' && LA16_42<='\uFFFF')) ) {s = 50;}
+            int LA16_1504 = input.LA(1);
+            if ( (LA16_1504=='c') ) {s = 1546;}
+            else if ( ((LA16_1504>='\u0000' && LA16_1504<='b')||(LA16_1504>='d' && LA16_1504<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition55(IntStream input) {
-            int s = -1;
-            int LA16_124 = input.LA(1);
-            if ( (LA16_124=='r') ) {s = 241;}
-            else if ( ((LA16_124>='\u0000' && LA16_124<='q')||(LA16_124>='s' && LA16_124<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition56(IntStream input) {
-            int s = -1;
-            int LA16_241 = input.LA(1);
-            if ( (LA16_241=='o') ) {s = 381;}
-            else if ( ((LA16_241>='\u0000' && LA16_241<='n')||(LA16_241>='p' && LA16_241<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition57(IntStream input) {
-            int s = -1;
-            int LA16_381 = input.LA(1);
-            if ( (LA16_381=='_') ) {s = 538;}
-            else if ( ((LA16_381>='\u0000' && LA16_381<='^')||(LA16_381>='`' && LA16_381<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition58(IntStream input) {
-            int s = -1;
-            int LA16_538 = input.LA(1);
-            if ( (LA16_538=='t') ) {s = 697;}
-            else if ( ((LA16_538>='\u0000' && LA16_538<='s')||(LA16_538>='u' && LA16_538<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition59(IntStream input) {
-            int s = -1;
-            int LA16_697 = input.LA(1);
-            if ( (LA16_697=='e') ) {s = 849;}
-            else if ( ((LA16_697>='\u0000' && LA16_697<='d')||(LA16_697>='f' && LA16_697<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition60(IntStream input) {
-            int s = -1;
-            int LA16_849 = input.LA(1);
-            if ( (LA16_849=='r') ) {s = 985;}
-            else if ( ((LA16_849>='\u0000' && LA16_849<='q')||(LA16_849>='s' && LA16_849<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition61(IntStream input) {
-            int s = -1;
-            int LA16_985 = input.LA(1);
-            if ( (LA16_985=='m') ) {s = 1106;}
-            else if ( ((LA16_985>='\u0000' && LA16_985<='l')||(LA16_985>='n' && LA16_985<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition62(IntStream input) {
-            int s = -1;
-            int LA16_1106 = input.LA(1);
-            if ( (LA16_1106=='s') ) {s = 1210;}
-            else if ( ((LA16_1106>='\u0000' && LA16_1106<='r')||(LA16_1106>='t' && LA16_1106<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition63(IntStream input) {
-            int s = -1;
-            int LA16_1210 = input.LA(1);
-            if ( (LA16_1210=='_') ) {s = 1305;}
-            else if ( ((LA16_1210>='\u0000' && LA16_1210<='^')||(LA16_1210>='`' && LA16_1210<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition64(IntStream input) {
-            int s = -1;
-            int LA16_4 = input.LA(1);
-            if ( (LA16_4=='s') ) {s = 25;}
-            else if ( (LA16_4=='f') ) {s = 26;}
-            else if ( (LA16_4=='_') ) {s = 27;}
-            else if ( (LA16_4=='o') ) {s = 28;}
-            else if ( (LA16_4=='m') ) {s = 29;}
-            else if ( (LA16_4=='a') ) {s = 30;}
-            else if ( (LA16_4=='d') ) {s = 31;}
-            else if ( (LA16_4=='q') ) {s = 32;}
-            else if ( (LA16_4=='g') ) {s = 33;}
-            else if ( (LA16_4=='t') ) {s = 34;}
-            else if ( (LA16_4=='i') ) {s = 35;}
-            else if ( (LA16_4=='h') ) {s = 36;}
-            else if ( (LA16_4=='r') ) {s = 37;}
-            else if ( (LA16_4=='k') ) {s = 38;}
-            else if ( (LA16_4=='v') ) {s = 39;}
-            else if ( (LA16_4=='c') ) {s = 40;}
-            else if ( (LA16_4=='e') ) {s = 41;}
-            else if ( (LA16_4=='z') ) {s = 42;}
-            else if ( (LA16_4=='l') ) {s = 43;}
-            else if ( (LA16_4=='n') ) {s = 44;}
-            else if ( (LA16_4=='b') ) {s = 45;}
-            else if ( (LA16_4=='p') ) {s = 46;}
-            else if ( (LA16_4=='u') ) {s = 47;}
-            else if ( (LA16_4=='w') ) {s = 48;}
-            else if ( (LA16_4=='\"') ) {s = 49;}
-            else if ( ((LA16_4>='\u0000' && LA16_4<='!')||(LA16_4>='#' && LA16_4<='^')||LA16_4=='`'||LA16_4=='j'||(LA16_4>='x' && LA16_4<='y')||(LA16_4>='{' && LA16_4<='\uFFFF')) ) {s = 50;}
-            else s = 21;
-            return s;
-        }
-        protected int specialStateTransition65(IntStream input) {
-            int s = -1;
-            int LA16_1305 = input.LA(1);
-            if ( (LA16_1305=='q') ) {s = 1382;}
-            else if ( ((LA16_1305>='\u0000' && LA16_1305<='p')||(LA16_1305>='r' && LA16_1305<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition66(IntStream input) {
-            int s = -1;
-            int LA16_1382 = input.LA(1);
-            if ( (LA16_1382=='u') ) {s = 1449;}
-            else if ( ((LA16_1382>='\u0000' && LA16_1382<='t')||(LA16_1382>='v' && LA16_1382<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition67(IntStream input) {
-            int s = -1;
-            int LA16_1449 = input.LA(1);
-            if ( (LA16_1449=='e') ) {s = 1505;}
-            else if ( ((LA16_1449>='\u0000' && LA16_1449<='d')||(LA16_1449>='f' && LA16_1449<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition68(IntStream input) {
-            int s = -1;
-            int LA16_1505 = input.LA(1);
-            if ( (LA16_1505=='r') ) {s = 1546;}
-            else if ( ((LA16_1505>='\u0000' && LA16_1505<='q')||(LA16_1505>='s' && LA16_1505<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition69(IntStream input) {
             int s = -1;
             int LA16_1546 = input.LA(1);
             if ( (LA16_1546=='y') ) {s = 1578;}
             else if ( ((LA16_1546>='\u0000' && LA16_1546<='x')||(LA16_1546>='z' && LA16_1546<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition70(IntStream input) {
+        protected int specialStateTransition56(IntStream input) {
             int s = -1;
             int LA16_1578 = input.LA(1);
-            if ( (LA16_1578=='\"') ) {s = 1604;}
+            if ( (LA16_1578=='\"') ) {s = 1603;}
             else if ( ((LA16_1578>='\u0000' && LA16_1578<='!')||(LA16_1578>='#' && LA16_1578<='\uFFFF')) ) {s = 50;}
             return s;
         }
+        protected int specialStateTransition57(IntStream input) {
+            int s = -1;
+            int LA16_43 = input.LA(1);
+            if ( (LA16_43=='e') ) {s = 127;}
+            else if ( ((LA16_43>='\u0000' && LA16_43<='d')||(LA16_43>='f' && LA16_43<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition58(IntStream input) {
+            int s = -1;
+            int LA16_127 = input.LA(1);
+            if ( (LA16_127=='r') ) {s = 247;}
+            else if ( ((LA16_127>='\u0000' && LA16_127<='q')||(LA16_127>='s' && LA16_127<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition59(IntStream input) {
+            int s = -1;
+            int LA16_247 = input.LA(1);
+            if ( (LA16_247=='o') ) {s = 387;}
+            else if ( ((LA16_247>='\u0000' && LA16_247<='n')||(LA16_247>='p' && LA16_247<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition60(IntStream input) {
+            int s = -1;
+            int LA16_387 = input.LA(1);
+            if ( (LA16_387=='_') ) {s = 544;}
+            else if ( ((LA16_387>='\u0000' && LA16_387<='^')||(LA16_387>='`' && LA16_387<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition61(IntStream input) {
+            int s = -1;
+            int LA16_544 = input.LA(1);
+            if ( (LA16_544=='t') ) {s = 702;}
+            else if ( ((LA16_544>='\u0000' && LA16_544<='s')||(LA16_544>='u' && LA16_544<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition62(IntStream input) {
+            int s = -1;
+            int LA16_702 = input.LA(1);
+            if ( (LA16_702=='e') ) {s = 853;}
+            else if ( ((LA16_702>='\u0000' && LA16_702<='d')||(LA16_702>='f' && LA16_702<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition63(IntStream input) {
+            int s = -1;
+            int LA16_853 = input.LA(1);
+            if ( (LA16_853=='r') ) {s = 989;}
+            else if ( ((LA16_853>='\u0000' && LA16_853<='q')||(LA16_853>='s' && LA16_853<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition64(IntStream input) {
+            int s = -1;
+            int LA16_989 = input.LA(1);
+            if ( (LA16_989=='m') ) {s = 1109;}
+            else if ( ((LA16_989>='\u0000' && LA16_989<='l')||(LA16_989>='n' && LA16_989<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition65(IntStream input) {
+            int s = -1;
+            int LA16_1109 = input.LA(1);
+            if ( (LA16_1109=='s') ) {s = 1214;}
+            else if ( ((LA16_1109>='\u0000' && LA16_1109<='r')||(LA16_1109>='t' && LA16_1109<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition66(IntStream input) {
+            int s = -1;
+            int LA16_1214 = input.LA(1);
+            if ( (LA16_1214=='_') ) {s = 1309;}
+            else if ( ((LA16_1214>='\u0000' && LA16_1214<='^')||(LA16_1214>='`' && LA16_1214<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition67(IntStream input) {
+            int s = -1;
+            int LA16_1309 = input.LA(1);
+            if ( (LA16_1309=='q') ) {s = 1385;}
+            else if ( ((LA16_1309>='\u0000' && LA16_1309<='p')||(LA16_1309>='r' && LA16_1309<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition68(IntStream input) {
+            int s = -1;
+            int LA16_1385 = input.LA(1);
+            if ( (LA16_1385=='u') ) {s = 1451;}
+            else if ( ((LA16_1385>='\u0000' && LA16_1385<='t')||(LA16_1385>='v' && LA16_1385<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition69(IntStream input) {
+            int s = -1;
+            int LA16_1451 = input.LA(1);
+            if ( (LA16_1451=='e') ) {s = 1507;}
+            else if ( ((LA16_1451>='\u0000' && LA16_1451<='d')||(LA16_1451>='f' && LA16_1451<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition70(IntStream input) {
+            int s = -1;
+            int LA16_1507 = input.LA(1);
+            if ( (LA16_1507=='r') ) {s = 1548;}
+            else if ( ((LA16_1507>='\u0000' && LA16_1507<='q')||(LA16_1507>='s' && LA16_1507<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
         protected int specialStateTransition71(IntStream input) {
+            int s = -1;
+            int LA16_1548 = input.LA(1);
+            if ( (LA16_1548=='y') ) {s = 1580;}
+            else if ( ((LA16_1548>='\u0000' && LA16_1548<='x')||(LA16_1548>='z' && LA16_1548<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition72(IntStream input) {
+            int s = -1;
+            int LA16_1580 = input.LA(1);
+            if ( (LA16_1580=='\"') ) {s = 1605;}
+            else if ( ((LA16_1580>='\u0000' && LA16_1580<='!')||(LA16_1580>='#' && LA16_1580<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition73(IntStream input) {
             int s = -1;
             int LA16_309 = input.LA(1);
             if ( (LA16_309=='m') ) {s = 456;}
             else if ( ((LA16_309>='\u0000' && LA16_309<='l')||(LA16_309>='n' && LA16_309<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition72(IntStream input) {
+        protected int specialStateTransition74(IntStream input) {
             int s = -1;
             int LA16_456 = input.LA(1);
             if ( (LA16_456=='u') ) {s = 616;}
             else if ( ((LA16_456>='\u0000' && LA16_456<='t')||(LA16_456>='v' && LA16_456<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition73(IntStream input) {
+        protected int specialStateTransition75(IntStream input) {
             int s = -1;
             int LA16_616 = input.LA(1);
             if ( (LA16_616=='m') ) {s = 771;}
             else if ( ((LA16_616>='\u0000' && LA16_616<='l')||(LA16_616>='n' && LA16_616<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition74(IntStream input) {
+        protected int specialStateTransition76(IntStream input) {
             int s = -1;
             int LA16_771 = input.LA(1);
             if ( (LA16_771=='_') ) {s = 914;}
             else if ( ((LA16_771>='\u0000' && LA16_771<='^')||(LA16_771>='`' && LA16_771<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition75(IntStream input) {
+        protected int specialStateTransition77(IntStream input) {
             int s = -1;
             int LA16_914 = input.LA(1);
             if ( (LA16_914=='s') ) {s = 1039;}
             else if ( ((LA16_914>='\u0000' && LA16_914<='r')||(LA16_914>='t' && LA16_914<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition76(IntStream input) {
+        protected int specialStateTransition78(IntStream input) {
             int s = -1;
             int LA16_1039 = input.LA(1);
             if ( (LA16_1039=='h') ) {s = 1151;}
             else if ( ((LA16_1039>='\u0000' && LA16_1039<='g')||(LA16_1039>='i' && LA16_1039<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition77(IntStream input) {
+        protected int specialStateTransition79(IntStream input) {
             int s = -1;
             int LA16_1151 = input.LA(1);
             if ( (LA16_1151=='o') ) {s = 1252;}
             else if ( ((LA16_1151>='\u0000' && LA16_1151<='n')||(LA16_1151>='p' && LA16_1151<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition78(IntStream input) {
+        protected int specialStateTransition80(IntStream input) {
             int s = -1;
             int LA16_1252 = input.LA(1);
             if ( (LA16_1252=='u') ) {s = 1340;}
             else if ( ((LA16_1252>='\u0000' && LA16_1252<='t')||(LA16_1252>='v' && LA16_1252<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition79(IntStream input) {
+        protected int specialStateTransition81(IntStream input) {
             int s = -1;
             int LA16_1340 = input.LA(1);
             if ( (LA16_1340=='l') ) {s = 1408;}
             else if ( ((LA16_1340>='\u0000' && LA16_1340<='k')||(LA16_1340>='m' && LA16_1340<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition80(IntStream input) {
+        protected int specialStateTransition82(IntStream input) {
             int s = -1;
             int LA16_1408 = input.LA(1);
             if ( (LA16_1408=='d') ) {s = 1472;}
             else if ( ((LA16_1408>='\u0000' && LA16_1408<='c')||(LA16_1408>='e' && LA16_1408<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition81(IntStream input) {
+        protected int specialStateTransition83(IntStream input) {
             int s = -1;
             int LA16_1472 = input.LA(1);
             if ( (LA16_1472=='_') ) {s = 1522;}
             else if ( ((LA16_1472>='\u0000' && LA16_1472<='^')||(LA16_1472>='`' && LA16_1472<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition82(IntStream input) {
+        protected int specialStateTransition84(IntStream input) {
             int s = -1;
             int LA16_1522 = input.LA(1);
             if ( (LA16_1522=='m') ) {s = 1561;}
             else if ( ((LA16_1522>='\u0000' && LA16_1522<='l')||(LA16_1522>='n' && LA16_1522<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition83(IntStream input) {
+        protected int specialStateTransition85(IntStream input) {
             int s = -1;
             int LA16_1561 = input.LA(1);
             if ( (LA16_1561=='a') ) {s = 1590;}
             else if ( ((LA16_1561>='\u0000' && LA16_1561<='`')||(LA16_1561>='b' && LA16_1561<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition84(IntStream input) {
+        protected int specialStateTransition86(IntStream input) {
             int s = -1;
             int LA16_1590 = input.LA(1);
             if ( (LA16_1590=='t') ) {s = 1614;}
             else if ( ((LA16_1590>='\u0000' && LA16_1590<='s')||(LA16_1590>='u' && LA16_1590<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition85(IntStream input) {
+        protected int specialStateTransition87(IntStream input) {
             int s = -1;
             int LA16_1614 = input.LA(1);
             if ( (LA16_1614=='c') ) {s = 1634;}
             else if ( ((LA16_1614>='\u0000' && LA16_1614<='b')||(LA16_1614>='d' && LA16_1614<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition86(IntStream input) {
+        protected int specialStateTransition88(IntStream input) {
             int s = -1;
             int LA16_1634 = input.LA(1);
             if ( (LA16_1634=='h') ) {s = 1648;}
             else if ( ((LA16_1634>='\u0000' && LA16_1634<='g')||(LA16_1634>='i' && LA16_1634<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition87(IntStream input) {
+        protected int specialStateTransition89(IntStream input) {
             int s = -1;
             int LA16_1648 = input.LA(1);
             if ( (LA16_1648=='\"') ) {s = 1661;}
             else if ( ((LA16_1648>='\u0000' && LA16_1648<='!')||(LA16_1648>='#' && LA16_1648<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition88(IntStream input) {
+        protected int specialStateTransition90(IntStream input) {
             int s = -1;
             int LA16_219 = input.LA(1);
             if ( (LA16_219=='h') ) {s = 359;}
             else if ( ((LA16_219>='\u0000' && LA16_219<='g')||(LA16_219>='i' && LA16_219<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition89(IntStream input) {
+        protected int specialStateTransition91(IntStream input) {
             int s = -1;
             int LA16_359 = input.LA(1);
             if ( (LA16_359=='_') ) {s = 514;}
             else if ( ((LA16_359>='\u0000' && LA16_359<='^')||(LA16_359>='`' && LA16_359<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition90(IntStream input) {
+        protected int specialStateTransition92(IntStream input) {
             int s = -1;
             int LA16_514 = input.LA(1);
             if ( (LA16_514=='f') ) {s = 668;}
             else if ( ((LA16_514>='\u0000' && LA16_514<='e')||(LA16_514>='g' && LA16_514<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition91(IntStream input) {
+        protected int specialStateTransition93(IntStream input) {
             int s = -1;
             int LA16_668 = input.LA(1);
             if ( (LA16_668=='r') ) {s = 819;}
             else if ( ((LA16_668>='\u0000' && LA16_668<='q')||(LA16_668>='s' && LA16_668<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition92(IntStream input) {
+        protected int specialStateTransition94(IntStream input) {
             int s = -1;
             int LA16_819 = input.LA(1);
             if ( (LA16_819=='e') ) {s = 960;}
             else if ( ((LA16_819>='\u0000' && LA16_819<='d')||(LA16_819>='f' && LA16_819<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition93(IntStream input) {
+        protected int specialStateTransition95(IntStream input) {
             int s = -1;
             int LA16_960 = input.LA(1);
             if ( (LA16_960=='q') ) {s = 1085;}
             else if ( ((LA16_960>='\u0000' && LA16_960<='p')||(LA16_960>='r' && LA16_960<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition94(IntStream input) {
+        protected int specialStateTransition96(IntStream input) {
             int s = -1;
             int LA16_1085 = input.LA(1);
             if ( (LA16_1085=='\"') ) {s = 1191;}
             else if ( ((LA16_1085>='\u0000' && LA16_1085<='!')||(LA16_1085>='#' && LA16_1085<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition95(IntStream input) {
+        protected int specialStateTransition97(IntStream input) {
             int s = -1;
             int LA16_400 = input.LA(1);
             if ( (LA16_400=='\"') ) {s = 556;}
@@ -14882,105 +14867,56 @@ public class InternalSearchDslLexer extends Lexer {
             else if ( ((LA16_400>='\u0000' && LA16_400<='!')||(LA16_400>='#' && LA16_400<='^')||(LA16_400>='`' && LA16_400<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition96(IntStream input) {
-            int s = -1;
-            int LA16_692 = input.LA(1);
-            if ( (LA16_692=='n') ) {s = 844;}
-            else if ( ((LA16_692>='\u0000' && LA16_692<='m')||(LA16_692>='o' && LA16_692<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition97(IntStream input) {
-            int s = -1;
-            int LA16_844 = input.LA(1);
-            if ( (LA16_844=='c') ) {s = 980;}
-            else if ( ((LA16_844>='\u0000' && LA16_844<='b')||(LA16_844>='d' && LA16_844<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
         protected int specialStateTransition98(IntStream input) {
             int s = -1;
-            int LA16_980 = input.LA(1);
-            if ( (LA16_980=='e') ) {s = 1102;}
-            else if ( ((LA16_980>='\u0000' && LA16_980<='d')||(LA16_980>='f' && LA16_980<='\uFFFF')) ) {s = 50;}
+            int LA16_697 = input.LA(1);
+            if ( (LA16_697=='n') ) {s = 848;}
+            else if ( ((LA16_697>='\u0000' && LA16_697<='m')||(LA16_697>='o' && LA16_697<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition99(IntStream input) {
             int s = -1;
-            int LA16_1102 = input.LA(1);
-            if ( (LA16_1102=='\"') ) {s = 1206;}
-            else if ( ((LA16_1102>='\u0000' && LA16_1102<='!')||(LA16_1102>='#' && LA16_1102<='\uFFFF')) ) {s = 50;}
+            int LA16_848 = input.LA(1);
+            if ( (LA16_848=='c') ) {s = 984;}
+            else if ( ((LA16_848>='\u0000' && LA16_848<='b')||(LA16_848>='d' && LA16_848<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition100(IntStream input) {
             int s = -1;
-            int LA16_130 = input.LA(1);
-            if ( (LA16_130=='l') ) {s = 252;}
-            else if ( ((LA16_130>='\u0000' && LA16_130<='k')||(LA16_130>='m' && LA16_130<='\uFFFF')) ) {s = 50;}
+            int LA16_984 = input.LA(1);
+            if ( (LA16_984=='e') ) {s = 1105;}
+            else if ( ((LA16_984>='\u0000' && LA16_984<='d')||(LA16_984>='f' && LA16_984<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition101(IntStream input) {
             int s = -1;
-            int LA16_252 = input.LA(1);
-            if ( (LA16_252=='l') ) {s = 393;}
-            else if ( ((LA16_252>='\u0000' && LA16_252<='k')||(LA16_252>='m' && LA16_252<='\uFFFF')) ) {s = 50;}
+            int LA16_1105 = input.LA(1);
+            if ( (LA16_1105=='\"') ) {s = 1210;}
+            else if ( ((LA16_1105>='\u0000' && LA16_1105<='!')||(LA16_1105>='#' && LA16_1105<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition102(IntStream input) {
-            int s = -1;
-            int LA16_393 = input.LA(1);
-            if ( (LA16_393=='_') ) {s = 549;}
-            else if ( ((LA16_393>='\u0000' && LA16_393<='^')||(LA16_393>='`' && LA16_393<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition103(IntStream input) {
-            int s = -1;
-            int LA16_549 = input.LA(1);
-            if ( (LA16_549=='v') ) {s = 705;}
-            else if ( ((LA16_549>='\u0000' && LA16_549<='u')||(LA16_549>='w' && LA16_549<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition104(IntStream input) {
-            int s = -1;
-            int LA16_705 = input.LA(1);
-            if ( (LA16_705=='a') ) {s = 856;}
-            else if ( ((LA16_705>='\u0000' && LA16_705<='`')||(LA16_705>='b' && LA16_705<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition105(IntStream input) {
-            int s = -1;
-            int LA16_856 = input.LA(1);
-            if ( (LA16_856=='l') ) {s = 991;}
-            else if ( ((LA16_856>='\u0000' && LA16_856<='k')||(LA16_856>='m' && LA16_856<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition106(IntStream input) {
-            int s = -1;
-            int LA16_991 = input.LA(1);
-            if ( (LA16_991=='u') ) {s = 1112;}
-            else if ( ((LA16_991>='\u0000' && LA16_991<='t')||(LA16_991>='v' && LA16_991<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition107(IntStream input) {
-            int s = -1;
-            int LA16_1112 = input.LA(1);
-            if ( (LA16_1112=='e') ) {s = 1215;}
-            else if ( ((LA16_1112>='\u0000' && LA16_1112<='d')||(LA16_1112>='f' && LA16_1112<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition108(IntStream input) {
-            int s = -1;
-            int LA16_1215 = input.LA(1);
-            if ( (LA16_1215=='\"') ) {s = 1309;}
-            else if ( ((LA16_1215>='\u0000' && LA16_1215<='!')||(LA16_1215>='#' && LA16_1215<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition109(IntStream input) {
             int s = -1;
             int LA16_150 = input.LA(1);
             if ( (LA16_150=='t') ) {s = 275;}
             else if ( ((LA16_150>='\u0000' && LA16_150<='s')||(LA16_150>='u' && LA16_150<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition110(IntStream input) {
+        protected int specialStateTransition103(IntStream input) {
+            int s = -1;
+            int LA16_119 = input.LA(1);
+            if ( (LA16_119=='l') ) {s = 229;}
+            else if ( ((LA16_119>='\u0000' && LA16_119<='k')||(LA16_119>='m' && LA16_119<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition104(IntStream input) {
+            int s = -1;
+            int LA16_229 = input.LA(1);
+            if ( (LA16_229=='l') ) {s = 369;}
+            else if ( ((LA16_229>='\u0000' && LA16_229<='k')||(LA16_229>='m' && LA16_229<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition105(IntStream input) {
             int s = -1;
             int LA16_275 = input.LA(1);
             if ( (LA16_275=='s') ) {s = 420;}
@@ -14988,70 +14924,77 @@ public class InternalSearchDslLexer extends Lexer {
             else if ( ((LA16_275>='\u0000' && LA16_275<='h')||(LA16_275>='j' && LA16_275<='r')||(LA16_275>='t' && LA16_275<='\uFFFF')) ) {s = 50;}
             return s;
         }
+        protected int specialStateTransition106(IntStream input) {
+            int s = -1;
+            int LA16_369 = input.LA(1);
+            if ( (LA16_369=='_') ) {s = 526;}
+            else if ( ((LA16_369>='\u0000' && LA16_369<='^')||(LA16_369>='`' && LA16_369<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition107(IntStream input) {
+            int s = -1;
+            int LA16_526 = input.LA(1);
+            if ( (LA16_526=='v') ) {s = 685;}
+            else if ( ((LA16_526>='\u0000' && LA16_526<='u')||(LA16_526>='w' && LA16_526<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition108(IntStream input) {
+            int s = -1;
+            int LA16_685 = input.LA(1);
+            if ( (LA16_685=='a') ) {s = 837;}
+            else if ( ((LA16_685>='\u0000' && LA16_685<='`')||(LA16_685>='b' && LA16_685<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition109(IntStream input) {
+            int s = -1;
+            int LA16_837 = input.LA(1);
+            if ( (LA16_837=='l') ) {s = 974;}
+            else if ( ((LA16_837>='\u0000' && LA16_837<='k')||(LA16_837>='m' && LA16_837<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition110(IntStream input) {
+            int s = -1;
+            int LA16_974 = input.LA(1);
+            if ( (LA16_974=='u') ) {s = 1096;}
+            else if ( ((LA16_974>='\u0000' && LA16_974<='t')||(LA16_974>='v' && LA16_974<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
         protected int specialStateTransition111(IntStream input) {
+            int s = -1;
+            int LA16_1096 = input.LA(1);
+            if ( (LA16_1096=='e') ) {s = 1202;}
+            else if ( ((LA16_1096>='\u0000' && LA16_1096<='d')||(LA16_1096>='f' && LA16_1096<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition112(IntStream input) {
+            int s = -1;
+            int LA16_1202 = input.LA(1);
+            if ( (LA16_1202=='\"') ) {s = 1298;}
+            else if ( ((LA16_1202>='\u0000' && LA16_1202<='!')||(LA16_1202>='#' && LA16_1202<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition113(IntStream input) {
             int s = -1;
             int LA16_457 = input.LA(1);
             if ( (LA16_457=='e') ) {s = 617;}
             else if ( ((LA16_457>='\u0000' && LA16_457<='d')||(LA16_457>='f' && LA16_457<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition112(IntStream input) {
+        protected int specialStateTransition114(IntStream input) {
             int s = -1;
             int LA16_617 = input.LA(1);
             if ( (LA16_617=='r') ) {s = 772;}
             else if ( ((LA16_617>='\u0000' && LA16_617<='q')||(LA16_617>='s' && LA16_617<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition113(IntStream input) {
+        protected int specialStateTransition115(IntStream input) {
             int s = -1;
             int LA16_772 = input.LA(1);
             if ( (LA16_772=='m') ) {s = 915;}
             else if ( ((LA16_772>='\u0000' && LA16_772<='l')||(LA16_772>='n' && LA16_772<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition114(IntStream input) {
-            int s = -1;
-            int LA16_915 = input.LA(1);
-            if ( (LA16_915=='_') ) {s = 1040;}
-            else if ( ((LA16_915>='\u0000' && LA16_915<='^')||(LA16_915>='`' && LA16_915<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition115(IntStream input) {
-            int s = -1;
-            int LA16_1040 = input.LA(1);
-            if ( (LA16_1040=='f') ) {s = 1152;}
-            else if ( ((LA16_1040>='\u0000' && LA16_1040<='e')||(LA16_1040>='g' && LA16_1040<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
         protected int specialStateTransition116(IntStream input) {
-            int s = -1;
-            int LA16_1152 = input.LA(1);
-            if ( (LA16_1152=='r') ) {s = 1253;}
-            else if ( ((LA16_1152>='\u0000' && LA16_1152<='q')||(LA16_1152>='s' && LA16_1152<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition117(IntStream input) {
-            int s = -1;
-            int LA16_1253 = input.LA(1);
-            if ( (LA16_1253=='e') ) {s = 1341;}
-            else if ( ((LA16_1253>='\u0000' && LA16_1253<='d')||(LA16_1253>='f' && LA16_1253<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition118(IntStream input) {
-            int s = -1;
-            int LA16_1341 = input.LA(1);
-            if ( (LA16_1341=='q') ) {s = 1409;}
-            else if ( ((LA16_1341>='\u0000' && LA16_1341<='p')||(LA16_1341>='r' && LA16_1341<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition119(IntStream input) {
-            int s = -1;
-            int LA16_1409 = input.LA(1);
-            if ( (LA16_1409=='\"') ) {s = 1473;}
-            else if ( ((LA16_1409>='\u0000' && LA16_1409<='!')||(LA16_1409>='#' && LA16_1409<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition120(IntStream input) {
             int s = -1;
             int LA16_587 = input.LA(1);
             if ( (LA16_587=='e') ) {s = 739;}
@@ -15059,407 +15002,449 @@ public class InternalSearchDslLexer extends Lexer {
             else if ( ((LA16_587>='\u0000' && LA16_587<='d')||(LA16_587>='f' && LA16_587<='n')||(LA16_587>='p' && LA16_587<='\uFFFF')) ) {s = 50;}
             return s;
         }
+        protected int specialStateTransition117(IntStream input) {
+            int s = -1;
+            int LA16_915 = input.LA(1);
+            if ( (LA16_915=='_') ) {s = 1040;}
+            else if ( ((LA16_915>='\u0000' && LA16_915<='^')||(LA16_915>='`' && LA16_915<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition118(IntStream input) {
+            int s = -1;
+            int LA16_1040 = input.LA(1);
+            if ( (LA16_1040=='f') ) {s = 1152;}
+            else if ( ((LA16_1040>='\u0000' && LA16_1040<='e')||(LA16_1040>='g' && LA16_1040<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition119(IntStream input) {
+            int s = -1;
+            int LA16_1152 = input.LA(1);
+            if ( (LA16_1152=='r') ) {s = 1253;}
+            else if ( ((LA16_1152>='\u0000' && LA16_1152<='q')||(LA16_1152>='s' && LA16_1152<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition120(IntStream input) {
+            int s = -1;
+            int LA16_1253 = input.LA(1);
+            if ( (LA16_1253=='e') ) {s = 1341;}
+            else if ( ((LA16_1253>='\u0000' && LA16_1253<='d')||(LA16_1253>='f' && LA16_1253<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
         protected int specialStateTransition121(IntStream input) {
             int s = -1;
-            int LA16_1108 = input.LA(1);
-            if ( (LA16_1108=='o') ) {s = 1212;}
-            else if ( ((LA16_1108>='\u0000' && LA16_1108<='n')||(LA16_1108>='p' && LA16_1108<='\uFFFF')) ) {s = 50;}
+            int LA16_1341 = input.LA(1);
+            if ( (LA16_1341=='q') ) {s = 1409;}
+            else if ( ((LA16_1341>='\u0000' && LA16_1341<='p')||(LA16_1341>='r' && LA16_1341<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition122(IntStream input) {
             int s = -1;
-            int LA16_1212 = input.LA(1);
-            if ( (LA16_1212=='p') ) {s = 1306;}
-            else if ( ((LA16_1212>='\u0000' && LA16_1212<='o')||(LA16_1212>='q' && LA16_1212<='\uFFFF')) ) {s = 50;}
+            int LA16_1409 = input.LA(1);
+            if ( (LA16_1409=='\"') ) {s = 1473;}
+            else if ( ((LA16_1409>='\u0000' && LA16_1409<='!')||(LA16_1409>='#' && LA16_1409<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition123(IntStream input) {
             int s = -1;
-            int LA16_1306 = input.LA(1);
-            if ( (LA16_1306=='e') ) {s = 1383;}
-            else if ( ((LA16_1306>='\u0000' && LA16_1306<='d')||(LA16_1306>='f' && LA16_1306<='\uFFFF')) ) {s = 50;}
+            int LA16_1111 = input.LA(1);
+            if ( (LA16_1111=='o') ) {s = 1216;}
+            else if ( ((LA16_1111>='\u0000' && LA16_1111<='n')||(LA16_1111>='p' && LA16_1111<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition124(IntStream input) {
             int s = -1;
-            int LA16_1383 = input.LA(1);
-            if ( (LA16_1383=='r') ) {s = 1450;}
-            else if ( ((LA16_1383>='\u0000' && LA16_1383<='q')||(LA16_1383>='s' && LA16_1383<='\uFFFF')) ) {s = 50;}
+            int LA16_1216 = input.LA(1);
+            if ( (LA16_1216=='p') ) {s = 1310;}
+            else if ( ((LA16_1216>='\u0000' && LA16_1216<='o')||(LA16_1216>='q' && LA16_1216<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition125(IntStream input) {
             int s = -1;
-            int LA16_1450 = input.LA(1);
-            if ( (LA16_1450=='a') ) {s = 1506;}
-            else if ( ((LA16_1450>='\u0000' && LA16_1450<='`')||(LA16_1450>='b' && LA16_1450<='\uFFFF')) ) {s = 50;}
+            int LA16_1310 = input.LA(1);
+            if ( (LA16_1310=='e') ) {s = 1386;}
+            else if ( ((LA16_1310>='\u0000' && LA16_1310<='d')||(LA16_1310>='f' && LA16_1310<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition126(IntStream input) {
             int s = -1;
-            int LA16_1506 = input.LA(1);
-            if ( (LA16_1506=='t') ) {s = 1547;}
-            else if ( ((LA16_1506>='\u0000' && LA16_1506<='s')||(LA16_1506>='u' && LA16_1506<='\uFFFF')) ) {s = 50;}
+            int LA16_1386 = input.LA(1);
+            if ( (LA16_1386=='r') ) {s = 1452;}
+            else if ( ((LA16_1386>='\u0000' && LA16_1386<='q')||(LA16_1386>='s' && LA16_1386<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition127(IntStream input) {
             int s = -1;
-            int LA16_1547 = input.LA(1);
-            if ( (LA16_1547=='o') ) {s = 1579;}
-            else if ( ((LA16_1547>='\u0000' && LA16_1547<='n')||(LA16_1547>='p' && LA16_1547<='\uFFFF')) ) {s = 50;}
+            int LA16_1452 = input.LA(1);
+            if ( (LA16_1452=='a') ) {s = 1508;}
+            else if ( ((LA16_1452>='\u0000' && LA16_1452<='`')||(LA16_1452>='b' && LA16_1452<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition128(IntStream input) {
             int s = -1;
-            int LA16_1579 = input.LA(1);
-            if ( (LA16_1579=='r') ) {s = 1605;}
-            else if ( ((LA16_1579>='\u0000' && LA16_1579<='q')||(LA16_1579>='s' && LA16_1579<='\uFFFF')) ) {s = 50;}
+            int LA16_1508 = input.LA(1);
+            if ( (LA16_1508=='t') ) {s = 1549;}
+            else if ( ((LA16_1508>='\u0000' && LA16_1508<='s')||(LA16_1508>='u' && LA16_1508<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition129(IntStream input) {
             int s = -1;
-            int LA16_1605 = input.LA(1);
-            if ( (LA16_1605=='\"') ) {s = 1626;}
-            else if ( ((LA16_1605>='\u0000' && LA16_1605<='!')||(LA16_1605>='#' && LA16_1605<='\uFFFF')) ) {s = 50;}
+            int LA16_1549 = input.LA(1);
+            if ( (LA16_1549=='o') ) {s = 1581;}
+            else if ( ((LA16_1549>='\u0000' && LA16_1549<='n')||(LA16_1549>='p' && LA16_1549<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition130(IntStream input) {
+            int s = -1;
+            int LA16_1581 = input.LA(1);
+            if ( (LA16_1581=='r') ) {s = 1606;}
+            else if ( ((LA16_1581>='\u0000' && LA16_1581<='q')||(LA16_1581>='s' && LA16_1581<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition131(IntStream input) {
+            int s = -1;
+            int LA16_1606 = input.LA(1);
+            if ( (LA16_1606=='\"') ) {s = 1626;}
+            else if ( ((LA16_1606>='\u0000' && LA16_1606<='!')||(LA16_1606>='#' && LA16_1606<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition132(IntStream input) {
             int s = -1;
             int LA16_175 = input.LA(1);
             if ( (LA16_175=='r') ) {s = 302;}
             else if ( ((LA16_175>='\u0000' && LA16_175<='q')||(LA16_175>='s' && LA16_175<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition131(IntStream input) {
+        protected int specialStateTransition133(IntStream input) {
             int s = -1;
             int LA16_302 = input.LA(1);
             if ( (LA16_302=='a') ) {s = 449;}
             else if ( ((LA16_302>='\u0000' && LA16_302<='`')||(LA16_302>='b' && LA16_302<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition132(IntStream input) {
+        protected int specialStateTransition134(IntStream input) {
             int s = -1;
             int LA16_449 = input.LA(1);
             if ( (LA16_449=='t') ) {s = 610;}
             else if ( ((LA16_449>='\u0000' && LA16_449<='s')||(LA16_449>='u' && LA16_449<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition133(IntStream input) {
+        protected int specialStateTransition135(IntStream input) {
             int s = -1;
             int LA16_610 = input.LA(1);
             if ( (LA16_610=='o') ) {s = 766;}
             else if ( ((LA16_610>='\u0000' && LA16_610<='n')||(LA16_610>='p' && LA16_610<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition134(IntStream input) {
+        protected int specialStateTransition136(IntStream input) {
             int s = -1;
             int LA16_766 = input.LA(1);
             if ( (LA16_766=='r') ) {s = 909;}
             else if ( ((LA16_766>='\u0000' && LA16_766<='q')||(LA16_766>='s' && LA16_766<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition135(IntStream input) {
+        protected int specialStateTransition137(IntStream input) {
             int s = -1;
             int LA16_909 = input.LA(1);
             if ( (LA16_909=='\"') ) {s = 1034;}
             else if ( ((LA16_909>='\u0000' && LA16_909<='!')||(LA16_909>='#' && LA16_909<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition136(IntStream input) {
+        protected int specialStateTransition138(IntStream input) {
             int s = -1;
             int LA16_929 = input.LA(1);
             if ( (LA16_929=='\"') ) {s = 1053;}
             else if ( ((LA16_929>='\u0000' && LA16_929<='!')||(LA16_929>='#' && LA16_929<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition137(IntStream input) {
+        protected int specialStateTransition139(IntStream input) {
             int s = -1;
             int LA16_166 = input.LA(1);
             if ( (LA16_166=='g') ) {s = 292;}
             else if ( ((LA16_166>='\u0000' && LA16_166<='f')||(LA16_166>='h' && LA16_166<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition138(IntStream input) {
+        protected int specialStateTransition140(IntStream input) {
             int s = -1;
             int LA16_292 = input.LA(1);
             if ( (LA16_292=='s') ) {s = 439;}
             else if ( ((LA16_292>='\u0000' && LA16_292<='r')||(LA16_292>='t' && LA16_292<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition139(IntStream input) {
+        protected int specialStateTransition141(IntStream input) {
             int s = -1;
             int LA16_439 = input.LA(1);
             if ( (LA16_439=='\"') ) {s = 600;}
             else if ( ((LA16_439>='\u0000' && LA16_439<='!')||(LA16_439>='#' && LA16_439<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition140(IntStream input) {
-            int s = -1;
-            int LA16_254 = input.LA(1);
-            if ( (LA16_254=='m') ) {s = 395;}
-            else if ( ((LA16_254>='\u0000' && LA16_254<='l')||(LA16_254>='n' && LA16_254<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition141(IntStream input) {
-            int s = -1;
-            int LA16_395 = input.LA(1);
-            if ( (LA16_395=='a') ) {s = 551;}
-            else if ( ((LA16_395>='\u0000' && LA16_395<='`')||(LA16_395>='b' && LA16_395<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
         protected int specialStateTransition142(IntStream input) {
             int s = -1;
-            int LA16_551 = input.LA(1);
-            if ( (LA16_551=='t') ) {s = 707;}
-            else if ( ((LA16_551>='\u0000' && LA16_551<='s')||(LA16_551>='u' && LA16_551<='\uFFFF')) ) {s = 50;}
+            int LA16_231 = input.LA(1);
+            if ( (LA16_231=='m') ) {s = 371;}
+            else if ( ((LA16_231>='\u0000' && LA16_231<='l')||(LA16_231>='n' && LA16_231<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition143(IntStream input) {
+            int s = -1;
+            int LA16_371 = input.LA(1);
+            if ( (LA16_371=='a') ) {s = 528;}
+            else if ( ((LA16_371>='\u0000' && LA16_371<='`')||(LA16_371>='b' && LA16_371<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition144(IntStream input) {
+            int s = -1;
+            int LA16_528 = input.LA(1);
+            if ( (LA16_528=='t') ) {s = 687;}
+            else if ( ((LA16_528>='\u0000' && LA16_528<='s')||(LA16_528>='u' && LA16_528<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition145(IntStream input) {
             int s = -1;
             int LA16_332 = input.LA(1);
             if ( (LA16_332=='b') ) {s = 485;}
             else if ( ((LA16_332>='\u0000' && LA16_332<='a')||(LA16_332>='c' && LA16_332<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition144(IntStream input) {
+        protected int specialStateTransition146(IntStream input) {
             int s = -1;
-            int LA16_707 = input.LA(1);
-            if ( (LA16_707=='c') ) {s = 857;}
-            else if ( ((LA16_707>='\u0000' && LA16_707<='b')||(LA16_707>='d' && LA16_707<='\uFFFF')) ) {s = 50;}
+            int LA16_687 = input.LA(1);
+            if ( (LA16_687=='c') ) {s = 838;}
+            else if ( ((LA16_687>='\u0000' && LA16_687<='b')||(LA16_687>='d' && LA16_687<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition145(IntStream input) {
+        protected int specialStateTransition147(IntStream input) {
             int s = -1;
             int LA16_485 = input.LA(1);
             if ( (LA16_485=='l') ) {s = 639;}
             else if ( ((LA16_485>='\u0000' && LA16_485<='k')||(LA16_485>='m' && LA16_485<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition146(IntStream input) {
+        protected int specialStateTransition148(IntStream input) {
             int s = -1;
             int LA16_639 = input.LA(1);
             if ( (LA16_639=='e') ) {s = 792;}
             else if ( ((LA16_639>='\u0000' && LA16_639<='d')||(LA16_639>='f' && LA16_639<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition147(IntStream input) {
+        protected int specialStateTransition149(IntStream input) {
             int s = -1;
-            int LA16_857 = input.LA(1);
-            if ( (LA16_857=='h') ) {s = 992;}
-            else if ( ((LA16_857>='\u0000' && LA16_857<='g')||(LA16_857>='i' && LA16_857<='\uFFFF')) ) {s = 50;}
+            int LA16_838 = input.LA(1);
+            if ( (LA16_838=='h') ) {s = 975;}
+            else if ( ((LA16_838>='\u0000' && LA16_838<='g')||(LA16_838>='i' && LA16_838<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition148(IntStream input) {
+        protected int specialStateTransition150(IntStream input) {
             int s = -1;
             int LA16_792 = input.LA(1);
             if ( (LA16_792=='_') ) {s = 935;}
             else if ( ((LA16_792>='\u0000' && LA16_792<='^')||(LA16_792>='`' && LA16_792<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition149(IntStream input) {
+        protected int specialStateTransition151(IntStream input) {
             int s = -1;
             int LA16_935 = input.LA(1);
             if ( (LA16_935=='c') ) {s = 1060;}
             else if ( ((LA16_935>='\u0000' && LA16_935<='b')||(LA16_935>='d' && LA16_935<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition150(IntStream input) {
+        protected int specialStateTransition152(IntStream input) {
             int s = -1;
-            int LA16_992 = input.LA(1);
-            if ( (LA16_992=='_') ) {s = 1113;}
-            else if ( ((LA16_992>='\u0000' && LA16_992<='^')||(LA16_992>='`' && LA16_992<='\uFFFF')) ) {s = 50;}
+            int LA16_975 = input.LA(1);
+            if ( (LA16_975=='_') ) {s = 1097;}
+            else if ( ((LA16_975>='\u0000' && LA16_975<='^')||(LA16_975>='`' && LA16_975<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition151(IntStream input) {
+        protected int specialStateTransition153(IntStream input) {
             int s = -1;
             int LA16_1060 = input.LA(1);
             if ( (LA16_1060=='o') ) {s = 1171;}
             else if ( ((LA16_1060>='\u0000' && LA16_1060<='n')||(LA16_1060>='p' && LA16_1060<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition152(IntStream input) {
+        protected int specialStateTransition154(IntStream input) {
             int s = -1;
-            int LA16_1113 = input.LA(1);
-            if ( (LA16_1113=='q') ) {s = 1216;}
-            else if ( (LA16_1113=='f') ) {s = 1217;}
-            else if ( ((LA16_1113>='\u0000' && LA16_1113<='e')||(LA16_1113>='g' && LA16_1113<='p')||(LA16_1113>='r' && LA16_1113<='\uFFFF')) ) {s = 50;}
+            int LA16_1097 = input.LA(1);
+            if ( (LA16_1097=='q') ) {s = 1203;}
+            else if ( (LA16_1097=='f') ) {s = 1204;}
+            else if ( ((LA16_1097>='\u0000' && LA16_1097<='e')||(LA16_1097>='g' && LA16_1097<='p')||(LA16_1097>='r' && LA16_1097<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition153(IntStream input) {
+        protected int specialStateTransition155(IntStream input) {
             int s = -1;
             int LA16_1171 = input.LA(1);
             if ( (LA16_1171=='o') ) {s = 1271;}
             else if ( ((LA16_1171>='\u0000' && LA16_1171<='n')||(LA16_1171>='p' && LA16_1171<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition154(IntStream input) {
+        protected int specialStateTransition156(IntStream input) {
             int s = -1;
             int LA16_1271 = input.LA(1);
             if ( (LA16_1271=='r') ) {s = 1356;}
             else if ( ((LA16_1271>='\u0000' && LA16_1271<='q')||(LA16_1271>='s' && LA16_1271<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition155(IntStream input) {
+        protected int specialStateTransition157(IntStream input) {
             int s = -1;
             int LA16_1356 = input.LA(1);
             if ( (LA16_1356=='d') ) {s = 1424;}
             else if ( ((LA16_1356>='\u0000' && LA16_1356<='c')||(LA16_1356>='e' && LA16_1356<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition156(IntStream input) {
+        protected int specialStateTransition158(IntStream input) {
             int s = -1;
             int LA16_1424 = input.LA(1);
             if ( (LA16_1424=='\"') ) {s = 1486;}
             else if ( ((LA16_1424>='\u0000' && LA16_1424<='!')||(LA16_1424>='#' && LA16_1424<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition157(IntStream input) {
+        protected int specialStateTransition159(IntStream input) {
             int s = -1;
             int LA16_206 = input.LA(1);
             if ( (LA16_206=='_') ) {s = 343;}
             else if ( ((LA16_206>='\u0000' && LA16_206<='^')||(LA16_206>='`' && LA16_206<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition158(IntStream input) {
+        protected int specialStateTransition160(IntStream input) {
             int s = -1;
             int LA16_343 = input.LA(1);
             if ( (LA16_343=='b') ) {s = 500;}
             else if ( ((LA16_343>='\u0000' && LA16_343<='a')||(LA16_343>='c' && LA16_343<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition159(IntStream input) {
+        protected int specialStateTransition161(IntStream input) {
             int s = -1;
             int LA16_500 = input.LA(1);
             if ( (LA16_500=='r') ) {s = 655;}
             else if ( ((LA16_500>='\u0000' && LA16_500<='q')||(LA16_500>='s' && LA16_500<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition160(IntStream input) {
+        protected int specialStateTransition162(IntStream input) {
             int s = -1;
             int LA16_655 = input.LA(1);
             if ( (LA16_655=='e') ) {s = 807;}
             else if ( ((LA16_655>='\u0000' && LA16_655<='d')||(LA16_655>='f' && LA16_655<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition161(IntStream input) {
+        protected int specialStateTransition163(IntStream input) {
             int s = -1;
             int LA16_807 = input.LA(1);
             if ( (LA16_807=='a') ) {s = 948;}
             else if ( ((LA16_807>='\u0000' && LA16_807<='`')||(LA16_807>='b' && LA16_807<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition162(IntStream input) {
+        protected int specialStateTransition164(IntStream input) {
             int s = -1;
             int LA16_948 = input.LA(1);
             if ( (LA16_948=='k') ) {s = 1073;}
             else if ( ((LA16_948>='\u0000' && LA16_948<='j')||(LA16_948>='l' && LA16_948<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition163(IntStream input) {
+        protected int specialStateTransition165(IntStream input) {
             int s = -1;
             int LA16_1073 = input.LA(1);
             if ( (LA16_1073=='e') ) {s = 1182;}
             else if ( ((LA16_1073>='\u0000' && LA16_1073<='d')||(LA16_1073>='f' && LA16_1073<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition164(IntStream input) {
+        protected int specialStateTransition166(IntStream input) {
             int s = -1;
             int LA16_1182 = input.LA(1);
             if ( (LA16_1182=='r') ) {s = 1281;}
             else if ( ((LA16_1182>='\u0000' && LA16_1182<='q')||(LA16_1182>='s' && LA16_1182<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition165(IntStream input) {
+        protected int specialStateTransition167(IntStream input) {
             int s = -1;
             int LA16_1281 = input.LA(1);
             if ( (LA16_1281=='\"') ) {s = 1365;}
             else if ( ((LA16_1281>='\u0000' && LA16_1281<='!')||(LA16_1281>='#' && LA16_1281<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition166(IntStream input) {
+        protected int specialStateTransition168(IntStream input) {
             int s = -1;
             int LA16_32 = input.LA(1);
             if ( (LA16_32=='u') ) {s = 100;}
             else if ( ((LA16_32>='\u0000' && LA16_32<='t')||(LA16_32>='v' && LA16_32<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition167(IntStream input) {
+        protected int specialStateTransition169(IntStream input) {
             int s = -1;
             int LA16_135 = input.LA(1);
             if ( (LA16_135=='r') ) {s = 261;}
             else if ( ((LA16_135>='\u0000' && LA16_135<='q')||(LA16_135>='s' && LA16_135<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition168(IntStream input) {
+        protected int specialStateTransition170(IntStream input) {
             int s = -1;
             int LA16_261 = input.LA(1);
             if ( (LA16_261=='c') ) {s = 403;}
             else if ( ((LA16_261>='\u0000' && LA16_261<='b')||(LA16_261>='d' && LA16_261<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition169(IntStream input) {
+        protected int specialStateTransition171(IntStream input) {
             int s = -1;
             int LA16_403 = input.LA(1);
             if ( (LA16_403=='e') ) {s = 560;}
             else if ( ((LA16_403>='\u0000' && LA16_403<='d')||(LA16_403>='f' && LA16_403<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition170(IntStream input) {
+        protected int specialStateTransition172(IntStream input) {
             int s = -1;
             int LA16_100 = input.LA(1);
             if ( (LA16_100=='e') ) {s = 199;}
             else if ( ((LA16_100>='\u0000' && LA16_100<='d')||(LA16_100>='f' && LA16_100<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition171(IntStream input) {
+        protected int specialStateTransition173(IntStream input) {
             int s = -1;
             int LA16_560 = input.LA(1);
             if ( (LA16_560=='n') ) {s = 716;}
             else if ( ((LA16_560>='\u0000' && LA16_560<='m')||(LA16_560>='o' && LA16_560<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition172(IntStream input) {
+        protected int specialStateTransition174(IntStream input) {
             int s = -1;
             int LA16_716 = input.LA(1);
             if ( (LA16_716=='t') ) {s = 866;}
             else if ( ((LA16_716>='\u0000' && LA16_716<='s')||(LA16_716>='u' && LA16_716<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition173(IntStream input) {
+        protected int specialStateTransition175(IntStream input) {
             int s = -1;
             int LA16_866 = input.LA(1);
             if ( (LA16_866=='_') ) {s = 1000;}
             else if ( ((LA16_866>='\u0000' && LA16_866<='^')||(LA16_866>='`' && LA16_866<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition174(IntStream input) {
+        protected int specialStateTransition176(IntStream input) {
             int s = -1;
             int LA16_199 = input.LA(1);
             if ( (LA16_199=='r') ) {s = 335;}
             else if ( ((LA16_199>='\u0000' && LA16_199<='q')||(LA16_199>='s' && LA16_199<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition175(IntStream input) {
+        protected int specialStateTransition177(IntStream input) {
             int s = -1;
             int LA16_1000 = input.LA(1);
             if ( (LA16_1000=='t') ) {s = 1119;}
             else if ( ((LA16_1000>='\u0000' && LA16_1000<='s')||(LA16_1000>='u' && LA16_1000<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition176(IntStream input) {
+        protected int specialStateTransition178(IntStream input) {
             int s = -1;
             int LA16_1119 = input.LA(1);
             if ( (LA16_1119=='e') ) {s = 1223;}
             else if ( ((LA16_1119>='\u0000' && LA16_1119<='d')||(LA16_1119>='f' && LA16_1119<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition177(IntStream input) {
+        protected int specialStateTransition179(IntStream input) {
             int s = -1;
             int LA16_1223 = input.LA(1);
             if ( (LA16_1223=='r') ) {s = 1317;}
             else if ( ((LA16_1223>='\u0000' && LA16_1223<='q')||(LA16_1223>='s' && LA16_1223<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition178(IntStream input) {
+        protected int specialStateTransition180(IntStream input) {
             int s = -1;
             int LA16_335 = input.LA(1);
             if ( (LA16_335=='y') ) {s = 488;}
@@ -15467,133 +15452,116 @@ public class InternalSearchDslLexer extends Lexer {
             else if ( ((LA16_335>='\u0000' && LA16_335<='h')||(LA16_335>='j' && LA16_335<='x')||(LA16_335>='z' && LA16_335<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition179(IntStream input) {
+        protected int specialStateTransition181(IntStream input) {
             int s = -1;
             int LA16_1317 = input.LA(1);
             if ( (LA16_1317=='m') ) {s = 1392;}
             else if ( ((LA16_1317>='\u0000' && LA16_1317<='l')||(LA16_1317>='n' && LA16_1317<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition180(IntStream input) {
+        protected int specialStateTransition182(IntStream input) {
             int s = -1;
             int LA16_1392 = input.LA(1);
             if ( (LA16_1392=='s') ) {s = 1458;}
             else if ( ((LA16_1392>='\u0000' && LA16_1392<='r')||(LA16_1392>='t' && LA16_1392<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition181(IntStream input) {
+        protected int specialStateTransition183(IntStream input) {
             int s = -1;
             int LA16_1458 = input.LA(1);
             if ( (LA16_1458=='_') ) {s = 1512;}
             else if ( ((LA16_1458>='\u0000' && LA16_1458<='^')||(LA16_1458>='`' && LA16_1458<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition182(IntStream input) {
+        protected int specialStateTransition184(IntStream input) {
             int s = -1;
             int LA16_1512 = input.LA(1);
             if ( (LA16_1512=='t') ) {s = 1551;}
             else if ( ((LA16_1512>='\u0000' && LA16_1512<='s')||(LA16_1512>='u' && LA16_1512<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition183(IntStream input) {
+        protected int specialStateTransition185(IntStream input) {
             int s = -1;
             int LA16_1551 = input.LA(1);
             if ( (LA16_1551=='o') ) {s = 1583;}
             else if ( ((LA16_1551>='\u0000' && LA16_1551<='n')||(LA16_1551>='p' && LA16_1551<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition184(IntStream input) {
+        protected int specialStateTransition186(IntStream input) {
             int s = -1;
             int LA16_1583 = input.LA(1);
             if ( (LA16_1583=='_') ) {s = 1608;}
             else if ( ((LA16_1583>='\u0000' && LA16_1583<='^')||(LA16_1583>='`' && LA16_1583<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition185(IntStream input) {
+        protected int specialStateTransition187(IntStream input) {
             int s = -1;
             int LA16_1608 = input.LA(1);
             if ( (LA16_1608=='m') ) {s = 1628;}
             else if ( ((LA16_1608>='\u0000' && LA16_1608<='l')||(LA16_1608>='n' && LA16_1608<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition186(IntStream input) {
+        protected int specialStateTransition188(IntStream input) {
             int s = -1;
             int LA16_1628 = input.LA(1);
             if ( (LA16_1628=='a') ) {s = 1642;}
             else if ( ((LA16_1628>='\u0000' && LA16_1628<='`')||(LA16_1628>='b' && LA16_1628<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition187(IntStream input) {
+        protected int specialStateTransition189(IntStream input) {
             int s = -1;
             int LA16_1642 = input.LA(1);
             if ( (LA16_1642=='t') ) {s = 1655;}
             else if ( ((LA16_1642>='\u0000' && LA16_1642<='s')||(LA16_1642>='u' && LA16_1642<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition188(IntStream input) {
-            int s = -1;
-            int LA16_132 = input.LA(1);
-            if ( (LA16_132=='s') ) {s = 256;}
-            else if ( (LA16_132=='i') ) {s = 257;}
-            else if ( ((LA16_132>='\u0000' && LA16_132<='h')||(LA16_132>='j' && LA16_132<='r')||(LA16_132>='t' && LA16_132<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition189(IntStream input) {
+        protected int specialStateTransition190(IntStream input) {
             int s = -1;
             int LA16_1655 = input.LA(1);
             if ( (LA16_1655=='c') ) {s = 1666;}
             else if ( ((LA16_1655>='\u0000' && LA16_1655<='b')||(LA16_1655>='d' && LA16_1655<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition190(IntStream input) {
+        protected int specialStateTransition191(IntStream input) {
             int s = -1;
             int LA16_1666 = input.LA(1);
             if ( (LA16_1666=='h') ) {s = 1675;}
             else if ( ((LA16_1666>='\u0000' && LA16_1666<='g')||(LA16_1666>='i' && LA16_1666<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition191(IntStream input) {
+        protected int specialStateTransition192(IntStream input) {
             int s = -1;
             int LA16_1675 = input.LA(1);
             if ( (LA16_1675=='\"') ) {s = 1681;}
             else if ( ((LA16_1675>='\u0000' && LA16_1675<='!')||(LA16_1675>='#' && LA16_1675<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition192(IntStream input) {
+        protected int specialStateTransition193(IntStream input) {
             int s = -1;
             int LA16_151 = input.LA(1);
             if ( (LA16_151=='p') ) {s = 276;}
             else if ( ((LA16_151>='\u0000' && LA16_151<='o')||(LA16_151>='q' && LA16_151<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition193(IntStream input) {
+        protected int specialStateTransition194(IntStream input) {
             int s = -1;
             int LA16_276 = input.LA(1);
             if ( (LA16_276=='_') ) {s = 422;}
             else if ( ((LA16_276>='\u0000' && LA16_276<='^')||(LA16_276>='`' && LA16_276<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition194(IntStream input) {
+        protected int specialStateTransition195(IntStream input) {
             int s = -1;
             int LA16_422 = input.LA(1);
             if ( (LA16_422=='w') ) {s = 576;}
             else if ( ((LA16_422>='\u0000' && LA16_422<='v')||(LA16_422>='x' && LA16_422<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition195(IntStream input) {
+        protected int specialStateTransition196(IntStream input) {
             int s = -1;
             int LA16_576 = input.LA(1);
             if ( (LA16_576=='o') ) {s = 730;}
             else if ( ((LA16_576>='\u0000' && LA16_576<='n')||(LA16_576>='p' && LA16_576<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition196(IntStream input) {
-            int s = -1;
-            int LA16_181 = input.LA(1);
-            if ( (LA16_181=='\"') ) {s = 308;}
-            else if ( (LA16_181=='i') ) {s = 309;}
-            else if ( (LA16_181=='_') ) {s = 310;}
-            else if ( ((LA16_181>='\u0000' && LA16_181<='!')||(LA16_181>='#' && LA16_181<='^')||(LA16_181>='`' && LA16_181<='h')||(LA16_181>='j' && LA16_181<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition197(IntStream input) {
@@ -15626,292 +15594,310 @@ public class InternalSearchDslLexer extends Lexer {
         }
         protected int specialStateTransition201(IntStream input) {
             int s = -1;
+            int LA16_40 = input.LA(1);
+            if ( (LA16_40=='e') ) {s = 118;}
+            else if ( (LA16_40=='u') ) {s = 119;}
+            else if ( (LA16_40=='o') ) {s = 120;}
+            else if ( ((LA16_40>='\u0000' && LA16_40<='d')||(LA16_40>='f' && LA16_40<='n')||(LA16_40>='p' && LA16_40<='t')||(LA16_40>='v' && LA16_40<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition202(IntStream input) {
+            int s = -1;
             int LA16_458 = input.LA(1);
             if ( (LA16_458=='o') ) {s = 618;}
             else if ( ((LA16_458>='\u0000' && LA16_458<='n')||(LA16_458>='p' && LA16_458<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition202(IntStream input) {
+        protected int specialStateTransition203(IntStream input) {
             int s = -1;
             int LA16_618 = input.LA(1);
             if ( (LA16_618=='c') ) {s = 773;}
             else if ( ((LA16_618>='\u0000' && LA16_618<='b')||(LA16_618>='d' && LA16_618<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition203(IntStream input) {
+        protected int specialStateTransition204(IntStream input) {
             int s = -1;
             int LA16_773 = input.LA(1);
             if ( (LA16_773=='_') ) {s = 916;}
             else if ( ((LA16_773>='\u0000' && LA16_773<='^')||(LA16_773>='`' && LA16_773<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition204(IntStream input) {
+        protected int specialStateTransition205(IntStream input) {
             int s = -1;
             int LA16_916 = input.LA(1);
             if ( (LA16_916=='f') ) {s = 1041;}
             else if ( ((LA16_916>='\u0000' && LA16_916<='e')||(LA16_916>='g' && LA16_916<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition205(IntStream input) {
+        protected int specialStateTransition206(IntStream input) {
             int s = -1;
             int LA16_1041 = input.LA(1);
             if ( (LA16_1041=='r') ) {s = 1153;}
             else if ( ((LA16_1041>='\u0000' && LA16_1041<='q')||(LA16_1041>='s' && LA16_1041<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition206(IntStream input) {
+        protected int specialStateTransition207(IntStream input) {
             int s = -1;
             int LA16_1153 = input.LA(1);
             if ( (LA16_1153=='e') ) {s = 1254;}
             else if ( ((LA16_1153>='\u0000' && LA16_1153<='d')||(LA16_1153>='f' && LA16_1153<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition207(IntStream input) {
+        protected int specialStateTransition208(IntStream input) {
             int s = -1;
             int LA16_1254 = input.LA(1);
             if ( (LA16_1254=='q') ) {s = 1342;}
             else if ( ((LA16_1254>='\u0000' && LA16_1254<='p')||(LA16_1254>='r' && LA16_1254<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition208(IntStream input) {
+        protected int specialStateTransition209(IntStream input) {
             int s = -1;
             int LA16_1342 = input.LA(1);
             if ( (LA16_1342=='\"') ) {s = 1410;}
             else if ( ((LA16_1342>='\u0000' && LA16_1342<='!')||(LA16_1342>='#' && LA16_1342<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition209(IntStream input) {
+        protected int specialStateTransition210(IntStream input) {
             int s = -1;
             int LA16_461 = input.LA(1);
             if ( (LA16_461=='o') ) {s = 620;}
             else if ( ((LA16_461>='\u0000' && LA16_461<='n')||(LA16_461>='p' && LA16_461<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition210(IntStream input) {
+        protected int specialStateTransition211(IntStream input) {
             int s = -1;
             int LA16_620 = input.LA(1);
             if ( (LA16_620=='c') ) {s = 775;}
             else if ( ((LA16_620>='\u0000' && LA16_620<='b')||(LA16_620>='d' && LA16_620<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition211(IntStream input) {
+        protected int specialStateTransition212(IntStream input) {
             int s = -1;
             int LA16_775 = input.LA(1);
             if ( (LA16_775=='_') ) {s = 918;}
             else if ( ((LA16_775>='\u0000' && LA16_775<='^')||(LA16_775>='`' && LA16_775<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition212(IntStream input) {
+        protected int specialStateTransition213(IntStream input) {
+            int s = -1;
+            int LA16_181 = input.LA(1);
+            if ( (LA16_181=='\"') ) {s = 308;}
+            else if ( (LA16_181=='i') ) {s = 309;}
+            else if ( (LA16_181=='_') ) {s = 310;}
+            else if ( ((LA16_181>='\u0000' && LA16_181<='!')||(LA16_181>='#' && LA16_181<='^')||(LA16_181>='`' && LA16_181<='h')||(LA16_181>='j' && LA16_181<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition214(IntStream input) {
             int s = -1;
             int LA16_918 = input.LA(1);
             if ( (LA16_918=='f') ) {s = 1043;}
             else if ( ((LA16_918>='\u0000' && LA16_918<='e')||(LA16_918>='g' && LA16_918<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition213(IntStream input) {
+        protected int specialStateTransition215(IntStream input) {
             int s = -1;
             int LA16_1043 = input.LA(1);
             if ( (LA16_1043=='r') ) {s = 1155;}
             else if ( ((LA16_1043>='\u0000' && LA16_1043<='q')||(LA16_1043>='s' && LA16_1043<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition214(IntStream input) {
+        protected int specialStateTransition216(IntStream input) {
             int s = -1;
             int LA16_1155 = input.LA(1);
             if ( (LA16_1155=='e') ) {s = 1256;}
             else if ( ((LA16_1155>='\u0000' && LA16_1155<='d')||(LA16_1155>='f' && LA16_1155<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition215(IntStream input) {
+        protected int specialStateTransition217(IntStream input) {
             int s = -1;
             int LA16_1256 = input.LA(1);
             if ( (LA16_1256=='q') ) {s = 1344;}
             else if ( ((LA16_1256>='\u0000' && LA16_1256<='p')||(LA16_1256>='r' && LA16_1256<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition216(IntStream input) {
+        protected int specialStateTransition218(IntStream input) {
             int s = -1;
             int LA16_1344 = input.LA(1);
             if ( (LA16_1344=='\"') ) {s = 1412;}
             else if ( ((LA16_1344>='\u0000' && LA16_1344<='!')||(LA16_1344>='#' && LA16_1344<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition217(IntStream input) {
+        protected int specialStateTransition219(IntStream input) {
             int s = -1;
             int LA16_459 = input.LA(1);
             if ( (LA16_459=='o') ) {s = 619;}
             else if ( ((LA16_459>='\u0000' && LA16_459<='n')||(LA16_459>='p' && LA16_459<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition218(IntStream input) {
+        protected int specialStateTransition220(IntStream input) {
             int s = -1;
             int LA16_619 = input.LA(1);
             if ( (LA16_619=='r') ) {s = 774;}
             else if ( ((LA16_619>='\u0000' && LA16_619<='q')||(LA16_619>='s' && LA16_619<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition219(IntStream input) {
+        protected int specialStateTransition221(IntStream input) {
             int s = -1;
             int LA16_774 = input.LA(1);
             if ( (LA16_774=='d') ) {s = 917;}
             else if ( ((LA16_774>='\u0000' && LA16_774<='c')||(LA16_774>='e' && LA16_774<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition220(IntStream input) {
+        protected int specialStateTransition222(IntStream input) {
             int s = -1;
             int LA16_917 = input.LA(1);
             if ( (LA16_917=='_') ) {s = 1042;}
             else if ( ((LA16_917>='\u0000' && LA16_917<='^')||(LA16_917>='`' && LA16_917<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition221(IntStream input) {
+        protected int specialStateTransition223(IntStream input) {
             int s = -1;
             int LA16_1042 = input.LA(1);
             if ( (LA16_1042=='l') ) {s = 1154;}
             else if ( ((LA16_1042>='\u0000' && LA16_1042<='k')||(LA16_1042>='m' && LA16_1042<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition222(IntStream input) {
+        protected int specialStateTransition224(IntStream input) {
             int s = -1;
             int LA16_1154 = input.LA(1);
             if ( (LA16_1154=='e') ) {s = 1255;}
             else if ( ((LA16_1154>='\u0000' && LA16_1154<='d')||(LA16_1154>='f' && LA16_1154<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition223(IntStream input) {
+        protected int specialStateTransition225(IntStream input) {
             int s = -1;
             int LA16_1255 = input.LA(1);
             if ( (LA16_1255=='n') ) {s = 1343;}
             else if ( ((LA16_1255>='\u0000' && LA16_1255<='m')||(LA16_1255>='o' && LA16_1255<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition224(IntStream input) {
+        protected int specialStateTransition226(IntStream input) {
             int s = -1;
             int LA16_1343 = input.LA(1);
             if ( (LA16_1343=='g') ) {s = 1411;}
             else if ( ((LA16_1343>='\u0000' && LA16_1343<='f')||(LA16_1343>='h' && LA16_1343<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition225(IntStream input) {
+        protected int specialStateTransition227(IntStream input) {
             int s = -1;
             int LA16_1411 = input.LA(1);
             if ( (LA16_1411=='t') ) {s = 1475;}
             else if ( ((LA16_1411>='\u0000' && LA16_1411<='s')||(LA16_1411>='u' && LA16_1411<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition226(IntStream input) {
+        protected int specialStateTransition228(IntStream input) {
             int s = -1;
             int LA16_1475 = input.LA(1);
             if ( (LA16_1475=='h') ) {s = 1524;}
             else if ( ((LA16_1475>='\u0000' && LA16_1475<='g')||(LA16_1475>='i' && LA16_1475<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition227(IntStream input) {
+        protected int specialStateTransition229(IntStream input) {
             int s = -1;
             int LA16_1524 = input.LA(1);
             if ( (LA16_1524=='\"') ) {s = 1562;}
             else if ( ((LA16_1524>='\u0000' && LA16_1524<='!')||(LA16_1524>='#' && LA16_1524<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition228(IntStream input) {
+        protected int specialStateTransition230(IntStream input) {
             int s = -1;
             int LA16_462 = input.LA(1);
             if ( (LA16_462=='o') ) {s = 621;}
             else if ( ((LA16_462>='\u0000' && LA16_462<='n')||(LA16_462>='p' && LA16_462<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition229(IntStream input) {
+        protected int specialStateTransition231(IntStream input) {
             int s = -1;
             int LA16_621 = input.LA(1);
             if ( (LA16_621=='r') ) {s = 776;}
             else if ( ((LA16_621>='\u0000' && LA16_621<='q')||(LA16_621>='s' && LA16_621<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition230(IntStream input) {
+        protected int specialStateTransition232(IntStream input) {
             int s = -1;
             int LA16_776 = input.LA(1);
             if ( (LA16_776=='d') ) {s = 919;}
             else if ( ((LA16_776>='\u0000' && LA16_776<='c')||(LA16_776>='e' && LA16_776<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition231(IntStream input) {
+        protected int specialStateTransition233(IntStream input) {
             int s = -1;
             int LA16_919 = input.LA(1);
             if ( (LA16_919=='_') ) {s = 1044;}
             else if ( ((LA16_919>='\u0000' && LA16_919<='^')||(LA16_919>='`' && LA16_919<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition232(IntStream input) {
+        protected int specialStateTransition234(IntStream input) {
             int s = -1;
             int LA16_1044 = input.LA(1);
             if ( (LA16_1044=='l') ) {s = 1156;}
             else if ( ((LA16_1044>='\u0000' && LA16_1044<='k')||(LA16_1044>='m' && LA16_1044<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition233(IntStream input) {
+        protected int specialStateTransition235(IntStream input) {
             int s = -1;
             int LA16_1156 = input.LA(1);
             if ( (LA16_1156=='e') ) {s = 1257;}
             else if ( ((LA16_1156>='\u0000' && LA16_1156<='d')||(LA16_1156>='f' && LA16_1156<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition234(IntStream input) {
+        protected int specialStateTransition236(IntStream input) {
             int s = -1;
             int LA16_1257 = input.LA(1);
             if ( (LA16_1257=='n') ) {s = 1345;}
             else if ( ((LA16_1257>='\u0000' && LA16_1257<='m')||(LA16_1257>='o' && LA16_1257<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition235(IntStream input) {
+        protected int specialStateTransition237(IntStream input) {
             int s = -1;
             int LA16_1345 = input.LA(1);
             if ( (LA16_1345=='g') ) {s = 1413;}
             else if ( ((LA16_1345>='\u0000' && LA16_1345<='f')||(LA16_1345>='h' && LA16_1345<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition236(IntStream input) {
+        protected int specialStateTransition238(IntStream input) {
             int s = -1;
             int LA16_1413 = input.LA(1);
             if ( (LA16_1413=='t') ) {s = 1477;}
             else if ( ((LA16_1413>='\u0000' && LA16_1413<='s')||(LA16_1413>='u' && LA16_1413<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition237(IntStream input) {
+        protected int specialStateTransition239(IntStream input) {
             int s = -1;
             int LA16_1477 = input.LA(1);
             if ( (LA16_1477=='h') ) {s = 1525;}
             else if ( ((LA16_1477>='\u0000' && LA16_1477<='g')||(LA16_1477>='i' && LA16_1477<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition238(IntStream input) {
+        protected int specialStateTransition240(IntStream input) {
             int s = -1;
             int LA16_1525 = input.LA(1);
             if ( (LA16_1525=='\"') ) {s = 1563;}
             else if ( ((LA16_1525>='\u0000' && LA16_1525<='!')||(LA16_1525>='#' && LA16_1525<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition239(IntStream input) {
+        protected int specialStateTransition241(IntStream input) {
             int s = -1;
             int LA16_711 = input.LA(1);
             if ( (LA16_711=='t') ) {s = 861;}
             else if ( ((LA16_711>='\u0000' && LA16_711<='s')||(LA16_711>='u' && LA16_711<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition240(IntStream input) {
+        protected int specialStateTransition242(IntStream input) {
             int s = -1;
             int LA16_861 = input.LA(1);
             if ( (LA16_861=='e') ) {s = 995;}
             else if ( ((LA16_861>='\u0000' && LA16_861<='d')||(LA16_861>='f' && LA16_861<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition241(IntStream input) {
+        protected int specialStateTransition243(IntStream input) {
             int s = -1;
             int LA16_995 = input.LA(1);
             if ( (LA16_995=='r') ) {s = 1115;}
             else if ( ((LA16_995>='\u0000' && LA16_995<='q')||(LA16_995>='s' && LA16_995<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition242(IntStream input) {
+        protected int specialStateTransition244(IntStream input) {
             int s = -1;
             int LA16_110 = input.LA(1);
             if ( (LA16_110=='s') ) {s = 216;}
@@ -15919,105 +15905,105 @@ public class InternalSearchDslLexer extends Lexer {
             else if ( ((LA16_110>='\u0000' && LA16_110<='!')||(LA16_110>='#' && LA16_110<='r')||(LA16_110>='t' && LA16_110<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition243(IntStream input) {
+        protected int specialStateTransition245(IntStream input) {
             int s = -1;
             int LA16_1115 = input.LA(1);
             if ( (LA16_1115=='m') ) {s = 1219;}
             else if ( ((LA16_1115>='\u0000' && LA16_1115<='l')||(LA16_1115>='n' && LA16_1115<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition244(IntStream input) {
+        protected int specialStateTransition246(IntStream input) {
             int s = -1;
             int LA16_1219 = input.LA(1);
             if ( (LA16_1219=='s') ) {s = 1313;}
             else if ( ((LA16_1219>='\u0000' && LA16_1219<='r')||(LA16_1219>='t' && LA16_1219<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition245(IntStream input) {
+        protected int specialStateTransition247(IntStream input) {
             int s = -1;
             int LA16_1313 = input.LA(1);
             if ( (LA16_1313=='\"') ) {s = 1388;}
             else if ( ((LA16_1313>='\u0000' && LA16_1313<='!')||(LA16_1313>='#' && LA16_1313<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition246(IntStream input) {
+        protected int specialStateTransition248(IntStream input) {
             int s = -1;
             int LA16_202 = input.LA(1);
             if ( (LA16_202=='\"') ) {s = 339;}
             else if ( ((LA16_202>='\u0000' && LA16_202<='!')||(LA16_202>='#' && LA16_202<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition247(IntStream input) {
+        protected int specialStateTransition249(IntStream input) {
             int s = -1;
-            int LA16_246 = input.LA(1);
-            if ( (LA16_246=='\"') ) {s = 387;}
-            else if ( ((LA16_246>='\u0000' && LA16_246<='!')||(LA16_246>='#' && LA16_246<='\uFFFF')) ) {s = 50;}
+            int LA16_252 = input.LA(1);
+            if ( (LA16_252=='\"') ) {s = 393;}
+            else if ( ((LA16_252>='\u0000' && LA16_252<='!')||(LA16_252>='#' && LA16_252<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition248(IntStream input) {
+        protected int specialStateTransition250(IntStream input) {
             int s = -1;
             int LA16_107 = input.LA(1);
             if ( (LA16_107=='p') ) {s = 209;}
             else if ( ((LA16_107>='\u0000' && LA16_107<='o')||(LA16_107>='q' && LA16_107<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition249(IntStream input) {
+        protected int specialStateTransition251(IntStream input) {
             int s = -1;
             int LA16_209 = input.LA(1);
             if ( (LA16_209=='e') ) {s = 347;}
             else if ( ((LA16_209>='\u0000' && LA16_209<='d')||(LA16_209>='f' && LA16_209<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition250(IntStream input) {
+        protected int specialStateTransition252(IntStream input) {
             int s = -1;
             int LA16_347 = input.LA(1);
             if ( (LA16_347=='\"') ) {s = 504;}
             else if ( ((LA16_347>='\u0000' && LA16_347<='!')||(LA16_347>='#' && LA16_347<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition251(IntStream input) {
+        protected int specialStateTransition253(IntStream input) {
             int s = -1;
             int LA16_88 = input.LA(1);
             if ( (LA16_88=='m') ) {s = 184;}
             else if ( ((LA16_88>='\u0000' && LA16_88<='l')||(LA16_88>='n' && LA16_88<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition252(IntStream input) {
+        protected int specialStateTransition254(IntStream input) {
             int s = -1;
             int LA16_184 = input.LA(1);
             if ( (LA16_184=='o') ) {s = 314;}
             else if ( ((LA16_184>='\u0000' && LA16_184<='n')||(LA16_184>='p' && LA16_184<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition253(IntStream input) {
+        protected int specialStateTransition255(IntStream input) {
             int s = -1;
             int LA16_314 = input.LA(1);
             if ( (LA16_314=='r') ) {s = 466;}
             else if ( ((LA16_314>='\u0000' && LA16_314<='q')||(LA16_314>='s' && LA16_314<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition254(IntStream input) {
+        protected int specialStateTransition256(IntStream input) {
             int s = -1;
             int LA16_466 = input.LA(1);
             if ( (LA16_466=='y') ) {s = 626;}
             else if ( ((LA16_466>='\u0000' && LA16_466<='x')||(LA16_466>='z' && LA16_466<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition255(IntStream input) {
+        protected int specialStateTransition257(IntStream input) {
             int s = -1;
             int LA16_626 = input.LA(1);
             if ( (LA16_626=='\"') ) {s = 781;}
             else if ( ((LA16_626>='\u0000' && LA16_626<='!')||(LA16_626>='#' && LA16_626<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition256(IntStream input) {
+        protected int specialStateTransition258(IntStream input) {
             int s = -1;
             int LA16_290 = input.LA(1);
             if ( (LA16_290=='t') ) {s = 437;}
             else if ( ((LA16_290>='\u0000' && LA16_290<='s')||(LA16_290>='u' && LA16_290<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition257(IntStream input) {
+        protected int specialStateTransition259(IntStream input) {
             int s = -1;
             int LA16_437 = input.LA(1);
             if ( (LA16_437=='s') ) {s = 597;}
@@ -16025,50 +16011,14 @@ public class InternalSearchDslLexer extends Lexer {
             else if ( ((LA16_437>='\u0000' && LA16_437<='^')||(LA16_437>='`' && LA16_437<='r')||(LA16_437>='t' && LA16_437<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition258(IntStream input) {
-            int s = -1;
-            int LA16_1057 = input.LA(1);
-            if ( (LA16_1057=='i') ) {s = 1168;}
-            else if ( ((LA16_1057>='\u0000' && LA16_1057<='h')||(LA16_1057>='j' && LA16_1057<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition259(IntStream input) {
-            int s = -1;
-            int LA16_1168 = input.LA(1);
-            if ( (LA16_1168=='e') ) {s = 1268;}
-            else if ( ((LA16_1168>='\u0000' && LA16_1168<='d')||(LA16_1168>='f' && LA16_1168<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
         protected int specialStateTransition260(IntStream input) {
-            int s = -1;
-            int LA16_1268 = input.LA(1);
-            if ( (LA16_1268=='l') ) {s = 1353;}
-            else if ( ((LA16_1268>='\u0000' && LA16_1268<='k')||(LA16_1268>='m' && LA16_1268<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition261(IntStream input) {
-            int s = -1;
-            int LA16_70 = input.LA(1);
-            if ( (LA16_70=='r') ) {s = 155;}
-            else if ( (LA16_70=='o') ) {s = 156;}
-            else if ( ((LA16_70>='\u0000' && LA16_70<='n')||(LA16_70>='p' && LA16_70<='q')||(LA16_70>='s' && LA16_70<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition262(IntStream input) {
             int s = -1;
             int LA16_113 = input.LA(1);
             if ( (LA16_113=='n') ) {s = 221;}
             else if ( ((LA16_113>='\u0000' && LA16_113<='m')||(LA16_113>='o' && LA16_113<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition263(IntStream input) {
-            int s = -1;
-            int LA16_1353 = input.LA(1);
-            if ( (LA16_1353=='d') ) {s = 1421;}
-            else if ( ((LA16_1353>='\u0000' && LA16_1353<='c')||(LA16_1353>='e' && LA16_1353<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition264(IntStream input) {
+        protected int specialStateTransition261(IntStream input) {
             int s = -1;
             int LA16_497 = input.LA(1);
             if ( (LA16_497=='_') ) {s = 651;}
@@ -16076,28 +16026,21 @@ public class InternalSearchDslLexer extends Lexer {
             else if ( ((LA16_497>='\u0000' && LA16_497<='!')||(LA16_497>='#' && LA16_497<='^')||(LA16_497>='`' && LA16_497<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition265(IntStream input) {
-            int s = -1;
-            int LA16_1421 = input.LA(1);
-            if ( (LA16_1421=='\"') ) {s = 1483;}
-            else if ( ((LA16_1421>='\u0000' && LA16_1421<='!')||(LA16_1421>='#' && LA16_1421<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition266(IntStream input) {
+        protected int specialStateTransition262(IntStream input) {
             int s = -1;
             int LA16_221 = input.LA(1);
             if ( (LA16_221=='g') ) {s = 361;}
             else if ( ((LA16_221>='\u0000' && LA16_221<='f')||(LA16_221>='h' && LA16_221<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition267(IntStream input) {
+        protected int specialStateTransition263(IntStream input) {
             int s = -1;
             int LA16_361 = input.LA(1);
             if ( (LA16_361=='e') ) {s = 517;}
             else if ( ((LA16_361>='\u0000' && LA16_361<='d')||(LA16_361>='f' && LA16_361<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition268(IntStream input) {
+        protected int specialStateTransition264(IntStream input) {
             int s = -1;
             int LA16_517 = input.LA(1);
             if ( (LA16_517=='\"') ) {s = 671;}
@@ -16105,49 +16048,84 @@ public class InternalSearchDslLexer extends Lexer {
             else if ( ((LA16_517>='\u0000' && LA16_517<='!')||(LA16_517>='#' && LA16_517<='r')||(LA16_517>='t' && LA16_517<='\uFFFF')) ) {s = 50;}
             return s;
         }
+        protected int specialStateTransition265(IntStream input) {
+            int s = -1;
+            int LA16_1057 = input.LA(1);
+            if ( (LA16_1057=='i') ) {s = 1168;}
+            else if ( ((LA16_1057>='\u0000' && LA16_1057<='h')||(LA16_1057>='j' && LA16_1057<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition266(IntStream input) {
+            int s = -1;
+            int LA16_1168 = input.LA(1);
+            if ( (LA16_1168=='e') ) {s = 1268;}
+            else if ( ((LA16_1168>='\u0000' && LA16_1168<='d')||(LA16_1168>='f' && LA16_1168<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition267(IntStream input) {
+            int s = -1;
+            int LA16_1268 = input.LA(1);
+            if ( (LA16_1268=='l') ) {s = 1353;}
+            else if ( ((LA16_1268>='\u0000' && LA16_1268<='k')||(LA16_1268>='m' && LA16_1268<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition268(IntStream input) {
+            int s = -1;
+            int LA16_1353 = input.LA(1);
+            if ( (LA16_1353=='d') ) {s = 1421;}
+            else if ( ((LA16_1353>='\u0000' && LA16_1353<='c')||(LA16_1353>='e' && LA16_1353<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
         protected int specialStateTransition269(IntStream input) {
+            int s = -1;
+            int LA16_1421 = input.LA(1);
+            if ( (LA16_1421=='\"') ) {s = 1483;}
+            else if ( ((LA16_1421>='\u0000' && LA16_1421<='!')||(LA16_1421>='#' && LA16_1421<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition270(IntStream input) {
             int s = -1;
             int LA16_164 = input.LA(1);
             if ( (LA16_164=='t') ) {s = 289;}
             else if ( ((LA16_164>='\u0000' && LA16_164<='s')||(LA16_164>='u' && LA16_164<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition270(IntStream input) {
+        protected int specialStateTransition271(IntStream input) {
             int s = -1;
             int LA16_289 = input.LA(1);
             if ( (LA16_289=='e') ) {s = 436;}
             else if ( ((LA16_289>='\u0000' && LA16_289<='d')||(LA16_289>='f' && LA16_289<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition271(IntStream input) {
+        protected int specialStateTransition272(IntStream input) {
             int s = -1;
             int LA16_436 = input.LA(1);
             if ( (LA16_436=='r') ) {s = 596;}
             else if ( ((LA16_436>='\u0000' && LA16_436<='q')||(LA16_436>='s' && LA16_436<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition272(IntStream input) {
+        protected int specialStateTransition273(IntStream input) {
             int s = -1;
             int LA16_1058 = input.LA(1);
             if ( (LA16_1058=='p') ) {s = 1169;}
             else if ( ((LA16_1058>='\u0000' && LA16_1058<='o')||(LA16_1058>='q' && LA16_1058<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition273(IntStream input) {
+        protected int specialStateTransition274(IntStream input) {
             int s = -1;
             int LA16_1169 = input.LA(1);
             if ( (LA16_1169=='e') ) {s = 1269;}
             else if ( ((LA16_1169>='\u0000' && LA16_1169<='d')||(LA16_1169>='f' && LA16_1169<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition274(IntStream input) {
+        protected int specialStateTransition275(IntStream input) {
             int s = -1;
             int LA16_1269 = input.LA(1);
             if ( (LA16_1269=='r') ) {s = 1354;}
             else if ( ((LA16_1269>='\u0000' && LA16_1269<='q')||(LA16_1269>='s' && LA16_1269<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition275(IntStream input) {
+        protected int specialStateTransition276(IntStream input) {
             int s = -1;
             int LA16_596 = input.LA(1);
             if ( (LA16_596=='\"') ) {s = 748;}
@@ -16156,252 +16134,204 @@ public class InternalSearchDslLexer extends Lexer {
             else if ( ((LA16_596>='\u0000' && LA16_596<='!')||(LA16_596>='#' && LA16_596<='d')||(LA16_596>='f' && LA16_596<='r')||(LA16_596>='t' && LA16_596<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition276(IntStream input) {
+        protected int specialStateTransition277(IntStream input) {
             int s = -1;
             int LA16_1354 = input.LA(1);
             if ( (LA16_1354=='a') ) {s = 1422;}
             else if ( ((LA16_1354>='\u0000' && LA16_1354<='`')||(LA16_1354>='b' && LA16_1354<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition277(IntStream input) {
+        protected int specialStateTransition278(IntStream input) {
             int s = -1;
             int LA16_1422 = input.LA(1);
             if ( (LA16_1422=='t') ) {s = 1484;}
             else if ( ((LA16_1422>='\u0000' && LA16_1422<='s')||(LA16_1422>='u' && LA16_1422<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition278(IntStream input) {
+        protected int specialStateTransition279(IntStream input) {
             int s = -1;
             int LA16_1484 = input.LA(1);
             if ( (LA16_1484=='o') ) {s = 1532;}
             else if ( ((LA16_1484>='\u0000' && LA16_1484<='n')||(LA16_1484>='p' && LA16_1484<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition279(IntStream input) {
+        protected int specialStateTransition280(IntStream input) {
             int s = -1;
             int LA16_1532 = input.LA(1);
             if ( (LA16_1532=='r') ) {s = 1569;}
             else if ( ((LA16_1532>='\u0000' && LA16_1532<='q')||(LA16_1532>='s' && LA16_1532<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition280(IntStream input) {
+        protected int specialStateTransition281(IntStream input) {
             int s = -1;
             int LA16_1569 = input.LA(1);
             if ( (LA16_1569=='\"') ) {s = 1597;}
             else if ( ((LA16_1569>='\u0000' && LA16_1569<='!')||(LA16_1569>='#' && LA16_1569<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition281(IntStream input) {
+        protected int specialStateTransition282(IntStream input) {
             int s = -1;
             int LA16_322 = input.LA(1);
             if ( (LA16_322=='w') ) {s = 475;}
             else if ( ((LA16_322>='\u0000' && LA16_322<='v')||(LA16_322>='x' && LA16_322<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition282(IntStream input) {
+        protected int specialStateTransition283(IntStream input) {
             int s = -1;
             int LA16_475 = input.LA(1);
             if ( (LA16_475=='_') ) {s = 632;}
             else if ( ((LA16_475>='\u0000' && LA16_475<='^')||(LA16_475>='`' && LA16_475<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition283(IntStream input) {
+        protected int specialStateTransition284(IntStream input) {
+            int s = -1;
+            int LA16_70 = input.LA(1);
+            if ( (LA16_70=='r') ) {s = 155;}
+            else if ( (LA16_70=='o') ) {s = 156;}
+            else if ( ((LA16_70>='\u0000' && LA16_70<='n')||(LA16_70>='p' && LA16_70<='q')||(LA16_70>='s' && LA16_70<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition285(IntStream input) {
             int s = -1;
             int LA16_632 = input.LA(1);
             if ( (LA16_632=='l') ) {s = 786;}
             else if ( ((LA16_632>='\u0000' && LA16_632<='k')||(LA16_632>='m' && LA16_632<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition284(IntStream input) {
+        protected int specialStateTransition286(IntStream input) {
             int s = -1;
             int LA16_786 = input.LA(1);
             if ( (LA16_786=='e') ) {s = 928;}
             else if ( ((LA16_786>='\u0000' && LA16_786<='d')||(LA16_786>='f' && LA16_786<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition285(IntStream input) {
+        protected int specialStateTransition287(IntStream input) {
             int s = -1;
             int LA16_928 = input.LA(1);
             if ( (LA16_928=='a') ) {s = 1052;}
             else if ( ((LA16_928>='\u0000' && LA16_928<='`')||(LA16_928>='b' && LA16_928<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition286(IntStream input) {
+        protected int specialStateTransition288(IntStream input) {
             int s = -1;
             int LA16_1052 = input.LA(1);
             if ( (LA16_1052=='d') ) {s = 1163;}
             else if ( ((LA16_1052>='\u0000' && LA16_1052<='c')||(LA16_1052>='e' && LA16_1052<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition287(IntStream input) {
+        protected int specialStateTransition289(IntStream input) {
             int s = -1;
             int LA16_1163 = input.LA(1);
             if ( (LA16_1163=='i') ) {s = 1264;}
             else if ( ((LA16_1163>='\u0000' && LA16_1163<='h')||(LA16_1163>='j' && LA16_1163<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition288(IntStream input) {
+        protected int specialStateTransition290(IntStream input) {
             int s = -1;
             int LA16_1264 = input.LA(1);
             if ( (LA16_1264=='n') ) {s = 1349;}
             else if ( ((LA16_1264>='\u0000' && LA16_1264<='m')||(LA16_1264>='o' && LA16_1264<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition289(IntStream input) {
+        protected int specialStateTransition291(IntStream input) {
             int s = -1;
             int LA16_1349 = input.LA(1);
             if ( (LA16_1349=='g') ) {s = 1417;}
             else if ( ((LA16_1349>='\u0000' && LA16_1349<='f')||(LA16_1349>='h' && LA16_1349<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition290(IntStream input) {
+        protected int specialStateTransition292(IntStream input) {
             int s = -1;
             int LA16_1417 = input.LA(1);
             if ( (LA16_1417=='_') ) {s = 1480;}
             else if ( ((LA16_1417>='\u0000' && LA16_1417<='^')||(LA16_1417>='`' && LA16_1417<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition291(IntStream input) {
+        protected int specialStateTransition293(IntStream input) {
             int s = -1;
             int LA16_1480 = input.LA(1);
             if ( (LA16_1480=='w') ) {s = 1528;}
             else if ( ((LA16_1480>='\u0000' && LA16_1480<='v')||(LA16_1480>='x' && LA16_1480<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition292(IntStream input) {
+        protected int specialStateTransition294(IntStream input) {
             int s = -1;
             int LA16_1528 = input.LA(1);
             if ( (LA16_1528=='i') ) {s = 1566;}
             else if ( ((LA16_1528>='\u0000' && LA16_1528<='h')||(LA16_1528>='j' && LA16_1528<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition293(IntStream input) {
+        protected int specialStateTransition295(IntStream input) {
             int s = -1;
             int LA16_1566 = input.LA(1);
             if ( (LA16_1566=='l') ) {s = 1594;}
             else if ( ((LA16_1566>='\u0000' && LA16_1566<='k')||(LA16_1566>='m' && LA16_1566<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition294(IntStream input) {
+        protected int specialStateTransition296(IntStream input) {
             int s = -1;
             int LA16_1594 = input.LA(1);
             if ( (LA16_1594=='d') ) {s = 1615;}
             else if ( ((LA16_1594>='\u0000' && LA16_1594<='c')||(LA16_1594>='e' && LA16_1594<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition295(IntStream input) {
+        protected int specialStateTransition297(IntStream input) {
             int s = -1;
             int LA16_1615 = input.LA(1);
             if ( (LA16_1615=='c') ) {s = 1635;}
             else if ( ((LA16_1615>='\u0000' && LA16_1615<='b')||(LA16_1615>='d' && LA16_1615<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition296(IntStream input) {
+        protected int specialStateTransition298(IntStream input) {
             int s = -1;
             int LA16_1635 = input.LA(1);
             if ( (LA16_1635=='a') ) {s = 1649;}
             else if ( ((LA16_1635>='\u0000' && LA16_1635<='`')||(LA16_1635>='b' && LA16_1635<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition297(IntStream input) {
+        protected int specialStateTransition299(IntStream input) {
             int s = -1;
             int LA16_1649 = input.LA(1);
             if ( (LA16_1649=='r') ) {s = 1662;}
             else if ( ((LA16_1649>='\u0000' && LA16_1649<='q')||(LA16_1649>='s' && LA16_1649<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition298(IntStream input) {
+        protected int specialStateTransition300(IntStream input) {
             int s = -1;
             int LA16_1662 = input.LA(1);
             if ( (LA16_1662=='d') ) {s = 1671;}
             else if ( ((LA16_1662>='\u0000' && LA16_1662<='c')||(LA16_1662>='e' && LA16_1662<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition299(IntStream input) {
-            int s = -1;
-            int LA16_1671 = input.LA(1);
-            if ( (LA16_1671=='\"') ) {s = 1677;}
-            else if ( ((LA16_1671>='\u0000' && LA16_1671<='!')||(LA16_1671>='#' && LA16_1671<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition300(IntStream input) {
-            int s = -1;
-            int LA16_383 = input.LA(1);
-            if ( (LA16_383=='r') ) {s = 540;}
-            else if ( ((LA16_383>='\u0000' && LA16_383<='q')||(LA16_383>='s' && LA16_383<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
         protected int specialStateTransition301(IntStream input) {
-            int s = -1;
-            int LA16_540 = input.LA(1);
-            if ( (LA16_540=='c') ) {s = 699;}
-            else if ( ((LA16_540>='\u0000' && LA16_540<='b')||(LA16_540>='d' && LA16_540<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition302(IntStream input) {
             int s = -1;
             int LA16_38 = input.LA(1);
             if ( (LA16_38=='e') ) {s = 116;}
             else if ( ((LA16_38>='\u0000' && LA16_38<='d')||(LA16_38>='f' && LA16_38<='\uFFFF')) ) {s = 50;}
             return s;
         }
+        protected int specialStateTransition302(IntStream input) {
+            int s = -1;
+            int LA16_1671 = input.LA(1);
+            if ( (LA16_1671=='\"') ) {s = 1677;}
+            else if ( ((LA16_1671>='\u0000' && LA16_1671<='!')||(LA16_1671>='#' && LA16_1671<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
         protected int specialStateTransition303(IntStream input) {
-            int s = -1;
-            int LA16_699 = input.LA(1);
-            if ( (LA16_699=='a') ) {s = 851;}
-            else if ( ((LA16_699>='\u0000' && LA16_699<='`')||(LA16_699>='b' && LA16_699<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition304(IntStream input) {
-            int s = -1;
-            int LA16_851 = input.LA(1);
-            if ( (LA16_851=='s') ) {s = 987;}
-            else if ( ((LA16_851>='\u0000' && LA16_851<='r')||(LA16_851>='t' && LA16_851<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition305(IntStream input) {
             int s = -1;
             int LA16_116 = input.LA(1);
             if ( (LA16_116=='y') ) {s = 225;}
             else if ( ((LA16_116>='\u0000' && LA16_116<='x')||(LA16_116>='z' && LA16_116<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition306(IntStream input) {
-            int s = -1;
-            int LA16_987 = input.LA(1);
-            if ( (LA16_987=='e') ) {s = 1109;}
-            else if ( ((LA16_987>='\u0000' && LA16_987<='d')||(LA16_987>='f' && LA16_987<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition307(IntStream input) {
-            int s = -1;
-            int LA16_1109 = input.LA(1);
-            if ( (LA16_1109=='_') ) {s = 1213;}
-            else if ( ((LA16_1109>='\u0000' && LA16_1109<='^')||(LA16_1109>='`' && LA16_1109<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition308(IntStream input) {
+        protected int specialStateTransition304(IntStream input) {
             int s = -1;
             int LA16_225 = input.LA(1);
             if ( (LA16_225=='_') ) {s = 365;}
             else if ( ((LA16_225>='\u0000' && LA16_225<='^')||(LA16_225>='`' && LA16_225<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition309(IntStream input) {
-            int s = -1;
-            int LA16_1213 = input.LA(1);
-            if ( (LA16_1213=='e') ) {s = 1307;}
-            else if ( ((LA16_1213>='\u0000' && LA16_1213<='d')||(LA16_1213>='f' && LA16_1213<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition310(IntStream input) {
-            int s = -1;
-            int LA16_1307 = input.LA(1);
-            if ( (LA16_1307=='x') ) {s = 1384;}
-            else if ( ((LA16_1307>='\u0000' && LA16_1307<='w')||(LA16_1307>='y' && LA16_1307<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition311(IntStream input) {
+        protected int specialStateTransition305(IntStream input) {
             int s = -1;
             int LA16_365 = input.LA(1);
             if ( (LA16_365=='f') ) {s = 521;}
@@ -16409,77 +16339,161 @@ public class InternalSearchDslLexer extends Lexer {
             else if ( ((LA16_365>='\u0000' && LA16_365<='e')||(LA16_365>='g' && LA16_365<='r')||(LA16_365>='t' && LA16_365<='\uFFFF')) ) {s = 50;}
             return s;
         }
+        protected int specialStateTransition306(IntStream input) {
+            int s = -1;
+            int LA16_389 = input.LA(1);
+            if ( (LA16_389=='r') ) {s = 546;}
+            else if ( ((LA16_389>='\u0000' && LA16_389<='q')||(LA16_389>='s' && LA16_389<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition307(IntStream input) {
+            int s = -1;
+            int LA16_546 = input.LA(1);
+            if ( (LA16_546=='c') ) {s = 704;}
+            else if ( ((LA16_546>='\u0000' && LA16_546<='b')||(LA16_546>='d' && LA16_546<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition308(IntStream input) {
+            int s = -1;
+            int LA16_704 = input.LA(1);
+            if ( (LA16_704=='a') ) {s = 855;}
+            else if ( ((LA16_704>='\u0000' && LA16_704<='`')||(LA16_704>='b' && LA16_704<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition309(IntStream input) {
+            int s = -1;
+            int LA16_855 = input.LA(1);
+            if ( (LA16_855=='s') ) {s = 991;}
+            else if ( ((LA16_855>='\u0000' && LA16_855<='r')||(LA16_855>='t' && LA16_855<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition310(IntStream input) {
+            int s = -1;
+            int LA16_991 = input.LA(1);
+            if ( (LA16_991=='e') ) {s = 1112;}
+            else if ( ((LA16_991>='\u0000' && LA16_991<='d')||(LA16_991>='f' && LA16_991<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition311(IntStream input) {
+            int s = -1;
+            int LA16_1112 = input.LA(1);
+            if ( (LA16_1112=='_') ) {s = 1217;}
+            else if ( ((LA16_1112>='\u0000' && LA16_1112<='^')||(LA16_1112>='`' && LA16_1112<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
         protected int specialStateTransition312(IntStream input) {
             int s = -1;
-            int LA16_1384 = input.LA(1);
-            if ( (LA16_1384=='p') ) {s = 1451;}
-            else if ( ((LA16_1384>='\u0000' && LA16_1384<='o')||(LA16_1384>='q' && LA16_1384<='\uFFFF')) ) {s = 50;}
+            int LA16_1217 = input.LA(1);
+            if ( (LA16_1217=='e') ) {s = 1311;}
+            else if ( ((LA16_1217>='\u0000' && LA16_1217<='d')||(LA16_1217>='f' && LA16_1217<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition313(IntStream input) {
             int s = -1;
-            int LA16_1451 = input.LA(1);
-            if ( (LA16_1451=='a') ) {s = 1507;}
-            else if ( ((LA16_1451>='\u0000' && LA16_1451<='`')||(LA16_1451>='b' && LA16_1451<='\uFFFF')) ) {s = 50;}
+            int LA16_1311 = input.LA(1);
+            if ( (LA16_1311=='x') ) {s = 1387;}
+            else if ( ((LA16_1311>='\u0000' && LA16_1311<='w')||(LA16_1311>='y' && LA16_1311<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition314(IntStream input) {
             int s = -1;
-            int LA16_1507 = input.LA(1);
-            if ( (LA16_1507=='n') ) {s = 1548;}
-            else if ( ((LA16_1507>='\u0000' && LA16_1507<='m')||(LA16_1507>='o' && LA16_1507<='\uFFFF')) ) {s = 50;}
+            int LA16_1387 = input.LA(1);
+            if ( (LA16_1387=='p') ) {s = 1453;}
+            else if ( ((LA16_1387>='\u0000' && LA16_1387<='o')||(LA16_1387>='q' && LA16_1387<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition315(IntStream input) {
             int s = -1;
-            int LA16_1548 = input.LA(1);
-            if ( (LA16_1548=='d') ) {s = 1580;}
-            else if ( ((LA16_1548>='\u0000' && LA16_1548<='c')||(LA16_1548>='e' && LA16_1548<='\uFFFF')) ) {s = 50;}
+            int LA16_1453 = input.LA(1);
+            if ( (LA16_1453=='a') ) {s = 1509;}
+            else if ( ((LA16_1453>='\u0000' && LA16_1453<='`')||(LA16_1453>='b' && LA16_1453<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition316(IntStream input) {
             int s = -1;
-            int LA16_1580 = input.LA(1);
-            if ( (LA16_1580=='e') ) {s = 1606;}
-            else if ( ((LA16_1580>='\u0000' && LA16_1580<='d')||(LA16_1580>='f' && LA16_1580<='\uFFFF')) ) {s = 50;}
+            int LA16_1509 = input.LA(1);
+            if ( (LA16_1509=='n') ) {s = 1550;}
+            else if ( ((LA16_1509>='\u0000' && LA16_1509<='m')||(LA16_1509>='o' && LA16_1509<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition317(IntStream input) {
             int s = -1;
-            int LA16_1606 = input.LA(1);
-            if ( (LA16_1606=='d') ) {s = 1627;}
-            else if ( ((LA16_1606>='\u0000' && LA16_1606<='c')||(LA16_1606>='e' && LA16_1606<='\uFFFF')) ) {s = 50;}
+            int LA16_1550 = input.LA(1);
+            if ( (LA16_1550=='d') ) {s = 1582;}
+            else if ( ((LA16_1550>='\u0000' && LA16_1550<='c')||(LA16_1550>='e' && LA16_1550<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition318(IntStream input) {
+            int s = -1;
+            int LA16_1582 = input.LA(1);
+            if ( (LA16_1582=='e') ) {s = 1607;}
+            else if ( ((LA16_1582>='\u0000' && LA16_1582<='d')||(LA16_1582>='f' && LA16_1582<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition319(IntStream input) {
+            int s = -1;
+            int LA16_1607 = input.LA(1);
+            if ( (LA16_1607=='d') ) {s = 1627;}
+            else if ( ((LA16_1607>='\u0000' && LA16_1607<='c')||(LA16_1607>='e' && LA16_1607<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition320(IntStream input) {
             int s = -1;
             int LA16_1627 = input.LA(1);
             if ( (LA16_1627=='_') ) {s = 1641;}
             else if ( ((LA16_1627>='\u0000' && LA16_1627<='^')||(LA16_1627>='`' && LA16_1627<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition319(IntStream input) {
+        protected int specialStateTransition321(IntStream input) {
             int s = -1;
             int LA16_1641 = input.LA(1);
             if ( (LA16_1641=='t') ) {s = 1654;}
             else if ( ((LA16_1641>='\u0000' && LA16_1641<='s')||(LA16_1641>='u' && LA16_1641<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition320(IntStream input) {
+        protected int specialStateTransition322(IntStream input) {
             int s = -1;
             int LA16_1654 = input.LA(1);
             if ( (LA16_1654=='e') ) {s = 1665;}
             else if ( ((LA16_1654>='\u0000' && LA16_1654<='d')||(LA16_1654>='f' && LA16_1654<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition321(IntStream input) {
+        protected int specialStateTransition323(IntStream input) {
             int s = -1;
             int LA16_1665 = input.LA(1);
             if ( (LA16_1665=='r') ) {s = 1674;}
             else if ( ((LA16_1665>='\u0000' && LA16_1665<='q')||(LA16_1665>='s' && LA16_1665<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition322(IntStream input) {
+        protected int specialStateTransition324(IntStream input) {
+            int s = -1;
+            int LA16_1674 = input.LA(1);
+            if ( (LA16_1674=='m') ) {s = 1680;}
+            else if ( ((LA16_1674>='\u0000' && LA16_1674<='l')||(LA16_1674>='n' && LA16_1674<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition325(IntStream input) {
+            int s = -1;
+            int LA16_1680 = input.LA(1);
+            if ( (LA16_1680=='s') ) {s = 1685;}
+            else if ( ((LA16_1680>='\u0000' && LA16_1680<='r')||(LA16_1680>='t' && LA16_1680<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition326(IntStream input) {
+            int s = -1;
+            int LA16_1685 = input.LA(1);
+            if ( (LA16_1685=='\"') ) {s = 1689;}
+            else if ( ((LA16_1685>='\u0000' && LA16_1685<='!')||(LA16_1685>='#' && LA16_1685<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition327(IntStream input) {
+            int s = -1;
+            int LA16_244 = input.LA(1);
+            if ( (LA16_244=='b') ) {s = 384;}
+            else if ( ((LA16_244>='\u0000' && LA16_244<='a')||(LA16_244>='c' && LA16_244<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition328(IntStream input) {
             int s = -1;
             int LA16_28 = input.LA(1);
             if ( (LA16_28=='r') ) {s = 83;}
@@ -16487,35 +16501,176 @@ public class InternalSearchDslLexer extends Lexer {
             else if ( ((LA16_28>='\u0000' && LA16_28<='o')||LA16_28=='q'||(LA16_28>='s' && LA16_28<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition323(IntStream input) {
+        protected int specialStateTransition329(IntStream input) {
             int s = -1;
-            int LA16_1674 = input.LA(1);
-            if ( (LA16_1674=='m') ) {s = 1680;}
-            else if ( ((LA16_1674>='\u0000' && LA16_1674<='l')||(LA16_1674>='n' && LA16_1674<='\uFFFF')) ) {s = 50;}
+            int LA16_384 = input.LA(1);
+            if ( (LA16_384=='l') ) {s = 541;}
+            else if ( ((LA16_384>='\u0000' && LA16_384<='k')||(LA16_384>='m' && LA16_384<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition324(IntStream input) {
+        protected int specialStateTransition330(IntStream input) {
             int s = -1;
-            int LA16_1680 = input.LA(1);
-            if ( (LA16_1680=='s') ) {s = 1685;}
-            else if ( ((LA16_1680>='\u0000' && LA16_1680<='r')||(LA16_1680>='t' && LA16_1680<='\uFFFF')) ) {s = 50;}
+            int LA16_541 = input.LA(1);
+            if ( (LA16_541=='e') ) {s = 700;}
+            else if ( ((LA16_541>='\u0000' && LA16_541<='d')||(LA16_541>='f' && LA16_541<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition325(IntStream input) {
+        protected int specialStateTransition331(IntStream input) {
             int s = -1;
-            int LA16_1685 = input.LA(1);
-            if ( (LA16_1685=='\"') ) {s = 1689;}
-            else if ( ((LA16_1685>='\u0000' && LA16_1685<='!')||(LA16_1685>='#' && LA16_1685<='\uFFFF')) ) {s = 50;}
+            int LA16_680 = input.LA(1);
+            if ( (LA16_680=='f') ) {s = 831;}
+            else if ( (LA16_680=='s') ) {s = 832;}
+            else if ( ((LA16_680>='\u0000' && LA16_680<='e')||(LA16_680>='g' && LA16_680<='r')||(LA16_680>='t' && LA16_680<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition326(IntStream input) {
+        protected int specialStateTransition332(IntStream input) {
             int s = -1;
-            int LA16_238 = input.LA(1);
-            if ( (LA16_238=='b') ) {s = 378;}
-            else if ( ((LA16_238>='\u0000' && LA16_238<='a')||(LA16_238>='c' && LA16_238<='\uFFFF')) ) {s = 50;}
+            int LA16_700 = input.LA(1);
+            if ( (LA16_700=='_') ) {s = 851;}
+            else if ( ((LA16_700>='\u0000' && LA16_700<='^')||(LA16_700>='`' && LA16_700<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition327(IntStream input) {
+        protected int specialStateTransition333(IntStream input) {
+            int s = -1;
+            int LA16_851 = input.LA(1);
+            if ( (LA16_851=='p') ) {s = 987;}
+            else if ( ((LA16_851>='\u0000' && LA16_851<='o')||(LA16_851>='q' && LA16_851<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition334(IntStream input) {
+            int s = -1;
+            int LA16_987 = input.LA(1);
+            if ( (LA16_987=='o') ) {s = 1107;}
+            else if ( ((LA16_987>='\u0000' && LA16_987<='n')||(LA16_987>='p' && LA16_987<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition335(IntStream input) {
+            int s = -1;
+            int LA16_1107 = input.LA(1);
+            if ( (LA16_1107=='s') ) {s = 1212;}
+            else if ( ((LA16_1107>='\u0000' && LA16_1107<='r')||(LA16_1107>='t' && LA16_1107<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition336(IntStream input) {
+            int s = -1;
+            int LA16_1212 = input.LA(1);
+            if ( (LA16_1212=='i') ) {s = 1308;}
+            else if ( ((LA16_1212>='\u0000' && LA16_1212<='h')||(LA16_1212>='j' && LA16_1212<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition337(IntStream input) {
+            int s = -1;
+            int LA16_1308 = input.LA(1);
+            if ( (LA16_1308=='t') ) {s = 1384;}
+            else if ( ((LA16_1308>='\u0000' && LA16_1308<='s')||(LA16_1308>='u' && LA16_1308<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition338(IntStream input) {
+            int s = -1;
+            int LA16_1384 = input.LA(1);
+            if ( (LA16_1384=='i') ) {s = 1450;}
+            else if ( ((LA16_1384>='\u0000' && LA16_1384<='h')||(LA16_1384>='j' && LA16_1384<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition339(IntStream input) {
+            int s = -1;
+            int LA16_1450 = input.LA(1);
+            if ( (LA16_1450=='o') ) {s = 1506;}
+            else if ( ((LA16_1450>='\u0000' && LA16_1450<='n')||(LA16_1450>='p' && LA16_1450<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition340(IntStream input) {
+            int s = -1;
+            int LA16_1506 = input.LA(1);
+            if ( (LA16_1506=='n') ) {s = 1547;}
+            else if ( ((LA16_1506>='\u0000' && LA16_1506<='m')||(LA16_1506>='o' && LA16_1506<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition341(IntStream input) {
+            int s = -1;
+            int LA16_1547 = input.LA(1);
+            if ( (LA16_1547=='_') ) {s = 1579;}
+            else if ( ((LA16_1547>='\u0000' && LA16_1547<='^')||(LA16_1547>='`' && LA16_1547<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition342(IntStream input) {
+            int s = -1;
+            int LA16_1579 = input.LA(1);
+            if ( (LA16_1579=='i') ) {s = 1604;}
+            else if ( ((LA16_1579>='\u0000' && LA16_1579<='h')||(LA16_1579>='j' && LA16_1579<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition343(IntStream input) {
+            int s = -1;
+            int LA16_1604 = input.LA(1);
+            if ( (LA16_1604=='n') ) {s = 1624;}
+            else if ( ((LA16_1604>='\u0000' && LA16_1604<='m')||(LA16_1604>='o' && LA16_1604<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition344(IntStream input) {
+            int s = -1;
+            int LA16_1624 = input.LA(1);
+            if ( (LA16_1624=='c') ) {s = 1639;}
+            else if ( ((LA16_1624>='\u0000' && LA16_1624<='b')||(LA16_1624>='d' && LA16_1624<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition345(IntStream input) {
+            int s = -1;
+            int LA16_1639 = input.LA(1);
+            if ( (LA16_1639=='r') ) {s = 1653;}
+            else if ( ((LA16_1639>='\u0000' && LA16_1639<='q')||(LA16_1639>='s' && LA16_1639<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition346(IntStream input) {
+            int s = -1;
+            int LA16_1653 = input.LA(1);
+            if ( (LA16_1653=='e') ) {s = 1664;}
+            else if ( ((LA16_1653>='\u0000' && LA16_1653<='d')||(LA16_1653>='f' && LA16_1653<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition347(IntStream input) {
+            int s = -1;
+            int LA16_1664 = input.LA(1);
+            if ( (LA16_1664=='m') ) {s = 1673;}
+            else if ( ((LA16_1664>='\u0000' && LA16_1664<='l')||(LA16_1664>='n' && LA16_1664<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition348(IntStream input) {
+            int s = -1;
+            int LA16_1673 = input.LA(1);
+            if ( (LA16_1673=='e') ) {s = 1679;}
+            else if ( ((LA16_1673>='\u0000' && LA16_1673<='d')||(LA16_1673>='f' && LA16_1673<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition349(IntStream input) {
+            int s = -1;
+            int LA16_1679 = input.LA(1);
+            if ( (LA16_1679=='n') ) {s = 1684;}
+            else if ( ((LA16_1679>='\u0000' && LA16_1679<='m')||(LA16_1679>='o' && LA16_1679<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition350(IntStream input) {
+            int s = -1;
+            int LA16_1684 = input.LA(1);
+            if ( (LA16_1684=='t') ) {s = 1688;}
+            else if ( ((LA16_1684>='\u0000' && LA16_1684<='s')||(LA16_1684>='u' && LA16_1684<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition351(IntStream input) {
+            int s = -1;
+            int LA16_1688 = input.LA(1);
+            if ( (LA16_1688=='s') ) {s = 1691;}
+            else if ( ((LA16_1688>='\u0000' && LA16_1688<='r')||(LA16_1688>='t' && LA16_1688<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition352(IntStream input) {
+            int s = -1;
+            int LA16_1691 = input.LA(1);
+            if ( (LA16_1691=='\"') ) {s = 1694;}
+            else if ( ((LA16_1691>='\u0000' && LA16_1691<='!')||(LA16_1691>='#' && LA16_1691<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition353(IntStream input) {
             int s = -1;
             int LA16_33 = input.LA(1);
             if ( (LA16_33=='e') ) {s = 101;}
@@ -16524,218 +16679,49 @@ public class InternalSearchDslLexer extends Lexer {
             else if ( ((LA16_33>='\u0000' && LA16_33<='d')||(LA16_33>='f' && LA16_33<='k')||(LA16_33>='m' && LA16_33<='s')||(LA16_33>='u' && LA16_33<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition328(IntStream input) {
-            int s = -1;
-            int LA16_378 = input.LA(1);
-            if ( (LA16_378=='l') ) {s = 535;}
-            else if ( ((LA16_378>='\u0000' && LA16_378<='k')||(LA16_378>='m' && LA16_378<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition329(IntStream input) {
-            int s = -1;
-            int LA16_535 = input.LA(1);
-            if ( (LA16_535=='e') ) {s = 695;}
-            else if ( ((LA16_535>='\u0000' && LA16_535<='d')||(LA16_535>='f' && LA16_535<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition330(IntStream input) {
-            int s = -1;
-            int LA16_695 = input.LA(1);
-            if ( (LA16_695=='_') ) {s = 847;}
-            else if ( ((LA16_695>='\u0000' && LA16_695<='^')||(LA16_695>='`' && LA16_695<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition331(IntStream input) {
-            int s = -1;
-            int LA16_847 = input.LA(1);
-            if ( (LA16_847=='p') ) {s = 983;}
-            else if ( ((LA16_847>='\u0000' && LA16_847<='o')||(LA16_847>='q' && LA16_847<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition332(IntStream input) {
-            int s = -1;
-            int LA16_983 = input.LA(1);
-            if ( (LA16_983=='o') ) {s = 1104;}
-            else if ( ((LA16_983>='\u0000' && LA16_983<='n')||(LA16_983>='p' && LA16_983<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition333(IntStream input) {
-            int s = -1;
-            int LA16_1104 = input.LA(1);
-            if ( (LA16_1104=='s') ) {s = 1208;}
-            else if ( ((LA16_1104>='\u0000' && LA16_1104<='r')||(LA16_1104>='t' && LA16_1104<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition334(IntStream input) {
-            int s = -1;
-            int LA16_1208 = input.LA(1);
-            if ( (LA16_1208=='i') ) {s = 1304;}
-            else if ( ((LA16_1208>='\u0000' && LA16_1208<='h')||(LA16_1208>='j' && LA16_1208<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition335(IntStream input) {
-            int s = -1;
-            int LA16_1304 = input.LA(1);
-            if ( (LA16_1304=='t') ) {s = 1381;}
-            else if ( ((LA16_1304>='\u0000' && LA16_1304<='s')||(LA16_1304>='u' && LA16_1304<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition336(IntStream input) {
-            int s = -1;
-            int LA16_1381 = input.LA(1);
-            if ( (LA16_1381=='i') ) {s = 1448;}
-            else if ( ((LA16_1381>='\u0000' && LA16_1381<='h')||(LA16_1381>='j' && LA16_1381<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition337(IntStream input) {
-            int s = -1;
-            int LA16_1448 = input.LA(1);
-            if ( (LA16_1448=='o') ) {s = 1504;}
-            else if ( ((LA16_1448>='\u0000' && LA16_1448<='n')||(LA16_1448>='p' && LA16_1448<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition338(IntStream input) {
-            int s = -1;
-            int LA16_1504 = input.LA(1);
-            if ( (LA16_1504=='n') ) {s = 1545;}
-            else if ( ((LA16_1504>='\u0000' && LA16_1504<='m')||(LA16_1504>='o' && LA16_1504<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition339(IntStream input) {
-            int s = -1;
-            int LA16_1545 = input.LA(1);
-            if ( (LA16_1545=='_') ) {s = 1577;}
-            else if ( ((LA16_1545>='\u0000' && LA16_1545<='^')||(LA16_1545>='`' && LA16_1545<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition340(IntStream input) {
-            int s = -1;
-            int LA16_680 = input.LA(1);
-            if ( (LA16_680=='f') ) {s = 831;}
-            else if ( (LA16_680=='s') ) {s = 832;}
-            else if ( ((LA16_680>='\u0000' && LA16_680<='e')||(LA16_680>='g' && LA16_680<='r')||(LA16_680>='t' && LA16_680<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition341(IntStream input) {
-            int s = -1;
-            int LA16_1577 = input.LA(1);
-            if ( (LA16_1577=='i') ) {s = 1603;}
-            else if ( ((LA16_1577>='\u0000' && LA16_1577<='h')||(LA16_1577>='j' && LA16_1577<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition342(IntStream input) {
-            int s = -1;
-            int LA16_1603 = input.LA(1);
-            if ( (LA16_1603=='n') ) {s = 1624;}
-            else if ( ((LA16_1603>='\u0000' && LA16_1603<='m')||(LA16_1603>='o' && LA16_1603<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition343(IntStream input) {
-            int s = -1;
-            int LA16_1624 = input.LA(1);
-            if ( (LA16_1624=='c') ) {s = 1639;}
-            else if ( ((LA16_1624>='\u0000' && LA16_1624<='b')||(LA16_1624>='d' && LA16_1624<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition344(IntStream input) {
-            int s = -1;
-            int LA16_1639 = input.LA(1);
-            if ( (LA16_1639=='r') ) {s = 1653;}
-            else if ( ((LA16_1639>='\u0000' && LA16_1639<='q')||(LA16_1639>='s' && LA16_1639<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition345(IntStream input) {
-            int s = -1;
-            int LA16_1653 = input.LA(1);
-            if ( (LA16_1653=='e') ) {s = 1664;}
-            else if ( ((LA16_1653>='\u0000' && LA16_1653<='d')||(LA16_1653>='f' && LA16_1653<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition346(IntStream input) {
-            int s = -1;
-            int LA16_1664 = input.LA(1);
-            if ( (LA16_1664=='m') ) {s = 1673;}
-            else if ( ((LA16_1664>='\u0000' && LA16_1664<='l')||(LA16_1664>='n' && LA16_1664<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition347(IntStream input) {
-            int s = -1;
-            int LA16_1673 = input.LA(1);
-            if ( (LA16_1673=='e') ) {s = 1679;}
-            else if ( ((LA16_1673>='\u0000' && LA16_1673<='d')||(LA16_1673>='f' && LA16_1673<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition348(IntStream input) {
-            int s = -1;
-            int LA16_1679 = input.LA(1);
-            if ( (LA16_1679=='n') ) {s = 1684;}
-            else if ( ((LA16_1679>='\u0000' && LA16_1679<='m')||(LA16_1679>='o' && LA16_1679<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition349(IntStream input) {
-            int s = -1;
-            int LA16_1684 = input.LA(1);
-            if ( (LA16_1684=='t') ) {s = 1688;}
-            else if ( ((LA16_1684>='\u0000' && LA16_1684<='s')||(LA16_1684>='u' && LA16_1684<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition350(IntStream input) {
-            int s = -1;
-            int LA16_1688 = input.LA(1);
-            if ( (LA16_1688=='s') ) {s = 1691;}
-            else if ( ((LA16_1688>='\u0000' && LA16_1688<='r')||(LA16_1688>='t' && LA16_1688<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition351(IntStream input) {
-            int s = -1;
-            int LA16_1691 = input.LA(1);
-            if ( (LA16_1691=='\"') ) {s = 1694;}
-            else if ( ((LA16_1691>='\u0000' && LA16_1691<='!')||(LA16_1691>='#' && LA16_1691<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition352(IntStream input) {
+        protected int specialStateTransition354(IntStream input) {
             int s = -1;
             int LA16_756 = input.LA(1);
             if ( (LA16_756=='a') ) {s = 901;}
             else if ( ((LA16_756>='\u0000' && LA16_756<='`')||(LA16_756>='b' && LA16_756<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition353(IntStream input) {
+        protected int specialStateTransition355(IntStream input) {
             int s = -1;
             int LA16_901 = input.LA(1);
             if ( (LA16_901=='x') ) {s = 1029;}
             else if ( ((LA16_901>='\u0000' && LA16_901<='w')||(LA16_901>='y' && LA16_901<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition354(IntStream input) {
+        protected int specialStateTransition356(IntStream input) {
             int s = -1;
             int LA16_1029 = input.LA(1);
             if ( (LA16_1029=='_') ) {s = 1142;}
             else if ( ((LA16_1029>='\u0000' && LA16_1029<='^')||(LA16_1029>='`' && LA16_1029<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition355(IntStream input) {
+        protected int specialStateTransition357(IntStream input) {
             int s = -1;
             int LA16_1142 = input.LA(1);
             if ( (LA16_1142=='e') ) {s = 1244;}
             else if ( ((LA16_1142>='\u0000' && LA16_1142<='d')||(LA16_1142>='f' && LA16_1142<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition356(IntStream input) {
+        protected int specialStateTransition358(IntStream input) {
             int s = -1;
             int LA16_1244 = input.LA(1);
             if ( (LA16_1244=='x') ) {s = 1333;}
             else if ( ((LA16_1244>='\u0000' && LA16_1244<='w')||(LA16_1244>='y' && LA16_1244<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition357(IntStream input) {
+        protected int specialStateTransition359(IntStream input) {
             int s = -1;
             int LA16_1333 = input.LA(1);
             if ( (LA16_1333=='p') ) {s = 1402;}
             else if ( ((LA16_1333>='\u0000' && LA16_1333<='o')||(LA16_1333>='q' && LA16_1333<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition358(IntStream input) {
+        protected int specialStateTransition360(IntStream input) {
             int s = -1;
             int LA16_106 = input.LA(1);
             if ( (LA16_106=='\"') ) {s = 207;}
@@ -16743,70 +16729,84 @@ public class InternalSearchDslLexer extends Lexer {
             else if ( ((LA16_106>='\u0000' && LA16_106<='!')||(LA16_106>='#' && LA16_106<='o')||(LA16_106>='q' && LA16_106<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition359(IntStream input) {
+        protected int specialStateTransition361(IntStream input) {
             int s = -1;
             int LA16_1402 = input.LA(1);
             if ( (LA16_1402=='a') ) {s = 1467;}
             else if ( ((LA16_1402>='\u0000' && LA16_1402<='`')||(LA16_1402>='b' && LA16_1402<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition360(IntStream input) {
+        protected int specialStateTransition362(IntStream input) {
             int s = -1;
             int LA16_1467 = input.LA(1);
             if ( (LA16_1467=='n') ) {s = 1516;}
             else if ( ((LA16_1467>='\u0000' && LA16_1467<='m')||(LA16_1467>='o' && LA16_1467<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition361(IntStream input) {
+        protected int specialStateTransition363(IntStream input) {
             int s = -1;
             int LA16_1516 = input.LA(1);
             if ( (LA16_1516=='s') ) {s = 1555;}
             else if ( ((LA16_1516>='\u0000' && LA16_1516<='r')||(LA16_1516>='t' && LA16_1516<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition362(IntStream input) {
+        protected int specialStateTransition364(IntStream input) {
             int s = -1;
             int LA16_1555 = input.LA(1);
             if ( (LA16_1555=='i') ) {s = 1585;}
             else if ( ((LA16_1555>='\u0000' && LA16_1555<='h')||(LA16_1555>='j' && LA16_1555<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition363(IntStream input) {
+        protected int specialStateTransition365(IntStream input) {
             int s = -1;
             int LA16_1585 = input.LA(1);
             if ( (LA16_1585=='o') ) {s = 1610;}
             else if ( ((LA16_1585>='\u0000' && LA16_1585<='n')||(LA16_1585>='p' && LA16_1585<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition364(IntStream input) {
+        protected int specialStateTransition366(IntStream input) {
             int s = -1;
             int LA16_1610 = input.LA(1);
             if ( (LA16_1610=='n') ) {s = 1630;}
             else if ( ((LA16_1610>='\u0000' && LA16_1610<='m')||(LA16_1610>='o' && LA16_1610<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition365(IntStream input) {
+        protected int specialStateTransition367(IntStream input) {
             int s = -1;
             int LA16_1630 = input.LA(1);
             if ( (LA16_1630=='s') ) {s = 1644;}
             else if ( ((LA16_1630>='\u0000' && LA16_1630<='r')||(LA16_1630>='t' && LA16_1630<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition366(IntStream input) {
-            int s = -1;
-            int LA16_93 = input.LA(1);
-            if ( (LA16_93=='l') ) {s = 190;}
-            else if ( ((LA16_93>='\u0000' && LA16_93<='k')||(LA16_93>='m' && LA16_93<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition367(IntStream input) {
+        protected int specialStateTransition368(IntStream input) {
             int s = -1;
             int LA16_1644 = input.LA(1);
             if ( (LA16_1644=='\"') ) {s = 1657;}
             else if ( ((LA16_1644>='\u0000' && LA16_1644<='!')||(LA16_1644>='#' && LA16_1644<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition368(IntStream input) {
+        protected int specialStateTransition369(IntStream input) {
+            int s = -1;
+            int LA16_93 = input.LA(1);
+            if ( (LA16_93=='l') ) {s = 190;}
+            else if ( ((LA16_93>='\u0000' && LA16_93<='k')||(LA16_93>='m' && LA16_93<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition370(IntStream input) {
+            int s = -1;
+            int LA16_757 = input.LA(1);
+            if ( (LA16_757=='r') ) {s = 902;}
+            else if ( ((LA16_757>='\u0000' && LA16_757<='q')||(LA16_757>='s' && LA16_757<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition371(IntStream input) {
+            int s = -1;
+            int LA16_902 = input.LA(1);
+            if ( (LA16_902=='e') ) {s = 1030;}
+            else if ( ((LA16_902>='\u0000' && LA16_902<='d')||(LA16_902>='f' && LA16_902<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition372(IntStream input) {
             int s = -1;
             int LA16_190 = input.LA(1);
             if ( (LA16_190=='_') ) {s = 321;}
@@ -16815,98 +16815,112 @@ public class InternalSearchDslLexer extends Lexer {
             else if ( ((LA16_190>='\u0000' && LA16_190<='!')||(LA16_190>='#' && LA16_190<='^')||(LA16_190>='`' && LA16_190<='n')||(LA16_190>='p' && LA16_190<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition369(IntStream input) {
-            int s = -1;
-            int LA16_757 = input.LA(1);
-            if ( (LA16_757=='r') ) {s = 902;}
-            else if ( ((LA16_757>='\u0000' && LA16_757<='q')||(LA16_757>='s' && LA16_757<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition370(IntStream input) {
-            int s = -1;
-            int LA16_902 = input.LA(1);
-            if ( (LA16_902=='e') ) {s = 1030;}
-            else if ( ((LA16_902>='\u0000' && LA16_902<='d')||(LA16_902>='f' && LA16_902<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition371(IntStream input) {
+        protected int specialStateTransition373(IntStream input) {
             int s = -1;
             int LA16_1030 = input.LA(1);
             if ( (LA16_1030=='f') ) {s = 1143;}
             else if ( ((LA16_1030>='\u0000' && LA16_1030<='e')||(LA16_1030>='g' && LA16_1030<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition372(IntStream input) {
+        protected int specialStateTransition374(IntStream input) {
             int s = -1;
             int LA16_1143 = input.LA(1);
             if ( (LA16_1143=='i') ) {s = 1245;}
             else if ( ((LA16_1143>='\u0000' && LA16_1143<='h')||(LA16_1143>='j' && LA16_1143<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition373(IntStream input) {
+        protected int specialStateTransition375(IntStream input) {
             int s = -1;
             int LA16_1245 = input.LA(1);
             if ( (LA16_1245=='x') ) {s = 1334;}
             else if ( ((LA16_1245>='\u0000' && LA16_1245<='w')||(LA16_1245>='y' && LA16_1245<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition374(IntStream input) {
+        protected int specialStateTransition376(IntStream input) {
             int s = -1;
             int LA16_1334 = input.LA(1);
             if ( (LA16_1334=='_') ) {s = 1403;}
             else if ( ((LA16_1334>='\u0000' && LA16_1334<='^')||(LA16_1334>='`' && LA16_1334<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition375(IntStream input) {
+        protected int specialStateTransition377(IntStream input) {
             int s = -1;
             int LA16_1403 = input.LA(1);
             if ( (LA16_1403=='l') ) {s = 1468;}
             else if ( ((LA16_1403>='\u0000' && LA16_1403<='k')||(LA16_1403>='m' && LA16_1403<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition376(IntStream input) {
+        protected int specialStateTransition378(IntStream input) {
             int s = -1;
             int LA16_1468 = input.LA(1);
             if ( (LA16_1468=='e') ) {s = 1517;}
             else if ( ((LA16_1468>='\u0000' && LA16_1468<='d')||(LA16_1468>='f' && LA16_1468<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition377(IntStream input) {
+        protected int specialStateTransition379(IntStream input) {
             int s = -1;
             int LA16_1517 = input.LA(1);
             if ( (LA16_1517=='n') ) {s = 1556;}
             else if ( ((LA16_1517>='\u0000' && LA16_1517<='m')||(LA16_1517>='o' && LA16_1517<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition378(IntStream input) {
+        protected int specialStateTransition380(IntStream input) {
             int s = -1;
             int LA16_1556 = input.LA(1);
             if ( (LA16_1556=='g') ) {s = 1586;}
             else if ( ((LA16_1556>='\u0000' && LA16_1556<='f')||(LA16_1556>='h' && LA16_1556<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition379(IntStream input) {
+        protected int specialStateTransition381(IntStream input) {
             int s = -1;
             int LA16_1586 = input.LA(1);
             if ( (LA16_1586=='t') ) {s = 1611;}
             else if ( ((LA16_1586>='\u0000' && LA16_1586<='s')||(LA16_1586>='u' && LA16_1586<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition380(IntStream input) {
+        protected int specialStateTransition382(IntStream input) {
             int s = -1;
             int LA16_1611 = input.LA(1);
             if ( (LA16_1611=='h') ) {s = 1631;}
             else if ( ((LA16_1611>='\u0000' && LA16_1611<='g')||(LA16_1611>='i' && LA16_1611<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition381(IntStream input) {
+        protected int specialStateTransition383(IntStream input) {
             int s = -1;
             int LA16_1631 = input.LA(1);
             if ( (LA16_1631=='\"') ) {s = 1645;}
             else if ( ((LA16_1631>='\u0000' && LA16_1631<='!')||(LA16_1631>='#' && LA16_1631<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition382(IntStream input) {
+        protected int specialStateTransition384(IntStream input) {
+            int s = -1;
+            int LA16_1001 = input.LA(1);
+            if ( (LA16_1001=='l') ) {s = 1120;}
+            else if ( ((LA16_1001>='\u0000' && LA16_1001<='k')||(LA16_1001>='m' && LA16_1001<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition385(IntStream input) {
+            int s = -1;
+            int LA16_1120 = input.LA(1);
+            if ( (LA16_1120=='o') ) {s = 1224;}
+            else if ( ((LA16_1120>='\u0000' && LA16_1120<='n')||(LA16_1120>='p' && LA16_1120<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition386(IntStream input) {
+            int s = -1;
+            int LA16_1224 = input.LA(1);
+            if ( (LA16_1224=='p') ) {s = 1318;}
+            else if ( ((LA16_1224>='\u0000' && LA16_1224<='o')||(LA16_1224>='q' && LA16_1224<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition387(IntStream input) {
+            int s = -1;
+            int LA16_1318 = input.LA(1);
+            if ( (LA16_1318=='\"') ) {s = 1393;}
+            else if ( ((LA16_1318>='\u0000' && LA16_1318<='!')||(LA16_1318>='#' && LA16_1318<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition388(IntStream input) {
             int s = -1;
             int LA16_78 = input.LA(1);
             if ( (LA16_78=='a') ) {s = 166;}
@@ -16914,98 +16928,7 @@ public class InternalSearchDslLexer extends Lexer {
             else if ( ((LA16_78>='\u0000' && LA16_78<='`')||(LA16_78>='b' && LA16_78<='s')||(LA16_78>='u' && LA16_78<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition383(IntStream input) {
-            int s = -1;
-            int LA16_1001 = input.LA(1);
-            if ( (LA16_1001=='l') ) {s = 1120;}
-            else if ( ((LA16_1001>='\u0000' && LA16_1001<='k')||(LA16_1001>='m' && LA16_1001<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition384(IntStream input) {
-            int s = -1;
-            int LA16_1120 = input.LA(1);
-            if ( (LA16_1120=='o') ) {s = 1224;}
-            else if ( ((LA16_1120>='\u0000' && LA16_1120<='n')||(LA16_1120>='p' && LA16_1120<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition385(IntStream input) {
-            int s = -1;
-            int LA16_1224 = input.LA(1);
-            if ( (LA16_1224=='p') ) {s = 1318;}
-            else if ( ((LA16_1224>='\u0000' && LA16_1224<='o')||(LA16_1224>='q' && LA16_1224<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition386(IntStream input) {
-            int s = -1;
-            int LA16_1318 = input.LA(1);
-            if ( (LA16_1318=='\"') ) {s = 1393;}
-            else if ( ((LA16_1318>='\u0000' && LA16_1318<='!')||(LA16_1318>='#' && LA16_1318<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition387(IntStream input) {
-            int s = -1;
-            int LA16_930 = input.LA(1);
-            if ( (LA16_930=='w') ) {s = 1054;}
-            else if ( ((LA16_930>='\u0000' && LA16_930<='v')||(LA16_930>='x' && LA16_930<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition388(IntStream input) {
-            int s = -1;
-            int LA16_1054 = input.LA(1);
-            if ( (LA16_1054=='i') ) {s = 1165;}
-            else if ( ((LA16_1054>='\u0000' && LA16_1054<='h')||(LA16_1054>='j' && LA16_1054<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
         protected int specialStateTransition389(IntStream input) {
-            int s = -1;
-            int LA16_1165 = input.LA(1);
-            if ( (LA16_1165=='l') ) {s = 1265;}
-            else if ( ((LA16_1165>='\u0000' && LA16_1165<='k')||(LA16_1165>='m' && LA16_1165<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition390(IntStream input) {
-            int s = -1;
-            int LA16_1265 = input.LA(1);
-            if ( (LA16_1265=='d') ) {s = 1350;}
-            else if ( ((LA16_1265>='\u0000' && LA16_1265<='c')||(LA16_1265>='e' && LA16_1265<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition391(IntStream input) {
-            int s = -1;
-            int LA16_1350 = input.LA(1);
-            if ( (LA16_1350=='c') ) {s = 1418;}
-            else if ( ((LA16_1350>='\u0000' && LA16_1350<='b')||(LA16_1350>='d' && LA16_1350<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition392(IntStream input) {
-            int s = -1;
-            int LA16_1418 = input.LA(1);
-            if ( (LA16_1418=='a') ) {s = 1481;}
-            else if ( ((LA16_1418>='\u0000' && LA16_1418<='`')||(LA16_1418>='b' && LA16_1418<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition393(IntStream input) {
-            int s = -1;
-            int LA16_1481 = input.LA(1);
-            if ( (LA16_1481=='r') ) {s = 1529;}
-            else if ( ((LA16_1481>='\u0000' && LA16_1481<='q')||(LA16_1481>='s' && LA16_1481<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition394(IntStream input) {
-            int s = -1;
-            int LA16_1529 = input.LA(1);
-            if ( (LA16_1529=='d') ) {s = 1567;}
-            else if ( ((LA16_1529>='\u0000' && LA16_1529<='c')||(LA16_1529>='e' && LA16_1529<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition395(IntStream input) {
-            int s = -1;
-            int LA16_1567 = input.LA(1);
-            if ( (LA16_1567=='\"') ) {s = 1595;}
-            else if ( ((LA16_1567>='\u0000' && LA16_1567<='!')||(LA16_1567>='#' && LA16_1567<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition396(IntStream input) {
             int s = -1;
             int LA16_192 = input.LA(1);
             if ( (LA16_192=='\"') ) {s = 325;}
@@ -17013,175 +16936,161 @@ public class InternalSearchDslLexer extends Lexer {
             else if ( ((LA16_192>='\u0000' && LA16_192<='!')||(LA16_192>='#' && LA16_192<='^')||(LA16_192>='`' && LA16_192<='\uFFFF')) ) {s = 50;}
             return s;
         }
+        protected int specialStateTransition390(IntStream input) {
+            int s = -1;
+            int LA16_930 = input.LA(1);
+            if ( (LA16_930=='w') ) {s = 1054;}
+            else if ( ((LA16_930>='\u0000' && LA16_930<='v')||(LA16_930>='x' && LA16_930<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition391(IntStream input) {
+            int s = -1;
+            int LA16_1054 = input.LA(1);
+            if ( (LA16_1054=='i') ) {s = 1165;}
+            else if ( ((LA16_1054>='\u0000' && LA16_1054<='h')||(LA16_1054>='j' && LA16_1054<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition392(IntStream input) {
+            int s = -1;
+            int LA16_1165 = input.LA(1);
+            if ( (LA16_1165=='l') ) {s = 1265;}
+            else if ( ((LA16_1165>='\u0000' && LA16_1165<='k')||(LA16_1165>='m' && LA16_1165<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition393(IntStream input) {
+            int s = -1;
+            int LA16_1265 = input.LA(1);
+            if ( (LA16_1265=='d') ) {s = 1350;}
+            else if ( ((LA16_1265>='\u0000' && LA16_1265<='c')||(LA16_1265>='e' && LA16_1265<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition394(IntStream input) {
+            int s = -1;
+            int LA16_1350 = input.LA(1);
+            if ( (LA16_1350=='c') ) {s = 1418;}
+            else if ( ((LA16_1350>='\u0000' && LA16_1350<='b')||(LA16_1350>='d' && LA16_1350<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition395(IntStream input) {
+            int s = -1;
+            int LA16_1418 = input.LA(1);
+            if ( (LA16_1418=='a') ) {s = 1481;}
+            else if ( ((LA16_1418>='\u0000' && LA16_1418<='`')||(LA16_1418>='b' && LA16_1418<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition396(IntStream input) {
+            int s = -1;
+            int LA16_1481 = input.LA(1);
+            if ( (LA16_1481=='r') ) {s = 1529;}
+            else if ( ((LA16_1481>='\u0000' && LA16_1481<='q')||(LA16_1481>='s' && LA16_1481<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
         protected int specialStateTransition397(IntStream input) {
+            int s = -1;
+            int LA16_1529 = input.LA(1);
+            if ( (LA16_1529=='d') ) {s = 1567;}
+            else if ( ((LA16_1529>='\u0000' && LA16_1529<='c')||(LA16_1529>='e' && LA16_1529<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition398(IntStream input) {
+            int s = -1;
+            int LA16_1567 = input.LA(1);
+            if ( (LA16_1567=='\"') ) {s = 1595;}
+            else if ( ((LA16_1567>='\u0000' && LA16_1567<='!')||(LA16_1567>='#' && LA16_1567<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition399(IntStream input) {
             int s = -1;
             int LA16_95 = input.LA(1);
             if ( (LA16_95=='t') ) {s = 193;}
             else if ( ((LA16_95>='\u0000' && LA16_95<='s')||(LA16_95>='u' && LA16_95<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition398(IntStream input) {
+        protected int specialStateTransition400(IntStream input) {
             int s = -1;
             int LA16_193 = input.LA(1);
             if ( (LA16_193=='o') ) {s = 327;}
             else if ( ((LA16_193>='\u0000' && LA16_193<='n')||(LA16_193>='p' && LA16_193<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition399(IntStream input) {
+        protected int specialStateTransition401(IntStream input) {
             int s = -1;
             int LA16_327 = input.LA(1);
             if ( (LA16_327=='_') ) {s = 480;}
             else if ( ((LA16_327>='\u0000' && LA16_327<='^')||(LA16_327>='`' && LA16_327<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition400(IntStream input) {
+        protected int specialStateTransition402(IntStream input) {
             int s = -1;
             int LA16_480 = input.LA(1);
             if ( (LA16_480=='g') ) {s = 635;}
             else if ( ((LA16_480>='\u0000' && LA16_480<='f')||(LA16_480>='h' && LA16_480<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition401(IntStream input) {
+        protected int specialStateTransition403(IntStream input) {
             int s = -1;
             int LA16_635 = input.LA(1);
             if ( (LA16_635=='e') ) {s = 789;}
             else if ( ((LA16_635>='\u0000' && LA16_635<='d')||(LA16_635>='f' && LA16_635<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition402(IntStream input) {
+        protected int specialStateTransition404(IntStream input) {
             int s = -1;
             int LA16_789 = input.LA(1);
             if ( (LA16_789=='n') ) {s = 932;}
             else if ( ((LA16_789>='\u0000' && LA16_789<='m')||(LA16_789>='o' && LA16_789<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition403(IntStream input) {
+        protected int specialStateTransition405(IntStream input) {
             int s = -1;
             int LA16_932 = input.LA(1);
             if ( (LA16_932=='e') ) {s = 1056;}
             else if ( ((LA16_932>='\u0000' && LA16_932<='d')||(LA16_932>='f' && LA16_932<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition404(IntStream input) {
+        protected int specialStateTransition406(IntStream input) {
             int s = -1;
             int LA16_1056 = input.LA(1);
             if ( (LA16_1056=='r') ) {s = 1167;}
             else if ( ((LA16_1056>='\u0000' && LA16_1056<='q')||(LA16_1056>='s' && LA16_1056<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition405(IntStream input) {
+        protected int specialStateTransition407(IntStream input) {
             int s = -1;
             int LA16_1167 = input.LA(1);
             if ( (LA16_1167=='a') ) {s = 1267;}
             else if ( ((LA16_1167>='\u0000' && LA16_1167<='`')||(LA16_1167>='b' && LA16_1167<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition406(IntStream input) {
+        protected int specialStateTransition408(IntStream input) {
             int s = -1;
             int LA16_1267 = input.LA(1);
             if ( (LA16_1267=='t') ) {s = 1352;}
             else if ( ((LA16_1267>='\u0000' && LA16_1267<='s')||(LA16_1267>='u' && LA16_1267<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition407(IntStream input) {
+        protected int specialStateTransition409(IntStream input) {
             int s = -1;
             int LA16_1352 = input.LA(1);
             if ( (LA16_1352=='e') ) {s = 1420;}
             else if ( ((LA16_1352>='\u0000' && LA16_1352<='d')||(LA16_1352>='f' && LA16_1352<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition408(IntStream input) {
+        protected int specialStateTransition410(IntStream input) {
             int s = -1;
             int LA16_1420 = input.LA(1);
             if ( (LA16_1420=='_') ) {s = 1482;}
             else if ( ((LA16_1420>='\u0000' && LA16_1420<='^')||(LA16_1420>='`' && LA16_1420<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition409(IntStream input) {
+        protected int specialStateTransition411(IntStream input) {
             int s = -1;
             int LA16_1482 = input.LA(1);
             if ( (LA16_1482=='p') ) {s = 1530;}
             else if ( ((LA16_1482>='\u0000' && LA16_1482<='o')||(LA16_1482>='q' && LA16_1482<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition410(IntStream input) {
-            int s = -1;
-            int LA16_1530 = input.LA(1);
-            if ( (LA16_1530=='h') ) {s = 1568;}
-            else if ( ((LA16_1530>='\u0000' && LA16_1530<='g')||(LA16_1530>='i' && LA16_1530<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition411(IntStream input) {
-            int s = -1;
-            int LA16_1568 = input.LA(1);
-            if ( (LA16_1568=='r') ) {s = 1596;}
-            else if ( ((LA16_1568>='\u0000' && LA16_1568<='q')||(LA16_1568>='s' && LA16_1568<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
         protected int specialStateTransition412(IntStream input) {
-            int s = -1;
-            int LA16_1596 = input.LA(1);
-            if ( (LA16_1596=='a') ) {s = 1617;}
-            else if ( ((LA16_1596>='\u0000' && LA16_1596<='`')||(LA16_1596>='b' && LA16_1596<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition413(IntStream input) {
-            int s = -1;
-            int LA16_1617 = input.LA(1);
-            if ( (LA16_1617=='s') ) {s = 1636;}
-            else if ( ((LA16_1617>='\u0000' && LA16_1617<='r')||(LA16_1617>='t' && LA16_1617<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition414(IntStream input) {
-            int s = -1;
-            int LA16_1636 = input.LA(1);
-            if ( (LA16_1636=='e') ) {s = 1650;}
-            else if ( ((LA16_1636>='\u0000' && LA16_1636<='d')||(LA16_1636>='f' && LA16_1636<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition415(IntStream input) {
-            int s = -1;
-            int LA16_1650 = input.LA(1);
-            if ( (LA16_1650=='_') ) {s = 1663;}
-            else if ( ((LA16_1650>='\u0000' && LA16_1650<='^')||(LA16_1650>='`' && LA16_1650<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition416(IntStream input) {
-            int s = -1;
-            int LA16_1663 = input.LA(1);
-            if ( (LA16_1663=='q') ) {s = 1672;}
-            else if ( ((LA16_1663>='\u0000' && LA16_1663<='p')||(LA16_1663>='r' && LA16_1663<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition417(IntStream input) {
-            int s = -1;
-            int LA16_1672 = input.LA(1);
-            if ( (LA16_1672=='u') ) {s = 1678;}
-            else if ( ((LA16_1672>='\u0000' && LA16_1672<='t')||(LA16_1672>='v' && LA16_1672<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition418(IntStream input) {
-            int s = -1;
-            int LA16_1678 = input.LA(1);
-            if ( (LA16_1678=='e') ) {s = 1683;}
-            else if ( ((LA16_1678>='\u0000' && LA16_1678<='d')||(LA16_1678>='f' && LA16_1678<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition419(IntStream input) {
-            int s = -1;
-            int LA16_1683 = input.LA(1);
-            if ( (LA16_1683=='r') ) {s = 1687;}
-            else if ( ((LA16_1683>='\u0000' && LA16_1683<='q')||(LA16_1683>='s' && LA16_1683<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition420(IntStream input) {
-            int s = -1;
-            int LA16_1687 = input.LA(1);
-            if ( (LA16_1687=='i') ) {s = 1690;}
-            else if ( ((LA16_1687>='\u0000' && LA16_1687<='h')||(LA16_1687>='j' && LA16_1687<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition421(IntStream input) {
             int s = -1;
             int LA16_345 = input.LA(1);
             if ( (LA16_345=='c') ) {s = 501;}
@@ -17189,170 +17098,228 @@ public class InternalSearchDslLexer extends Lexer {
             else if ( ((LA16_345>='\u0000' && LA16_345<='b')||(LA16_345>='d' && LA16_345<='k')||(LA16_345>='m' && LA16_345<='\uFFFF')) ) {s = 50;}
             return s;
         }
+        protected int specialStateTransition413(IntStream input) {
+            int s = -1;
+            int LA16_1530 = input.LA(1);
+            if ( (LA16_1530=='h') ) {s = 1568;}
+            else if ( ((LA16_1530>='\u0000' && LA16_1530<='g')||(LA16_1530>='i' && LA16_1530<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition414(IntStream input) {
+            int s = -1;
+            int LA16_1568 = input.LA(1);
+            if ( (LA16_1568=='r') ) {s = 1596;}
+            else if ( ((LA16_1568>='\u0000' && LA16_1568<='q')||(LA16_1568>='s' && LA16_1568<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition415(IntStream input) {
+            int s = -1;
+            int LA16_1596 = input.LA(1);
+            if ( (LA16_1596=='a') ) {s = 1617;}
+            else if ( ((LA16_1596>='\u0000' && LA16_1596<='`')||(LA16_1596>='b' && LA16_1596<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition416(IntStream input) {
+            int s = -1;
+            int LA16_1617 = input.LA(1);
+            if ( (LA16_1617=='s') ) {s = 1636;}
+            else if ( ((LA16_1617>='\u0000' && LA16_1617<='r')||(LA16_1617>='t' && LA16_1617<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition417(IntStream input) {
+            int s = -1;
+            int LA16_1636 = input.LA(1);
+            if ( (LA16_1636=='e') ) {s = 1650;}
+            else if ( ((LA16_1636>='\u0000' && LA16_1636<='d')||(LA16_1636>='f' && LA16_1636<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition418(IntStream input) {
+            int s = -1;
+            int LA16_1650 = input.LA(1);
+            if ( (LA16_1650=='_') ) {s = 1663;}
+            else if ( ((LA16_1650>='\u0000' && LA16_1650<='^')||(LA16_1650>='`' && LA16_1650<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition419(IntStream input) {
+            int s = -1;
+            int LA16_1663 = input.LA(1);
+            if ( (LA16_1663=='q') ) {s = 1672;}
+            else if ( ((LA16_1663>='\u0000' && LA16_1663<='p')||(LA16_1663>='r' && LA16_1663<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition420(IntStream input) {
+            int s = -1;
+            int LA16_1672 = input.LA(1);
+            if ( (LA16_1672=='u') ) {s = 1678;}
+            else if ( ((LA16_1672>='\u0000' && LA16_1672<='t')||(LA16_1672>='v' && LA16_1672<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition421(IntStream input) {
+            int s = -1;
+            int LA16_1678 = input.LA(1);
+            if ( (LA16_1678=='e') ) {s = 1683;}
+            else if ( ((LA16_1678>='\u0000' && LA16_1678<='d')||(LA16_1678>='f' && LA16_1678<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
         protected int specialStateTransition422(IntStream input) {
+            int s = -1;
+            int LA16_1683 = input.LA(1);
+            if ( (LA16_1683=='r') ) {s = 1687;}
+            else if ( ((LA16_1683>='\u0000' && LA16_1683<='q')||(LA16_1683>='s' && LA16_1683<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition423(IntStream input) {
+            int s = -1;
+            int LA16_1687 = input.LA(1);
+            if ( (LA16_1687=='i') ) {s = 1690;}
+            else if ( ((LA16_1687>='\u0000' && LA16_1687<='h')||(LA16_1687>='j' && LA16_1687<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition424(IntStream input) {
             int s = -1;
             int LA16_1690 = input.LA(1);
             if ( (LA16_1690=='e') ) {s = 1693;}
             else if ( ((LA16_1690>='\u0000' && LA16_1690<='d')||(LA16_1690>='f' && LA16_1690<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition423(IntStream input) {
+        protected int specialStateTransition425(IntStream input) {
             int s = -1;
             int LA16_1693 = input.LA(1);
             if ( (LA16_1693=='s') ) {s = 1695;}
             else if ( ((LA16_1693>='\u0000' && LA16_1693<='r')||(LA16_1693>='t' && LA16_1693<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition424(IntStream input) {
+        protected int specialStateTransition426(IntStream input) {
             int s = -1;
             int LA16_1695 = input.LA(1);
             if ( (LA16_1695=='\"') ) {s = 1697;}
             else if ( ((LA16_1695>='\u0000' && LA16_1695<='!')||(LA16_1695>='#' && LA16_1695<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition425(IntStream input) {
-            int s = -1;
-            int LA16_108 = input.LA(1);
-            if ( (LA16_108=='t') ) {s = 210;}
-            else if ( (LA16_108=='d') ) {s = 211;}
-            else if ( (LA16_108=='_') ) {s = 212;}
-            else if ( (LA16_108=='c') ) {s = 213;}
-            else if ( (LA16_108=='\"') ) {s = 214;}
-            else if ( ((LA16_108>='\u0000' && LA16_108<='!')||(LA16_108>='#' && LA16_108<='^')||(LA16_108>='`' && LA16_108<='b')||(LA16_108>='e' && LA16_108<='s')||(LA16_108>='u' && LA16_108<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition426(IntStream input) {
-            int s = -1;
-            int LA16_247 = input.LA(1);
-            if ( (LA16_247=='i') ) {s = 388;}
-            else if ( ((LA16_247>='\u0000' && LA16_247<='h')||(LA16_247>='j' && LA16_247<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
         protected int specialStateTransition427(IntStream input) {
             int s = -1;
-            int LA16_388 = input.LA(1);
-            if ( (LA16_388=='e') ) {s = 544;}
-            else if ( ((LA16_388>='\u0000' && LA16_388<='d')||(LA16_388>='f' && LA16_388<='\uFFFF')) ) {s = 50;}
+            int LA16_253 = input.LA(1);
+            if ( (LA16_253=='i') ) {s = 394;}
+            else if ( ((LA16_253>='\u0000' && LA16_253<='h')||(LA16_253>='j' && LA16_253<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition428(IntStream input) {
             int s = -1;
-            int LA16_544 = input.LA(1);
-            if ( (LA16_544=='n') ) {s = 701;}
-            else if ( ((LA16_544>='\u0000' && LA16_544<='m')||(LA16_544>='o' && LA16_544<='\uFFFF')) ) {s = 50;}
+            int LA16_394 = input.LA(1);
+            if ( (LA16_394=='e') ) {s = 550;}
+            else if ( ((LA16_394>='\u0000' && LA16_394<='d')||(LA16_394>='f' && LA16_394<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition429(IntStream input) {
             int s = -1;
-            int LA16_701 = input.LA(1);
-            if ( (LA16_701=='t') ) {s = 853;}
-            else if ( ((LA16_701>='\u0000' && LA16_701<='s')||(LA16_701>='u' && LA16_701<='\uFFFF')) ) {s = 50;}
+            int LA16_550 = input.LA(1);
+            if ( (LA16_550=='n') ) {s = 706;}
+            else if ( ((LA16_550>='\u0000' && LA16_550<='m')||(LA16_550>='o' && LA16_550<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition430(IntStream input) {
             int s = -1;
-            int LA16_853 = input.LA(1);
-            if ( (LA16_853=='\"') ) {s = 989;}
-            else if ( ((LA16_853>='\u0000' && LA16_853<='!')||(LA16_853>='#' && LA16_853<='\uFFFF')) ) {s = 50;}
+            int LA16_706 = input.LA(1);
+            if ( (LA16_706=='t') ) {s = 857;}
+            else if ( ((LA16_706>='\u0000' && LA16_706<='s')||(LA16_706>='u' && LA16_706<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition431(IntStream input) {
             int s = -1;
-            int LA16_243 = input.LA(1);
-            if ( (LA16_243=='a') ) {s = 384;}
-            else if ( ((LA16_243>='\u0000' && LA16_243<='`')||(LA16_243>='b' && LA16_243<='\uFFFF')) ) {s = 50;}
+            int LA16_857 = input.LA(1);
+            if ( (LA16_857=='\"') ) {s = 993;}
+            else if ( ((LA16_857>='\u0000' && LA16_857<='!')||(LA16_857>='#' && LA16_857<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition432(IntStream input) {
             int s = -1;
-            int LA16_384 = input.LA(1);
-            if ( (LA16_384=='l') ) {s = 541;}
-            else if ( ((LA16_384>='\u0000' && LA16_384<='k')||(LA16_384>='m' && LA16_384<='\uFFFF')) ) {s = 50;}
+            int LA16_249 = input.LA(1);
+            if ( (LA16_249=='a') ) {s = 390;}
+            else if ( ((LA16_249>='\u0000' && LA16_249<='`')||(LA16_249>='b' && LA16_249<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition433(IntStream input) {
             int s = -1;
-            int LA16_541 = input.LA(1);
-            if ( (LA16_541=='e') ) {s = 700;}
-            else if ( ((LA16_541>='\u0000' && LA16_541<='d')||(LA16_541>='f' && LA16_541<='\uFFFF')) ) {s = 50;}
+            int LA16_390 = input.LA(1);
+            if ( (LA16_390=='l') ) {s = 547;}
+            else if ( ((LA16_390>='\u0000' && LA16_390<='k')||(LA16_390>='m' && LA16_390<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition434(IntStream input) {
             int s = -1;
-            int LA16_700 = input.LA(1);
-            if ( (LA16_700=='\"') ) {s = 852;}
-            else if ( ((LA16_700>='\u0000' && LA16_700<='!')||(LA16_700>='#' && LA16_700<='\uFFFF')) ) {s = 50;}
+            int LA16_547 = input.LA(1);
+            if ( (LA16_547=='e') ) {s = 705;}
+            else if ( ((LA16_547>='\u0000' && LA16_547<='d')||(LA16_547>='f' && LA16_547<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition435(IntStream input) {
+            int s = -1;
+            int LA16_705 = input.LA(1);
+            if ( (LA16_705=='\"') ) {s = 856;}
+            else if ( ((LA16_705>='\u0000' && LA16_705<='!')||(LA16_705>='#' && LA16_705<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition436(IntStream input) {
             int s = -1;
             int LA16_109 = input.LA(1);
             if ( (LA16_109=='n') ) {s = 215;}
             else if ( ((LA16_109>='\u0000' && LA16_109<='m')||(LA16_109>='o' && LA16_109<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition436(IntStream input) {
+        protected int specialStateTransition437(IntStream input) {
             int s = -1;
             int LA16_215 = input.LA(1);
             if ( (LA16_215=='o') ) {s = 355;}
             else if ( ((LA16_215>='\u0000' && LA16_215<='n')||(LA16_215>='p' && LA16_215<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition437(IntStream input) {
+        protected int specialStateTransition438(IntStream input) {
             int s = -1;
             int LA16_355 = input.LA(1);
             if ( (LA16_355=='r') ) {s = 511;}
             else if ( ((LA16_355>='\u0000' && LA16_355<='q')||(LA16_355>='s' && LA16_355<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition438(IntStream input) {
+        protected int specialStateTransition439(IntStream input) {
             int s = -1;
             int LA16_511 = input.LA(1);
             if ( (LA16_511=='e') ) {s = 666;}
             else if ( ((LA16_511>='\u0000' && LA16_511<='d')||(LA16_511>='f' && LA16_511<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition439(IntStream input) {
+        protected int specialStateTransition440(IntStream input) {
             int s = -1;
             int LA16_666 = input.LA(1);
             if ( (LA16_666=='_') ) {s = 817;}
             else if ( ((LA16_666>='\u0000' && LA16_666<='^')||(LA16_666>='`' && LA16_666<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition440(IntStream input) {
+        protected int specialStateTransition441(IntStream input) {
             int s = -1;
             int LA16_817 = input.LA(1);
             if ( (LA16_817=='t') ) {s = 958;}
             else if ( ((LA16_817>='\u0000' && LA16_817<='s')||(LA16_817>='u' && LA16_817<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition441(IntStream input) {
+        protected int specialStateTransition442(IntStream input) {
             int s = -1;
             int LA16_958 = input.LA(1);
             if ( (LA16_958=='f') ) {s = 1083;}
             else if ( ((LA16_958>='\u0000' && LA16_958<='e')||(LA16_958>='g' && LA16_958<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition442(IntStream input) {
+        protected int specialStateTransition443(IntStream input) {
             int s = -1;
             int LA16_1083 = input.LA(1);
             if ( (LA16_1083=='\"') ) {s = 1189;}
             else if ( ((LA16_1083>='\u0000' && LA16_1083<='!')||(LA16_1083>='#' && LA16_1083<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition443(IntStream input) {
+        protected int specialStateTransition444(IntStream input) {
             int s = -1;
             int LA16_463 = input.LA(1);
             if ( (LA16_463=='u') ) {s = 622;}
             else if ( ((LA16_463>='\u0000' && LA16_463<='t')||(LA16_463>='v' && LA16_463<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition444(IntStream input) {
-            int s = -1;
-            int LA16_133 = input.LA(1);
-            if ( (LA16_133=='o') ) {s = 258;}
-            else if ( (LA16_133=='t') ) {s = 259;}
-            else if ( ((LA16_133>='\u0000' && LA16_133<='n')||(LA16_133>='p' && LA16_133<='s')||(LA16_133>='u' && LA16_133<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition445(IntStream input) {
@@ -17371,227 +17338,232 @@ public class InternalSearchDslLexer extends Lexer {
         }
         protected int specialStateTransition447(IntStream input) {
             int s = -1;
+            int LA16_108 = input.LA(1);
+            if ( (LA16_108=='t') ) {s = 210;}
+            else if ( (LA16_108=='d') ) {s = 211;}
+            else if ( (LA16_108=='_') ) {s = 212;}
+            else if ( (LA16_108=='c') ) {s = 213;}
+            else if ( (LA16_108=='\"') ) {s = 214;}
+            else if ( ((LA16_108>='\u0000' && LA16_108<='!')||(LA16_108>='#' && LA16_108<='^')||(LA16_108>='`' && LA16_108<='b')||(LA16_108>='e' && LA16_108<='s')||(LA16_108>='u' && LA16_108<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition448(IntStream input) {
+            int s = -1;
             int LA16_920 = input.LA(1);
             if ( (LA16_920=='y') ) {s = 1045;}
             else if ( ((LA16_920>='\u0000' && LA16_920<='x')||(LA16_920>='z' && LA16_920<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition448(IntStream input) {
+        protected int specialStateTransition449(IntStream input) {
             int s = -1;
             int LA16_1045 = input.LA(1);
             if ( (LA16_1045=='_') ) {s = 1157;}
             else if ( ((LA16_1045>='\u0000' && LA16_1045<='^')||(LA16_1045>='`' && LA16_1045<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition449(IntStream input) {
+        protected int specialStateTransition450(IntStream input) {
             int s = -1;
             int LA16_1157 = input.LA(1);
             if ( (LA16_1157=='t') ) {s = 1258;}
             else if ( ((LA16_1157>='\u0000' && LA16_1157<='s')||(LA16_1157>='u' && LA16_1157<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition450(IntStream input) {
+        protected int specialStateTransition451(IntStream input) {
             int s = -1;
             int LA16_1258 = input.LA(1);
             if ( (LA16_1258=='e') ) {s = 1346;}
             else if ( ((LA16_1258>='\u0000' && LA16_1258<='d')||(LA16_1258>='f' && LA16_1258<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition451(IntStream input) {
+        protected int specialStateTransition452(IntStream input) {
             int s = -1;
             int LA16_1346 = input.LA(1);
             if ( (LA16_1346=='r') ) {s = 1414;}
             else if ( ((LA16_1346>='\u0000' && LA16_1346<='q')||(LA16_1346>='s' && LA16_1346<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition452(IntStream input) {
+        protected int specialStateTransition453(IntStream input) {
             int s = -1;
             int LA16_1414 = input.LA(1);
             if ( (LA16_1414=='m') ) {s = 1478;}
             else if ( ((LA16_1414>='\u0000' && LA16_1414<='l')||(LA16_1414>='n' && LA16_1414<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition453(IntStream input) {
+        protected int specialStateTransition454(IntStream input) {
             int s = -1;
             int LA16_1478 = input.LA(1);
             if ( (LA16_1478=='s') ) {s = 1526;}
             else if ( ((LA16_1478>='\u0000' && LA16_1478<='r')||(LA16_1478>='t' && LA16_1478<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition454(IntStream input) {
+        protected int specialStateTransition455(IntStream input) {
             int s = -1;
             int LA16_1526 = input.LA(1);
             if ( (LA16_1526=='\"') ) {s = 1564;}
             else if ( ((LA16_1526>='\u0000' && LA16_1526<='!')||(LA16_1526>='#' && LA16_1526<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition455(IntStream input) {
+        protected int specialStateTransition456(IntStream input) {
             int s = -1;
             int LA16_443 = input.LA(1);
             if ( (LA16_443=='n') ) {s = 604;}
             else if ( ((LA16_443>='\u0000' && LA16_443<='m')||(LA16_443>='o' && LA16_443<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition456(IntStream input) {
+        protected int specialStateTransition457(IntStream input) {
             int s = -1;
             int LA16_604 = input.LA(1);
             if ( (LA16_604=='e') ) {s = 760;}
             else if ( ((LA16_604>='\u0000' && LA16_604<='d')||(LA16_604>='f' && LA16_604<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition457(IntStream input) {
+        protected int specialStateTransition458(IntStream input) {
             int s = -1;
             int LA16_760 = input.LA(1);
             if ( (LA16_760=='s') ) {s = 904;}
             else if ( ((LA16_760>='\u0000' && LA16_760<='r')||(LA16_760>='t' && LA16_760<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition458(IntStream input) {
+        protected int specialStateTransition459(IntStream input) {
+            int s = -1;
+            int LA16_133 = input.LA(1);
+            if ( (LA16_133=='o') ) {s = 258;}
+            else if ( (LA16_133=='t') ) {s = 259;}
+            else if ( ((LA16_133>='\u0000' && LA16_133<='n')||(LA16_133>='p' && LA16_133<='s')||(LA16_133>='u' && LA16_133<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition460(IntStream input) {
             int s = -1;
             int LA16_904 = input.LA(1);
             if ( (LA16_904=='s') ) {s = 1032;}
             else if ( ((LA16_904>='\u0000' && LA16_904<='r')||(LA16_904>='t' && LA16_904<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition459(IntStream input) {
+        protected int specialStateTransition461(IntStream input) {
             int s = -1;
             int LA16_1032 = input.LA(1);
             if ( (LA16_1032=='\"') ) {s = 1145;}
             else if ( ((LA16_1032>='\u0000' && LA16_1032<='!')||(LA16_1032>='#' && LA16_1032<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition460(IntStream input) {
+        protected int specialStateTransition462(IntStream input) {
             int s = -1;
             int LA16_869 = input.LA(1);
             if ( (LA16_869=='l') ) {s = 1004;}
             else if ( ((LA16_869>='\u0000' && LA16_869<='k')||(LA16_869>='m' && LA16_869<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition461(IntStream input) {
+        protected int specialStateTransition463(IntStream input) {
             int s = -1;
             int LA16_1004 = input.LA(1);
             if ( (LA16_1004=='e') ) {s = 1122;}
             else if ( ((LA16_1004>='\u0000' && LA16_1004<='d')||(LA16_1004>='f' && LA16_1004<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition462(IntStream input) {
+        protected int specialStateTransition464(IntStream input) {
             int s = -1;
             int LA16_1122 = input.LA(1);
             if ( (LA16_1122=='n') ) {s = 1226;}
             else if ( ((LA16_1122>='\u0000' && LA16_1122<='m')||(LA16_1122>='o' && LA16_1122<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition463(IntStream input) {
+        protected int specialStateTransition465(IntStream input) {
             int s = -1;
             int LA16_1226 = input.LA(1);
             if ( (LA16_1226=='g') ) {s = 1320;}
             else if ( ((LA16_1226>='\u0000' && LA16_1226<='f')||(LA16_1226>='h' && LA16_1226<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition464(IntStream input) {
+        protected int specialStateTransition466(IntStream input) {
             int s = -1;
             int LA16_1320 = input.LA(1);
             if ( (LA16_1320=='t') ) {s = 1395;}
             else if ( ((LA16_1320>='\u0000' && LA16_1320<='s')||(LA16_1320>='u' && LA16_1320<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition465(IntStream input) {
+        protected int specialStateTransition467(IntStream input) {
             int s = -1;
             int LA16_1395 = input.LA(1);
             if ( (LA16_1395=='h') ) {s = 1461;}
             else if ( ((LA16_1395>='\u0000' && LA16_1395<='g')||(LA16_1395>='i' && LA16_1395<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition466(IntStream input) {
+        protected int specialStateTransition468(IntStream input) {
             int s = -1;
             int LA16_1461 = input.LA(1);
             if ( (LA16_1461=='\"') ) {s = 1514;}
             else if ( ((LA16_1461>='\u0000' && LA16_1461<='!')||(LA16_1461>='#' && LA16_1461<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition467(IntStream input) {
-            int s = -1;
-            int LA16_222 = input.LA(1);
-            if ( (LA16_222=='e') ) {s = 362;}
-            else if ( ((LA16_222>='\u0000' && LA16_222<='d')||(LA16_222>='f' && LA16_222<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition468(IntStream input) {
-            int s = -1;
-            int LA16_362 = input.LA(1);
-            if ( (LA16_362=='r') ) {s = 518;}
-            else if ( ((LA16_362>='\u0000' && LA16_362<='q')||(LA16_362>='s' && LA16_362<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
         protected int specialStateTransition469(IntStream input) {
-            int s = -1;
-            int LA16_518 = input.LA(1);
-            if ( (LA16_518=='s') ) {s = 673;}
-            else if ( ((LA16_518>='\u0000' && LA16_518<='r')||(LA16_518>='t' && LA16_518<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition470(IntStream input) {
-            int s = -1;
-            int LA16_673 = input.LA(1);
-            if ( (LA16_673=='e') ) {s = 824;}
-            else if ( ((LA16_673>='\u0000' && LA16_673<='d')||(LA16_673>='f' && LA16_673<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition471(IntStream input) {
-            int s = -1;
-            int LA16_824 = input.LA(1);
-            if ( (LA16_824=='_') ) {s = 964;}
-            else if ( ((LA16_824>='\u0000' && LA16_824<='^')||(LA16_824>='`' && LA16_824<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition472(IntStream input) {
             int s = -1;
             int LA16_464 = input.LA(1);
             if ( (LA16_464=='x') ) {s = 623;}
             else if ( ((LA16_464>='\u0000' && LA16_464<='w')||(LA16_464>='y' && LA16_464<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition473(IntStream input) {
+        protected int specialStateTransition470(IntStream input) {
+            int s = -1;
+            int LA16_266 = input.LA(1);
+            if ( (LA16_266=='e') ) {s = 410;}
+            else if ( (LA16_266=='a') ) {s = 411;}
+            else if ( ((LA16_266>='\u0000' && LA16_266<='`')||(LA16_266>='b' && LA16_266<='d')||(LA16_266>='f' && LA16_266<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition471(IntStream input) {
             int s = -1;
             int LA16_623 = input.LA(1);
             if ( (LA16_623=='p') ) {s = 778;}
             else if ( ((LA16_623>='\u0000' && LA16_623<='o')||(LA16_623>='q' && LA16_623<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition474(IntStream input) {
+        protected int specialStateTransition472(IntStream input) {
             int s = -1;
-            int LA16_964 = input.LA(1);
-            if ( (LA16_964=='c') ) {s = 1088;}
-            else if ( (LA16_964=='t') ) {s = 1089;}
-            else if ( ((LA16_964>='\u0000' && LA16_964<='b')||(LA16_964>='d' && LA16_964<='s')||(LA16_964>='u' && LA16_964<='\uFFFF')) ) {s = 50;}
+            int LA16_222 = input.LA(1);
+            if ( (LA16_222=='e') ) {s = 362;}
+            else if ( ((LA16_222>='\u0000' && LA16_222<='d')||(LA16_222>='f' && LA16_222<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition475(IntStream input) {
+        protected int specialStateTransition473(IntStream input) {
             int s = -1;
             int LA16_778 = input.LA(1);
             if ( (LA16_778=='a') ) {s = 921;}
             else if ( ((LA16_778>='\u0000' && LA16_778<='`')||(LA16_778>='b' && LA16_778<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition476(IntStream input) {
+        protected int specialStateTransition474(IntStream input) {
             int s = -1;
             int LA16_921 = input.LA(1);
             if ( (LA16_921=='n') ) {s = 1046;}
             else if ( ((LA16_921>='\u0000' && LA16_921<='m')||(LA16_921>='o' && LA16_921<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition477(IntStream input) {
+        protected int specialStateTransition475(IntStream input) {
+            int s = -1;
+            int LA16_362 = input.LA(1);
+            if ( (LA16_362=='r') ) {s = 518;}
+            else if ( ((LA16_362>='\u0000' && LA16_362<='q')||(LA16_362>='s' && LA16_362<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition476(IntStream input) {
             int s = -1;
             int LA16_1046 = input.LA(1);
             if ( (LA16_1046=='s') ) {s = 1158;}
             else if ( ((LA16_1046>='\u0000' && LA16_1046<='r')||(LA16_1046>='t' && LA16_1046<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition478(IntStream input) {
+        protected int specialStateTransition477(IntStream input) {
             int s = -1;
             int LA16_1158 = input.LA(1);
             if ( (LA16_1158=='i') ) {s = 1259;}
             else if ( ((LA16_1158>='\u0000' && LA16_1158<='h')||(LA16_1158>='j' && LA16_1158<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition478(IntStream input) {
+            int s = -1;
+            int LA16_518 = input.LA(1);
+            if ( (LA16_518=='s') ) {s = 673;}
+            else if ( ((LA16_518>='\u0000' && LA16_518<='r')||(LA16_518>='t' && LA16_518<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition479(IntStream input) {
@@ -17610,12 +17582,19 @@ public class InternalSearchDslLexer extends Lexer {
         }
         protected int specialStateTransition481(IntStream input) {
             int s = -1;
+            int LA16_673 = input.LA(1);
+            if ( (LA16_673=='e') ) {s = 824;}
+            else if ( ((LA16_673>='\u0000' && LA16_673<='d')||(LA16_673>='f' && LA16_673<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition482(IntStream input) {
+            int s = -1;
             int LA16_1415 = input.LA(1);
             if ( (LA16_1415=='s') ) {s = 1479;}
             else if ( ((LA16_1415>='\u0000' && LA16_1415<='r')||(LA16_1415>='t' && LA16_1415<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition482(IntStream input) {
+        protected int specialStateTransition483(IntStream input) {
             int s = -1;
             int LA16_111 = input.LA(1);
             if ( (LA16_111=='s') ) {s = 218;}
@@ -17623,22 +17602,92 @@ public class InternalSearchDslLexer extends Lexer {
             else if ( ((LA16_111>='\u0000' && LA16_111<='f')||(LA16_111>='h' && LA16_111<='r')||(LA16_111>='t' && LA16_111<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition483(IntStream input) {
+        protected int specialStateTransition484(IntStream input) {
             int s = -1;
             int LA16_1479 = input.LA(1);
             if ( (LA16_1479=='\"') ) {s = 1527;}
             else if ( ((LA16_1479>='\u0000' && LA16_1479<='!')||(LA16_1479>='#' && LA16_1479<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition484(IntStream input) {
+        protected int specialStateTransition485(IntStream input) {
             int s = -1;
-            int LA16_266 = input.LA(1);
-            if ( (LA16_266=='e') ) {s = 410;}
-            else if ( (LA16_266=='a') ) {s = 411;}
-            else if ( ((LA16_266>='\u0000' && LA16_266<='`')||(LA16_266>='b' && LA16_266<='d')||(LA16_266>='f' && LA16_266<='\uFFFF')) ) {s = 50;}
+            int LA16_824 = input.LA(1);
+            if ( (LA16_824=='_') ) {s = 964;}
+            else if ( ((LA16_824>='\u0000' && LA16_824<='^')||(LA16_824>='`' && LA16_824<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition485(IntStream input) {
+        protected int specialStateTransition486(IntStream input) {
+            int s = -1;
+            int LA16_964 = input.LA(1);
+            if ( (LA16_964=='c') ) {s = 1088;}
+            else if ( (LA16_964=='t') ) {s = 1089;}
+            else if ( ((LA16_964>='\u0000' && LA16_964<='b')||(LA16_964>='d' && LA16_964<='s')||(LA16_964>='u' && LA16_964<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition487(IntStream input) {
+            int s = -1;
+            int LA16_581 = input.LA(1);
+            if ( (LA16_581=='m') ) {s = 734;}
+            else if ( ((LA16_581>='\u0000' && LA16_581<='l')||(LA16_581>='n' && LA16_581<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition488(IntStream input) {
+            int s = -1;
+            int LA16_734 = input.LA(1);
+            if ( (LA16_734=='o') ) {s = 884;}
+            else if ( ((LA16_734>='\u0000' && LA16_734<='n')||(LA16_734>='p' && LA16_734<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition489(IntStream input) {
+            int s = -1;
+            int LA16_884 = input.LA(1);
+            if ( (LA16_884=='d') ) {s = 1016;}
+            else if ( ((LA16_884>='\u0000' && LA16_884<='c')||(LA16_884>='e' && LA16_884<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition490(IntStream input) {
+            int s = -1;
+            int LA16_1016 = input.LA(1);
+            if ( (LA16_1016=='e') ) {s = 1131;}
+            else if ( ((LA16_1016>='\u0000' && LA16_1016<='d')||(LA16_1016>='f' && LA16_1016<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition491(IntStream input) {
+            int s = -1;
+            int LA16_1131 = input.LA(1);
+            if ( (LA16_1131=='\"') ) {s = 1235;}
+            else if ( ((LA16_1131>='\u0000' && LA16_1131<='!')||(LA16_1131>='#' && LA16_1131<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition492(IntStream input) {
+            int s = -1;
+            int LA16_350 = input.LA(1);
+            if ( (LA16_350=='c') ) {s = 507;}
+            else if ( ((LA16_350>='\u0000' && LA16_350<='b')||(LA16_350>='d' && LA16_350<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition493(IntStream input) {
+            int s = -1;
+            int LA16_507 = input.LA(1);
+            if ( (LA16_507=='e') ) {s = 662;}
+            else if ( ((LA16_507>='\u0000' && LA16_507<='d')||(LA16_507>='f' && LA16_507<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition494(IntStream input) {
+            int s = -1;
+            int LA16_662 = input.LA(1);
+            if ( (LA16_662=='s') ) {s = 813;}
+            else if ( ((LA16_662>='\u0000' && LA16_662<='r')||(LA16_662>='t' && LA16_662<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition495(IntStream input) {
+            int s = -1;
+            int LA16_813 = input.LA(1);
+            if ( (LA16_813=='\"') ) {s = 954;}
+            else if ( ((LA16_813>='\u0000' && LA16_813<='!')||(LA16_813>='#' && LA16_813<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition496(IntStream input) {
             int s = -1;
             int LA16_86 = input.LA(1);
             if ( (LA16_86=='s') ) {s = 180;}
@@ -17646,98 +17695,91 @@ public class InternalSearchDslLexer extends Lexer {
             else if ( ((LA16_86>='\u0000' && LA16_86<='m')||(LA16_86>='o' && LA16_86<='r')||(LA16_86>='t' && LA16_86<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition486(IntStream input) {
-            int s = -1;
-            int LA16_581 = input.LA(1);
-            if ( (LA16_581=='m') ) {s = 734;}
-            else if ( ((LA16_581>='\u0000' && LA16_581<='l')||(LA16_581>='n' && LA16_581<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition487(IntStream input) {
-            int s = -1;
-            int LA16_734 = input.LA(1);
-            if ( (LA16_734=='o') ) {s = 884;}
-            else if ( ((LA16_734>='\u0000' && LA16_734<='n')||(LA16_734>='p' && LA16_734<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition488(IntStream input) {
-            int s = -1;
-            int LA16_884 = input.LA(1);
-            if ( (LA16_884=='d') ) {s = 1016;}
-            else if ( ((LA16_884>='\u0000' && LA16_884<='c')||(LA16_884>='e' && LA16_884<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition489(IntStream input) {
-            int s = -1;
-            int LA16_1016 = input.LA(1);
-            if ( (LA16_1016=='e') ) {s = 1131;}
-            else if ( ((LA16_1016>='\u0000' && LA16_1016<='d')||(LA16_1016>='f' && LA16_1016<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition490(IntStream input) {
-            int s = -1;
-            int LA16_1131 = input.LA(1);
-            if ( (LA16_1131=='\"') ) {s = 1235;}
-            else if ( ((LA16_1131>='\u0000' && LA16_1131<='!')||(LA16_1131>='#' && LA16_1131<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition491(IntStream input) {
+        protected int specialStateTransition497(IntStream input) {
             int s = -1;
             int LA16_136 = input.LA(1);
             if ( (LA16_136=='r') ) {s = 262;}
             else if ( ((LA16_136>='\u0000' && LA16_136<='q')||(LA16_136>='s' && LA16_136<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition492(IntStream input) {
+        protected int specialStateTransition498(IntStream input) {
             int s = -1;
             int LA16_262 = input.LA(1);
             if ( (LA16_262=='a') ) {s = 404;}
             else if ( ((LA16_262>='\u0000' && LA16_262<='`')||(LA16_262>='b' && LA16_262<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition493(IntStream input) {
+        protected int specialStateTransition499(IntStream input) {
             int s = -1;
-            int LA16_350 = input.LA(1);
-            if ( (LA16_350=='c') ) {s = 507;}
-            else if ( ((LA16_350>='\u0000' && LA16_350<='b')||(LA16_350>='d' && LA16_350<='\uFFFF')) ) {s = 50;}
+            int LA16_255 = input.LA(1);
+            if ( (LA16_255=='e') ) {s = 396;}
+            else if ( ((LA16_255>='\u0000' && LA16_255<='d')||(LA16_255>='f' && LA16_255<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition494(IntStream input) {
+        protected int specialStateTransition500(IntStream input) {
+            int s = -1;
+            int LA16_396 = input.LA(1);
+            if ( (LA16_396=='_') ) {s = 552;}
+            else if ( ((LA16_396>='\u0000' && LA16_396<='^')||(LA16_396>='`' && LA16_396<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition501(IntStream input) {
             int s = -1;
             int LA16_404 = input.LA(1);
             if ( (LA16_404=='s') ) {s = 561;}
             else if ( ((LA16_404>='\u0000' && LA16_404<='r')||(LA16_404>='t' && LA16_404<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition495(IntStream input) {
+        protected int specialStateTransition502(IntStream input) {
             int s = -1;
-            int LA16_507 = input.LA(1);
-            if ( (LA16_507=='e') ) {s = 662;}
-            else if ( ((LA16_507>='\u0000' && LA16_507<='d')||(LA16_507>='f' && LA16_507<='\uFFFF')) ) {s = 50;}
+            int LA16_552 = input.LA(1);
+            if ( (LA16_552=='t') ) {s = 708;}
+            else if ( ((LA16_552>='\u0000' && LA16_552<='s')||(LA16_552>='u' && LA16_552<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition496(IntStream input) {
+        protected int specialStateTransition503(IntStream input) {
             int s = -1;
-            int LA16_662 = input.LA(1);
-            if ( (LA16_662=='s') ) {s = 813;}
-            else if ( ((LA16_662>='\u0000' && LA16_662<='r')||(LA16_662>='t' && LA16_662<='\uFFFF')) ) {s = 50;}
+            int LA16_708 = input.LA(1);
+            if ( (LA16_708=='e') ) {s = 858;}
+            else if ( ((LA16_708>='\u0000' && LA16_708<='d')||(LA16_708>='f' && LA16_708<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition497(IntStream input) {
+        protected int specialStateTransition504(IntStream input) {
             int s = -1;
             int LA16_561 = input.LA(1);
             if ( (LA16_561=='e') ) {s = 717;}
             else if ( ((LA16_561>='\u0000' && LA16_561<='d')||(LA16_561>='f' && LA16_561<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition498(IntStream input) {
+        protected int specialStateTransition505(IntStream input) {
             int s = -1;
-            int LA16_813 = input.LA(1);
-            if ( (LA16_813=='\"') ) {s = 954;}
-            else if ( ((LA16_813>='\u0000' && LA16_813<='!')||(LA16_813>='#' && LA16_813<='\uFFFF')) ) {s = 50;}
+            int LA16_858 = input.LA(1);
+            if ( (LA16_858=='x') ) {s = 994;}
+            else if ( ((LA16_858>='\u0000' && LA16_858<='w')||(LA16_858>='y' && LA16_858<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition499(IntStream input) {
+        protected int specialStateTransition506(IntStream input) {
+            int s = -1;
+            int LA16_994 = input.LA(1);
+            if ( (LA16_994=='t') ) {s = 1114;}
+            else if ( ((LA16_994>='\u0000' && LA16_994<='s')||(LA16_994>='u' && LA16_994<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition507(IntStream input) {
+            int s = -1;
+            int LA16_101 = input.LA(1);
+            if ( (LA16_101=='o') ) {s = 200;}
+            else if ( ((LA16_101>='\u0000' && LA16_101<='n')||(LA16_101>='p' && LA16_101<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition508(IntStream input) {
+            int s = -1;
+            int LA16_1114 = input.LA(1);
+            if ( (LA16_1114=='\"') ) {s = 1218;}
+            else if ( ((LA16_1114>='\u0000' && LA16_1114<='!')||(LA16_1114>='#' && LA16_1114<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition509(IntStream input) {
             int s = -1;
             int LA16_717 = input.LA(1);
             if ( (LA16_717=='_') ) {s = 867;}
@@ -17745,63 +17787,7 @@ public class InternalSearchDslLexer extends Lexer {
             else if ( ((LA16_717>='\u0000' && LA16_717<='!')||(LA16_717>='#' && LA16_717<='^')||(LA16_717>='`' && LA16_717<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition500(IntStream input) {
-            int s = -1;
-            int LA16_249 = input.LA(1);
-            if ( (LA16_249=='e') ) {s = 390;}
-            else if ( ((LA16_249>='\u0000' && LA16_249<='d')||(LA16_249>='f' && LA16_249<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition501(IntStream input) {
-            int s = -1;
-            int LA16_390 = input.LA(1);
-            if ( (LA16_390=='_') ) {s = 546;}
-            else if ( ((LA16_390>='\u0000' && LA16_390<='^')||(LA16_390>='`' && LA16_390<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition502(IntStream input) {
-            int s = -1;
-            int LA16_546 = input.LA(1);
-            if ( (LA16_546=='t') ) {s = 703;}
-            else if ( ((LA16_546>='\u0000' && LA16_546<='s')||(LA16_546>='u' && LA16_546<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition503(IntStream input) {
-            int s = -1;
-            int LA16_703 = input.LA(1);
-            if ( (LA16_703=='e') ) {s = 854;}
-            else if ( ((LA16_703>='\u0000' && LA16_703<='d')||(LA16_703>='f' && LA16_703<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition504(IntStream input) {
-            int s = -1;
-            int LA16_854 = input.LA(1);
-            if ( (LA16_854=='x') ) {s = 990;}
-            else if ( ((LA16_854>='\u0000' && LA16_854<='w')||(LA16_854>='y' && LA16_854<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition505(IntStream input) {
-            int s = -1;
-            int LA16_990 = input.LA(1);
-            if ( (LA16_990=='t') ) {s = 1111;}
-            else if ( ((LA16_990>='\u0000' && LA16_990<='s')||(LA16_990>='u' && LA16_990<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition506(IntStream input) {
-            int s = -1;
-            int LA16_101 = input.LA(1);
-            if ( (LA16_101=='o') ) {s = 200;}
-            else if ( ((LA16_101>='\u0000' && LA16_101<='n')||(LA16_101>='p' && LA16_101<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition507(IntStream input) {
-            int s = -1;
-            int LA16_1111 = input.LA(1);
-            if ( (LA16_1111=='\"') ) {s = 1214;}
-            else if ( ((LA16_1111>='\u0000' && LA16_1111<='!')||(LA16_1111>='#' && LA16_1111<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition508(IntStream input) {
+        protected int specialStateTransition510(IntStream input) {
             int s = -1;
             int LA16_200 = input.LA(1);
             if ( (LA16_200=='_') ) {s = 336;}
@@ -17809,210 +17795,194 @@ public class InternalSearchDslLexer extends Lexer {
             else if ( ((LA16_200>='\u0000' && LA16_200<='^')||(LA16_200>='`' && LA16_200<='g')||(LA16_200>='i' && LA16_200<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition509(IntStream input) {
+        protected int specialStateTransition511(IntStream input) {
             int s = -1;
-            int LA16_239 = input.LA(1);
-            if ( (LA16_239=='\"') ) {s = 379;}
-            else if ( ((LA16_239>='\u0000' && LA16_239<='!')||(LA16_239>='#' && LA16_239<='\uFFFF')) ) {s = 50;}
+            int LA16_245 = input.LA(1);
+            if ( (LA16_245=='\"') ) {s = 385;}
+            else if ( ((LA16_245>='\u0000' && LA16_245<='!')||(LA16_245>='#' && LA16_245<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition510(IntStream input) {
+        protected int specialStateTransition512(IntStream input) {
             int s = -1;
             int LA16_212 = input.LA(1);
             if ( (LA16_212=='o') ) {s = 351;}
             else if ( ((LA16_212>='\u0000' && LA16_212<='n')||(LA16_212>='p' && LA16_212<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition511(IntStream input) {
+        protected int specialStateTransition513(IntStream input) {
             int s = -1;
             int LA16_351 = input.LA(1);
             if ( (LA16_351=='r') ) {s = 508;}
             else if ( ((LA16_351>='\u0000' && LA16_351<='q')||(LA16_351>='s' && LA16_351<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition512(IntStream input) {
+        protected int specialStateTransition514(IntStream input) {
             int s = -1;
             int LA16_508 = input.LA(1);
             if ( (LA16_508=='d') ) {s = 663;}
             else if ( ((LA16_508>='\u0000' && LA16_508<='c')||(LA16_508>='e' && LA16_508<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition513(IntStream input) {
+        protected int specialStateTransition515(IntStream input) {
             int s = -1;
             int LA16_663 = input.LA(1);
             if ( (LA16_663=='e') ) {s = 814;}
             else if ( ((LA16_663>='\u0000' && LA16_663<='d')||(LA16_663>='f' && LA16_663<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition514(IntStream input) {
+        protected int specialStateTransition516(IntStream input) {
             int s = -1;
             int LA16_814 = input.LA(1);
             if ( (LA16_814=='r') ) {s = 955;}
             else if ( ((LA16_814>='\u0000' && LA16_814<='q')||(LA16_814>='s' && LA16_814<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition515(IntStream input) {
+        protected int specialStateTransition517(IntStream input) {
             int s = -1;
             int LA16_955 = input.LA(1);
             if ( (LA16_955=='\"') ) {s = 1080;}
             else if ( ((LA16_955>='\u0000' && LA16_955<='!')||(LA16_955>='#' && LA16_955<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition516(IntStream input) {
-            int s = -1;
-            int LA16_442 = input.LA(1);
-            if ( (LA16_442=='_') ) {s = 602;}
-            else if ( (LA16_442=='\"') ) {s = 603;}
-            else if ( ((LA16_442>='\u0000' && LA16_442<='!')||(LA16_442>='#' && LA16_442<='^')||(LA16_442>='`' && LA16_442<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition517(IntStream input) {
-            int s = -1;
-            int LA16_228 = input.LA(1);
-            if ( (LA16_228=='l') ) {s = 368;}
-            else if ( ((LA16_228>='\u0000' && LA16_228<='k')||(LA16_228>='m' && LA16_228<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
         protected int specialStateTransition518(IntStream input) {
             int s = -1;
-            int LA16_368 = input.LA(1);
-            if ( (LA16_368=='e') ) {s = 525;}
-            else if ( ((LA16_368>='\u0000' && LA16_368<='d')||(LA16_368>='f' && LA16_368<='\uFFFF')) ) {s = 50;}
+            int LA16_234 = input.LA(1);
+            if ( (LA16_234=='l') ) {s = 374;}
+            else if ( ((LA16_234>='\u0000' && LA16_234<='k')||(LA16_234>='m' && LA16_234<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition519(IntStream input) {
             int s = -1;
-            int LA16_525 = input.LA(1);
-            if ( (LA16_525=='c') ) {s = 684;}
-            else if ( ((LA16_525>='\u0000' && LA16_525<='b')||(LA16_525>='d' && LA16_525<='\uFFFF')) ) {s = 50;}
+            int LA16_374 = input.LA(1);
+            if ( (LA16_374=='e') ) {s = 531;}
+            else if ( ((LA16_374>='\u0000' && LA16_374<='d')||(LA16_374>='f' && LA16_374<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition520(IntStream input) {
             int s = -1;
-            int LA16_684 = input.LA(1);
-            if ( (LA16_684=='t') ) {s = 836;}
-            else if ( ((LA16_684>='\u0000' && LA16_684<='s')||(LA16_684>='u' && LA16_684<='\uFFFF')) ) {s = 50;}
+            int LA16_531 = input.LA(1);
+            if ( (LA16_531=='c') ) {s = 689;}
+            else if ( ((LA16_531>='\u0000' && LA16_531<='b')||(LA16_531>='d' && LA16_531<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition521(IntStream input) {
             int s = -1;
-            int LA16_836 = input.LA(1);
-            if ( (LA16_836=='_') ) {s = 972;}
-            else if ( ((LA16_836>='\u0000' && LA16_836<='^')||(LA16_836>='`' && LA16_836<='\uFFFF')) ) {s = 50;}
+            int LA16_689 = input.LA(1);
+            if ( (LA16_689=='t') ) {s = 840;}
+            else if ( ((LA16_689>='\u0000' && LA16_689<='s')||(LA16_689>='u' && LA16_689<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition522(IntStream input) {
             int s = -1;
-            int LA16_972 = input.LA(1);
-            if ( (LA16_972=='p') ) {s = 1095;}
-            else if ( ((LA16_972>='\u0000' && LA16_972<='o')||(LA16_972>='q' && LA16_972<='\uFFFF')) ) {s = 50;}
+            int LA16_840 = input.LA(1);
+            if ( (LA16_840=='_') ) {s = 976;}
+            else if ( ((LA16_840>='\u0000' && LA16_840<='^')||(LA16_840>='`' && LA16_840<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition523(IntStream input) {
             int s = -1;
-            int LA16_1095 = input.LA(1);
-            if ( (LA16_1095=='a') ) {s = 1201;}
-            else if ( ((LA16_1095>='\u0000' && LA16_1095<='`')||(LA16_1095>='b' && LA16_1095<='\uFFFF')) ) {s = 50;}
+            int LA16_976 = input.LA(1);
+            if ( (LA16_976=='p') ) {s = 1098;}
+            else if ( ((LA16_976>='\u0000' && LA16_976<='o')||(LA16_976>='q' && LA16_976<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition524(IntStream input) {
+            int s = -1;
+            int LA16_1098 = input.LA(1);
+            if ( (LA16_1098=='a') ) {s = 1205;}
+            else if ( ((LA16_1098>='\u0000' && LA16_1098<='`')||(LA16_1098>='b' && LA16_1098<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition525(IntStream input) {
+            int s = -1;
+            int LA16_1205 = input.LA(1);
+            if ( (LA16_1205=='y') ) {s = 1301;}
+            else if ( ((LA16_1205>='\u0000' && LA16_1205<='x')||(LA16_1205>='z' && LA16_1205<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition526(IntStream input) {
+            int s = -1;
+            int LA16_1301 = input.LA(1);
+            if ( (LA16_1301=='l') ) {s = 1379;}
+            else if ( ((LA16_1301>='\u0000' && LA16_1301<='k')||(LA16_1301>='m' && LA16_1301<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition527(IntStream input) {
+            int s = -1;
+            int LA16_1379 = input.LA(1);
+            if ( (LA16_1379=='o') ) {s = 1445;}
+            else if ( ((LA16_1379>='\u0000' && LA16_1379<='n')||(LA16_1379>='p' && LA16_1379<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition528(IntStream input) {
+            int s = -1;
+            int LA16_1445 = input.LA(1);
+            if ( (LA16_1445=='a') ) {s = 1502;}
+            else if ( ((LA16_1445>='\u0000' && LA16_1445<='`')||(LA16_1445>='b' && LA16_1445<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition529(IntStream input) {
+            int s = -1;
+            int LA16_1502 = input.LA(1);
+            if ( (LA16_1502=='d') ) {s = 1544;}
+            else if ( ((LA16_1502>='\u0000' && LA16_1502<='c')||(LA16_1502>='e' && LA16_1502<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition530(IntStream input) {
+            int s = -1;
+            int LA16_1544 = input.LA(1);
+            if ( (LA16_1544=='s') ) {s = 1576;}
+            else if ( ((LA16_1544>='\u0000' && LA16_1544<='r')||(LA16_1544>='t' && LA16_1544<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition531(IntStream input) {
+            int s = -1;
+            int LA16_1576 = input.LA(1);
+            if ( (LA16_1576=='\"') ) {s = 1602;}
+            else if ( ((LA16_1576>='\u0000' && LA16_1576<='!')||(LA16_1576>='#' && LA16_1576<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition532(IntStream input) {
             int s = -1;
             int LA16_155 = input.LA(1);
             if ( (LA16_155=='i') ) {s = 280;}
             else if ( ((LA16_155>='\u0000' && LA16_155<='h')||(LA16_155>='j' && LA16_155<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition525(IntStream input) {
-            int s = -1;
-            int LA16_1201 = input.LA(1);
-            if ( (LA16_1201=='y') ) {s = 1297;}
-            else if ( ((LA16_1201>='\u0000' && LA16_1201<='x')||(LA16_1201>='z' && LA16_1201<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition526(IntStream input) {
-            int s = -1;
-            int LA16_1297 = input.LA(1);
-            if ( (LA16_1297=='l') ) {s = 1376;}
-            else if ( ((LA16_1297>='\u0000' && LA16_1297<='k')||(LA16_1297>='m' && LA16_1297<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition527(IntStream input) {
+        protected int specialStateTransition533(IntStream input) {
             int s = -1;
             int LA16_280 = input.LA(1);
             if ( (LA16_280=='p') ) {s = 426;}
             else if ( ((LA16_280>='\u0000' && LA16_280<='o')||(LA16_280>='q' && LA16_280<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition528(IntStream input) {
-            int s = -1;
-            int LA16_1376 = input.LA(1);
-            if ( (LA16_1376=='o') ) {s = 1443;}
-            else if ( ((LA16_1376>='\u0000' && LA16_1376<='n')||(LA16_1376>='p' && LA16_1376<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition529(IntStream input) {
-            int s = -1;
-            int LA16_1443 = input.LA(1);
-            if ( (LA16_1443=='a') ) {s = 1500;}
-            else if ( ((LA16_1443>='\u0000' && LA16_1443<='`')||(LA16_1443>='b' && LA16_1443<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition530(IntStream input) {
-            int s = -1;
-            int LA16_426 = input.LA(1);
-            if ( (LA16_426=='t') ) {s = 580;}
-            else if ( ((LA16_426>='\u0000' && LA16_426<='s')||(LA16_426>='u' && LA16_426<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition531(IntStream input) {
-            int s = -1;
-            int LA16_1500 = input.LA(1);
-            if ( (LA16_1500=='d') ) {s = 1542;}
-            else if ( ((LA16_1500>='\u0000' && LA16_1500<='c')||(LA16_1500>='e' && LA16_1500<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition532(IntStream input) {
-            int s = -1;
-            int LA16_1542 = input.LA(1);
-            if ( (LA16_1542=='s') ) {s = 1574;}
-            else if ( ((LA16_1542>='\u0000' && LA16_1542<='r')||(LA16_1542>='t' && LA16_1542<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition533(IntStream input) {
-            int s = -1;
-            int LA16_580 = input.LA(1);
-            if ( (LA16_580=='\"') ) {s = 732;}
-            else if ( (LA16_580=='_') ) {s = 733;}
-            else if ( ((LA16_580>='\u0000' && LA16_580<='!')||(LA16_580>='#' && LA16_580<='^')||(LA16_580>='`' && LA16_580<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
         protected int specialStateTransition534(IntStream input) {
-            int s = -1;
-            int LA16_1574 = input.LA(1);
-            if ( (LA16_1574=='\"') ) {s = 1601;}
-            else if ( ((LA16_1574>='\u0000' && LA16_1574<='!')||(LA16_1574>='#' && LA16_1574<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition535(IntStream input) {
-            int s = -1;
-            int LA16_182 = input.LA(1);
-            if ( (LA16_182=='\"') ) {s = 311;}
-            else if ( (LA16_182=='_') ) {s = 312;}
-            else if ( ((LA16_182>='\u0000' && LA16_182<='!')||(LA16_182>='#' && LA16_182<='^')||(LA16_182>='`' && LA16_182<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition536(IntStream input) {
             int s = -1;
             int LA16_291 = input.LA(1);
             if ( (LA16_291=='o') ) {s = 438;}
             else if ( ((LA16_291>='\u0000' && LA16_291<='n')||(LA16_291>='p' && LA16_291<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition537(IntStream input) {
+        protected int specialStateTransition535(IntStream input) {
+            int s = -1;
+            int LA16_426 = input.LA(1);
+            if ( (LA16_426=='t') ) {s = 580;}
+            else if ( ((LA16_426>='\u0000' && LA16_426<='s')||(LA16_426>='u' && LA16_426<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition536(IntStream input) {
             int s = -1;
             int LA16_438 = input.LA(1);
             if ( (LA16_438=='r') ) {s = 599;}
             else if ( ((LA16_438>='\u0000' && LA16_438<='q')||(LA16_438>='s' && LA16_438<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition537(IntStream input) {
+            int s = -1;
+            int LA16_580 = input.LA(1);
+            if ( (LA16_580=='\"') ) {s = 732;}
+            else if ( (LA16_580=='_') ) {s = 733;}
+            else if ( ((LA16_580>='\u0000' && LA16_580<='!')||(LA16_580>='#' && LA16_580<='^')||(LA16_580>='`' && LA16_580<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition538(IntStream input) {
@@ -18066,376 +18036,368 @@ public class InternalSearchDslLexer extends Lexer {
         }
         protected int specialStateTransition545(IntStream input) {
             int s = -1;
+            int LA16_442 = input.LA(1);
+            if ( (LA16_442=='_') ) {s = 602;}
+            else if ( (LA16_442=='\"') ) {s = 603;}
+            else if ( ((LA16_442>='\u0000' && LA16_442<='!')||(LA16_442>='#' && LA16_442<='^')||(LA16_442>='`' && LA16_442<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition546(IntStream input) {
+            int s = -1;
             int LA16_1188 = input.LA(1);
             if ( (LA16_1188=='l') ) {s = 1284;}
             else if ( ((LA16_1188>='\u0000' && LA16_1188<='k')||(LA16_1188>='m' && LA16_1188<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition546(IntStream input) {
+        protected int specialStateTransition547(IntStream input) {
             int s = -1;
             int LA16_1284 = input.LA(1);
             if ( (LA16_1284=='_') ) {s = 1368;}
             else if ( ((LA16_1284>='\u0000' && LA16_1284<='^')||(LA16_1284>='`' && LA16_1284<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition547(IntStream input) {
+        protected int specialStateTransition548(IntStream input) {
             int s = -1;
             int LA16_1368 = input.LA(1);
             if ( (LA16_1368=='f') ) {s = 1437;}
             else if ( ((LA16_1368>='\u0000' && LA16_1368<='e')||(LA16_1368>='g' && LA16_1368<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition548(IntStream input) {
+        protected int specialStateTransition549(IntStream input) {
             int s = -1;
             int LA16_1437 = input.LA(1);
             if ( (LA16_1437=='a') ) {s = 1496;}
             else if ( ((LA16_1437>='\u0000' && LA16_1437<='`')||(LA16_1437>='b' && LA16_1437<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition549(IntStream input) {
+        protected int specialStateTransition550(IntStream input) {
             int s = -1;
             int LA16_1496 = input.LA(1);
             if ( (LA16_1496=='c') ) {s = 1540;}
             else if ( ((LA16_1496>='\u0000' && LA16_1496<='b')||(LA16_1496>='d' && LA16_1496<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition550(IntStream input) {
+        protected int specialStateTransition551(IntStream input) {
             int s = -1;
             int LA16_1540 = input.LA(1);
             if ( (LA16_1540=='t') ) {s = 1573;}
             else if ( ((LA16_1540>='\u0000' && LA16_1540<='s')||(LA16_1540>='u' && LA16_1540<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition551(IntStream input) {
+        protected int specialStateTransition552(IntStream input) {
             int s = -1;
             int LA16_1573 = input.LA(1);
             if ( (LA16_1573=='o') ) {s = 1600;}
             else if ( ((LA16_1573>='\u0000' && LA16_1573<='n')||(LA16_1573>='p' && LA16_1573<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition552(IntStream input) {
+        protected int specialStateTransition553(IntStream input) {
             int s = -1;
             int LA16_1600 = input.LA(1);
             if ( (LA16_1600=='r') ) {s = 1621;}
             else if ( ((LA16_1600>='\u0000' && LA16_1600<='q')||(LA16_1600>='s' && LA16_1600<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition553(IntStream input) {
+        protected int specialStateTransition554(IntStream input) {
             int s = -1;
             int LA16_1621 = input.LA(1);
             if ( (LA16_1621=='\"') ) {s = 1638;}
             else if ( ((LA16_1621>='\u0000' && LA16_1621<='!')||(LA16_1621>='#' && LA16_1621<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition554(IntStream input) {
+        protected int specialStateTransition555(IntStream input) {
+            int s = -1;
+            int LA16_182 = input.LA(1);
+            if ( (LA16_182=='\"') ) {s = 311;}
+            else if ( (LA16_182=='_') ) {s = 312;}
+            else if ( ((LA16_182>='\u0000' && LA16_182<='!')||(LA16_182>='#' && LA16_182<='^')||(LA16_182>='`' && LA16_182<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition556(IntStream input) {
             int s = -1;
             int LA16_82 = input.LA(1);
             if ( (LA16_82=='a') ) {s = 171;}
             else if ( ((LA16_82>='\u0000' && LA16_82<='`')||(LA16_82>='b' && LA16_82<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition555(IntStream input) {
+        protected int specialStateTransition557(IntStream input) {
             int s = -1;
             int LA16_171 = input.LA(1);
             if ( (LA16_171=='c') ) {s = 298;}
             else if ( ((LA16_171>='\u0000' && LA16_171<='b')||(LA16_171>='d' && LA16_171<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition556(IntStream input) {
+        protected int specialStateTransition558(IntStream input) {
             int s = -1;
             int LA16_298 = input.LA(1);
             if ( (LA16_298=='h') ) {s = 446;}
             else if ( ((LA16_298>='\u0000' && LA16_298<='g')||(LA16_298>='i' && LA16_298<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition557(IntStream input) {
+        protected int specialStateTransition559(IntStream input) {
             int s = -1;
             int LA16_446 = input.LA(1);
             if ( (LA16_446=='e') ) {s = 607;}
             else if ( ((LA16_446>='\u0000' && LA16_446<='d')||(LA16_446>='f' && LA16_446<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition558(IntStream input) {
+        protected int specialStateTransition560(IntStream input) {
             int s = -1;
             int LA16_607 = input.LA(1);
             if ( (LA16_607=='\"') ) {s = 763;}
             else if ( ((LA16_607>='\u0000' && LA16_607<='!')||(LA16_607>='#' && LA16_607<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition559(IntStream input) {
+        protected int specialStateTransition561(IntStream input) {
             int s = -1;
             int LA16_1061 = input.LA(1);
             if ( (LA16_1061=='t') ) {s = 1172;}
             else if ( ((LA16_1061>='\u0000' && LA16_1061<='s')||(LA16_1061>='u' && LA16_1061<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition560(IntStream input) {
+        protected int specialStateTransition562(IntStream input) {
             int s = -1;
             int LA16_1172 = input.LA(1);
             if ( (LA16_1172=='y') ) {s = 1272;}
             else if ( ((LA16_1172>='\u0000' && LA16_1172<='x')||(LA16_1172>='z' && LA16_1172<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition561(IntStream input) {
+        protected int specialStateTransition563(IntStream input) {
             int s = -1;
             int LA16_1272 = input.LA(1);
             if ( (LA16_1272=='p') ) {s = 1357;}
             else if ( ((LA16_1272>='\u0000' && LA16_1272<='o')||(LA16_1272>='q' && LA16_1272<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition562(IntStream input) {
+        protected int specialStateTransition564(IntStream input) {
             int s = -1;
             int LA16_1357 = input.LA(1);
             if ( (LA16_1357=='e') ) {s = 1425;}
             else if ( ((LA16_1357>='\u0000' && LA16_1357<='d')||(LA16_1357>='f' && LA16_1357<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition563(IntStream input) {
+        protected int specialStateTransition565(IntStream input) {
             int s = -1;
             int LA16_1425 = input.LA(1);
             if ( (LA16_1425=='\"') ) {s = 1487;}
             else if ( ((LA16_1425>='\u0000' && LA16_1425<='!')||(LA16_1425>='#' && LA16_1425<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition564(IntStream input) {
+        protected int specialStateTransition566(IntStream input) {
             int s = -1;
             int LA16_96 = input.LA(1);
             if ( (LA16_96=='c') ) {s = 194;}
             else if ( ((LA16_96>='\u0000' && LA16_96<='b')||(LA16_96>='d' && LA16_96<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition565(IntStream input) {
+        protected int specialStateTransition567(IntStream input) {
             int s = -1;
             int LA16_194 = input.LA(1);
             if ( (LA16_194=='\"') ) {s = 328;}
             else if ( ((LA16_194>='\u0000' && LA16_194<='!')||(LA16_194>='#' && LA16_194<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition566(IntStream input) {
+        protected int specialStateTransition568(IntStream input) {
             int s = -1;
             int LA16_429 = input.LA(1);
             if ( (LA16_429=='y') ) {s = 584;}
             else if ( ((LA16_429>='\u0000' && LA16_429<='x')||(LA16_429>='z' && LA16_429<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition567(IntStream input) {
+        protected int specialStateTransition569(IntStream input) {
             int s = -1;
             int LA16_584 = input.LA(1);
             if ( (LA16_584=='_') ) {s = 736;}
             else if ( ((LA16_584>='\u0000' && LA16_584<='^')||(LA16_584>='`' && LA16_584<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition568(IntStream input) {
+        protected int specialStateTransition570(IntStream input) {
             int s = -1;
             int LA16_736 = input.LA(1);
             if ( (LA16_736=='a') ) {s = 885;}
             else if ( ((LA16_736>='\u0000' && LA16_736<='`')||(LA16_736>='b' && LA16_736<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition569(IntStream input) {
+        protected int specialStateTransition571(IntStream input) {
             int s = -1;
             int LA16_885 = input.LA(1);
             if ( (LA16_885=='r') ) {s = 1017;}
             else if ( ((LA16_885>='\u0000' && LA16_885<='q')||(LA16_885>='s' && LA16_885<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition570(IntStream input) {
+        protected int specialStateTransition572(IntStream input) {
             int s = -1;
             int LA16_1017 = input.LA(1);
             if ( (LA16_1017=='c') ) {s = 1132;}
             else if ( ((LA16_1017>='\u0000' && LA16_1017<='b')||(LA16_1017>='d' && LA16_1017<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition571(IntStream input) {
+        protected int specialStateTransition573(IntStream input) {
             int s = -1;
             int LA16_1132 = input.LA(1);
             if ( (LA16_1132=='\"') ) {s = 1236;}
             else if ( ((LA16_1132>='\u0000' && LA16_1132<='!')||(LA16_1132>='#' && LA16_1132<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition572(IntStream input) {
-            int s = -1;
-            int LA16_30 = input.LA(1);
-            if ( (LA16_30=='v') ) {s = 91;}
-            else if ( (LA16_30=='s') ) {s = 92;}
-            else if ( (LA16_30=='l') ) {s = 93;}
-            else if ( (LA16_30=='n') ) {s = 94;}
-            else if ( (LA16_30=='u') ) {s = 95;}
-            else if ( (LA16_30=='r') ) {s = 96;}
-            else if ( ((LA16_30>='\u0000' && LA16_30<='k')||LA16_30=='m'||(LA16_30>='o' && LA16_30<='q')||LA16_30=='t'||(LA16_30>='w' && LA16_30<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition573(IntStream input) {
+        protected int specialStateTransition574(IntStream input) {
             int s = -1;
             int LA16_407 = input.LA(1);
             if ( (LA16_407=='e') ) {s = 564;}
             else if ( ((LA16_407>='\u0000' && LA16_407<='d')||(LA16_407>='f' && LA16_407<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition574(IntStream input) {
+        protected int specialStateTransition575(IntStream input) {
             int s = -1;
             int LA16_564 = input.LA(1);
             if ( (LA16_564=='\"') ) {s = 720;}
             else if ( ((LA16_564>='\u0000' && LA16_564<='!')||(LA16_564>='#' && LA16_564<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition575(IntStream input) {
+        protected int specialStateTransition576(IntStream input) {
             int s = -1;
             int LA16_176 = input.LA(1);
             if ( (LA16_176=='i') ) {s = 303;}
             else if ( ((LA16_176>='\u0000' && LA16_176<='h')||(LA16_176>='j' && LA16_176<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition576(IntStream input) {
+        protected int specialStateTransition577(IntStream input) {
             int s = -1;
             int LA16_303 = input.LA(1);
             if ( (LA16_303=='m') ) {s = 450;}
             else if ( ((LA16_303>='\u0000' && LA16_303<='l')||(LA16_303>='n' && LA16_303<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition577(IntStream input) {
+        protected int specialStateTransition578(IntStream input) {
             int s = -1;
             int LA16_450 = input.LA(1);
             if ( (LA16_450=='i') ) {s = 611;}
             else if ( ((LA16_450>='\u0000' && LA16_450<='h')||(LA16_450>='j' && LA16_450<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition578(IntStream input) {
+        protected int specialStateTransition579(IntStream input) {
             int s = -1;
             int LA16_611 = input.LA(1);
             if ( (LA16_611=='z') ) {s = 767;}
             else if ( ((LA16_611>='\u0000' && LA16_611<='y')||(LA16_611>='{' && LA16_611<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition579(IntStream input) {
+        protected int specialStateTransition580(IntStream input) {
             int s = -1;
             int LA16_767 = input.LA(1);
             if ( (LA16_767=='e') ) {s = 910;}
             else if ( ((LA16_767>='\u0000' && LA16_767<='d')||(LA16_767>='f' && LA16_767<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition580(IntStream input) {
+        protected int specialStateTransition581(IntStream input) {
             int s = -1;
             int LA16_910 = input.LA(1);
             if ( (LA16_910=='_') ) {s = 1035;}
             else if ( ((LA16_910>='\u0000' && LA16_910<='^')||(LA16_910>='`' && LA16_910<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition581(IntStream input) {
+        protected int specialStateTransition582(IntStream input) {
             int s = -1;
             int LA16_1035 = input.LA(1);
             if ( (LA16_1035=='b') ) {s = 1148;}
             else if ( ((LA16_1035>='\u0000' && LA16_1035<='a')||(LA16_1035>='c' && LA16_1035<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition582(IntStream input) {
+        protected int specialStateTransition583(IntStream input) {
             int s = -1;
             int LA16_1148 = input.LA(1);
             if ( (LA16_1148=='b') ) {s = 1249;}
             else if ( ((LA16_1148>='\u0000' && LA16_1148<='a')||(LA16_1148>='c' && LA16_1148<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition583(IntStream input) {
+        protected int specialStateTransition584(IntStream input) {
             int s = -1;
             int LA16_1249 = input.LA(1);
             if ( (LA16_1249=='o') ) {s = 1337;}
             else if ( ((LA16_1249>='\u0000' && LA16_1249<='n')||(LA16_1249>='p' && LA16_1249<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition584(IntStream input) {
+        protected int specialStateTransition585(IntStream input) {
             int s = -1;
             int LA16_1337 = input.LA(1);
             if ( (LA16_1337=='x') ) {s = 1405;}
             else if ( ((LA16_1337>='\u0000' && LA16_1337<='w')||(LA16_1337>='y' && LA16_1337<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition585(IntStream input) {
+        protected int specialStateTransition586(IntStream input) {
             int s = -1;
             int LA16_1405 = input.LA(1);
             if ( (LA16_1405=='\"') ) {s = 1470;}
             else if ( ((LA16_1405>='\u0000' && LA16_1405<='!')||(LA16_1405>='#' && LA16_1405<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition586(IntStream input) {
+        protected int specialStateTransition587(IntStream input) {
             int s = -1;
             int LA16_47 = input.LA(1);
             if ( (LA16_47=='s') ) {s = 142;}
             else if ( ((LA16_47>='\u0000' && LA16_47<='r')||(LA16_47>='t' && LA16_47<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition587(IntStream input) {
+        protected int specialStateTransition588(IntStream input) {
             int s = -1;
             int LA16_142 = input.LA(1);
             if ( (LA16_142=='e') ) {s = 269;}
             else if ( ((LA16_142>='\u0000' && LA16_142<='d')||(LA16_142>='f' && LA16_142<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition588(IntStream input) {
+        protected int specialStateTransition589(IntStream input) {
             int s = -1;
             int LA16_269 = input.LA(1);
             if ( (LA16_269=='_') ) {s = 414;}
             else if ( ((LA16_269>='\u0000' && LA16_269<='^')||(LA16_269>='`' && LA16_269<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition589(IntStream input) {
+        protected int specialStateTransition590(IntStream input) {
             int s = -1;
             int LA16_414 = input.LA(1);
             if ( (LA16_414=='d') ) {s = 571;}
             else if ( ((LA16_414>='\u0000' && LA16_414<='c')||(LA16_414>='e' && LA16_414<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition590(IntStream input) {
+        protected int specialStateTransition591(IntStream input) {
             int s = -1;
             int LA16_571 = input.LA(1);
             if ( (LA16_571=='i') ) {s = 726;}
             else if ( ((LA16_571>='\u0000' && LA16_571<='h')||(LA16_571>='j' && LA16_571<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition591(IntStream input) {
+        protected int specialStateTransition592(IntStream input) {
             int s = -1;
             int LA16_726 = input.LA(1);
             if ( (LA16_726=='s') ) {s = 877;}
             else if ( ((LA16_726>='\u0000' && LA16_726<='r')||(LA16_726>='t' && LA16_726<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition592(IntStream input) {
+        protected int specialStateTransition593(IntStream input) {
             int s = -1;
             int LA16_877 = input.LA(1);
             if ( (LA16_877=='_') ) {s = 1010;}
             else if ( ((LA16_877>='\u0000' && LA16_877<='^')||(LA16_877>='`' && LA16_877<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition593(IntStream input) {
+        protected int specialStateTransition594(IntStream input) {
             int s = -1;
             int LA16_1010 = input.LA(1);
             if ( (LA16_1010=='m') ) {s = 1125;}
             else if ( ((LA16_1010>='\u0000' && LA16_1010<='l')||(LA16_1010>='n' && LA16_1010<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition594(IntStream input) {
+        protected int specialStateTransition595(IntStream input) {
             int s = -1;
             int LA16_1125 = input.LA(1);
             if ( (LA16_1125=='a') ) {s = 1229;}
             else if ( ((LA16_1125>='\u0000' && LA16_1125<='`')||(LA16_1125>='b' && LA16_1125<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition595(IntStream input) {
+        protected int specialStateTransition596(IntStream input) {
             int s = -1;
             int LA16_1229 = input.LA(1);
             if ( (LA16_1229=='x') ) {s = 1323;}
             else if ( ((LA16_1229>='\u0000' && LA16_1229<='w')||(LA16_1229>='y' && LA16_1229<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition596(IntStream input) {
-            int s = -1;
-            int LA16_29 = input.LA(1);
-            if ( (LA16_29=='o') ) {s = 85;}
-            else if ( (LA16_29=='i') ) {s = 86;}
-            else if ( (LA16_29=='a') ) {s = 87;}
-            else if ( (LA16_29=='e') ) {s = 88;}
-            else if ( (LA16_29=='u') ) {s = 89;}
-            else if ( (LA16_29=='l') ) {s = 90;}
-            else if ( ((LA16_29>='\u0000' && LA16_29<='`')||(LA16_29>='b' && LA16_29<='d')||(LA16_29>='f' && LA16_29<='h')||(LA16_29>='j' && LA16_29<='k')||(LA16_29>='m' && LA16_29<='n')||(LA16_29>='p' && LA16_29<='t')||(LA16_29>='v' && LA16_29<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition597(IntStream input) {
@@ -18447,73 +18409,77 @@ public class InternalSearchDslLexer extends Lexer {
         }
         protected int specialStateTransition598(IntStream input) {
             int s = -1;
+            int LA16_30 = input.LA(1);
+            if ( (LA16_30=='v') ) {s = 91;}
+            else if ( (LA16_30=='s') ) {s = 92;}
+            else if ( (LA16_30=='l') ) {s = 93;}
+            else if ( (LA16_30=='n') ) {s = 94;}
+            else if ( (LA16_30=='u') ) {s = 95;}
+            else if ( (LA16_30=='r') ) {s = 96;}
+            else if ( ((LA16_30>='\u0000' && LA16_30<='k')||LA16_30=='m'||(LA16_30>='o' && LA16_30<='q')||LA16_30=='t'||(LA16_30>='w' && LA16_30<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition599(IntStream input) {
+            int s = -1;
             int LA16_185 = input.LA(1);
             if ( (LA16_185=='t') ) {s = 315;}
             else if ( ((LA16_185>='\u0000' && LA16_185<='s')||(LA16_185>='u' && LA16_185<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition599(IntStream input) {
+        protected int specialStateTransition600(IntStream input) {
             int s = -1;
             int LA16_315 = input.LA(1);
             if ( (LA16_315=='i') ) {s = 467;}
             else if ( ((LA16_315>='\u0000' && LA16_315<='h')||(LA16_315>='j' && LA16_315<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition600(IntStream input) {
+        protected int specialStateTransition601(IntStream input) {
             int s = -1;
             int LA16_467 = input.LA(1);
             if ( (LA16_467=='_') ) {s = 627;}
             else if ( ((LA16_467>='\u0000' && LA16_467<='^')||(LA16_467>='`' && LA16_467<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition601(IntStream input) {
+        protected int specialStateTransition602(IntStream input) {
             int s = -1;
             int LA16_627 = input.LA(1);
             if ( (LA16_627=='m') ) {s = 782;}
             else if ( ((LA16_627>='\u0000' && LA16_627<='l')||(LA16_627>='n' && LA16_627<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition602(IntStream input) {
+        protected int specialStateTransition603(IntStream input) {
             int s = -1;
             int LA16_782 = input.LA(1);
             if ( (LA16_782=='a') ) {s = 924;}
             else if ( ((LA16_782>='\u0000' && LA16_782<='`')||(LA16_782>='b' && LA16_782<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition603(IntStream input) {
+        protected int specialStateTransition604(IntStream input) {
             int s = -1;
             int LA16_924 = input.LA(1);
             if ( (LA16_924=='t') ) {s = 1048;}
             else if ( ((LA16_924>='\u0000' && LA16_924<='s')||(LA16_924>='u' && LA16_924<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition604(IntStream input) {
+        protected int specialStateTransition605(IntStream input) {
             int s = -1;
             int LA16_1048 = input.LA(1);
             if ( (LA16_1048=='c') ) {s = 1160;}
             else if ( ((LA16_1048>='\u0000' && LA16_1048<='b')||(LA16_1048>='d' && LA16_1048<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition605(IntStream input) {
+        protected int specialStateTransition606(IntStream input) {
             int s = -1;
             int LA16_1160 = input.LA(1);
             if ( (LA16_1160=='h') ) {s = 1261;}
             else if ( ((LA16_1160>='\u0000' && LA16_1160<='g')||(LA16_1160>='i' && LA16_1160<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition606(IntStream input) {
+        protected int specialStateTransition607(IntStream input) {
             int s = -1;
             int LA16_1261 = input.LA(1);
             if ( (LA16_1261=='\"') ) {s = 1348;}
             else if ( ((LA16_1261>='\u0000' && LA16_1261<='!')||(LA16_1261>='#' && LA16_1261<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition607(IntStream input) {
-            int s = -1;
-            int LA16_105 = input.LA(1);
-            if ( (LA16_105=='m') ) {s = 205;}
-            else if ( (LA16_105=='e') ) {s = 206;}
-            else if ( ((LA16_105>='\u0000' && LA16_105<='d')||(LA16_105>='f' && LA16_105<='l')||(LA16_105>='n' && LA16_105<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition608(IntStream input) {
@@ -18567,174 +18533,253 @@ public class InternalSearchDslLexer extends Lexer {
         }
         protected int specialStateTransition615(IntStream input) {
             int s = -1;
+            int LA16_105 = input.LA(1);
+            if ( (LA16_105=='m') ) {s = 205;}
+            else if ( (LA16_105=='e') ) {s = 206;}
+            else if ( ((LA16_105>='\u0000' && LA16_105<='d')||(LA16_105>='f' && LA16_105<='l')||(LA16_105>='n' && LA16_105<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition616(IntStream input) {
+            int s = -1;
             int LA16_1118 = input.LA(1);
             if ( (LA16_1118=='d') ) {s = 1222;}
             else if ( ((LA16_1118>='\u0000' && LA16_1118<='c')||(LA16_1118>='e' && LA16_1118<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition616(IntStream input) {
+        protected int specialStateTransition617(IntStream input) {
             int s = -1;
             int LA16_1222 = input.LA(1);
             if ( (LA16_1222=='s') ) {s = 1316;}
             else if ( ((LA16_1222>='\u0000' && LA16_1222<='r')||(LA16_1222>='t' && LA16_1222<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition617(IntStream input) {
+        protected int specialStateTransition618(IntStream input) {
             int s = -1;
             int LA16_1316 = input.LA(1);
             if ( (LA16_1316=='\"') ) {s = 1391;}
             else if ( ((LA16_1316>='\u0000' && LA16_1316<='!')||(LA16_1316>='#' && LA16_1316<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition618(IntStream input) {
+        protected int specialStateTransition619(IntStream input) {
             int s = -1;
             int LA16_178 = input.LA(1);
             if ( (LA16_178=='t') ) {s = 305;}
             else if ( ((LA16_178>='\u0000' && LA16_178<='s')||(LA16_178>='u' && LA16_178<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition619(IntStream input) {
+        protected int specialStateTransition620(IntStream input) {
             int s = -1;
             int LA16_305 = input.LA(1);
             if ( (LA16_305=='_') ) {s = 452;}
             else if ( ((LA16_305>='\u0000' && LA16_305<='^')||(LA16_305>='`' && LA16_305<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition620(IntStream input) {
+        protected int specialStateTransition621(IntStream input) {
             int s = -1;
             int LA16_452 = input.LA(1);
             if ( (LA16_452=='f') ) {s = 613;}
             else if ( ((LA16_452>='\u0000' && LA16_452<='e')||(LA16_452>='g' && LA16_452<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition621(IntStream input) {
+        protected int specialStateTransition622(IntStream input) {
             int s = -1;
             int LA16_613 = input.LA(1);
             if ( (LA16_613=='i') ) {s = 768;}
             else if ( ((LA16_613>='\u0000' && LA16_613<='h')||(LA16_613>='j' && LA16_613<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition622(IntStream input) {
+        protected int specialStateTransition623(IntStream input) {
             int s = -1;
             int LA16_768 = input.LA(1);
             if ( (LA16_768=='e') ) {s = 911;}
             else if ( ((LA16_768>='\u0000' && LA16_768<='d')||(LA16_768>='f' && LA16_768<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition623(IntStream input) {
+        protected int specialStateTransition624(IntStream input) {
             int s = -1;
             int LA16_911 = input.LA(1);
             if ( (LA16_911=='l') ) {s = 1036;}
             else if ( ((LA16_911>='\u0000' && LA16_911<='k')||(LA16_911>='m' && LA16_911<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition624(IntStream input) {
+        protected int specialStateTransition625(IntStream input) {
             int s = -1;
             int LA16_1036 = input.LA(1);
             if ( (LA16_1036=='d') ) {s = 1149;}
             else if ( ((LA16_1036>='\u0000' && LA16_1036<='c')||(LA16_1036>='e' && LA16_1036<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition625(IntStream input) {
+        protected int specialStateTransition626(IntStream input) {
             int s = -1;
             int LA16_1149 = input.LA(1);
             if ( (LA16_1149=='s') ) {s = 1250;}
             else if ( ((LA16_1149>='\u0000' && LA16_1149<='r')||(LA16_1149>='t' && LA16_1149<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition626(IntStream input) {
+        protected int specialStateTransition627(IntStream input) {
             int s = -1;
             int LA16_1250 = input.LA(1);
             if ( (LA16_1250=='\"') ) {s = 1338;}
             else if ( ((LA16_1250>='\u0000' && LA16_1250<='!')||(LA16_1250>='#' && LA16_1250<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition627(IntStream input) {
-            int s = -1;
-            int LA16_120 = input.LA(1);
-            if ( (LA16_120=='o') ) {s = 233;}
-            else if ( ((LA16_120>='\u0000' && LA16_120<='n')||(LA16_120>='p' && LA16_120<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
         protected int specialStateTransition628(IntStream input) {
             int s = -1;
-            int LA16_233 = input.LA(1);
-            if ( (LA16_233=='s') ) {s = 373;}
-            else if ( ((LA16_233>='\u0000' && LA16_233<='r')||(LA16_233>='t' && LA16_233<='\uFFFF')) ) {s = 50;}
+            int LA16_123 = input.LA(1);
+            if ( (LA16_123=='o') ) {s = 239;}
+            else if ( ((LA16_123>='\u0000' && LA16_123<='n')||(LA16_123>='p' && LA16_123<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition629(IntStream input) {
             int s = -1;
-            int LA16_373 = input.LA(1);
-            if ( (LA16_373=='s') ) {s = 530;}
-            else if ( ((LA16_373>='\u0000' && LA16_373<='r')||(LA16_373>='t' && LA16_373<='\uFFFF')) ) {s = 50;}
+            int LA16_239 = input.LA(1);
+            if ( (LA16_239=='s') ) {s = 379;}
+            else if ( ((LA16_239>='\u0000' && LA16_239<='r')||(LA16_239>='t' && LA16_239<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition630(IntStream input) {
             int s = -1;
-            int LA16_530 = input.LA(1);
-            if ( (LA16_530=='_') ) {s = 689;}
-            else if ( ((LA16_530>='\u0000' && LA16_530<='^')||(LA16_530>='`' && LA16_530<='\uFFFF')) ) {s = 50;}
+            int LA16_379 = input.LA(1);
+            if ( (LA16_379=='s') ) {s = 536;}
+            else if ( ((LA16_379>='\u0000' && LA16_379<='r')||(LA16_379>='t' && LA16_379<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition631(IntStream input) {
             int s = -1;
-            int LA16_689 = input.LA(1);
-            if ( (LA16_689=='f') ) {s = 841;}
-            else if ( ((LA16_689>='\u0000' && LA16_689<='e')||(LA16_689>='g' && LA16_689<='\uFFFF')) ) {s = 50;}
+            int LA16_536 = input.LA(1);
+            if ( (LA16_536=='_') ) {s = 694;}
+            else if ( ((LA16_536>='\u0000' && LA16_536<='^')||(LA16_536>='`' && LA16_536<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition632(IntStream input) {
             int s = -1;
-            int LA16_841 = input.LA(1);
-            if ( (LA16_841=='i') ) {s = 977;}
-            else if ( ((LA16_841>='\u0000' && LA16_841<='h')||(LA16_841>='j' && LA16_841<='\uFFFF')) ) {s = 50;}
+            int LA16_694 = input.LA(1);
+            if ( (LA16_694=='f') ) {s = 845;}
+            else if ( ((LA16_694>='\u0000' && LA16_694<='e')||(LA16_694>='g' && LA16_694<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition633(IntStream input) {
             int s = -1;
-            int LA16_977 = input.LA(1);
-            if ( (LA16_977=='e') ) {s = 1099;}
-            else if ( ((LA16_977>='\u0000' && LA16_977<='d')||(LA16_977>='f' && LA16_977<='\uFFFF')) ) {s = 50;}
+            int LA16_845 = input.LA(1);
+            if ( (LA16_845=='i') ) {s = 981;}
+            else if ( ((LA16_845>='\u0000' && LA16_845<='h')||(LA16_845>='j' && LA16_845<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition634(IntStream input) {
             int s = -1;
-            int LA16_1099 = input.LA(1);
-            if ( (LA16_1099=='l') ) {s = 1205;}
-            else if ( ((LA16_1099>='\u0000' && LA16_1099<='k')||(LA16_1099>='m' && LA16_1099<='\uFFFF')) ) {s = 50;}
+            int LA16_981 = input.LA(1);
+            if ( (LA16_981=='e') ) {s = 1102;}
+            else if ( ((LA16_981>='\u0000' && LA16_981<='d')||(LA16_981>='f' && LA16_981<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition635(IntStream input) {
             int s = -1;
-            int LA16_1205 = input.LA(1);
-            if ( (LA16_1205=='d') ) {s = 1301;}
-            else if ( ((LA16_1205>='\u0000' && LA16_1205<='c')||(LA16_1205>='e' && LA16_1205<='\uFFFF')) ) {s = 50;}
+            int LA16_1102 = input.LA(1);
+            if ( (LA16_1102=='l') ) {s = 1209;}
+            else if ( ((LA16_1102>='\u0000' && LA16_1102<='k')||(LA16_1102>='m' && LA16_1102<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition636(IntStream input) {
             int s = -1;
-            int LA16_1301 = input.LA(1);
-            if ( (LA16_1301=='s') ) {s = 1380;}
-            else if ( ((LA16_1301>='\u0000' && LA16_1301<='r')||(LA16_1301>='t' && LA16_1301<='\uFFFF')) ) {s = 50;}
+            int LA16_1209 = input.LA(1);
+            if ( (LA16_1209=='d') ) {s = 1305;}
+            else if ( ((LA16_1209>='\u0000' && LA16_1209<='c')||(LA16_1209>='e' && LA16_1209<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition637(IntStream input) {
             int s = -1;
-            int LA16_1380 = input.LA(1);
-            if ( (LA16_1380=='\"') ) {s = 1447;}
-            else if ( ((LA16_1380>='\u0000' && LA16_1380<='!')||(LA16_1380>='#' && LA16_1380<='\uFFFF')) ) {s = 50;}
+            int LA16_1305 = input.LA(1);
+            if ( (LA16_1305=='s') ) {s = 1383;}
+            else if ( ((LA16_1305>='\u0000' && LA16_1305<='r')||(LA16_1305>='t' && LA16_1305<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition638(IntStream input) {
             int s = -1;
-            int LA16_41 = input.LA(1);
-            if ( (LA16_41=='x') ) {s = 122;}
-            else if ( (LA16_41=='n') ) {s = 123;}
-            else if ( ((LA16_41>='\u0000' && LA16_41<='m')||(LA16_41>='o' && LA16_41<='w')||(LA16_41>='y' && LA16_41<='\uFFFF')) ) {s = 50;}
+            int LA16_1383 = input.LA(1);
+            if ( (LA16_1383=='\"') ) {s = 1449;}
+            else if ( ((LA16_1383>='\u0000' && LA16_1383<='!')||(LA16_1383>='#' && LA16_1383<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition639(IntStream input) {
+            int s = -1;
+            int LA16_1002 = input.LA(1);
+            if ( (LA16_1002=='r') ) {s = 1121;}
+            else if ( ((LA16_1002>='\u0000' && LA16_1002<='q')||(LA16_1002>='s' && LA16_1002<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition640(IntStream input) {
+            int s = -1;
+            int LA16_1121 = input.LA(1);
+            if ( (LA16_1121=='e') ) {s = 1225;}
+            else if ( ((LA16_1121>='\u0000' && LA16_1121<='d')||(LA16_1121>='f' && LA16_1121<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition641(IntStream input) {
+            int s = -1;
+            int LA16_1225 = input.LA(1);
+            if ( (LA16_1225=='f') ) {s = 1319;}
+            else if ( ((LA16_1225>='\u0000' && LA16_1225<='e')||(LA16_1225>='g' && LA16_1225<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition642(IntStream input) {
+            int s = -1;
+            int LA16_1319 = input.LA(1);
+            if ( (LA16_1319=='i') ) {s = 1394;}
+            else if ( ((LA16_1319>='\u0000' && LA16_1319<='h')||(LA16_1319>='j' && LA16_1319<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition643(IntStream input) {
+            int s = -1;
+            int LA16_1394 = input.LA(1);
+            if ( (LA16_1394=='x') ) {s = 1460;}
+            else if ( ((LA16_1394>='\u0000' && LA16_1394<='w')||(LA16_1394>='y' && LA16_1394<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition644(IntStream input) {
+            int s = -1;
+            int LA16_1460 = input.LA(1);
+            if ( (LA16_1460=='\"') ) {s = 1513;}
+            else if ( ((LA16_1460>='\u0000' && LA16_1460<='!')||(LA16_1460>='#' && LA16_1460<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition645(IntStream input) {
+            int s = -1;
+            int LA16_42 = input.LA(1);
+            if ( (LA16_42=='x') ) {s = 125;}
+            else if ( (LA16_42=='n') ) {s = 126;}
+            else if ( ((LA16_42>='\u0000' && LA16_42<='m')||(LA16_42>='o' && LA16_42<='w')||(LA16_42>='y' && LA16_42<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition646(IntStream input) {
+            int s = -1;
+            int LA16_259 = input.LA(1);
+            if ( (LA16_259=='t') ) {s = 401;}
+            else if ( ((LA16_259>='\u0000' && LA16_259<='s')||(LA16_259>='u' && LA16_259<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition647(IntStream input) {
+            int s = -1;
+            int LA16_401 = input.LA(1);
+            if ( (LA16_401=='o') ) {s = 558;}
+            else if ( ((LA16_401>='\u0000' && LA16_401<='n')||(LA16_401>='p' && LA16_401<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition648(IntStream input) {
+            int s = -1;
+            int LA16_558 = input.LA(1);
+            if ( (LA16_558=='m') ) {s = 714;}
+            else if ( ((LA16_558>='\u0000' && LA16_558<='l')||(LA16_558>='n' && LA16_558<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition649(IntStream input) {
+            int s = -1;
+            int LA16_714 = input.LA(1);
+            if ( (LA16_714=='_') ) {s = 863;}
+            else if ( (LA16_714=='\"') ) {s = 864;}
+            else if ( ((LA16_714>='\u0000' && LA16_714<='!')||(LA16_714>='#' && LA16_714<='^')||(LA16_714>='`' && LA16_714<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition650(IntStream input) {
             int s = -1;
             int LA16_312 = input.LA(1);
             if ( (LA16_312=='d') ) {s = 461;}
@@ -18744,201 +18789,158 @@ public class InternalSearchDslLexer extends Lexer {
             else if ( ((LA16_312>='\u0000' && LA16_312<='c')||(LA16_312>='f' && LA16_312<='p')||(LA16_312>='r' && LA16_312<='v')||(LA16_312>='x' && LA16_312<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition640(IntStream input) {
-            int s = -1;
-            int LA16_1002 = input.LA(1);
-            if ( (LA16_1002=='r') ) {s = 1121;}
-            else if ( ((LA16_1002>='\u0000' && LA16_1002<='q')||(LA16_1002>='s' && LA16_1002<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition641(IntStream input) {
-            int s = -1;
-            int LA16_1121 = input.LA(1);
-            if ( (LA16_1121=='e') ) {s = 1225;}
-            else if ( ((LA16_1121>='\u0000' && LA16_1121<='d')||(LA16_1121>='f' && LA16_1121<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition642(IntStream input) {
-            int s = -1;
-            int LA16_1225 = input.LA(1);
-            if ( (LA16_1225=='f') ) {s = 1319;}
-            else if ( ((LA16_1225>='\u0000' && LA16_1225<='e')||(LA16_1225>='g' && LA16_1225<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition643(IntStream input) {
-            int s = -1;
-            int LA16_1319 = input.LA(1);
-            if ( (LA16_1319=='i') ) {s = 1394;}
-            else if ( ((LA16_1319>='\u0000' && LA16_1319<='h')||(LA16_1319>='j' && LA16_1319<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition644(IntStream input) {
-            int s = -1;
-            int LA16_1394 = input.LA(1);
-            if ( (LA16_1394=='x') ) {s = 1460;}
-            else if ( ((LA16_1394>='\u0000' && LA16_1394<='w')||(LA16_1394>='y' && LA16_1394<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition645(IntStream input) {
-            int s = -1;
-            int LA16_1460 = input.LA(1);
-            if ( (LA16_1460=='\"') ) {s = 1513;}
-            else if ( ((LA16_1460>='\u0000' && LA16_1460<='!')||(LA16_1460>='#' && LA16_1460<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition646(IntStream input) {
-            int s = -1;
-            int LA16_118 = input.LA(1);
-            if ( (LA16_118=='u') ) {s = 227;}
-            else if ( (LA16_118=='l') ) {s = 228;}
-            else if ( (LA16_118=='m') ) {s = 229;}
-            else if ( (LA16_118=='n') ) {s = 230;}
-            else if ( (LA16_118=='o') ) {s = 231;}
-            else if ( ((LA16_118>='\u0000' && LA16_118<='k')||(LA16_118>='p' && LA16_118<='t')||(LA16_118>='v' && LA16_118<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition647(IntStream input) {
-            int s = -1;
-            int LA16_259 = input.LA(1);
-            if ( (LA16_259=='t') ) {s = 401;}
-            else if ( ((LA16_259>='\u0000' && LA16_259<='s')||(LA16_259>='u' && LA16_259<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition648(IntStream input) {
-            int s = -1;
-            int LA16_229 = input.LA(1);
-            if ( (LA16_229=='m') ) {s = 369;}
-            else if ( ((LA16_229>='\u0000' && LA16_229<='l')||(LA16_229>='n' && LA16_229<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition649(IntStream input) {
-            int s = -1;
-            int LA16_369 = input.LA(1);
-            if ( (LA16_369=='o') ) {s = 526;}
-            else if ( ((LA16_369>='\u0000' && LA16_369<='n')||(LA16_369>='p' && LA16_369<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition650(IntStream input) {
-            int s = -1;
-            int LA16_401 = input.LA(1);
-            if ( (LA16_401=='o') ) {s = 558;}
-            else if ( ((LA16_401>='\u0000' && LA16_401<='n')||(LA16_401>='p' && LA16_401<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
         protected int specialStateTransition651(IntStream input) {
             int s = -1;
-            int LA16_526 = input.LA(1);
-            if ( (LA16_526=='n') ) {s = 685;}
-            else if ( ((LA16_526>='\u0000' && LA16_526<='m')||(LA16_526>='o' && LA16_526<='\uFFFF')) ) {s = 50;}
+            int LA16_235 = input.LA(1);
+            if ( (LA16_235=='m') ) {s = 375;}
+            else if ( ((LA16_235>='\u0000' && LA16_235<='l')||(LA16_235>='n' && LA16_235<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition652(IntStream input) {
+            int s = -1;
+            int LA16_375 = input.LA(1);
+            if ( (LA16_375=='o') ) {s = 532;}
+            else if ( ((LA16_375>='\u0000' && LA16_375<='n')||(LA16_375>='p' && LA16_375<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition653(IntStream input) {
+            int s = -1;
+            int LA16_532 = input.LA(1);
+            if ( (LA16_532=='n') ) {s = 690;}
+            else if ( ((LA16_532>='\u0000' && LA16_532<='m')||(LA16_532>='o' && LA16_532<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition654(IntStream input) {
+            int s = -1;
+            int LA16_690 = input.LA(1);
+            if ( (LA16_690=='\"') ) {s = 841;}
+            else if ( ((LA16_690>='\u0000' && LA16_690<='!')||(LA16_690>='#' && LA16_690<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition655(IntStream input) {
+            int s = -1;
+            int LA16_236 = input.LA(1);
+            if ( (LA16_236=='s') ) {s = 376;}
+            else if ( ((LA16_236>='\u0000' && LA16_236<='r')||(LA16_236>='t' && LA16_236<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition656(IntStream input) {
+            int s = -1;
+            int LA16_376 = input.LA(1);
+            if ( (LA16_376=='t') ) {s = 533;}
+            else if ( ((LA16_376>='\u0000' && LA16_376<='s')||(LA16_376>='u' && LA16_376<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition657(IntStream input) {
+            int s = -1;
+            int LA16_533 = input.LA(1);
+            if ( (LA16_533=='a') ) {s = 691;}
+            else if ( ((LA16_533>='\u0000' && LA16_533<='`')||(LA16_533>='b' && LA16_533<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition658(IntStream input) {
             int s = -1;
             int LA16_39 = input.LA(1);
             if ( (LA16_39=='a') ) {s = 117;}
             else if ( ((LA16_39>='\u0000' && LA16_39<='`')||(LA16_39>='b' && LA16_39<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition653(IntStream input) {
+        protected int specialStateTransition659(IntStream input) {
             int s = -1;
-            int LA16_558 = input.LA(1);
-            if ( (LA16_558=='m') ) {s = 714;}
-            else if ( ((LA16_558>='\u0000' && LA16_558<='l')||(LA16_558>='n' && LA16_558<='\uFFFF')) ) {s = 50;}
+            int LA16_691 = input.LA(1);
+            if ( (LA16_691=='n') ) {s = 842;}
+            else if ( ((LA16_691>='\u0000' && LA16_691<='m')||(LA16_691>='o' && LA16_691<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition654(IntStream input) {
+        protected int specialStateTransition660(IntStream input) {
             int s = -1;
-            int LA16_685 = input.LA(1);
-            if ( (LA16_685=='\"') ) {s = 837;}
-            else if ( ((LA16_685>='\u0000' && LA16_685<='!')||(LA16_685>='#' && LA16_685<='\uFFFF')) ) {s = 50;}
+            int LA16_842 = input.LA(1);
+            if ( (LA16_842=='t') ) {s = 978;}
+            else if ( ((LA16_842>='\u0000' && LA16_842<='s')||(LA16_842>='u' && LA16_842<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition655(IntStream input) {
+        protected int specialStateTransition661(IntStream input) {
             int s = -1;
-            int LA16_714 = input.LA(1);
-            if ( (LA16_714=='_') ) {s = 863;}
-            else if ( (LA16_714=='\"') ) {s = 864;}
-            else if ( ((LA16_714>='\u0000' && LA16_714<='!')||(LA16_714>='#' && LA16_714<='^')||(LA16_714>='`' && LA16_714<='\uFFFF')) ) {s = 50;}
+            int LA16_978 = input.LA(1);
+            if ( (LA16_978=='_') ) {s = 1099;}
+            else if ( ((LA16_978>='\u0000' && LA16_978<='^')||(LA16_978>='`' && LA16_978<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition656(IntStream input) {
+        protected int specialStateTransition662(IntStream input) {
+            int s = -1;
+            int LA16_1099 = input.LA(1);
+            if ( (LA16_1099=='s') ) {s = 1206;}
+            else if ( ((LA16_1099>='\u0000' && LA16_1099<='r')||(LA16_1099>='t' && LA16_1099<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition663(IntStream input) {
             int s = -1;
             int LA16_117 = input.LA(1);
             if ( (LA16_117=='l') ) {s = 226;}
             else if ( ((LA16_117>='\u0000' && LA16_117<='k')||(LA16_117>='m' && LA16_117<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition657(IntStream input) {
+        protected int specialStateTransition664(IntStream input) {
+            int s = -1;
+            int LA16_1206 = input.LA(1);
+            if ( (LA16_1206=='c') ) {s = 1302;}
+            else if ( ((LA16_1206>='\u0000' && LA16_1206<='b')||(LA16_1206>='d' && LA16_1206<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition665(IntStream input) {
+            int s = -1;
+            int LA16_1302 = input.LA(1);
+            if ( (LA16_1302=='o') ) {s = 1380;}
+            else if ( ((LA16_1302>='\u0000' && LA16_1302<='n')||(LA16_1302>='p' && LA16_1302<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition666(IntStream input) {
+            int s = -1;
+            int LA16_1380 = input.LA(1);
+            if ( (LA16_1380=='r') ) {s = 1446;}
+            else if ( ((LA16_1380>='\u0000' && LA16_1380<='q')||(LA16_1380>='s' && LA16_1380<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition667(IntStream input) {
+            int s = -1;
+            int LA16_1446 = input.LA(1);
+            if ( (LA16_1446=='e') ) {s = 1503;}
+            else if ( ((LA16_1446>='\u0000' && LA16_1446<='d')||(LA16_1446>='f' && LA16_1446<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition668(IntStream input) {
             int s = -1;
             int LA16_226 = input.LA(1);
             if ( (LA16_226=='u') ) {s = 366;}
             else if ( ((LA16_226>='\u0000' && LA16_226<='t')||(LA16_226>='v' && LA16_226<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition658(IntStream input) {
+        protected int specialStateTransition669(IntStream input) {
             int s = -1;
-            int LA16_230 = input.LA(1);
-            if ( (LA16_230=='s') ) {s = 370;}
-            else if ( ((LA16_230>='\u0000' && LA16_230<='r')||(LA16_230>='t' && LA16_230<='\uFFFF')) ) {s = 50;}
+            int LA16_1503 = input.LA(1);
+            if ( (LA16_1503=='\"') ) {s = 1545;}
+            else if ( ((LA16_1503>='\u0000' && LA16_1503<='!')||(LA16_1503>='#' && LA16_1503<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition659(IntStream input) {
+        protected int specialStateTransition670(IntStream input) {
             int s = -1;
-            int LA16_370 = input.LA(1);
-            if ( (LA16_370=='t') ) {s = 527;}
-            else if ( ((LA16_370>='\u0000' && LA16_370<='s')||(LA16_370>='u' && LA16_370<='\uFFFF')) ) {s = 50;}
+            int LA16_121 = input.LA(1);
+            if ( (LA16_121=='u') ) {s = 233;}
+            else if ( (LA16_121=='l') ) {s = 234;}
+            else if ( (LA16_121=='m') ) {s = 235;}
+            else if ( (LA16_121=='n') ) {s = 236;}
+            else if ( (LA16_121=='o') ) {s = 237;}
+            else if ( ((LA16_121>='\u0000' && LA16_121<='k')||(LA16_121>='p' && LA16_121<='t')||(LA16_121>='v' && LA16_121<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition660(IntStream input) {
-            int s = -1;
-            int LA16_527 = input.LA(1);
-            if ( (LA16_527=='a') ) {s = 686;}
-            else if ( ((LA16_527>='\u0000' && LA16_527<='`')||(LA16_527>='b' && LA16_527<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition661(IntStream input) {
-            int s = -1;
-            int LA16_686 = input.LA(1);
-            if ( (LA16_686=='n') ) {s = 838;}
-            else if ( ((LA16_686>='\u0000' && LA16_686<='m')||(LA16_686>='o' && LA16_686<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition662(IntStream input) {
+        protected int specialStateTransition671(IntStream input) {
             int s = -1;
             int LA16_366 = input.LA(1);
             if ( (LA16_366=='e') ) {s = 523;}
             else if ( ((LA16_366>='\u0000' && LA16_366<='d')||(LA16_366>='f' && LA16_366<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition663(IntStream input) {
-            int s = -1;
-            int LA16_838 = input.LA(1);
-            if ( (LA16_838=='t') ) {s = 974;}
-            else if ( ((LA16_838>='\u0000' && LA16_838<='s')||(LA16_838>='u' && LA16_838<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition664(IntStream input) {
-            int s = -1;
-            int LA16_974 = input.LA(1);
-            if ( (LA16_974=='_') ) {s = 1096;}
-            else if ( ((LA16_974>='\u0000' && LA16_974<='^')||(LA16_974>='`' && LA16_974<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition665(IntStream input) {
-            int s = -1;
-            int LA16_1096 = input.LA(1);
-            if ( (LA16_1096=='s') ) {s = 1202;}
-            else if ( ((LA16_1096>='\u0000' && LA16_1096<='r')||(LA16_1096>='t' && LA16_1096<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition666(IntStream input) {
-            int s = -1;
-            int LA16_1202 = input.LA(1);
-            if ( (LA16_1202=='c') ) {s = 1298;}
-            else if ( ((LA16_1202>='\u0000' && LA16_1202<='b')||(LA16_1202>='d' && LA16_1202<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition667(IntStream input) {
+        protected int specialStateTransition672(IntStream input) {
             int s = -1;
             int LA16_523 = input.LA(1);
             if ( (LA16_523=='_') ) {s = 680;}
@@ -18947,84 +18949,118 @@ public class InternalSearchDslLexer extends Lexer {
             else if ( ((LA16_523>='\u0000' && LA16_523<='!')||(LA16_523>='#' && LA16_523<='^')||(LA16_523>='`' && LA16_523<='r')||(LA16_523>='t' && LA16_523<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition668(IntStream input) {
-            int s = -1;
-            int LA16_1298 = input.LA(1);
-            if ( (LA16_1298=='o') ) {s = 1377;}
-            else if ( ((LA16_1298>='\u0000' && LA16_1298<='n')||(LA16_1298>='p' && LA16_1298<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition669(IntStream input) {
-            int s = -1;
-            int LA16_1377 = input.LA(1);
-            if ( (LA16_1377=='r') ) {s = 1444;}
-            else if ( ((LA16_1377>='\u0000' && LA16_1377<='q')||(LA16_1377>='s' && LA16_1377<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition670(IntStream input) {
-            int s = -1;
-            int LA16_1444 = input.LA(1);
-            if ( (LA16_1444=='e') ) {s = 1501;}
-            else if ( ((LA16_1444>='\u0000' && LA16_1444<='d')||(LA16_1444>='f' && LA16_1444<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition671(IntStream input) {
-            int s = -1;
-            int LA16_1501 = input.LA(1);
-            if ( (LA16_1501=='\"') ) {s = 1543;}
-            else if ( ((LA16_1501>='\u0000' && LA16_1501<='!')||(LA16_1501>='#' && LA16_1501<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition672(IntStream input) {
+        protected int specialStateTransition673(IntStream input) {
             int s = -1;
             int LA16_334 = input.LA(1);
             if ( (LA16_334=='m') ) {s = 487;}
             else if ( ((LA16_334>='\u0000' && LA16_334<='l')||(LA16_334>='n' && LA16_334<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition673(IntStream input) {
+        protected int specialStateTransition674(IntStream input) {
             int s = -1;
             int LA16_487 = input.LA(1);
             if ( (LA16_487=='a') ) {s = 641;}
             else if ( ((LA16_487>='\u0000' && LA16_487<='`')||(LA16_487>='b' && LA16_487<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition674(IntStream input) {
+        protected int specialStateTransition675(IntStream input) {
             int s = -1;
             int LA16_641 = input.LA(1);
             if ( (LA16_641=='x') ) {s = 794;}
             else if ( ((LA16_641>='\u0000' && LA16_641<='w')||(LA16_641>='y' && LA16_641<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition675(IntStream input) {
+        protected int specialStateTransition676(IntStream input) {
             int s = -1;
             int LA16_794 = input.LA(1);
             if ( (LA16_794=='\"') ) {s = 937;}
             else if ( ((LA16_794>='\u0000' && LA16_794<='!')||(LA16_794>='#' && LA16_794<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition676(IntStream input) {
+        protected int specialStateTransition677(IntStream input) {
             int s = -1;
             int LA16_489 = input.LA(1);
             if ( (LA16_489=='e') ) {s = 644;}
             else if ( ((LA16_489>='\u0000' && LA16_489<='d')||(LA16_489>='f' && LA16_489<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition677(IntStream input) {
+        protected int specialStateTransition678(IntStream input) {
             int s = -1;
             int LA16_644 = input.LA(1);
             if ( (LA16_644=='s') ) {s = 797;}
             else if ( ((LA16_644>='\u0000' && LA16_644<='r')||(LA16_644>='t' && LA16_644<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition678(IntStream input) {
+        protected int specialStateTransition679(IntStream input) {
             int s = -1;
             int LA16_797 = input.LA(1);
             if ( (LA16_797=='\"') ) {s = 939;}
             else if ( ((LA16_797>='\u0000' && LA16_797<='!')||(LA16_797>='#' && LA16_797<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition679(IntStream input) {
+        protected int specialStateTransition680(IntStream input) {
+            int s = -1;
+            int LA16_29 = input.LA(1);
+            if ( (LA16_29=='o') ) {s = 85;}
+            else if ( (LA16_29=='i') ) {s = 86;}
+            else if ( (LA16_29=='a') ) {s = 87;}
+            else if ( (LA16_29=='e') ) {s = 88;}
+            else if ( (LA16_29=='u') ) {s = 89;}
+            else if ( (LA16_29=='l') ) {s = 90;}
+            else if ( ((LA16_29>='\u0000' && LA16_29<='`')||(LA16_29>='b' && LA16_29<='d')||(LA16_29>='f' && LA16_29<='h')||(LA16_29>='j' && LA16_29<='k')||(LA16_29>='m' && LA16_29<='n')||(LA16_29>='p' && LA16_29<='t')||(LA16_29>='v' && LA16_29<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition681(IntStream input) {
+            int s = -1;
+            int LA16_749 = input.LA(1);
+            if ( (LA16_749=='d') ) {s = 895;}
+            else if ( ((LA16_749>='\u0000' && LA16_749<='c')||(LA16_749>='e' && LA16_749<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition682(IntStream input) {
+            int s = -1;
+            int LA16_895 = input.LA(1);
+            if ( (LA16_895=='\"') ) {s = 1025;}
+            else if ( ((LA16_895>='\u0000' && LA16_895<='!')||(LA16_895>='#' && LA16_895<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition683(IntStream input) {
+            int s = -1;
+            int LA16_388 = input.LA(1);
+            if ( (LA16_388=='f') ) {s = 545;}
+            else if ( ((LA16_388>='\u0000' && LA16_388<='e')||(LA16_388>='g' && LA16_388<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition684(IntStream input) {
+            int s = -1;
+            int LA16_545 = input.LA(1);
+            if ( (LA16_545=='r') ) {s = 703;}
+            else if ( ((LA16_545>='\u0000' && LA16_545<='q')||(LA16_545>='s' && LA16_545<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition685(IntStream input) {
+            int s = -1;
+            int LA16_703 = input.LA(1);
+            if ( (LA16_703=='e') ) {s = 854;}
+            else if ( ((LA16_703>='\u0000' && LA16_703<='d')||(LA16_703>='f' && LA16_703<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition686(IntStream input) {
+            int s = -1;
+            int LA16_854 = input.LA(1);
+            if ( (LA16_854=='q') ) {s = 990;}
+            else if ( ((LA16_854>='\u0000' && LA16_854<='p')||(LA16_854>='r' && LA16_854<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition687(IntStream input) {
+            int s = -1;
+            int LA16_990 = input.LA(1);
+            if ( (LA16_990=='\"') ) {s = 1110;}
+            else if ( (LA16_990=='_') ) {s = 1111;}
+            else if ( ((LA16_990>='\u0000' && LA16_990<='!')||(LA16_990>='#' && LA16_990<='^')||(LA16_990>='`' && LA16_990<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition688(IntStream input) {
             int s = -1;
             int LA16_114 = input.LA(1);
             if ( (LA16_114=='v') ) {s = 222;}
@@ -19032,118 +19068,56 @@ public class InternalSearchDslLexer extends Lexer {
             else if ( ((LA16_114>='\u0000' && LA16_114<='f')||(LA16_114>='h' && LA16_114<='u')||(LA16_114>='w' && LA16_114<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition680(IntStream input) {
-            int s = -1;
-            int LA16_749 = input.LA(1);
-            if ( (LA16_749=='d') ) {s = 895;}
-            else if ( ((LA16_749>='\u0000' && LA16_749<='c')||(LA16_749>='e' && LA16_749<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition681(IntStream input) {
-            int s = -1;
-            int LA16_895 = input.LA(1);
-            if ( (LA16_895=='\"') ) {s = 1025;}
-            else if ( ((LA16_895>='\u0000' && LA16_895<='!')||(LA16_895>='#' && LA16_895<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition682(IntStream input) {
-            int s = -1;
-            int LA16_382 = input.LA(1);
-            if ( (LA16_382=='f') ) {s = 539;}
-            else if ( ((LA16_382>='\u0000' && LA16_382<='e')||(LA16_382>='g' && LA16_382<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition683(IntStream input) {
-            int s = -1;
-            int LA16_539 = input.LA(1);
-            if ( (LA16_539=='r') ) {s = 698;}
-            else if ( ((LA16_539>='\u0000' && LA16_539<='q')||(LA16_539>='s' && LA16_539<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition684(IntStream input) {
-            int s = -1;
-            int LA16_698 = input.LA(1);
-            if ( (LA16_698=='e') ) {s = 850;}
-            else if ( ((LA16_698>='\u0000' && LA16_698<='d')||(LA16_698>='f' && LA16_698<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition685(IntStream input) {
-            int s = -1;
-            int LA16_850 = input.LA(1);
-            if ( (LA16_850=='q') ) {s = 986;}
-            else if ( ((LA16_850>='\u0000' && LA16_850<='p')||(LA16_850>='r' && LA16_850<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition686(IntStream input) {
-            int s = -1;
-            int LA16_986 = input.LA(1);
-            if ( (LA16_986=='\"') ) {s = 1107;}
-            else if ( (LA16_986=='_') ) {s = 1108;}
-            else if ( ((LA16_986>='\u0000' && LA16_986<='!')||(LA16_986>='#' && LA16_986<='^')||(LA16_986>='`' && LA16_986<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition687(IntStream input) {
+        protected int specialStateTransition689(IntStream input) {
             int s = -1;
             int LA16_294 = input.LA(1);
             if ( (LA16_294=='f') ) {s = 441;}
             else if ( ((LA16_294>='\u0000' && LA16_294<='e')||(LA16_294>='g' && LA16_294<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition688(IntStream input) {
+        protected int specialStateTransition690(IntStream input) {
             int s = -1;
             int LA16_441 = input.LA(1);
             if ( (LA16_441=='i') ) {s = 601;}
             else if ( ((LA16_441>='\u0000' && LA16_441<='h')||(LA16_441>='j' && LA16_441<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition689(IntStream input) {
+        protected int specialStateTransition691(IntStream input) {
             int s = -1;
             int LA16_601 = input.LA(1);
             if ( (LA16_601=='e') ) {s = 755;}
             else if ( ((LA16_601>='\u0000' && LA16_601<='d')||(LA16_601>='f' && LA16_601<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition690(IntStream input) {
+        protected int specialStateTransition692(IntStream input) {
             int s = -1;
             int LA16_755 = input.LA(1);
             if ( (LA16_755=='l') ) {s = 900;}
             else if ( ((LA16_755>='\u0000' && LA16_755<='k')||(LA16_755>='m' && LA16_755<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition691(IntStream input) {
+        protected int specialStateTransition693(IntStream input) {
             int s = -1;
             int LA16_900 = input.LA(1);
             if ( (LA16_900=='d') ) {s = 1028;}
             else if ( ((LA16_900>='\u0000' && LA16_900<='c')||(LA16_900>='e' && LA16_900<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition692(IntStream input) {
+        protected int specialStateTransition694(IntStream input) {
             int s = -1;
             int LA16_1028 = input.LA(1);
             if ( (LA16_1028=='\"') ) {s = 1141;}
             else if ( ((LA16_1028>='\u0000' && LA16_1028<='!')||(LA16_1028>='#' && LA16_1028<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition693(IntStream input) {
+        protected int specialStateTransition695(IntStream input) {
             int s = -1;
             int LA16_349 = input.LA(1);
             if ( (LA16_349=='x') ) {s = 506;}
             else if ( ((LA16_349>='\u0000' && LA16_349<='w')||(LA16_349>='y' && LA16_349<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition694(IntStream input) {
-            int s = -1;
-            int LA16_26 = input.LA(1);
-            if ( (LA16_26=='r') ) {s = 75;}
-            else if ( (LA16_26=='i') ) {s = 76;}
-            else if ( (LA16_26=='a') ) {s = 77;}
-            else if ( (LA16_26=='l') ) {s = 78;}
-            else if ( (LA16_26=='u') ) {s = 79;}
-            else if ( (LA16_26=='q') ) {s = 80;}
-            else if ( ((LA16_26>='\u0000' && LA16_26<='`')||(LA16_26>='b' && LA16_26<='h')||(LA16_26>='j' && LA16_26<='k')||(LA16_26>='m' && LA16_26<='p')||(LA16_26>='s' && LA16_26<='t')||(LA16_26>='v' && LA16_26<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition695(IntStream input) {
+        protected int specialStateTransition696(IntStream input) {
             int s = -1;
             int LA16_506 = input.LA(1);
             if ( (LA16_506=='e') ) {s = 660;}
@@ -19151,26 +19125,18 @@ public class InternalSearchDslLexer extends Lexer {
             else if ( ((LA16_506>='\u0000' && LA16_506<='!')||(LA16_506>='#' && LA16_506<='d')||(LA16_506>='f' && LA16_506<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition696(IntStream input) {
+        protected int specialStateTransition697(IntStream input) {
             int s = -1;
             int LA16_1558 = input.LA(1);
             if ( (LA16_1558=='f') ) {s = 1588;}
             else if ( ((LA16_1558>='\u0000' && LA16_1558<='e')||(LA16_1558>='g' && LA16_1558<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition697(IntStream input) {
+        protected int specialStateTransition698(IntStream input) {
             int s = -1;
             int LA16_1588 = input.LA(1);
             if ( (LA16_1588=='i') ) {s = 1612;}
             else if ( ((LA16_1588>='\u0000' && LA16_1588<='h')||(LA16_1588>='j' && LA16_1588<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition698(IntStream input) {
-            int s = -1;
-            int LA16_87 = input.LA(1);
-            if ( (LA16_87=='x') ) {s = 182;}
-            else if ( (LA16_87=='t') ) {s = 183;}
-            else if ( ((LA16_87>='\u0000' && LA16_87<='s')||(LA16_87>='u' && LA16_87<='w')||(LA16_87>='y' && LA16_87<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition699(IntStream input) {
@@ -19280,12 +19246,20 @@ public class InternalSearchDslLexer extends Lexer {
         }
         protected int specialStateTransition714(IntStream input) {
             int s = -1;
+            int LA16_87 = input.LA(1);
+            if ( (LA16_87=='x') ) {s = 182;}
+            else if ( (LA16_87=='t') ) {s = 183;}
+            else if ( ((LA16_87>='\u0000' && LA16_87<='s')||(LA16_87>='u' && LA16_87<='w')||(LA16_87>='y' && LA16_87<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition715(IntStream input) {
+            int s = -1;
             int LA16_204 = input.LA(1);
             if ( (LA16_204=='m') ) {s = 341;}
             else if ( ((LA16_204>='\u0000' && LA16_204<='l')||(LA16_204>='n' && LA16_204<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition715(IntStream input) {
+        protected int specialStateTransition716(IntStream input) {
             int s = -1;
             int LA16_341 = input.LA(1);
             if ( (LA16_341=='s') ) {s = 497;}
@@ -19293,60 +19267,53 @@ public class InternalSearchDslLexer extends Lexer {
             else if ( ((LA16_341>='\u0000' && LA16_341<='!')||(LA16_341>='#' && LA16_341<='r')||(LA16_341>='t' && LA16_341<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition716(IntStream input) {
+        protected int specialStateTransition717(IntStream input) {
             int s = -1;
             int LA16_516 = input.LA(1);
             if ( (LA16_516=='a') ) {s = 670;}
             else if ( ((LA16_516>='\u0000' && LA16_516<='`')||(LA16_516>='b' && LA16_516<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition717(IntStream input) {
+        protected int specialStateTransition718(IntStream input) {
             int s = -1;
             int LA16_670 = input.LA(1);
             if ( (LA16_670=='r') ) {s = 821;}
             else if ( ((LA16_670>='\u0000' && LA16_670<='q')||(LA16_670>='s' && LA16_670<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition718(IntStream input) {
+        protected int specialStateTransition719(IntStream input) {
             int s = -1;
             int LA16_821 = input.LA(1);
             if ( (LA16_821=='e') ) {s = 962;}
             else if ( ((LA16_821>='\u0000' && LA16_821<='d')||(LA16_821>='f' && LA16_821<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition719(IntStream input) {
+        protected int specialStateTransition720(IntStream input) {
             int s = -1;
             int LA16_962 = input.LA(1);
             if ( (LA16_962=='n') ) {s = 1087;}
             else if ( ((LA16_962>='\u0000' && LA16_962<='m')||(LA16_962>='o' && LA16_962<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition720(IntStream input) {
+        protected int specialStateTransition721(IntStream input) {
             int s = -1;
             int LA16_1087 = input.LA(1);
             if ( (LA16_1087=='t') ) {s = 1193;}
             else if ( ((LA16_1087>='\u0000' && LA16_1087<='s')||(LA16_1087>='u' && LA16_1087<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition721(IntStream input) {
+        protected int specialStateTransition722(IntStream input) {
             int s = -1;
             int LA16_1193 = input.LA(1);
             if ( (LA16_1193=='\"') ) {s = 1289;}
             else if ( ((LA16_1193>='\u0000' && LA16_1193<='!')||(LA16_1193>='#' && LA16_1193<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition722(IntStream input) {
+        protected int specialStateTransition723(IntStream input) {
             int s = -1;
             int LA16_216 = input.LA(1);
             if ( (LA16_216=='\"') ) {s = 356;}
             else if ( ((LA16_216>='\u0000' && LA16_216<='!')||(LA16_216>='#' && LA16_216<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition723(IntStream input) {
-            int s = -1;
-            int LA16_682 = input.LA(1);
-            if ( (LA16_682=='\"') ) {s = 834;}
-            else if ( ((LA16_682>='\u0000' && LA16_682<='!')||(LA16_682>='#' && LA16_682<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition724(IntStream input) {
@@ -19359,40 +19326,59 @@ public class InternalSearchDslLexer extends Lexer {
         }
         protected int specialStateTransition725(IntStream input) {
             int s = -1;
-            int LA16_1216 = input.LA(1);
-            if ( (LA16_1216=='u') ) {s = 1310;}
-            else if ( ((LA16_1216>='\u0000' && LA16_1216<='t')||(LA16_1216>='v' && LA16_1216<='\uFFFF')) ) {s = 50;}
+            int LA16_682 = input.LA(1);
+            if ( (LA16_682=='\"') ) {s = 834;}
+            else if ( ((LA16_682>='\u0000' && LA16_682<='!')||(LA16_682>='#' && LA16_682<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition726(IntStream input) {
             int s = -1;
-            int LA16_1310 = input.LA(1);
-            if ( (LA16_1310=='e') ) {s = 1386;}
-            else if ( ((LA16_1310>='\u0000' && LA16_1310<='d')||(LA16_1310>='f' && LA16_1310<='\uFFFF')) ) {s = 50;}
+            int LA16_1203 = input.LA(1);
+            if ( (LA16_1203=='u') ) {s = 1299;}
+            else if ( ((LA16_1203>='\u0000' && LA16_1203<='t')||(LA16_1203>='v' && LA16_1203<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition727(IntStream input) {
             int s = -1;
-            int LA16_1386 = input.LA(1);
-            if ( (LA16_1386=='r') ) {s = 1452;}
-            else if ( ((LA16_1386>='\u0000' && LA16_1386<='q')||(LA16_1386>='s' && LA16_1386<='\uFFFF')) ) {s = 50;}
+            int LA16_1299 = input.LA(1);
+            if ( (LA16_1299=='e') ) {s = 1377;}
+            else if ( ((LA16_1299>='\u0000' && LA16_1299<='d')||(LA16_1299>='f' && LA16_1299<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition728(IntStream input) {
             int s = -1;
-            int LA16_1452 = input.LA(1);
-            if ( (LA16_1452=='y') ) {s = 1508;}
-            else if ( ((LA16_1452>='\u0000' && LA16_1452<='x')||(LA16_1452>='z' && LA16_1452<='\uFFFF')) ) {s = 50;}
+            int LA16_1377 = input.LA(1);
+            if ( (LA16_1377=='r') ) {s = 1443;}
+            else if ( ((LA16_1377>='\u0000' && LA16_1377<='q')||(LA16_1377>='s' && LA16_1377<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition729(IntStream input) {
             int s = -1;
-            int LA16_1508 = input.LA(1);
-            if ( (LA16_1508=='\"') ) {s = 1549;}
-            else if ( ((LA16_1508>='\u0000' && LA16_1508<='!')||(LA16_1508>='#' && LA16_1508<='\uFFFF')) ) {s = 50;}
+            int LA16_26 = input.LA(1);
+            if ( (LA16_26=='r') ) {s = 75;}
+            else if ( (LA16_26=='i') ) {s = 76;}
+            else if ( (LA16_26=='a') ) {s = 77;}
+            else if ( (LA16_26=='l') ) {s = 78;}
+            else if ( (LA16_26=='u') ) {s = 79;}
+            else if ( (LA16_26=='q') ) {s = 80;}
+            else if ( ((LA16_26>='\u0000' && LA16_26<='`')||(LA16_26>='b' && LA16_26<='h')||(LA16_26>='j' && LA16_26<='k')||(LA16_26>='m' && LA16_26<='p')||(LA16_26>='s' && LA16_26<='t')||(LA16_26>='v' && LA16_26<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition730(IntStream input) {
+            int s = -1;
+            int LA16_1443 = input.LA(1);
+            if ( (LA16_1443=='y') ) {s = 1500;}
+            else if ( ((LA16_1443>='\u0000' && LA16_1443<='x')||(LA16_1443>='z' && LA16_1443<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition731(IntStream input) {
+            int s = -1;
+            int LA16_1500 = input.LA(1);
+            if ( (LA16_1500=='\"') ) {s = 1542;}
+            else if ( ((LA16_1500>='\u0000' && LA16_1500<='!')||(LA16_1500>='#' && LA16_1500<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition732(IntStream input) {
             int s = -1;
             int LA16_67 = input.LA(1);
             if ( (LA16_67=='a') ) {s = 150;}
@@ -19400,48 +19386,32 @@ public class InternalSearchDslLexer extends Lexer {
             else if ( ((LA16_67>='\u0000' && LA16_67<='`')||(LA16_67>='b' && LA16_67<='n')||(LA16_67>='p' && LA16_67<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition731(IntStream input) {
+        protected int specialStateTransition733(IntStream input) {
             int s = -1;
             int LA16_625 = input.LA(1);
             if ( (LA16_625=='a') ) {s = 780;}
             else if ( ((LA16_625>='\u0000' && LA16_625<='`')||(LA16_625>='b' && LA16_625<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition732(IntStream input) {
+        protected int specialStateTransition734(IntStream input) {
             int s = -1;
             int LA16_780 = input.LA(1);
             if ( (LA16_780=='l') ) {s = 922;}
             else if ( ((LA16_780>='\u0000' && LA16_780<='k')||(LA16_780>='m' && LA16_780<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition733(IntStream input) {
+        protected int specialStateTransition735(IntStream input) {
             int s = -1;
             int LA16_922 = input.LA(1);
             if ( (LA16_922=='l') ) {s = 1047;}
             else if ( ((LA16_922>='\u0000' && LA16_922<='k')||(LA16_922>='m' && LA16_922<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition734(IntStream input) {
+        protected int specialStateTransition736(IntStream input) {
             int s = -1;
             int LA16_1047 = input.LA(1);
             if ( (LA16_1047=='\"') ) {s = 1159;}
             else if ( ((LA16_1047>='\u0000' && LA16_1047<='!')||(LA16_1047>='#' && LA16_1047<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition735(IntStream input) {
-            int s = -1;
-            int LA16_36 = input.LA(1);
-            if ( (LA16_36=='i') ) {s = 111;}
-            else if ( (LA16_36=='a') ) {s = 112;}
-            else if ( ((LA16_36>='\u0000' && LA16_36<='`')||(LA16_36>='b' && LA16_36<='h')||(LA16_36>='j' && LA16_36<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition736(IntStream input) {
-            int s = -1;
-            int LA16_76 = input.LA(1);
-            if ( (LA16_76=='e') ) {s = 163;}
-            else if ( (LA16_76=='l') ) {s = 164;}
-            else if ( ((LA16_76>='\u0000' && LA16_76<='d')||(LA16_76>='f' && LA16_76<='k')||(LA16_76>='m' && LA16_76<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition737(IntStream input) {
@@ -19455,47 +19425,63 @@ public class InternalSearchDslLexer extends Lexer {
         }
         protected int specialStateTransition738(IntStream input) {
             int s = -1;
+            int LA16_36 = input.LA(1);
+            if ( (LA16_36=='i') ) {s = 111;}
+            else if ( (LA16_36=='a') ) {s = 112;}
+            else if ( ((LA16_36>='\u0000' && LA16_36<='`')||(LA16_36>='b' && LA16_36<='h')||(LA16_36>='j' && LA16_36<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition739(IntStream input) {
+            int s = -1;
             int LA16_318 = input.LA(1);
             if ( (LA16_318=='f') ) {s = 471;}
             else if ( ((LA16_318>='\u0000' && LA16_318<='e')||(LA16_318>='g' && LA16_318<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition739(IntStream input) {
+        protected int specialStateTransition740(IntStream input) {
             int s = -1;
             int LA16_471 = input.LA(1);
             if ( (LA16_471=='i') ) {s = 630;}
             else if ( ((LA16_471>='\u0000' && LA16_471<='h')||(LA16_471>='j' && LA16_471<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition740(IntStream input) {
+        protected int specialStateTransition741(IntStream input) {
             int s = -1;
             int LA16_630 = input.LA(1);
             if ( (LA16_630=='e') ) {s = 784;}
             else if ( ((LA16_630>='\u0000' && LA16_630<='d')||(LA16_630>='f' && LA16_630<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition741(IntStream input) {
+        protected int specialStateTransition742(IntStream input) {
+            int s = -1;
+            int LA16_76 = input.LA(1);
+            if ( (LA16_76=='e') ) {s = 163;}
+            else if ( (LA16_76=='l') ) {s = 164;}
+            else if ( ((LA16_76>='\u0000' && LA16_76<='d')||(LA16_76>='f' && LA16_76<='k')||(LA16_76>='m' && LA16_76<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition743(IntStream input) {
             int s = -1;
             int LA16_784 = input.LA(1);
             if ( (LA16_784=='l') ) {s = 926;}
             else if ( ((LA16_784>='\u0000' && LA16_784<='k')||(LA16_784>='m' && LA16_784<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition742(IntStream input) {
+        protected int specialStateTransition744(IntStream input) {
             int s = -1;
             int LA16_926 = input.LA(1);
             if ( (LA16_926=='d') ) {s = 1050;}
             else if ( ((LA16_926>='\u0000' && LA16_926<='c')||(LA16_926>='e' && LA16_926<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition743(IntStream input) {
+        protected int specialStateTransition745(IntStream input) {
             int s = -1;
             int LA16_1050 = input.LA(1);
             if ( (LA16_1050=='\"') ) {s = 1161;}
             else if ( ((LA16_1050>='\u0000' && LA16_1050<='!')||(LA16_1050>='#' && LA16_1050<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition744(IntStream input) {
+        protected int specialStateTransition746(IntStream input) {
             int s = -1;
             int LA16_27 = input.LA(1);
             if ( (LA16_27=='s') ) {s = 81;}
@@ -19503,49 +19489,14 @@ public class InternalSearchDslLexer extends Lexer {
             else if ( ((LA16_27>='\u0000' && LA16_27<='b')||(LA16_27>='d' && LA16_27<='r')||(LA16_27>='t' && LA16_27<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition745(IntStream input) {
-            int s = -1;
-            int LA16_1521 = input.LA(1);
-            if ( (LA16_1521=='f') ) {s = 1560;}
-            else if ( ((LA16_1521>='\u0000' && LA16_1521<='e')||(LA16_1521>='g' && LA16_1521<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition746(IntStream input) {
-            int s = -1;
-            int LA16_1560 = input.LA(1);
-            if ( (LA16_1560=='i') ) {s = 1589;}
-            else if ( ((LA16_1560>='\u0000' && LA16_1560<='h')||(LA16_1560>='j' && LA16_1560<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
         protected int specialStateTransition747(IntStream input) {
-            int s = -1;
-            int LA16_1589 = input.LA(1);
-            if ( (LA16_1589=='e') ) {s = 1613;}
-            else if ( ((LA16_1589>='\u0000' && LA16_1589<='d')||(LA16_1589>='f' && LA16_1589<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition748(IntStream input) {
             int s = -1;
             int LA16_186 = input.LA(1);
             if ( (LA16_186=='t') ) {s = 316;}
             else if ( ((LA16_186>='\u0000' && LA16_186<='s')||(LA16_186>='u' && LA16_186<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition749(IntStream input) {
-            int s = -1;
-            int LA16_1613 = input.LA(1);
-            if ( (LA16_1613=='l') ) {s = 1633;}
-            else if ( ((LA16_1613>='\u0000' && LA16_1613<='k')||(LA16_1613>='m' && LA16_1613<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition750(IntStream input) {
-            int s = -1;
-            int LA16_1633 = input.LA(1);
-            if ( (LA16_1633=='d') ) {s = 1647;}
-            else if ( ((LA16_1633>='\u0000' && LA16_1633<='c')||(LA16_1633>='e' && LA16_1633<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition751(IntStream input) {
+        protected int specialStateTransition748(IntStream input) {
             int s = -1;
             int LA16_316 = input.LA(1);
             if ( (LA16_316=='\"') ) {s = 468;}
@@ -19553,247 +19504,289 @@ public class InternalSearchDslLexer extends Lexer {
             else if ( ((LA16_316>='\u0000' && LA16_316<='!')||(LA16_316>='#' && LA16_316<='^')||(LA16_316>='`' && LA16_316<='\uFFFF')) ) {s = 50;}
             return s;
         }
+        protected int specialStateTransition749(IntStream input) {
+            int s = -1;
+            int LA16_1521 = input.LA(1);
+            if ( (LA16_1521=='f') ) {s = 1560;}
+            else if ( ((LA16_1521>='\u0000' && LA16_1521<='e')||(LA16_1521>='g' && LA16_1521<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition750(IntStream input) {
+            int s = -1;
+            int LA16_1560 = input.LA(1);
+            if ( (LA16_1560=='i') ) {s = 1589;}
+            else if ( ((LA16_1560>='\u0000' && LA16_1560<='h')||(LA16_1560>='j' && LA16_1560<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition751(IntStream input) {
+            int s = -1;
+            int LA16_1589 = input.LA(1);
+            if ( (LA16_1589=='e') ) {s = 1613;}
+            else if ( ((LA16_1589>='\u0000' && LA16_1589<='d')||(LA16_1589>='f' && LA16_1589<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
         protected int specialStateTransition752(IntStream input) {
+            int s = -1;
+            int LA16_1613 = input.LA(1);
+            if ( (LA16_1613=='l') ) {s = 1633;}
+            else if ( ((LA16_1613>='\u0000' && LA16_1613<='k')||(LA16_1613>='m' && LA16_1613<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition753(IntStream input) {
+            int s = -1;
+            int LA16_1633 = input.LA(1);
+            if ( (LA16_1633=='d') ) {s = 1647;}
+            else if ( ((LA16_1633>='\u0000' && LA16_1633<='c')||(LA16_1633>='e' && LA16_1633<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition754(IntStream input) {
             int s = -1;
             int LA16_1647 = input.LA(1);
             if ( (LA16_1647=='\"') ) {s = 1660;}
             else if ( ((LA16_1647>='\u0000' && LA16_1647<='!')||(LA16_1647>='#' && LA16_1647<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition753(IntStream input) {
-            int s = -1;
-            int LA16_256 = input.LA(1);
-            if ( (LA16_256=='t') ) {s = 397;}
-            else if ( ((LA16_256>='\u0000' && LA16_256<='s')||(LA16_256>='u' && LA16_256<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition754(IntStream input) {
-            int s = -1;
-            int LA16_397 = input.LA(1);
-            if ( (LA16_397=='e') ) {s = 553;}
-            else if ( ((LA16_397>='\u0000' && LA16_397<='d')||(LA16_397>='f' && LA16_397<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
         protected int specialStateTransition755(IntStream input) {
-            int s = -1;
-            int LA16_553 = input.LA(1);
-            if ( (LA16_553=='d') ) {s = 708;}
-            else if ( ((LA16_553>='\u0000' && LA16_553<='c')||(LA16_553>='e' && LA16_553<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition756(IntStream input) {
-            int s = -1;
-            int LA16_708 = input.LA(1);
-            if ( (LA16_708=='\"') ) {s = 858;}
-            else if ( ((LA16_708>='\u0000' && LA16_708<='!')||(LA16_708>='#' && LA16_708<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition757(IntStream input) {
             int s = -1;
             int LA16_265 = input.LA(1);
             if ( (LA16_265=='h') ) {s = 409;}
             else if ( ((LA16_265>='\u0000' && LA16_265<='g')||(LA16_265>='i' && LA16_265<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition758(IntStream input) {
+        protected int specialStateTransition756(IntStream input) {
             int s = -1;
             int LA16_409 = input.LA(1);
             if ( (LA16_409=='\"') ) {s = 566;}
             else if ( ((LA16_409>='\u0000' && LA16_409<='!')||(LA16_409>='#' && LA16_409<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition759(IntStream input) {
+        protected int specialStateTransition757(IntStream input) {
             int s = -1;
             int LA16_643 = input.LA(1);
             if ( (LA16_643=='s') ) {s = 796;}
             else if ( ((LA16_643>='\u0000' && LA16_643<='r')||(LA16_643>='t' && LA16_643<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition760(IntStream input) {
+        protected int specialStateTransition758(IntStream input) {
             int s = -1;
             int LA16_796 = input.LA(1);
             if ( (LA16_796=='t') ) {s = 938;}
             else if ( ((LA16_796>='\u0000' && LA16_796<='s')||(LA16_796>='u' && LA16_796<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition761(IntStream input) {
+        protected int specialStateTransition759(IntStream input) {
             int s = -1;
             int LA16_938 = input.LA(1);
             if ( (LA16_938=='r') ) {s = 1064;}
             else if ( ((LA16_938>='\u0000' && LA16_938<='q')||(LA16_938>='s' && LA16_938<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition762(IntStream input) {
+        protected int specialStateTransition760(IntStream input) {
             int s = -1;
             int LA16_1064 = input.LA(1);
             if ( (LA16_1064=='i') ) {s = 1174;}
             else if ( ((LA16_1064>='\u0000' && LA16_1064<='h')||(LA16_1064>='j' && LA16_1064<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition763(IntStream input) {
+        protected int specialStateTransition761(IntStream input) {
             int s = -1;
             int LA16_1174 = input.LA(1);
             if ( (LA16_1174=='n') ) {s = 1273;}
             else if ( ((LA16_1174>='\u0000' && LA16_1174<='m')||(LA16_1174>='o' && LA16_1174<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition764(IntStream input) {
+        protected int specialStateTransition762(IntStream input) {
             int s = -1;
             int LA16_1273 = input.LA(1);
             if ( (LA16_1273=='g') ) {s = 1358;}
             else if ( ((LA16_1273>='\u0000' && LA16_1273<='f')||(LA16_1273>='h' && LA16_1273<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition765(IntStream input) {
+        protected int specialStateTransition763(IntStream input) {
             int s = -1;
             int LA16_1358 = input.LA(1);
             if ( (LA16_1358=='\"') ) {s = 1426;}
             else if ( ((LA16_1358>='\u0000' && LA16_1358<='!')||(LA16_1358>='#' && LA16_1358<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition766(IntStream input) {
+        protected int specialStateTransition764(IntStream input) {
             int s = -1;
             int LA16_153 = input.LA(1);
             if ( (LA16_153=='p') ) {s = 278;}
             else if ( ((LA16_153>='\u0000' && LA16_153<='o')||(LA16_153>='q' && LA16_153<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition767(IntStream input) {
+        protected int specialStateTransition765(IntStream input) {
             int s = -1;
             int LA16_278 = input.LA(1);
             if ( (LA16_278=='l') ) {s = 424;}
             else if ( ((LA16_278>='\u0000' && LA16_278<='k')||(LA16_278>='m' && LA16_278<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition768(IntStream input) {
+        protected int specialStateTransition766(IntStream input) {
             int s = -1;
             int LA16_424 = input.LA(1);
             if ( (LA16_424=='e') ) {s = 578;}
             else if ( ((LA16_424>='\u0000' && LA16_424<='d')||(LA16_424>='f' && LA16_424<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition769(IntStream input) {
+        protected int specialStateTransition767(IntStream input) {
             int s = -1;
             int LA16_578 = input.LA(1);
             if ( (LA16_578=='_') ) {s = 731;}
             else if ( ((LA16_578>='\u0000' && LA16_578<='^')||(LA16_578>='`' && LA16_578<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition770(IntStream input) {
+        protected int specialStateTransition768(IntStream input) {
             int s = -1;
             int LA16_731 = input.LA(1);
             if ( (LA16_731=='q') ) {s = 881;}
             else if ( ((LA16_731>='\u0000' && LA16_731<='p')||(LA16_731>='r' && LA16_731<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition771(IntStream input) {
+        protected int specialStateTransition769(IntStream input) {
             int s = -1;
             int LA16_881 = input.LA(1);
             if ( (LA16_881=='u') ) {s = 1014;}
             else if ( ((LA16_881>='\u0000' && LA16_881<='t')||(LA16_881>='v' && LA16_881<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition772(IntStream input) {
+        protected int specialStateTransition770(IntStream input) {
             int s = -1;
             int LA16_1014 = input.LA(1);
             if ( (LA16_1014=='e') ) {s = 1129;}
             else if ( ((LA16_1014>='\u0000' && LA16_1014<='d')||(LA16_1014>='f' && LA16_1014<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition773(IntStream input) {
+        protected int specialStateTransition771(IntStream input) {
             int s = -1;
             int LA16_1129 = input.LA(1);
             if ( (LA16_1129=='r') ) {s = 1233;}
             else if ( ((LA16_1129>='\u0000' && LA16_1129<='q')||(LA16_1129>='s' && LA16_1129<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition774(IntStream input) {
+        protected int specialStateTransition772(IntStream input) {
             int s = -1;
             int LA16_1233 = input.LA(1);
             if ( (LA16_1233=='y') ) {s = 1326;}
             else if ( ((LA16_1233>='\u0000' && LA16_1233<='x')||(LA16_1233>='z' && LA16_1233<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition775(IntStream input) {
+        protected int specialStateTransition773(IntStream input) {
             int s = -1;
             int LA16_1326 = input.LA(1);
             if ( (LA16_1326=='_') ) {s = 1399;}
             else if ( ((LA16_1326>='\u0000' && LA16_1326<='^')||(LA16_1326>='`' && LA16_1326<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition776(IntStream input) {
+        protected int specialStateTransition774(IntStream input) {
             int s = -1;
             int LA16_1399 = input.LA(1);
             if ( (LA16_1399=='s') ) {s = 1464;}
             else if ( ((LA16_1399>='\u0000' && LA16_1399<='r')||(LA16_1399>='t' && LA16_1399<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition777(IntStream input) {
+        protected int specialStateTransition775(IntStream input) {
             int s = -1;
             int LA16_1464 = input.LA(1);
             if ( (LA16_1464=='t') ) {s = 1515;}
             else if ( ((LA16_1464>='\u0000' && LA16_1464<='s')||(LA16_1464>='u' && LA16_1464<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition778(IntStream input) {
+        protected int specialStateTransition776(IntStream input) {
             int s = -1;
             int LA16_1515 = input.LA(1);
             if ( (LA16_1515=='r') ) {s = 1554;}
             else if ( ((LA16_1515>='\u0000' && LA16_1515<='q')||(LA16_1515>='s' && LA16_1515<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition779(IntStream input) {
-            int s = -1;
-            int LA16_123 = input.LA(1);
-            if ( (LA16_123=='a') ) {s = 238;}
-            else if ( (LA16_123=='d') ) {s = 239;}
-            else if ( (LA16_123=='v') ) {s = 240;}
-            else if ( ((LA16_123>='\u0000' && LA16_123<='`')||(LA16_123>='b' && LA16_123<='c')||(LA16_123>='e' && LA16_123<='u')||(LA16_123>='w' && LA16_123<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition780(IntStream input) {
+        protected int specialStateTransition777(IntStream input) {
             int s = -1;
             int LA16_1554 = input.LA(1);
             if ( (LA16_1554=='i') ) {s = 1584;}
             else if ( ((LA16_1554>='\u0000' && LA16_1554<='h')||(LA16_1554>='j' && LA16_1554<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition781(IntStream input) {
+        protected int specialStateTransition778(IntStream input) {
             int s = -1;
             int LA16_1584 = input.LA(1);
             if ( (LA16_1584=='n') ) {s = 1609;}
             else if ( ((LA16_1584>='\u0000' && LA16_1584<='m')||(LA16_1584>='o' && LA16_1584<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition782(IntStream input) {
+        protected int specialStateTransition779(IntStream input) {
             int s = -1;
             int LA16_1609 = input.LA(1);
             if ( (LA16_1609=='g') ) {s = 1629;}
             else if ( ((LA16_1609>='\u0000' && LA16_1609<='f')||(LA16_1609>='h' && LA16_1609<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition783(IntStream input) {
+        protected int specialStateTransition780(IntStream input) {
             int s = -1;
             int LA16_1629 = input.LA(1);
             if ( (LA16_1629=='\"') ) {s = 1643;}
             else if ( ((LA16_1629>='\u0000' && LA16_1629<='!')||(LA16_1629>='#' && LA16_1629<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition784(IntStream input) {
-            int s = -1;
-            int LA16_399 = input.LA(1);
-            if ( (LA16_399=='t') ) {s = 555;}
-            else if ( ((LA16_399>='\u0000' && LA16_399<='s')||(LA16_399>='u' && LA16_399<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition785(IntStream input) {
+        protected int specialStateTransition781(IntStream input) {
             int s = -1;
             int LA16_676 = input.LA(1);
             if ( (LA16_676=='\"') ) {s = 827;}
             else if ( ((LA16_676>='\u0000' && LA16_676<='!')||(LA16_676>='#' && LA16_676<='\uFFFF')) ) {s = 50;}
             return s;
         }
+        protected int specialStateTransition782(IntStream input) {
+            int s = -1;
+            int LA16_126 = input.LA(1);
+            if ( (LA16_126=='a') ) {s = 244;}
+            else if ( (LA16_126=='d') ) {s = 245;}
+            else if ( (LA16_126=='v') ) {s = 246;}
+            else if ( ((LA16_126>='\u0000' && LA16_126<='`')||(LA16_126>='b' && LA16_126<='c')||(LA16_126>='e' && LA16_126<='u')||(LA16_126>='w' && LA16_126<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition783(IntStream input) {
+            int s = -1;
+            int LA16_585 = input.LA(1);
+            if ( (LA16_585=='i') ) {s = 737;}
+            else if ( ((LA16_585>='\u0000' && LA16_585<='h')||(LA16_585>='j' && LA16_585<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition784(IntStream input) {
+            int s = -1;
+            int LA16_737 = input.LA(1);
+            if ( (LA16_737=='r') ) {s = 886;}
+            else if ( ((LA16_737>='\u0000' && LA16_737<='q')||(LA16_737>='s' && LA16_737<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition785(IntStream input) {
+            int s = -1;
+            int LA16_886 = input.LA(1);
+            if ( (LA16_886=='s') ) {s = 1018;}
+            else if ( ((LA16_886>='\u0000' && LA16_886<='r')||(LA16_886>='t' && LA16_886<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
         protected int specialStateTransition786(IntStream input) {
+            int s = -1;
+            int LA16_1018 = input.LA(1);
+            if ( (LA16_1018=='t') ) {s = 1133;}
+            else if ( ((LA16_1018>='\u0000' && LA16_1018<='s')||(LA16_1018>='u' && LA16_1018<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition787(IntStream input) {
+            int s = -1;
+            int LA16_1133 = input.LA(1);
+            if ( (LA16_1133=='\"') ) {s = 1237;}
+            else if ( ((LA16_1133>='\u0000' && LA16_1133<='!')||(LA16_1133>='#' && LA16_1133<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition788(IntStream input) {
+            int s = -1;
+            int LA16_399 = input.LA(1);
+            if ( (LA16_399=='t') ) {s = 555;}
+            else if ( ((LA16_399>='\u0000' && LA16_399<='s')||(LA16_399>='u' && LA16_399<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition789(IntStream input) {
             int s = -1;
             int LA16_555 = input.LA(1);
             if ( (LA16_555=='\"') ) {s = 710;}
@@ -19801,434 +19794,498 @@ public class InternalSearchDslLexer extends Lexer {
             else if ( ((LA16_555>='\u0000' && LA16_555<='!')||(LA16_555>='#' && LA16_555<='^')||(LA16_555>='`' && LA16_555<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition787(IntStream input) {
-            int s = -1;
-            int LA16_585 = input.LA(1);
-            if ( (LA16_585=='i') ) {s = 737;}
-            else if ( ((LA16_585>='\u0000' && LA16_585<='h')||(LA16_585>='j' && LA16_585<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition788(IntStream input) {
-            int s = -1;
-            int LA16_737 = input.LA(1);
-            if ( (LA16_737=='r') ) {s = 886;}
-            else if ( ((LA16_737>='\u0000' && LA16_737<='q')||(LA16_737>='s' && LA16_737<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition789(IntStream input) {
-            int s = -1;
-            int LA16_886 = input.LA(1);
-            if ( (LA16_886=='s') ) {s = 1018;}
-            else if ( ((LA16_886>='\u0000' && LA16_886<='r')||(LA16_886>='t' && LA16_886<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
         protected int specialStateTransition790(IntStream input) {
-            int s = -1;
-            int LA16_1018 = input.LA(1);
-            if ( (LA16_1018=='t') ) {s = 1133;}
-            else if ( ((LA16_1018>='\u0000' && LA16_1018<='s')||(LA16_1018>='u' && LA16_1018<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition791(IntStream input) {
-            int s = -1;
-            int LA16_1133 = input.LA(1);
-            if ( (LA16_1133=='\"') ) {s = 1237;}
-            else if ( ((LA16_1133>='\u0000' && LA16_1133<='!')||(LA16_1133>='#' && LA16_1133<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition792(IntStream input) {
             int s = -1;
             int LA16_586 = input.LA(1);
             if ( (LA16_586=='u') ) {s = 738;}
             else if ( ((LA16_586>='\u0000' && LA16_586<='t')||(LA16_586>='v' && LA16_586<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition793(IntStream input) {
+        protected int specialStateTransition791(IntStream input) {
             int s = -1;
             int LA16_738 = input.LA(1);
             if ( (LA16_738=='l') ) {s = 887;}
             else if ( ((LA16_738>='\u0000' && LA16_738<='k')||(LA16_738>='m' && LA16_738<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition794(IntStream input) {
+        protected int specialStateTransition792(IntStream input) {
             int s = -1;
             int LA16_887 = input.LA(1);
             if ( (LA16_887=='t') ) {s = 1019;}
             else if ( ((LA16_887>='\u0000' && LA16_887<='s')||(LA16_887>='u' && LA16_887<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition795(IntStream input) {
+        protected int specialStateTransition793(IntStream input) {
             int s = -1;
             int LA16_1019 = input.LA(1);
             if ( (LA16_1019=='i') ) {s = 1134;}
             else if ( ((LA16_1019>='\u0000' && LA16_1019<='h')||(LA16_1019>='j' && LA16_1019<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition796(IntStream input) {
+        protected int specialStateTransition794(IntStream input) {
             int s = -1;
             int LA16_1134 = input.LA(1);
             if ( (LA16_1134=='\"') ) {s = 1238;}
             else if ( ((LA16_1134>='\u0000' && LA16_1134<='!')||(LA16_1134>='#' && LA16_1134<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition797(IntStream input) {
+        protected int specialStateTransition795(IntStream input) {
             int s = -1;
             int LA16_739 = input.LA(1);
             if ( (LA16_739=='a') ) {s = 888;}
             else if ( ((LA16_739>='\u0000' && LA16_739<='`')||(LA16_739>='b' && LA16_739<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition798(IntStream input) {
+        protected int specialStateTransition796(IntStream input) {
             int s = -1;
             int LA16_888 = input.LA(1);
             if ( (LA16_888=='r') ) {s = 1020;}
             else if ( ((LA16_888>='\u0000' && LA16_888<='q')||(LA16_888>='s' && LA16_888<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition799(IntStream input) {
+        protected int specialStateTransition797(IntStream input) {
             int s = -1;
             int LA16_1020 = input.LA(1);
             if ( (LA16_1020=='\"') ) {s = 1135;}
             else if ( ((LA16_1020>='\u0000' && LA16_1020<='!')||(LA16_1020>='#' && LA16_1020<='\uFFFF')) ) {s = 50;}
             return s;
         }
+        protected int specialStateTransition798(IntStream input) {
+            int s = -1;
+            int LA16_124 = input.LA(1);
+            if ( (LA16_124=='a') ) {s = 240;}
+            else if ( ((LA16_124>='\u0000' && LA16_124<='`')||(LA16_124>='b' && LA16_124<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition799(IntStream input) {
+            int s = -1;
+            int LA16_240 = input.LA(1);
+            if ( (LA16_240=='u') ) {s = 380;}
+            else if ( ((LA16_240>='\u0000' && LA16_240<='t')||(LA16_240>='v' && LA16_240<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
         protected int specialStateTransition800(IntStream input) {
             int s = -1;
-            int LA16_121 = input.LA(1);
-            if ( (LA16_121=='a') ) {s = 234;}
-            else if ( ((LA16_121>='\u0000' && LA16_121<='`')||(LA16_121>='b' && LA16_121<='\uFFFF')) ) {s = 50;}
+            int LA16_380 = input.LA(1);
+            if ( (LA16_380=='s') ) {s = 537;}
+            else if ( ((LA16_380>='\u0000' && LA16_380<='r')||(LA16_380>='t' && LA16_380<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition801(IntStream input) {
             int s = -1;
-            int LA16_234 = input.LA(1);
-            if ( (LA16_234=='u') ) {s = 374;}
-            else if ( ((LA16_234>='\u0000' && LA16_234<='t')||(LA16_234>='v' && LA16_234<='\uFFFF')) ) {s = 50;}
+            int LA16_537 = input.LA(1);
+            if ( (LA16_537=='e') ) {s = 695;}
+            else if ( ((LA16_537>='\u0000' && LA16_537<='d')||(LA16_537>='f' && LA16_537<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition802(IntStream input) {
             int s = -1;
-            int LA16_374 = input.LA(1);
-            if ( (LA16_374=='s') ) {s = 531;}
-            else if ( ((LA16_374>='\u0000' && LA16_374<='r')||(LA16_374>='t' && LA16_374<='\uFFFF')) ) {s = 50;}
+            int LA16_695 = input.LA(1);
+            if ( (LA16_695=='s') ) {s = 846;}
+            else if ( ((LA16_695>='\u0000' && LA16_695<='r')||(LA16_695>='t' && LA16_695<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition803(IntStream input) {
             int s = -1;
-            int LA16_531 = input.LA(1);
-            if ( (LA16_531=='e') ) {s = 690;}
-            else if ( ((LA16_531>='\u0000' && LA16_531<='d')||(LA16_531>='f' && LA16_531<='\uFFFF')) ) {s = 50;}
+            int LA16_846 = input.LA(1);
+            if ( (LA16_846=='\"') ) {s = 982;}
+            else if ( ((LA16_846>='\u0000' && LA16_846<='!')||(LA16_846>='#' && LA16_846<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition804(IntStream input) {
-            int s = -1;
-            int LA16_690 = input.LA(1);
-            if ( (LA16_690=='s') ) {s = 842;}
-            else if ( ((LA16_690>='\u0000' && LA16_690<='r')||(LA16_690>='t' && LA16_690<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition805(IntStream input) {
-            int s = -1;
-            int LA16_842 = input.LA(1);
-            if ( (LA16_842=='\"') ) {s = 978;}
-            else if ( ((LA16_842>='\u0000' && LA16_842<='!')||(LA16_842>='#' && LA16_842<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition806(IntStream input) {
             int s = -1;
             int LA16_740 = input.LA(1);
             if ( (LA16_740=='t') ) {s = 889;}
             else if ( ((LA16_740>='\u0000' && LA16_740<='s')||(LA16_740>='u' && LA16_740<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition807(IntStream input) {
+        protected int specialStateTransition805(IntStream input) {
             int s = -1;
             int LA16_889 = input.LA(1);
             if ( (LA16_889=='\"') ) {s = 1021;}
             else if ( ((LA16_889>='\u0000' && LA16_889<='!')||(LA16_889>='#' && LA16_889<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition808(IntStream input) {
+        protected int specialStateTransition806(IntStream input) {
             int s = -1;
             int LA16_353 = input.LA(1);
             if ( (LA16_353=='u') ) {s = 510;}
             else if ( ((LA16_353>='\u0000' && LA16_353<='t')||(LA16_353>='v' && LA16_353<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition809(IntStream input) {
+        protected int specialStateTransition807(IntStream input) {
             int s = -1;
             int LA16_510 = input.LA(1);
             if ( (LA16_510=='d') ) {s = 665;}
             else if ( ((LA16_510>='\u0000' && LA16_510<='c')||(LA16_510>='e' && LA16_510<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition810(IntStream input) {
+        protected int specialStateTransition808(IntStream input) {
             int s = -1;
             int LA16_665 = input.LA(1);
             if ( (LA16_665=='e') ) {s = 816;}
             else if ( ((LA16_665>='\u0000' && LA16_665<='d')||(LA16_665>='f' && LA16_665<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition811(IntStream input) {
+        protected int specialStateTransition809(IntStream input) {
             int s = -1;
             int LA16_816 = input.LA(1);
             if ( (LA16_816=='\"') ) {s = 957;}
             else if ( ((LA16_816>='\u0000' && LA16_816<='!')||(LA16_816>='#' && LA16_816<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition812(IntStream input) {
+        protected int specialStateTransition810(IntStream input) {
             int s = -1;
             int LA16_588 = input.LA(1);
             if ( (LA16_588=='r') ) {s = 741;}
             else if ( ((LA16_588>='\u0000' && LA16_588<='q')||(LA16_588>='s' && LA16_588<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition813(IntStream input) {
+        protected int specialStateTransition811(IntStream input) {
             int s = -1;
             int LA16_741 = input.LA(1);
             if ( (LA16_741=='\"') ) {s = 890;}
             else if ( ((LA16_741>='\u0000' && LA16_741<='!')||(LA16_741>='#' && LA16_741<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition814(IntStream input) {
+        protected int specialStateTransition812(IntStream input) {
             int s = -1;
             int LA16_589 = input.LA(1);
             if ( (LA16_589=='e') ) {s = 742;}
             else if ( ((LA16_589>='\u0000' && LA16_589<='d')||(LA16_589>='f' && LA16_589<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition815(IntStream input) {
+        protected int specialStateTransition813(IntStream input) {
             int s = -1;
             int LA16_742 = input.LA(1);
             if ( (LA16_742=='r') ) {s = 891;}
             else if ( ((LA16_742>='\u0000' && LA16_742<='q')||(LA16_742>='s' && LA16_742<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition816(IntStream input) {
+        protected int specialStateTransition814(IntStream input) {
             int s = -1;
             int LA16_891 = input.LA(1);
             if ( (LA16_891=='m') ) {s = 1023;}
             else if ( ((LA16_891>='\u0000' && LA16_891<='l')||(LA16_891>='n' && LA16_891<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition817(IntStream input) {
+        protected int specialStateTransition815(IntStream input) {
             int s = -1;
             int LA16_1023 = input.LA(1);
             if ( (LA16_1023=='\"') ) {s = 1137;}
             else if ( ((LA16_1023>='\u0000' && LA16_1023<='!')||(LA16_1023>='#' && LA16_1023<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition818(IntStream input) {
+        protected int specialStateTransition816(IntStream input) {
             int s = -1;
             int LA16_501 = input.LA(1);
             if ( (LA16_501=='h') ) {s = 656;}
             else if ( ((LA16_501>='\u0000' && LA16_501<='g')||(LA16_501>='i' && LA16_501<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition819(IntStream input) {
+        protected int specialStateTransition817(IntStream input) {
             int s = -1;
             int LA16_656 = input.LA(1);
             if ( (LA16_656=='i') ) {s = 808;}
             else if ( ((LA16_656>='\u0000' && LA16_656<='h')||(LA16_656>='j' && LA16_656<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition820(IntStream input) {
+        protected int specialStateTransition818(IntStream input) {
             int s = -1;
             int LA16_808 = input.LA(1);
             if ( (LA16_808=='l') ) {s = 949;}
             else if ( ((LA16_808>='\u0000' && LA16_808<='k')||(LA16_808>='m' && LA16_808<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition821(IntStream input) {
+        protected int specialStateTransition819(IntStream input) {
             int s = -1;
             int LA16_949 = input.LA(1);
             if ( (LA16_949=='d') ) {s = 1074;}
             else if ( ((LA16_949>='\u0000' && LA16_949<='c')||(LA16_949>='e' && LA16_949<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition822(IntStream input) {
+        protected int specialStateTransition820(IntStream input) {
             int s = -1;
             int LA16_1074 = input.LA(1);
             if ( (LA16_1074=='r') ) {s = 1183;}
             else if ( ((LA16_1074>='\u0000' && LA16_1074<='q')||(LA16_1074>='s' && LA16_1074<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition823(IntStream input) {
+        protected int specialStateTransition821(IntStream input) {
             int s = -1;
             int LA16_1183 = input.LA(1);
             if ( (LA16_1183=='e') ) {s = 1282;}
             else if ( ((LA16_1183>='\u0000' && LA16_1183<='d')||(LA16_1183>='f' && LA16_1183<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition824(IntStream input) {
+        protected int specialStateTransition822(IntStream input) {
             int s = -1;
             int LA16_1282 = input.LA(1);
             if ( (LA16_1282=='n') ) {s = 1366;}
             else if ( ((LA16_1282>='\u0000' && LA16_1282<='m')||(LA16_1282>='o' && LA16_1282<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition825(IntStream input) {
+        protected int specialStateTransition823(IntStream input) {
             int s = -1;
             int LA16_1366 = input.LA(1);
             if ( (LA16_1366=='\"') ) {s = 1435;}
             else if ( ((LA16_1366>='\u0000' && LA16_1366<='!')||(LA16_1366>='#' && LA16_1366<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition826(IntStream input) {
+        protected int specialStateTransition824(IntStream input) {
             int s = -1;
             int LA16_48 = input.LA(1);
             if ( (LA16_48=='i') ) {s = 143;}
             else if ( ((LA16_48>='\u0000' && LA16_48<='h')||(LA16_48>='j' && LA16_48<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition827(IntStream input) {
+        protected int specialStateTransition825(IntStream input) {
             int s = -1;
             int LA16_143 = input.LA(1);
             if ( (LA16_143=='l') ) {s = 270;}
             else if ( ((LA16_143>='\u0000' && LA16_143<='k')||(LA16_143>='m' && LA16_143<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition828(IntStream input) {
+        protected int specialStateTransition826(IntStream input) {
             int s = -1;
             int LA16_270 = input.LA(1);
             if ( (LA16_270=='d') ) {s = 415;}
             else if ( ((LA16_270>='\u0000' && LA16_270<='c')||(LA16_270>='e' && LA16_270<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition829(IntStream input) {
+        protected int specialStateTransition827(IntStream input) {
             int s = -1;
             int LA16_415 = input.LA(1);
             if ( (LA16_415=='c') ) {s = 572;}
             else if ( ((LA16_415>='\u0000' && LA16_415<='b')||(LA16_415>='d' && LA16_415<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition830(IntStream input) {
+        protected int specialStateTransition828(IntStream input) {
             int s = -1;
             int LA16_572 = input.LA(1);
             if ( (LA16_572=='a') ) {s = 727;}
             else if ( ((LA16_572>='\u0000' && LA16_572<='`')||(LA16_572>='b' && LA16_572<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition831(IntStream input) {
+        protected int specialStateTransition829(IntStream input) {
             int s = -1;
             int LA16_727 = input.LA(1);
             if ( (LA16_727=='r') ) {s = 878;}
             else if ( ((LA16_727>='\u0000' && LA16_727<='q')||(LA16_727>='s' && LA16_727<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition832(IntStream input) {
+        protected int specialStateTransition830(IntStream input) {
             int s = -1;
             int LA16_878 = input.LA(1);
             if ( (LA16_878=='d') ) {s = 1011;}
             else if ( ((LA16_878>='\u0000' && LA16_878<='c')||(LA16_878>='e' && LA16_878<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition833(IntStream input) {
+        protected int specialStateTransition831(IntStream input) {
             int s = -1;
             int LA16_1011 = input.LA(1);
             if ( (LA16_1011=='\"') ) {s = 1126;}
             else if ( ((LA16_1011>='\u0000' && LA16_1011<='!')||(LA16_1011>='#' && LA16_1011<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition834(IntStream input) {
+        protected int specialStateTransition832(IntStream input) {
             int s = -1;
             int LA16_750 = input.LA(1);
             if ( (LA16_750=='\"') ) {s = 896;}
             else if ( ((LA16_750>='\u0000' && LA16_750<='!')||(LA16_750>='#' && LA16_750<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition835(IntStream input) {
+        protected int specialStateTransition833(IntStream input) {
             int s = -1;
-            int LA16_693 = input.LA(1);
-            if ( (LA16_693=='\"') ) {s = 845;}
-            else if ( ((LA16_693>='\u0000' && LA16_693<='!')||(LA16_693>='#' && LA16_693<='\uFFFF')) ) {s = 50;}
+            int LA16_698 = input.LA(1);
+            if ( (LA16_698=='\"') ) {s = 849;}
+            else if ( ((LA16_698>='\u0000' && LA16_698<='!')||(LA16_698>='#' && LA16_698<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition836(IntStream input) {
+        protected int specialStateTransition834(IntStream input) {
             int s = -1;
             int LA16_492 = input.LA(1);
             if ( (LA16_492=='o') ) {s = 647;}
             else if ( ((LA16_492>='\u0000' && LA16_492<='n')||(LA16_492>='p' && LA16_492<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition837(IntStream input) {
+        protected int specialStateTransition835(IntStream input) {
             int s = -1;
             int LA16_647 = input.LA(1);
             if ( (LA16_647=='u') ) {s = 800;}
             else if ( ((LA16_647>='\u0000' && LA16_647<='t')||(LA16_647>='v' && LA16_647<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition838(IntStream input) {
+        protected int specialStateTransition836(IntStream input) {
             int s = -1;
             int LA16_800 = input.LA(1);
             if ( (LA16_800=='n') ) {s = 942;}
             else if ( ((LA16_800>='\u0000' && LA16_800<='m')||(LA16_800>='o' && LA16_800<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition839(IntStream input) {
+        protected int specialStateTransition837(IntStream input) {
             int s = -1;
             int LA16_942 = input.LA(1);
             if ( (LA16_942=='d') ) {s = 1068;}
             else if ( ((LA16_942>='\u0000' && LA16_942<='c')||(LA16_942>='e' && LA16_942<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition840(IntStream input) {
+        protected int specialStateTransition838(IntStream input) {
             int s = -1;
             int LA16_1068 = input.LA(1);
             if ( (LA16_1068=='i') ) {s = 1177;}
             else if ( ((LA16_1068>='\u0000' && LA16_1068<='h')||(LA16_1068>='j' && LA16_1068<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition841(IntStream input) {
+        protected int specialStateTransition839(IntStream input) {
             int s = -1;
             int LA16_1177 = input.LA(1);
             if ( (LA16_1177=='n') ) {s = 1276;}
             else if ( ((LA16_1177>='\u0000' && LA16_1177<='m')||(LA16_1177>='o' && LA16_1177<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition842(IntStream input) {
+        protected int specialStateTransition840(IntStream input) {
             int s = -1;
             int LA16_1276 = input.LA(1);
             if ( (LA16_1276=='g') ) {s = 1360;}
             else if ( ((LA16_1276>='\u0000' && LA16_1276<='f')||(LA16_1276>='h' && LA16_1276<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition843(IntStream input) {
+        protected int specialStateTransition841(IntStream input) {
             int s = -1;
             int LA16_1360 = input.LA(1);
             if ( (LA16_1360=='_') ) {s = 1429;}
             else if ( ((LA16_1360>='\u0000' && LA16_1360<='^')||(LA16_1360>='`' && LA16_1360<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition844(IntStream input) {
+        protected int specialStateTransition842(IntStream input) {
             int s = -1;
             int LA16_1429 = input.LA(1);
             if ( (LA16_1429=='b') ) {s = 1491;}
             else if ( ((LA16_1429>='\u0000' && LA16_1429<='a')||(LA16_1429>='c' && LA16_1429<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition845(IntStream input) {
+        protected int specialStateTransition843(IntStream input) {
             int s = -1;
             int LA16_1491 = input.LA(1);
             if ( (LA16_1491=='o') ) {s = 1537;}
             else if ( ((LA16_1491>='\u0000' && LA16_1491<='n')||(LA16_1491>='p' && LA16_1491<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition846(IntStream input) {
+        protected int specialStateTransition844(IntStream input) {
             int s = -1;
             int LA16_1537 = input.LA(1);
             if ( (LA16_1537=='x') ) {s = 1572;}
             else if ( ((LA16_1537>='\u0000' && LA16_1537<='w')||(LA16_1537>='y' && LA16_1537<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition847(IntStream input) {
+        protected int specialStateTransition845(IntStream input) {
             int s = -1;
             int LA16_1572 = input.LA(1);
             if ( (LA16_1572=='\"') ) {s = 1599;}
             else if ( ((LA16_1572>='\u0000' && LA16_1572<='!')||(LA16_1572>='#' && LA16_1572<='\uFFFF')) ) {s = 50;}
             return s;
         }
+        protected int specialStateTransition846(IntStream input) {
+            int s = -1;
+            int LA16_1428 = input.LA(1);
+            if ( (LA16_1428=='r') ) {s = 1490;}
+            else if ( ((LA16_1428>='\u0000' && LA16_1428<='q')||(LA16_1428>='s' && LA16_1428<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition847(IntStream input) {
+            int s = -1;
+            int LA16_1490 = input.LA(1);
+            if ( (LA16_1490=='a') ) {s = 1536;}
+            else if ( ((LA16_1490>='\u0000' && LA16_1490<='`')||(LA16_1490>='b' && LA16_1490<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
         protected int specialStateTransition848(IntStream input) {
+            int s = -1;
+            int LA16_1536 = input.LA(1);
+            if ( (LA16_1536=='n') ) {s = 1571;}
+            else if ( ((LA16_1536>='\u0000' && LA16_1536<='m')||(LA16_1536>='o' && LA16_1536<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition849(IntStream input) {
+            int s = -1;
+            int LA16_1571 = input.LA(1);
+            if ( (LA16_1571=='g') ) {s = 1598;}
+            else if ( ((LA16_1571>='\u0000' && LA16_1571<='f')||(LA16_1571>='h' && LA16_1571<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition850(IntStream input) {
+            int s = -1;
+            int LA16_1598 = input.LA(1);
+            if ( (LA16_1598=='e') ) {s = 1619;}
+            else if ( ((LA16_1598>='\u0000' && LA16_1598<='d')||(LA16_1598>='f' && LA16_1598<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition851(IntStream input) {
+            int s = -1;
+            int LA16_1619 = input.LA(1);
+            if ( (LA16_1619=='\"') ) {s = 1637;}
+            else if ( ((LA16_1619>='\u0000' && LA16_1619<='!')||(LA16_1619>='#' && LA16_1619<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition852(IntStream input) {
+            int s = -1;
+            int LA16_103 = input.LA(1);
+            if ( (LA16_103=='e') ) {s = 202;}
+            else if ( (LA16_103=='\"') ) {s = 203;}
+            else if ( ((LA16_103>='\u0000' && LA16_103<='!')||(LA16_103>='#' && LA16_103<='d')||(LA16_103>='f' && LA16_103<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition853(IntStream input) {
+            int s = -1;
+            int LA16_493 = input.LA(1);
+            if ( (LA16_493=='o') ) {s = 648;}
+            else if ( ((LA16_493>='\u0000' && LA16_493<='n')||(LA16_493>='p' && LA16_493<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition854(IntStream input) {
+            int s = -1;
+            int LA16_648 = input.LA(1);
+            if ( (LA16_648=='l') ) {s = 801;}
+            else if ( ((LA16_648>='\u0000' && LA16_648<='k')||(LA16_648>='m' && LA16_648<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition855(IntStream input) {
+            int s = -1;
+            int LA16_801 = input.LA(1);
+            if ( (LA16_801=='y') ) {s = 943;}
+            else if ( ((LA16_801>='\u0000' && LA16_801<='x')||(LA16_801>='z' && LA16_801<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition856(IntStream input) {
+            int s = -1;
+            int LA16_943 = input.LA(1);
+            if ( (LA16_943=='g') ) {s = 1069;}
+            else if ( ((LA16_943>='\u0000' && LA16_943<='f')||(LA16_943>='h' && LA16_943<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition857(IntStream input) {
+            int s = -1;
+            int LA16_1069 = input.LA(1);
+            if ( (LA16_1069=='o') ) {s = 1178;}
+            else if ( ((LA16_1069>='\u0000' && LA16_1069<='n')||(LA16_1069>='p' && LA16_1069<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition858(IntStream input) {
+            int s = -1;
+            int LA16_1178 = input.LA(1);
+            if ( (LA16_1178=='n') ) {s = 1277;}
+            else if ( ((LA16_1178>='\u0000' && LA16_1178<='m')||(LA16_1178>='o' && LA16_1178<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition859(IntStream input) {
+            int s = -1;
+            int LA16_1277 = input.LA(1);
+            if ( (LA16_1277=='\"') ) {s = 1361;}
+            else if ( ((LA16_1277>='\u0000' && LA16_1277<='!')||(LA16_1277>='#' && LA16_1277<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition860(IntStream input) {
             int s = -1;
             int LA16_37 = input.LA(1);
             if ( (LA16_37=='a') ) {s = 113;}
@@ -20237,296 +20294,246 @@ public class InternalSearchDslLexer extends Lexer {
             else if ( ((LA16_37>='\u0000' && LA16_37<='`')||(LA16_37>='b' && LA16_37<='d')||(LA16_37>='f' && LA16_37<='h')||(LA16_37>='j' && LA16_37<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition849(IntStream input) {
-            int s = -1;
-            int LA16_103 = input.LA(1);
-            if ( (LA16_103=='e') ) {s = 202;}
-            else if ( (LA16_103=='\"') ) {s = 203;}
-            else if ( ((LA16_103>='\u0000' && LA16_103<='!')||(LA16_103>='#' && LA16_103<='d')||(LA16_103>='f' && LA16_103<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition850(IntStream input) {
-            int s = -1;
-            int LA16_1428 = input.LA(1);
-            if ( (LA16_1428=='r') ) {s = 1490;}
-            else if ( ((LA16_1428>='\u0000' && LA16_1428<='q')||(LA16_1428>='s' && LA16_1428<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition851(IntStream input) {
-            int s = -1;
-            int LA16_1490 = input.LA(1);
-            if ( (LA16_1490=='a') ) {s = 1536;}
-            else if ( ((LA16_1490>='\u0000' && LA16_1490<='`')||(LA16_1490>='b' && LA16_1490<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition852(IntStream input) {
-            int s = -1;
-            int LA16_1536 = input.LA(1);
-            if ( (LA16_1536=='n') ) {s = 1571;}
-            else if ( ((LA16_1536>='\u0000' && LA16_1536<='m')||(LA16_1536>='o' && LA16_1536<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition853(IntStream input) {
-            int s = -1;
-            int LA16_1571 = input.LA(1);
-            if ( (LA16_1571=='g') ) {s = 1598;}
-            else if ( ((LA16_1571>='\u0000' && LA16_1571<='f')||(LA16_1571>='h' && LA16_1571<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition854(IntStream input) {
-            int s = -1;
-            int LA16_1598 = input.LA(1);
-            if ( (LA16_1598=='e') ) {s = 1619;}
-            else if ( ((LA16_1598>='\u0000' && LA16_1598<='d')||(LA16_1598>='f' && LA16_1598<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition855(IntStream input) {
-            int s = -1;
-            int LA16_1619 = input.LA(1);
-            if ( (LA16_1619=='\"') ) {s = 1637;}
-            else if ( ((LA16_1619>='\u0000' && LA16_1619<='!')||(LA16_1619>='#' && LA16_1619<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition856(IntStream input) {
-            int s = -1;
-            int LA16_493 = input.LA(1);
-            if ( (LA16_493=='o') ) {s = 648;}
-            else if ( ((LA16_493>='\u0000' && LA16_493<='n')||(LA16_493>='p' && LA16_493<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition857(IntStream input) {
-            int s = -1;
-            int LA16_648 = input.LA(1);
-            if ( (LA16_648=='l') ) {s = 801;}
-            else if ( ((LA16_648>='\u0000' && LA16_648<='k')||(LA16_648>='m' && LA16_648<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition858(IntStream input) {
-            int s = -1;
-            int LA16_801 = input.LA(1);
-            if ( (LA16_801=='y') ) {s = 943;}
-            else if ( ((LA16_801>='\u0000' && LA16_801<='x')||(LA16_801>='z' && LA16_801<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition859(IntStream input) {
-            int s = -1;
-            int LA16_943 = input.LA(1);
-            if ( (LA16_943=='g') ) {s = 1069;}
-            else if ( ((LA16_943>='\u0000' && LA16_943<='f')||(LA16_943>='h' && LA16_943<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition860(IntStream input) {
-            int s = -1;
-            int LA16_1069 = input.LA(1);
-            if ( (LA16_1069=='o') ) {s = 1178;}
-            else if ( ((LA16_1069>='\u0000' && LA16_1069<='n')||(LA16_1069>='p' && LA16_1069<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
         protected int specialStateTransition861(IntStream input) {
-            int s = -1;
-            int LA16_126 = input.LA(1);
-            if ( (LA16_126=='\"') ) {s = 245;}
-            else if ( (LA16_126=='e') ) {s = 246;}
-            else if ( ((LA16_126>='\u0000' && LA16_126<='!')||(LA16_126>='#' && LA16_126<='d')||(LA16_126>='f' && LA16_126<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition862(IntStream input) {
-            int s = -1;
-            int LA16_1178 = input.LA(1);
-            if ( (LA16_1178=='n') ) {s = 1277;}
-            else if ( ((LA16_1178>='\u0000' && LA16_1178<='m')||(LA16_1178>='o' && LA16_1178<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition863(IntStream input) {
-            int s = -1;
-            int LA16_1277 = input.LA(1);
-            if ( (LA16_1277=='\"') ) {s = 1361;}
-            else if ( ((LA16_1277>='\u0000' && LA16_1277<='!')||(LA16_1277>='#' && LA16_1277<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition864(IntStream input) {
             int s = -1;
             int LA16_140 = input.LA(1);
             if ( (LA16_140=='i') ) {s = 267;}
             else if ( ((LA16_140>='\u0000' && LA16_140<='h')||(LA16_140>='j' && LA16_140<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition865(IntStream input) {
+        protected int specialStateTransition862(IntStream input) {
             int s = -1;
             int LA16_267 = input.LA(1);
             if ( (LA16_267=='n') ) {s = 412;}
             else if ( ((LA16_267>='\u0000' && LA16_267<='m')||(LA16_267>='o' && LA16_267<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition866(IntStream input) {
+        protected int specialStateTransition863(IntStream input) {
             int s = -1;
             int LA16_412 = input.LA(1);
             if ( (LA16_412=='t') ) {s = 569;}
             else if ( ((LA16_412>='\u0000' && LA16_412<='s')||(LA16_412>='u' && LA16_412<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition867(IntStream input) {
+        protected int specialStateTransition864(IntStream input) {
             int s = -1;
             int LA16_569 = input.LA(1);
             if ( (LA16_569=='s') ) {s = 725;}
             else if ( ((LA16_569>='\u0000' && LA16_569<='r')||(LA16_569>='t' && LA16_569<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition868(IntStream input) {
+        protected int specialStateTransition865(IntStream input) {
             int s = -1;
             int LA16_725 = input.LA(1);
             if ( (LA16_725=='\"') ) {s = 876;}
             else if ( ((LA16_725>='\u0000' && LA16_725<='!')||(LA16_725>='#' && LA16_725<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition869(IntStream input) {
+        protected int specialStateTransition866(IntStream input) {
             int s = -1;
             int LA16_337 = input.LA(1);
             if ( (LA16_337=='a') ) {s = 494;}
             else if ( ((LA16_337>='\u0000' && LA16_337<='`')||(LA16_337>='b' && LA16_337<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition870(IntStream input) {
+        protected int specialStateTransition867(IntStream input) {
+            int s = -1;
+            int LA16_129 = input.LA(1);
+            if ( (LA16_129=='\"') ) {s = 251;}
+            else if ( (LA16_129=='e') ) {s = 252;}
+            else if ( ((LA16_129>='\u0000' && LA16_129<='!')||(LA16_129>='#' && LA16_129<='d')||(LA16_129>='f' && LA16_129<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition868(IntStream input) {
             int s = -1;
             int LA16_494 = input.LA(1);
             if ( (LA16_494=='s') ) {s = 649;}
             else if ( ((LA16_494>='\u0000' && LA16_494<='r')||(LA16_494>='t' && LA16_494<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition871(IntStream input) {
+        protected int specialStateTransition869(IntStream input) {
             int s = -1;
             int LA16_649 = input.LA(1);
             if ( (LA16_649=='h') ) {s = 802;}
             else if ( ((LA16_649>='\u0000' && LA16_649<='g')||(LA16_649>='i' && LA16_649<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition872(IntStream input) {
+        protected int specialStateTransition870(IntStream input) {
             int s = -1;
             int LA16_802 = input.LA(1);
             if ( (LA16_802=='_') ) {s = 944;}
             else if ( ((LA16_802>='\u0000' && LA16_802<='^')||(LA16_802>='`' && LA16_802<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition873(IntStream input) {
+        protected int specialStateTransition871(IntStream input) {
             int s = -1;
             int LA16_944 = input.LA(1);
             if ( (LA16_944=='c') ) {s = 1070;}
             else if ( ((LA16_944>='\u0000' && LA16_944<='b')||(LA16_944>='d' && LA16_944<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition874(IntStream input) {
+        protected int specialStateTransition872(IntStream input) {
             int s = -1;
             int LA16_1070 = input.LA(1);
             if ( (LA16_1070=='e') ) {s = 1179;}
             else if ( ((LA16_1070>='\u0000' && LA16_1070<='d')||(LA16_1070>='f' && LA16_1070<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition875(IntStream input) {
+        protected int specialStateTransition873(IntStream input) {
             int s = -1;
             int LA16_1179 = input.LA(1);
             if ( (LA16_1179=='l') ) {s = 1278;}
             else if ( ((LA16_1179>='\u0000' && LA16_1179<='k')||(LA16_1179>='m' && LA16_1179<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition876(IntStream input) {
+        protected int specialStateTransition874(IntStream input) {
             int s = -1;
             int LA16_1278 = input.LA(1);
             if ( (LA16_1278=='l') ) {s = 1362;}
             else if ( ((LA16_1278>='\u0000' && LA16_1278<='k')||(LA16_1278>='m' && LA16_1278<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition877(IntStream input) {
+        protected int specialStateTransition875(IntStream input) {
             int s = -1;
             int LA16_1362 = input.LA(1);
             if ( (LA16_1362=='\"') ) {s = 1431;}
             else if ( ((LA16_1362>='\u0000' && LA16_1362<='!')||(LA16_1362>='#' && LA16_1362<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition878(IntStream input) {
+        protected int specialStateTransition876(IntStream input) {
             int s = -1;
             int LA16_141 = input.LA(1);
             if ( (LA16_141=='n') ) {s = 268;}
             else if ( ((LA16_141>='\u0000' && LA16_141<='m')||(LA16_141>='o' && LA16_141<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition879(IntStream input) {
+        protected int specialStateTransition877(IntStream input) {
             int s = -1;
             int LA16_268 = input.LA(1);
             if ( (LA16_268=='\"') ) {s = 413;}
             else if ( ((LA16_268>='\u0000' && LA16_268<='!')||(LA16_268>='#' && LA16_268<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition880(IntStream input) {
+        protected int specialStateTransition878(IntStream input) {
             int s = -1;
             int LA16_406 = input.LA(1);
             if ( (LA16_406=='i') ) {s = 563;}
             else if ( ((LA16_406>='\u0000' && LA16_406<='h')||(LA16_406>='j' && LA16_406<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition881(IntStream input) {
+        protected int specialStateTransition879(IntStream input) {
             int s = -1;
             int LA16_563 = input.LA(1);
             if ( (LA16_563=='s') ) {s = 719;}
             else if ( ((LA16_563>='\u0000' && LA16_563<='r')||(LA16_563>='t' && LA16_563<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition882(IntStream input) {
-            int s = -1;
-            int LA16_191 = input.LA(1);
-            if ( (LA16_191=='l') ) {s = 324;}
-            else if ( ((LA16_191>='\u0000' && LA16_191<='k')||(LA16_191>='m' && LA16_191<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition883(IntStream input) {
+        protected int specialStateTransition880(IntStream input) {
             int s = -1;
             int LA16_719 = input.LA(1);
             if ( (LA16_719=='i') ) {s = 871;}
             else if ( ((LA16_719>='\u0000' && LA16_719<='h')||(LA16_719>='j' && LA16_719<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition884(IntStream input) {
+        protected int specialStateTransition881(IntStream input) {
             int s = -1;
             int LA16_871 = input.LA(1);
             if ( (LA16_871=='o') ) {s = 1006;}
             else if ( ((LA16_871>='\u0000' && LA16_871<='n')||(LA16_871>='p' && LA16_871<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition885(IntStream input) {
-            int s = -1;
-            int LA16_324 = input.LA(1);
-            if ( (LA16_324=='y') ) {s = 477;}
-            else if ( ((LA16_324>='\u0000' && LA16_324<='x')||(LA16_324>='z' && LA16_324<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition886(IntStream input) {
+        protected int specialStateTransition882(IntStream input) {
             int s = -1;
             int LA16_1006 = input.LA(1);
             if ( (LA16_1006=='n') ) {s = 1123;}
             else if ( ((LA16_1006>='\u0000' && LA16_1006<='m')||(LA16_1006>='o' && LA16_1006<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition887(IntStream input) {
+        protected int specialStateTransition883(IntStream input) {
             int s = -1;
             int LA16_1123 = input.LA(1);
             if ( (LA16_1123=='\"') ) {s = 1227;}
             else if ( ((LA16_1123>='\u0000' && LA16_1123<='!')||(LA16_1123>='#' && LA16_1123<='\uFFFF')) ) {s = 50;}
             return s;
         }
+        protected int specialStateTransition884(IntStream input) {
+            int s = -1;
+            int LA16_228 = input.LA(1);
+            if ( (LA16_228=='g') ) {s = 368;}
+            else if ( ((LA16_228>='\u0000' && LA16_228<='f')||(LA16_228>='h' && LA16_228<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition885(IntStream input) {
+            int s = -1;
+            int LA16_368 = input.LA(1);
+            if ( (LA16_368=='h') ) {s = 525;}
+            else if ( ((LA16_368>='\u0000' && LA16_368<='g')||(LA16_368>='i' && LA16_368<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition886(IntStream input) {
+            int s = -1;
+            int LA16_525 = input.LA(1);
+            if ( (LA16_525=='b') ) {s = 684;}
+            else if ( ((LA16_525>='\u0000' && LA16_525<='a')||(LA16_525>='c' && LA16_525<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition887(IntStream input) {
+            int s = -1;
+            int LA16_684 = input.LA(1);
+            if ( (LA16_684=='o') ) {s = 836;}
+            else if ( ((LA16_684>='\u0000' && LA16_684<='n')||(LA16_684>='p' && LA16_684<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
         protected int specialStateTransition888(IntStream input) {
+            int s = -1;
+            int LA16_836 = input.LA(1);
+            if ( (LA16_836=='r') ) {s = 973;}
+            else if ( ((LA16_836>='\u0000' && LA16_836<='q')||(LA16_836>='s' && LA16_836<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition889(IntStream input) {
+            int s = -1;
+            int LA16_973 = input.LA(1);
+            if ( (LA16_973=='s') ) {s = 1095;}
+            else if ( ((LA16_973>='\u0000' && LA16_973<='r')||(LA16_973>='t' && LA16_973<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition890(IntStream input) {
+            int s = -1;
+            int LA16_1095 = input.LA(1);
+            if ( (LA16_1095=='\"') ) {s = 1201;}
+            else if ( ((LA16_1095>='\u0000' && LA16_1095<='!')||(LA16_1095>='#' && LA16_1095<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition891(IntStream input) {
+            int s = -1;
+            int LA16_191 = input.LA(1);
+            if ( (LA16_191=='l') ) {s = 324;}
+            else if ( ((LA16_191>='\u0000' && LA16_191<='k')||(LA16_191>='m' && LA16_191<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition892(IntStream input) {
+            int s = -1;
+            int LA16_324 = input.LA(1);
+            if ( (LA16_324=='y') ) {s = 477;}
+            else if ( ((LA16_324>='\u0000' && LA16_324<='x')||(LA16_324>='z' && LA16_324<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition893(IntStream input) {
             int s = -1;
             int LA16_477 = input.LA(1);
             if ( (LA16_477=='z') ) {s = 633;}
             else if ( ((LA16_477>='\u0000' && LA16_477<='y')||(LA16_477>='{' && LA16_477<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition889(IntStream input) {
+        protected int specialStateTransition894(IntStream input) {
             int s = -1;
             int LA16_633 = input.LA(1);
             if ( (LA16_633=='e') ) {s = 787;}
             else if ( ((LA16_633>='\u0000' && LA16_633<='d')||(LA16_633>='f' && LA16_633<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition890(IntStream input) {
+        protected int specialStateTransition895(IntStream input) {
             int s = -1;
             int LA16_787 = input.LA(1);
             if ( (LA16_787=='r') ) {s = 929;}
@@ -20534,233 +20541,252 @@ public class InternalSearchDslLexer extends Lexer {
             else if ( ((LA16_787>='\u0000' && LA16_787<='^')||(LA16_787>='`' && LA16_787<='q')||(LA16_787>='s' && LA16_787<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition891(IntStream input) {
-            int s = -1;
-            int LA16_257 = input.LA(1);
-            if ( (LA16_257=='g') ) {s = 398;}
-            else if ( ((LA16_257>='\u0000' && LA16_257<='f')||(LA16_257>='h' && LA16_257<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition892(IntStream input) {
-            int s = -1;
-            int LA16_398 = input.LA(1);
-            if ( (LA16_398=='h') ) {s = 554;}
-            else if ( ((LA16_398>='\u0000' && LA16_398<='g')||(LA16_398>='i' && LA16_398<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition893(IntStream input) {
-            int s = -1;
-            int LA16_554 = input.LA(1);
-            if ( (LA16_554=='b') ) {s = 709;}
-            else if ( ((LA16_554>='\u0000' && LA16_554<='a')||(LA16_554>='c' && LA16_554<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition894(IntStream input) {
-            int s = -1;
-            int LA16_709 = input.LA(1);
-            if ( (LA16_709=='o') ) {s = 859;}
-            else if ( ((LA16_709>='\u0000' && LA16_709<='n')||(LA16_709>='p' && LA16_709<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition895(IntStream input) {
-            int s = -1;
-            int LA16_859 = input.LA(1);
-            if ( (LA16_859=='r') ) {s = 994;}
-            else if ( ((LA16_859>='\u0000' && LA16_859<='q')||(LA16_859>='s' && LA16_859<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
         protected int specialStateTransition896(IntStream input) {
-            int s = -1;
-            int LA16_994 = input.LA(1);
-            if ( (LA16_994=='s') ) {s = 1114;}
-            else if ( ((LA16_994>='\u0000' && LA16_994<='r')||(LA16_994>='t' && LA16_994<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition897(IntStream input) {
-            int s = -1;
-            int LA16_1114 = input.LA(1);
-            if ( (LA16_1114=='\"') ) {s = 1218;}
-            else if ( ((LA16_1114>='\u0000' && LA16_1114<='!')||(LA16_1114>='#' && LA16_1114<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition898(IntStream input) {
             int s = -1;
             int LA16_410 = input.LA(1);
             if ( (LA16_410=='n') ) {s = 567;}
             else if ( ((LA16_410>='\u0000' && LA16_410<='m')||(LA16_410>='o' && LA16_410<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition899(IntStream input) {
+        protected int specialStateTransition897(IntStream input) {
             int s = -1;
             int LA16_567 = input.LA(1);
             if ( (LA16_567=='t') ) {s = 723;}
             else if ( ((LA16_567>='\u0000' && LA16_567<='s')||(LA16_567>='u' && LA16_567<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition900(IntStream input) {
+        protected int specialStateTransition898(IntStream input) {
             int s = -1;
             int LA16_723 = input.LA(1);
             if ( (LA16_723=='_') ) {s = 874;}
             else if ( ((LA16_723>='\u0000' && LA16_723<='^')||(LA16_723>='`' && LA16_723<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition901(IntStream input) {
+        protected int specialStateTransition899(IntStream input) {
             int s = -1;
             int LA16_874 = input.LA(1);
             if ( (LA16_874=='t') ) {s = 1007;}
             else if ( ((LA16_874>='\u0000' && LA16_874<='s')||(LA16_874>='u' && LA16_874<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition902(IntStream input) {
+        protected int specialStateTransition900(IntStream input) {
             int s = -1;
             int LA16_1007 = input.LA(1);
             if ( (LA16_1007=='y') ) {s = 1124;}
             else if ( ((LA16_1007>='\u0000' && LA16_1007<='x')||(LA16_1007>='z' && LA16_1007<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition903(IntStream input) {
+        protected int specialStateTransition901(IntStream input) {
             int s = -1;
             int LA16_1124 = input.LA(1);
             if ( (LA16_1124=='p') ) {s = 1228;}
             else if ( ((LA16_1124>='\u0000' && LA16_1124<='o')||(LA16_1124>='q' && LA16_1124<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition904(IntStream input) {
+        protected int specialStateTransition902(IntStream input) {
             int s = -1;
             int LA16_1228 = input.LA(1);
             if ( (LA16_1228=='e') ) {s = 1322;}
             else if ( ((LA16_1228>='\u0000' && LA16_1228<='d')||(LA16_1228>='f' && LA16_1228<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition905(IntStream input) {
+        protected int specialStateTransition903(IntStream input) {
             int s = -1;
             int LA16_1322 = input.LA(1);
             if ( (LA16_1322=='\"') ) {s = 1396;}
             else if ( ((LA16_1322>='\u0000' && LA16_1322<='!')||(LA16_1322>='#' && LA16_1322<='\uFFFF')) ) {s = 50;}
             return s;
         }
+        protected int specialStateTransition904(IntStream input) {
+            int s = -1;
+            int LA16_1204 = input.LA(1);
+            if ( (LA16_1204=='i') ) {s = 1300;}
+            else if ( ((LA16_1204>='\u0000' && LA16_1204<='h')||(LA16_1204>='j' && LA16_1204<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition905(IntStream input) {
+            int s = -1;
+            int LA16_1300 = input.LA(1);
+            if ( (LA16_1300=='l') ) {s = 1378;}
+            else if ( ((LA16_1300>='\u0000' && LA16_1300<='k')||(LA16_1300>='m' && LA16_1300<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
         protected int specialStateTransition906(IntStream input) {
             int s = -1;
-            int LA16_1217 = input.LA(1);
-            if ( (LA16_1217=='i') ) {s = 1311;}
-            else if ( ((LA16_1217>='\u0000' && LA16_1217<='h')||(LA16_1217>='j' && LA16_1217<='\uFFFF')) ) {s = 50;}
+            int LA16_1378 = input.LA(1);
+            if ( (LA16_1378=='t') ) {s = 1444;}
+            else if ( ((LA16_1378>='\u0000' && LA16_1378<='s')||(LA16_1378>='u' && LA16_1378<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition907(IntStream input) {
             int s = -1;
-            int LA16_1311 = input.LA(1);
-            if ( (LA16_1311=='l') ) {s = 1387;}
-            else if ( ((LA16_1311>='\u0000' && LA16_1311<='k')||(LA16_1311>='m' && LA16_1311<='\uFFFF')) ) {s = 50;}
+            int LA16_1444 = input.LA(1);
+            if ( (LA16_1444=='e') ) {s = 1501;}
+            else if ( ((LA16_1444>='\u0000' && LA16_1444<='d')||(LA16_1444>='f' && LA16_1444<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition908(IntStream input) {
             int s = -1;
-            int LA16_1387 = input.LA(1);
-            if ( (LA16_1387=='t') ) {s = 1453;}
-            else if ( ((LA16_1387>='\u0000' && LA16_1387<='s')||(LA16_1387>='u' && LA16_1387<='\uFFFF')) ) {s = 50;}
+            int LA16_1501 = input.LA(1);
+            if ( (LA16_1501=='r') ) {s = 1543;}
+            else if ( ((LA16_1501>='\u0000' && LA16_1501<='q')||(LA16_1501>='s' && LA16_1501<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition909(IntStream input) {
             int s = -1;
-            int LA16_1453 = input.LA(1);
-            if ( (LA16_1453=='e') ) {s = 1509;}
-            else if ( ((LA16_1453>='\u0000' && LA16_1453<='d')||(LA16_1453>='f' && LA16_1453<='\uFFFF')) ) {s = 50;}
+            int LA16_1543 = input.LA(1);
+            if ( (LA16_1543=='\"') ) {s = 1575;}
+            else if ( ((LA16_1543>='\u0000' && LA16_1543<='!')||(LA16_1543>='#' && LA16_1543<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition910(IntStream input) {
             int s = -1;
-            int LA16_1509 = input.LA(1);
-            if ( (LA16_1509=='r') ) {s = 1550;}
-            else if ( ((LA16_1509>='\u0000' && LA16_1509<='q')||(LA16_1509>='s' && LA16_1509<='\uFFFF')) ) {s = 50;}
+            int LA16_256 = input.LA(1);
+            if ( (LA16_256=='i') ) {s = 397;}
+            else if ( ((LA16_256>='\u0000' && LA16_256<='h')||(LA16_256>='j' && LA16_256<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition911(IntStream input) {
             int s = -1;
-            int LA16_44 = input.LA(1);
-            if ( (LA16_44=='u') ) {s = 130;}
-            else if ( (LA16_44=='o') ) {s = 131;}
-            else if ( (LA16_44=='e') ) {s = 132;}
-            else if ( ((LA16_44>='\u0000' && LA16_44<='d')||(LA16_44>='f' && LA16_44<='n')||(LA16_44>='p' && LA16_44<='t')||(LA16_44>='v' && LA16_44<='\uFFFF')) ) {s = 50;}
+            int LA16_397 = input.LA(1);
+            if ( (LA16_397=='t') ) {s = 553;}
+            else if ( ((LA16_397>='\u0000' && LA16_397<='s')||(LA16_397>='u' && LA16_397<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition912(IntStream input) {
             int s = -1;
-            int LA16_1550 = input.LA(1);
-            if ( (LA16_1550=='\"') ) {s = 1582;}
-            else if ( ((LA16_1550>='\u0000' && LA16_1550<='!')||(LA16_1550>='#' && LA16_1550<='\uFFFF')) ) {s = 50;}
+            int LA16_553 = input.LA(1);
+            if ( (LA16_553=='\"') ) {s = 709;}
+            else if ( ((LA16_553>='\u0000' && LA16_553<='!')||(LA16_553>='#' && LA16_553<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition913(IntStream input) {
             int s = -1;
-            int LA16_250 = input.LA(1);
-            if ( (LA16_250=='i') ) {s = 391;}
-            else if ( ((LA16_250>='\u0000' && LA16_250<='h')||(LA16_250>='j' && LA16_250<='\uFFFF')) ) {s = 50;}
+            int LA16_232 = input.LA(1);
+            if ( (LA16_232=='\"') ) {s = 372;}
+            else if ( ((LA16_232>='\u0000' && LA16_232<='!')||(LA16_232>='#' && LA16_232<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition914(IntStream input) {
-            int s = -1;
-            int LA16_391 = input.LA(1);
-            if ( (LA16_391=='t') ) {s = 547;}
-            else if ( ((LA16_391>='\u0000' && LA16_391<='s')||(LA16_391>='u' && LA16_391<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition915(IntStream input) {
-            int s = -1;
-            int LA16_547 = input.LA(1);
-            if ( (LA16_547=='\"') ) {s = 704;}
-            else if ( ((LA16_547>='\u0000' && LA16_547<='!')||(LA16_547>='#' && LA16_547<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition916(IntStream input) {
-            int s = -1;
-            int LA16_255 = input.LA(1);
-            if ( (LA16_255=='\"') ) {s = 396;}
-            else if ( ((LA16_255>='\u0000' && LA16_255<='!')||(LA16_255>='#' && LA16_255<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition917(IntStream input) {
-            int s = -1;
-            int LA16_196 = input.LA(1);
-            if ( (LA16_196=='a') ) {s = 330;}
-            else if ( ((LA16_196>='\u0000' && LA16_196<='`')||(LA16_196>='b' && LA16_196<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition918(IntStream input) {
-            int s = -1;
-            int LA16_330 = input.LA(1);
-            if ( (LA16_330=='u') ) {s = 483;}
-            else if ( ((LA16_330>='\u0000' && LA16_330<='t')||(LA16_330>='v' && LA16_330<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition919(IntStream input) {
-            int s = -1;
-            int LA16_483 = input.LA(1);
-            if ( (LA16_483=='l') ) {s = 637;}
-            else if ( ((LA16_483>='\u0000' && LA16_483<='k')||(LA16_483>='m' && LA16_483<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition920(IntStream input) {
-            int s = -1;
-            int LA16_637 = input.LA(1);
-            if ( (LA16_637=='t') ) {s = 790;}
-            else if ( ((LA16_637>='\u0000' && LA16_637<='s')||(LA16_637>='u' && LA16_637<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition921(IntStream input) {
-            int s = -1;
-            int LA16_790 = input.LA(1);
-            if ( (LA16_790=='_') ) {s = 933;}
-            else if ( ((LA16_790>='\u0000' && LA16_790<='^')||(LA16_790>='`' && LA16_790<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition922(IntStream input) {
             int s = -1;
             int LA16_80 = input.LA(1);
             if ( (LA16_80=='u') ) {s = 169;}
             else if ( ((LA16_80>='\u0000' && LA16_80<='t')||(LA16_80>='v' && LA16_80<='\uFFFF')) ) {s = 50;}
             return s;
         }
+        protected int specialStateTransition915(IntStream input) {
+            int s = -1;
+            int LA16_169 = input.LA(1);
+            if ( (LA16_169=='e') ) {s = 296;}
+            else if ( ((LA16_169>='\u0000' && LA16_169<='d')||(LA16_169>='f' && LA16_169<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition916(IntStream input) {
+            int s = -1;
+            int LA16_296 = input.LA(1);
+            if ( (LA16_296=='r') ) {s = 444;}
+            else if ( ((LA16_296>='\u0000' && LA16_296<='q')||(LA16_296>='s' && LA16_296<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition917(IntStream input) {
+            int s = -1;
+            int LA16_444 = input.LA(1);
+            if ( (LA16_444=='y') ) {s = 605;}
+            else if ( ((LA16_444>='\u0000' && LA16_444<='x')||(LA16_444>='z' && LA16_444<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition918(IntStream input) {
+            int s = -1;
+            int LA16_605 = input.LA(1);
+            if ( (LA16_605=='\"') ) {s = 761;}
+            else if ( ((LA16_605>='\u0000' && LA16_605<='!')||(LA16_605>='#' && LA16_605<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition919(IntStream input) {
+            int s = -1;
+            int LA16_196 = input.LA(1);
+            if ( (LA16_196=='a') ) {s = 330;}
+            else if ( ((LA16_196>='\u0000' && LA16_196<='`')||(LA16_196>='b' && LA16_196<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition920(IntStream input) {
+            int s = -1;
+            int LA16_243 = input.LA(1);
+            if ( (LA16_243=='c') ) {s = 383;}
+            else if ( ((LA16_243>='\u0000' && LA16_243<='b')||(LA16_243>='d' && LA16_243<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition921(IntStream input) {
+            int s = -1;
+            int LA16_383 = input.LA(1);
+            if ( (LA16_383=='u') ) {s = 540;}
+            else if ( ((LA16_383>='\u0000' && LA16_383<='t')||(LA16_383>='v' && LA16_383<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition922(IntStream input) {
+            int s = -1;
+            int LA16_330 = input.LA(1);
+            if ( (LA16_330=='u') ) {s = 483;}
+            else if ( ((LA16_330>='\u0000' && LA16_330<='t')||(LA16_330>='v' && LA16_330<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
         protected int specialStateTransition923(IntStream input) {
+            int s = -1;
+            int LA16_540 = input.LA(1);
+            if ( (LA16_540=='t') ) {s = 699;}
+            else if ( ((LA16_540>='\u0000' && LA16_540<='s')||(LA16_540>='u' && LA16_540<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition924(IntStream input) {
+            int s = -1;
+            int LA16_699 = input.LA(1);
+            if ( (LA16_699=='i') ) {s = 850;}
+            else if ( ((LA16_699>='\u0000' && LA16_699<='h')||(LA16_699>='j' && LA16_699<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition925(IntStream input) {
+            int s = -1;
+            int LA16_483 = input.LA(1);
+            if ( (LA16_483=='l') ) {s = 637;}
+            else if ( ((LA16_483>='\u0000' && LA16_483<='k')||(LA16_483>='m' && LA16_483<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition926(IntStream input) {
+            int s = -1;
+            int LA16_850 = input.LA(1);
+            if ( (LA16_850=='o') ) {s = 986;}
+            else if ( ((LA16_850>='\u0000' && LA16_850<='n')||(LA16_850>='p' && LA16_850<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition927(IntStream input) {
+            int s = -1;
+            int LA16_986 = input.LA(1);
+            if ( (LA16_986=='n') ) {s = 1106;}
+            else if ( ((LA16_986>='\u0000' && LA16_986<='m')||(LA16_986>='o' && LA16_986<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition928(IntStream input) {
+            int s = -1;
+            int LA16_637 = input.LA(1);
+            if ( (LA16_637=='t') ) {s = 790;}
+            else if ( ((LA16_637>='\u0000' && LA16_637<='s')||(LA16_637>='u' && LA16_637<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition929(IntStream input) {
+            int s = -1;
+            int LA16_1106 = input.LA(1);
+            if ( (LA16_1106=='\"') ) {s = 1211;}
+            else if ( ((LA16_1106>='\u0000' && LA16_1106<='!')||(LA16_1106>='#' && LA16_1106<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition930(IntStream input) {
+            int s = -1;
+            int LA16_790 = input.LA(1);
+            if ( (LA16_790=='_') ) {s = 933;}
+            else if ( ((LA16_790>='\u0000' && LA16_790<='^')||(LA16_790>='`' && LA16_790<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition931(IntStream input) {
             int s = -1;
             int LA16_933 = input.LA(1);
             if ( (LA16_933=='f') ) {s = 1057;}
@@ -20768,147 +20794,70 @@ public class InternalSearchDslLexer extends Lexer {
             else if ( ((LA16_933>='\u0000' && LA16_933<='e')||(LA16_933>='g' && LA16_933<='n')||(LA16_933>='p' && LA16_933<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition924(IntStream input) {
-            int s = -1;
-            int LA16_169 = input.LA(1);
-            if ( (LA16_169=='e') ) {s = 296;}
-            else if ( ((LA16_169>='\u0000' && LA16_169<='d')||(LA16_169>='f' && LA16_169<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition925(IntStream input) {
-            int s = -1;
-            int LA16_296 = input.LA(1);
-            if ( (LA16_296=='r') ) {s = 444;}
-            else if ( ((LA16_296>='\u0000' && LA16_296<='q')||(LA16_296>='s' && LA16_296<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition926(IntStream input) {
-            int s = -1;
-            int LA16_444 = input.LA(1);
-            if ( (LA16_444=='y') ) {s = 605;}
-            else if ( ((LA16_444>='\u0000' && LA16_444<='x')||(LA16_444>='z' && LA16_444<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition927(IntStream input) {
-            int s = -1;
-            int LA16_605 = input.LA(1);
-            if ( (LA16_605=='\"') ) {s = 761;}
-            else if ( ((LA16_605>='\u0000' && LA16_605<='!')||(LA16_605>='#' && LA16_605<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition928(IntStream input) {
-            int s = -1;
-            int LA16_237 = input.LA(1);
-            if ( (LA16_237=='c') ) {s = 377;}
-            else if ( ((LA16_237>='\u0000' && LA16_237<='b')||(LA16_237>='d' && LA16_237<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition929(IntStream input) {
-            int s = -1;
-            int LA16_377 = input.LA(1);
-            if ( (LA16_377=='u') ) {s = 534;}
-            else if ( ((LA16_377>='\u0000' && LA16_377<='t')||(LA16_377>='v' && LA16_377<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition930(IntStream input) {
-            int s = -1;
-            int LA16_534 = input.LA(1);
-            if ( (LA16_534=='t') ) {s = 694;}
-            else if ( ((LA16_534>='\u0000' && LA16_534<='s')||(LA16_534>='u' && LA16_534<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition931(IntStream input) {
-            int s = -1;
-            int LA16_694 = input.LA(1);
-            if ( (LA16_694=='i') ) {s = 846;}
-            else if ( ((LA16_694>='\u0000' && LA16_694<='h')||(LA16_694>='j' && LA16_694<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
         protected int specialStateTransition932(IntStream input) {
-            int s = -1;
-            int LA16_846 = input.LA(1);
-            if ( (LA16_846=='o') ) {s = 982;}
-            else if ( ((LA16_846>='\u0000' && LA16_846<='n')||(LA16_846>='p' && LA16_846<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition933(IntStream input) {
-            int s = -1;
-            int LA16_982 = input.LA(1);
-            if ( (LA16_982=='n') ) {s = 1103;}
-            else if ( ((LA16_982>='\u0000' && LA16_982<='m')||(LA16_982>='o' && LA16_982<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition934(IntStream input) {
-            int s = -1;
-            int LA16_1103 = input.LA(1);
-            if ( (LA16_1103=='\"') ) {s = 1207;}
-            else if ( ((LA16_1103>='\u0000' && LA16_1103<='!')||(LA16_1103>='#' && LA16_1103<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition935(IntStream input) {
             int s = -1;
             int LA16_595 = input.LA(1);
             if ( (LA16_595=='a') ) {s = 747;}
             else if ( ((LA16_595>='\u0000' && LA16_595<='`')||(LA16_595>='b' && LA16_595<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition936(IntStream input) {
+        protected int specialStateTransition933(IntStream input) {
             int s = -1;
             int LA16_747 = input.LA(1);
             if ( (LA16_747=='t') ) {s = 893;}
             else if ( ((LA16_747>='\u0000' && LA16_747<='s')||(LA16_747>='u' && LA16_747<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition937(IntStream input) {
+        protected int specialStateTransition934(IntStream input) {
             int s = -1;
             int LA16_893 = input.LA(1);
             if ( (LA16_893=='a') ) {s = 1024;}
             else if ( ((LA16_893>='\u0000' && LA16_893<='`')||(LA16_893>='b' && LA16_893<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition938(IntStream input) {
+        protected int specialStateTransition935(IntStream input) {
             int s = -1;
             int LA16_1024 = input.LA(1);
             if ( (LA16_1024=='\"') ) {s = 1138;}
             else if ( ((LA16_1024>='\u0000' && LA16_1024<='!')||(LA16_1024>='#' && LA16_1024<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition939(IntStream input) {
+        protected int specialStateTransition936(IntStream input) {
             int s = -1;
             int LA16_411 = input.LA(1);
             if ( (LA16_411=='m') ) {s = 568;}
             else if ( ((LA16_411>='\u0000' && LA16_411<='l')||(LA16_411>='n' && LA16_411<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition940(IntStream input) {
+        protected int specialStateTransition937(IntStream input) {
             int s = -1;
             int LA16_568 = input.LA(1);
             if ( (LA16_568=='s') ) {s = 724;}
             else if ( ((LA16_568>='\u0000' && LA16_568<='r')||(LA16_568>='t' && LA16_568<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition941(IntStream input) {
+        protected int specialStateTransition938(IntStream input) {
             int s = -1;
             int LA16_724 = input.LA(1);
             if ( (LA16_724=='\"') ) {s = 875;}
             else if ( ((LA16_724>='\u0000' && LA16_724<='!')||(LA16_724>='#' && LA16_724<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition942(IntStream input) {
+        protected int specialStateTransition939(IntStream input) {
             int s = -1;
             int LA16_408 = input.LA(1);
             if ( (LA16_408=='n') ) {s = 565;}
             else if ( ((LA16_408>='\u0000' && LA16_408<='m')||(LA16_408>='o' && LA16_408<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition943(IntStream input) {
+        protected int specialStateTransition940(IntStream input) {
             int s = -1;
             int LA16_565 = input.LA(1);
             if ( (LA16_565=='\"') ) {s = 721;}
             else if ( ((LA16_565>='\u0000' && LA16_565<='!')||(LA16_565>='#' && LA16_565<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition944(IntStream input) {
+        protected int specialStateTransition941(IntStream input) {
             int s = -1;
             int LA16_68 = input.LA(1);
             if ( (LA16_68=='z') ) {s = 152;}
@@ -20916,168 +20865,182 @@ public class InternalSearchDslLexer extends Lexer {
             else if ( ((LA16_68>='\u0000' && LA16_68<='l')||(LA16_68>='n' && LA16_68<='y')||(LA16_68>='{' && LA16_68<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition945(IntStream input) {
+        protected int specialStateTransition942(IntStream input) {
             int s = -1;
             int LA16_557 = input.LA(1);
             if ( (LA16_557=='n') ) {s = 713;}
             else if ( ((LA16_557>='\u0000' && LA16_557<='m')||(LA16_557>='o' && LA16_557<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition946(IntStream input) {
+        protected int specialStateTransition943(IntStream input) {
             int s = -1;
             int LA16_713 = input.LA(1);
             if ( (LA16_713=='o') ) {s = 862;}
             else if ( ((LA16_713>='\u0000' && LA16_713<='n')||(LA16_713>='p' && LA16_713<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition947(IntStream input) {
+        protected int specialStateTransition944(IntStream input) {
             int s = -1;
             int LA16_862 = input.LA(1);
             if ( (LA16_862=='c') ) {s = 996;}
             else if ( ((LA16_862>='\u0000' && LA16_862<='b')||(LA16_862>='d' && LA16_862<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition948(IntStream input) {
+        protected int specialStateTransition945(IntStream input) {
             int s = -1;
             int LA16_996 = input.LA(1);
             if ( (LA16_996=='a') ) {s = 1116;}
             else if ( ((LA16_996>='\u0000' && LA16_996<='`')||(LA16_996>='b' && LA16_996<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition949(IntStream input) {
+        protected int specialStateTransition946(IntStream input) {
             int s = -1;
             int LA16_1116 = input.LA(1);
             if ( (LA16_1116=='c') ) {s = 1220;}
             else if ( ((LA16_1116>='\u0000' && LA16_1116<='b')||(LA16_1116>='d' && LA16_1116<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition950(IntStream input) {
+        protected int specialStateTransition947(IntStream input) {
             int s = -1;
             int LA16_1220 = input.LA(1);
             if ( (LA16_1220=='h') ) {s = 1314;}
             else if ( ((LA16_1220>='\u0000' && LA16_1220<='g')||(LA16_1220>='i' && LA16_1220<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition951(IntStream input) {
+        protected int specialStateTransition948(IntStream input) {
             int s = -1;
             int LA16_1314 = input.LA(1);
             if ( (LA16_1314=='e') ) {s = 1389;}
             else if ( ((LA16_1314>='\u0000' && LA16_1314<='d')||(LA16_1314>='f' && LA16_1314<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition952(IntStream input) {
+        protected int specialStateTransition949(IntStream input) {
             int s = -1;
             int LA16_1389 = input.LA(1);
             if ( (LA16_1389=='\"') ) {s = 1455;}
             else if ( ((LA16_1389>='\u0000' && LA16_1389<='!')||(LA16_1389>='#' && LA16_1389<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition953(IntStream input) {
+        protected int specialStateTransition950(IntStream input) {
             int s = -1;
             int LA16_326 = input.LA(1);
             if ( (LA16_326=='n') ) {s = 479;}
             else if ( ((LA16_326>='\u0000' && LA16_326<='m')||(LA16_326>='o' && LA16_326<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition954(IntStream input) {
+        protected int specialStateTransition951(IntStream input) {
             int s = -1;
             int LA16_479 = input.LA(1);
             if ( (LA16_479=='o') ) {s = 634;}
             else if ( ((LA16_479>='\u0000' && LA16_479<='n')||(LA16_479>='p' && LA16_479<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition955(IntStream input) {
+        protected int specialStateTransition952(IntStream input) {
             int s = -1;
             int LA16_634 = input.LA(1);
             if ( (LA16_634=='c') ) {s = 788;}
             else if ( ((LA16_634>='\u0000' && LA16_634<='b')||(LA16_634>='d' && LA16_634<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition956(IntStream input) {
+        protected int specialStateTransition953(IntStream input) {
             int s = -1;
             int LA16_788 = input.LA(1);
             if ( (LA16_788=='a') ) {s = 931;}
             else if ( ((LA16_788>='\u0000' && LA16_788<='`')||(LA16_788>='b' && LA16_788<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition957(IntStream input) {
+        protected int specialStateTransition954(IntStream input) {
             int s = -1;
             int LA16_931 = input.LA(1);
             if ( (LA16_931=='c') ) {s = 1055;}
             else if ( ((LA16_931>='\u0000' && LA16_931<='b')||(LA16_931>='d' && LA16_931<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition958(IntStream input) {
+        protected int specialStateTransition955(IntStream input) {
             int s = -1;
             int LA16_1055 = input.LA(1);
             if ( (LA16_1055=='h') ) {s = 1166;}
             else if ( ((LA16_1055>='\u0000' && LA16_1055<='g')||(LA16_1055>='i' && LA16_1055<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition959(IntStream input) {
+        protected int specialStateTransition956(IntStream input) {
             int s = -1;
             int LA16_1166 = input.LA(1);
             if ( (LA16_1166=='e') ) {s = 1266;}
             else if ( ((LA16_1166>='\u0000' && LA16_1166<='d')||(LA16_1166>='f' && LA16_1166<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition960(IntStream input) {
+        protected int specialStateTransition957(IntStream input) {
             int s = -1;
             int LA16_1266 = input.LA(1);
             if ( (LA16_1266=='\"') ) {s = 1351;}
             else if ( ((LA16_1266>='\u0000' && LA16_1266<='!')||(LA16_1266>='#' && LA16_1266<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition961(IntStream input) {
+        protected int specialStateTransition958(IntStream input) {
             int s = -1;
             int LA16_174 = input.LA(1);
             if ( (LA16_174=='n') ) {s = 301;}
             else if ( ((LA16_174>='\u0000' && LA16_174<='m')||(LA16_174>='o' && LA16_174<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition962(IntStream input) {
+        protected int specialStateTransition959(IntStream input) {
             int s = -1;
             int LA16_301 = input.LA(1);
             if ( (LA16_301=='o') ) {s = 448;}
             else if ( ((LA16_301>='\u0000' && LA16_301<='n')||(LA16_301>='p' && LA16_301<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition963(IntStream input) {
+        protected int specialStateTransition960(IntStream input) {
             int s = -1;
             int LA16_448 = input.LA(1);
             if ( (LA16_448=='c') ) {s = 609;}
             else if ( ((LA16_448>='\u0000' && LA16_448<='b')||(LA16_448>='d' && LA16_448<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition964(IntStream input) {
-            int s = -1;
-            int LA16_137 = input.LA(1);
-            if ( (LA16_137=='e') ) {s = 263;}
-            else if ( ((LA16_137>='\u0000' && LA16_137<='d')||(LA16_137>='f' && LA16_137<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition965(IntStream input) {
+        protected int specialStateTransition961(IntStream input) {
             int s = -1;
             int LA16_609 = input.LA(1);
             if ( (LA16_609=='a') ) {s = 765;}
             else if ( ((LA16_609>='\u0000' && LA16_609<='`')||(LA16_609>='b' && LA16_609<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition966(IntStream input) {
+        protected int specialStateTransition962(IntStream input) {
             int s = -1;
             int LA16_765 = input.LA(1);
             if ( (LA16_765=='c') ) {s = 908;}
             else if ( ((LA16_765>='\u0000' && LA16_765<='b')||(LA16_765>='d' && LA16_765<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition967(IntStream input) {
+        protected int specialStateTransition963(IntStream input) {
             int s = -1;
             int LA16_908 = input.LA(1);
             if ( (LA16_908=='h') ) {s = 1033;}
             else if ( ((LA16_908>='\u0000' && LA16_908<='g')||(LA16_908>='i' && LA16_908<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition968(IntStream input) {
+        protected int specialStateTransition964(IntStream input) {
+            int s = -1;
+            int LA16_1033 = input.LA(1);
+            if ( (LA16_1033=='e') ) {s = 1146;}
+            else if ( ((LA16_1033>='\u0000' && LA16_1033<='d')||(LA16_1033>='f' && LA16_1033<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition965(IntStream input) {
+            int s = -1;
+            int LA16_1146 = input.LA(1);
+            if ( (LA16_1146=='\"') ) {s = 1248;}
+            else if ( ((LA16_1146>='\u0000' && LA16_1146<='!')||(LA16_1146>='#' && LA16_1146<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition966(IntStream input) {
+            int s = -1;
+            int LA16_137 = input.LA(1);
+            if ( (LA16_137=='e') ) {s = 263;}
+            else if ( ((LA16_137>='\u0000' && LA16_137<='d')||(LA16_137>='f' && LA16_137<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition967(IntStream input) {
             int s = -1;
             int LA16_263 = input.LA(1);
             if ( (LA16_263=='f') ) {s = 405;}
@@ -21085,133 +21048,119 @@ public class InternalSearchDslLexer extends Lexer {
             else if ( ((LA16_263>='\u0000' && LA16_263<='b')||(LA16_263>='d' && LA16_263<='e')||(LA16_263>='g' && LA16_263<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition969(IntStream input) {
-            int s = -1;
-            int LA16_1033 = input.LA(1);
-            if ( (LA16_1033=='e') ) {s = 1146;}
-            else if ( ((LA16_1033>='\u0000' && LA16_1033<='d')||(LA16_1033>='f' && LA16_1033<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition970(IntStream input) {
-            int s = -1;
-            int LA16_1146 = input.LA(1);
-            if ( (LA16_1146=='\"') ) {s = 1248;}
-            else if ( ((LA16_1146>='\u0000' && LA16_1146<='!')||(LA16_1146>='#' && LA16_1146<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition971(IntStream input) {
+        protected int specialStateTransition968(IntStream input) {
             int s = -1;
             int LA16_953 = input.LA(1);
             if ( (LA16_953=='s') ) {s = 1078;}
             else if ( ((LA16_953>='\u0000' && LA16_953<='r')||(LA16_953>='t' && LA16_953<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition972(IntStream input) {
+        protected int specialStateTransition969(IntStream input) {
             int s = -1;
             int LA16_1078 = input.LA(1);
             if ( (LA16_1078=='h') ) {s = 1186;}
             else if ( ((LA16_1078>='\u0000' && LA16_1078<='g')||(LA16_1078>='i' && LA16_1078<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition973(IntStream input) {
+        protected int specialStateTransition970(IntStream input) {
             int s = -1;
             int LA16_1186 = input.LA(1);
             if ( (LA16_1186=='a') ) {s = 1283;}
             else if ( ((LA16_1186>='\u0000' && LA16_1186<='`')||(LA16_1186>='b' && LA16_1186<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition974(IntStream input) {
+        protected int specialStateTransition971(IntStream input) {
             int s = -1;
             int LA16_1283 = input.LA(1);
             if ( (LA16_1283=='p') ) {s = 1367;}
             else if ( ((LA16_1283>='\u0000' && LA16_1283<='o')||(LA16_1283>='q' && LA16_1283<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition975(IntStream input) {
+        protected int specialStateTransition972(IntStream input) {
             int s = -1;
             int LA16_1367 = input.LA(1);
             if ( (LA16_1367=='e') ) {s = 1436;}
             else if ( ((LA16_1367>='\u0000' && LA16_1367<='d')||(LA16_1367>='f' && LA16_1367<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition976(IntStream input) {
+        protected int specialStateTransition973(IntStream input) {
             int s = -1;
             int LA16_1436 = input.LA(1);
             if ( (LA16_1436=='\"') ) {s = 1495;}
             else if ( ((LA16_1436>='\u0000' && LA16_1436<='!')||(LA16_1436>='#' && LA16_1436<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition977(IntStream input) {
+        protected int specialStateTransition974(IntStream input) {
             int s = -1;
             int LA16_502 = input.LA(1);
             if ( (LA16_502=='e') ) {s = 657;}
             else if ( ((LA16_502>='\u0000' && LA16_502<='d')||(LA16_502>='f' && LA16_502<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition978(IntStream input) {
+        protected int specialStateTransition975(IntStream input) {
             int s = -1;
             int LA16_657 = input.LA(1);
             if ( (LA16_657=='f') ) {s = 809;}
             else if ( ((LA16_657>='\u0000' && LA16_657<='e')||(LA16_657>='g' && LA16_657<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition979(IntStream input) {
+        protected int specialStateTransition976(IntStream input) {
             int s = -1;
             int LA16_809 = input.LA(1);
             if ( (LA16_809=='t') ) {s = 950;}
             else if ( ((LA16_809>='\u0000' && LA16_809<='s')||(LA16_809>='u' && LA16_809<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition980(IntStream input) {
+        protected int specialStateTransition977(IntStream input) {
             int s = -1;
             int LA16_950 = input.LA(1);
             if ( (LA16_950=='\"') ) {s = 1075;}
             else if ( ((LA16_950>='\u0000' && LA16_950<='!')||(LA16_950>='#' && LA16_950<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition981(IntStream input) {
+        protected int specialStateTransition978(IntStream input) {
             int s = -1;
             int LA16_863 = input.LA(1);
             if ( (LA16_863=='r') ) {s = 997;}
             else if ( ((LA16_863>='\u0000' && LA16_863<='q')||(LA16_863>='s' && LA16_863<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition982(IntStream input) {
+        protected int specialStateTransition979(IntStream input) {
             int s = -1;
             int LA16_997 = input.LA(1);
             if ( (LA16_997=='i') ) {s = 1117;}
             else if ( ((LA16_997>='\u0000' && LA16_997<='h')||(LA16_997>='j' && LA16_997<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition983(IntStream input) {
+        protected int specialStateTransition980(IntStream input) {
             int s = -1;
             int LA16_1117 = input.LA(1);
             if ( (LA16_1117=='g') ) {s = 1221;}
             else if ( ((LA16_1117>='\u0000' && LA16_1117<='f')||(LA16_1117>='h' && LA16_1117<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition984(IntStream input) {
+        protected int specialStateTransition981(IntStream input) {
             int s = -1;
             int LA16_1221 = input.LA(1);
             if ( (LA16_1221=='h') ) {s = 1315;}
             else if ( ((LA16_1221>='\u0000' && LA16_1221<='g')||(LA16_1221>='i' && LA16_1221<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition985(IntStream input) {
+        protected int specialStateTransition982(IntStream input) {
             int s = -1;
             int LA16_1315 = input.LA(1);
             if ( (LA16_1315=='t') ) {s = 1390;}
             else if ( ((LA16_1315>='\u0000' && LA16_1315<='s')||(LA16_1315>='u' && LA16_1315<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition986(IntStream input) {
+        protected int specialStateTransition983(IntStream input) {
             int s = -1;
             int LA16_1390 = input.LA(1);
             if ( (LA16_1390=='\"') ) {s = 1456;}
             else if ( ((LA16_1390>='\u0000' && LA16_1390<='!')||(LA16_1390>='#' && LA16_1390<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition987(IntStream input) {
+        protected int specialStateTransition984(IntStream input) {
             int s = -1;
             int LA16_488 = input.LA(1);
             if ( (LA16_488=='\"') ) {s = 642;}
@@ -21219,14 +21168,21 @@ public class InternalSearchDslLexer extends Lexer {
             else if ( ((LA16_488>='\u0000' && LA16_488<='!')||(LA16_488>='#' && LA16_488<='^')||(LA16_488>='`' && LA16_488<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition988(IntStream input) {
+        protected int specialStateTransition985(IntStream input) {
             int s = -1;
-            int LA16_248 = input.LA(1);
-            if ( (LA16_248=='t') ) {s = 389;}
-            else if ( ((LA16_248>='\u0000' && LA16_248<='s')||(LA16_248>='u' && LA16_248<='\uFFFF')) ) {s = 50;}
+            int LA16_254 = input.LA(1);
+            if ( (LA16_254=='t') ) {s = 395;}
+            else if ( ((LA16_254>='\u0000' && LA16_254<='s')||(LA16_254>='u' && LA16_254<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition989(IntStream input) {
+        protected int specialStateTransition986(IntStream input) {
+            int s = -1;
+            int LA16_395 = input.LA(1);
+            if ( (LA16_395=='\"') ) {s = 551;}
+            else if ( ((LA16_395>='\u0000' && LA16_395<='!')||(LA16_395>='#' && LA16_395<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition987(IntStream input) {
             int s = -1;
             int LA16_336 = input.LA(1);
             if ( (LA16_336=='d') ) {s = 490;}
@@ -21236,91 +21192,182 @@ public class InternalSearchDslLexer extends Lexer {
             else if ( ((LA16_336>='\u0000' && LA16_336<='a')||LA16_336=='c'||(LA16_336>='e' && LA16_336<='o')||(LA16_336>='q' && LA16_336<='r')||(LA16_336>='t' && LA16_336<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition990(IntStream input) {
-            int s = -1;
-            int LA16_389 = input.LA(1);
-            if ( (LA16_389=='\"') ) {s = 545;}
-            else if ( ((LA16_389>='\u0000' && LA16_389<='!')||(LA16_389>='#' && LA16_389<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition991(IntStream input) {
+        protected int specialStateTransition988(IntStream input) {
             int s = -1;
             int LA16_115 = input.LA(1);
             if ( (LA16_115=='g') ) {s = 224;}
             else if ( ((LA16_115>='\u0000' && LA16_115<='f')||(LA16_115>='h' && LA16_115<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition992(IntStream input) {
+        protected int specialStateTransition989(IntStream input) {
             int s = -1;
             int LA16_224 = input.LA(1);
             if ( (LA16_224=='h') ) {s = 364;}
             else if ( ((LA16_224>='\u0000' && LA16_224<='g')||(LA16_224>='i' && LA16_224<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition993(IntStream input) {
+        protected int specialStateTransition990(IntStream input) {
             int s = -1;
             int LA16_364 = input.LA(1);
             if ( (LA16_364=='t') ) {s = 520;}
             else if ( ((LA16_364>='\u0000' && LA16_364<='s')||(LA16_364>='u' && LA16_364<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition994(IntStream input) {
+        protected int specialStateTransition991(IntStream input) {
             int s = -1;
             int LA16_520 = input.LA(1);
             if ( (LA16_520=='\"') ) {s = 677;}
             else if ( ((LA16_520>='\u0000' && LA16_520<='!')||(LA16_520>='#' && LA16_520<='\uFFFF')) ) {s = 50;}
             return s;
         }
+        protected int specialStateTransition992(IntStream input) {
+            int s = -1;
+            int LA16_132 = input.LA(1);
+            if ( (LA16_132=='t') ) {s = 257;}
+            else if ( ((LA16_132>='\u0000' && LA16_132<='s')||(LA16_132>='u' && LA16_132<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition993(IntStream input) {
+            int s = -1;
+            int LA16_257 = input.LA(1);
+            if ( (LA16_257=='\"') ) {s = 398;}
+            else if ( ((LA16_257>='\u0000' && LA16_257<='!')||(LA16_257>='#' && LA16_257<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition994(IntStream input) {
+            int s = -1;
+            int LA16_250 = input.LA(1);
+            if ( (LA16_250=='\"') ) {s = 391;}
+            else if ( ((LA16_250>='\u0000' && LA16_250<='!')||(LA16_250>='#' && LA16_250<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
         protected int specialStateTransition995(IntStream input) {
-            int s = -1;
-            int LA16_129 = input.LA(1);
-            if ( (LA16_129=='t') ) {s = 251;}
-            else if ( ((LA16_129>='\u0000' && LA16_129<='s')||(LA16_129>='u' && LA16_129<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition996(IntStream input) {
-            int s = -1;
-            int LA16_251 = input.LA(1);
-            if ( (LA16_251=='\"') ) {s = 392;}
-            else if ( ((LA16_251>='\u0000' && LA16_251<='!')||(LA16_251>='#' && LA16_251<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition997(IntStream input) {
-            int s = -1;
-            int LA16_244 = input.LA(1);
-            if ( (LA16_244=='\"') ) {s = 385;}
-            else if ( ((LA16_244>='\u0000' && LA16_244<='!')||(LA16_244>='#' && LA16_244<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition998(IntStream input) {
             int s = -1;
             int LA16_159 = input.LA(1);
             if ( (LA16_159=='p') ) {s = 284;}
             else if ( ((LA16_159>='\u0000' && LA16_159<='o')||(LA16_159>='q' && LA16_159<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition999(IntStream input) {
+        protected int specialStateTransition996(IntStream input) {
             int s = -1;
             int LA16_284 = input.LA(1);
             if ( (LA16_284=='e') ) {s = 431;}
             else if ( ((LA16_284>='\u0000' && LA16_284<='d')||(LA16_284>='f' && LA16_284<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1000(IntStream input) {
+        protected int specialStateTransition997(IntStream input) {
             int s = -1;
             int LA16_431 = input.LA(1);
             if ( (LA16_431=='\"') ) {s = 590;}
             else if ( ((LA16_431>='\u0000' && LA16_431<='!')||(LA16_431>='#' && LA16_431<='\uFFFF')) ) {s = 50;}
             return s;
         }
+        protected int specialStateTransition998(IntStream input) {
+            int s = -1;
+            int LA16_246 = input.LA(1);
+            if ( (LA16_246=='e') ) {s = 386;}
+            else if ( ((LA16_246>='\u0000' && LA16_246<='d')||(LA16_246>='f' && LA16_246<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition999(IntStream input) {
+            int s = -1;
+            int LA16_386 = input.LA(1);
+            if ( (LA16_386=='l') ) {s = 543;}
+            else if ( ((LA16_386>='\u0000' && LA16_386<='k')||(LA16_386>='m' && LA16_386<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1000(IntStream input) {
+            int s = -1;
+            int LA16_543 = input.LA(1);
+            if ( (LA16_543=='o') ) {s = 701;}
+            else if ( ((LA16_543>='\u0000' && LA16_543<='n')||(LA16_543>='p' && LA16_543<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
         protected int specialStateTransition1001(IntStream input) {
             int s = -1;
-            int LA16_240 = input.LA(1);
-            if ( (LA16_240=='e') ) {s = 380;}
-            else if ( ((LA16_240>='\u0000' && LA16_240<='d')||(LA16_240>='f' && LA16_240<='\uFFFF')) ) {s = 50;}
+            int LA16_701 = input.LA(1);
+            if ( (LA16_701=='p') ) {s = 852;}
+            else if ( ((LA16_701>='\u0000' && LA16_701<='o')||(LA16_701>='q' && LA16_701<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition1002(IntStream input) {
+            int s = -1;
+            int LA16_852 = input.LA(1);
+            if ( (LA16_852=='e') ) {s = 988;}
+            else if ( ((LA16_852>='\u0000' && LA16_852<='d')||(LA16_852>='f' && LA16_852<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1003(IntStream input) {
+            int s = -1;
+            int LA16_988 = input.LA(1);
+            if ( (LA16_988=='\"') ) {s = 1108;}
+            else if ( ((LA16_988>='\u0000' && LA16_988<='!')||(LA16_988>='#' && LA16_988<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1004(IntStream input) {
+            int s = -1;
+            int LA16_237 = input.LA(1);
+            if ( (LA16_237=='r') ) {s = 377;}
+            else if ( ((LA16_237>='\u0000' && LA16_237<='q')||(LA16_237>='s' && LA16_237<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1005(IntStream input) {
+            int s = -1;
+            int LA16_377 = input.LA(1);
+            if ( (LA16_377=='d') ) {s = 534;}
+            else if ( ((LA16_377>='\u0000' && LA16_377<='c')||(LA16_377>='e' && LA16_377<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1006(IntStream input) {
+            int s = -1;
+            int LA16_534 = input.LA(1);
+            if ( (LA16_534=='i') ) {s = 692;}
+            else if ( ((LA16_534>='\u0000' && LA16_534<='h')||(LA16_534>='j' && LA16_534<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1007(IntStream input) {
+            int s = -1;
+            int LA16_692 = input.LA(1);
+            if ( (LA16_692=='n') ) {s = 843;}
+            else if ( ((LA16_692>='\u0000' && LA16_692<='m')||(LA16_692>='o' && LA16_692<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1008(IntStream input) {
+            int s = -1;
+            int LA16_843 = input.LA(1);
+            if ( (LA16_843=='a') ) {s = 979;}
+            else if ( ((LA16_843>='\u0000' && LA16_843<='`')||(LA16_843>='b' && LA16_843<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1009(IntStream input) {
+            int s = -1;
+            int LA16_979 = input.LA(1);
+            if ( (LA16_979=='t') ) {s = 1100;}
+            else if ( ((LA16_979>='\u0000' && LA16_979<='s')||(LA16_979>='u' && LA16_979<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1010(IntStream input) {
+            int s = -1;
+            int LA16_1100 = input.LA(1);
+            if ( (LA16_1100=='e') ) {s = 1207;}
+            else if ( ((LA16_1100>='\u0000' && LA16_1100<='d')||(LA16_1100>='f' && LA16_1100<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1011(IntStream input) {
+            int s = -1;
+            int LA16_1207 = input.LA(1);
+            if ( (LA16_1207=='s') ) {s = 1303;}
+            else if ( ((LA16_1207>='\u0000' && LA16_1207<='r')||(LA16_1207>='t' && LA16_1207<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1012(IntStream input) {
+            int s = -1;
+            int LA16_1303 = input.LA(1);
+            if ( (LA16_1303=='\"') ) {s = 1381;}
+            else if ( ((LA16_1303>='\u0000' && LA16_1303<='!')||(LA16_1303>='#' && LA16_1303<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1013(IntStream input) {
             int s = -1;
             int LA16_84 = input.LA(1);
             if ( (LA16_84=='e') ) {s = 175;}
@@ -21328,172 +21375,115 @@ public class InternalSearchDslLexer extends Lexer {
             else if ( ((LA16_84>='\u0000' && LA16_84<='d')||(LA16_84>='f' && LA16_84<='s')||(LA16_84>='u' && LA16_84<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1003(IntStream input) {
-            int s = -1;
-            int LA16_380 = input.LA(1);
-            if ( (LA16_380=='l') ) {s = 537;}
-            else if ( ((LA16_380>='\u0000' && LA16_380<='k')||(LA16_380>='m' && LA16_380<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1004(IntStream input) {
-            int s = -1;
-            int LA16_537 = input.LA(1);
-            if ( (LA16_537=='o') ) {s = 696;}
-            else if ( ((LA16_537>='\u0000' && LA16_537<='n')||(LA16_537>='p' && LA16_537<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1005(IntStream input) {
-            int s = -1;
-            int LA16_696 = input.LA(1);
-            if ( (LA16_696=='p') ) {s = 848;}
-            else if ( ((LA16_696>='\u0000' && LA16_696<='o')||(LA16_696>='q' && LA16_696<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1006(IntStream input) {
-            int s = -1;
-            int LA16_848 = input.LA(1);
-            if ( (LA16_848=='e') ) {s = 984;}
-            else if ( ((LA16_848>='\u0000' && LA16_848<='d')||(LA16_848>='f' && LA16_848<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1007(IntStream input) {
-            int s = -1;
-            int LA16_984 = input.LA(1);
-            if ( (LA16_984=='\"') ) {s = 1105;}
-            else if ( ((LA16_984>='\u0000' && LA16_984<='!')||(LA16_984>='#' && LA16_984<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1008(IntStream input) {
-            int s = -1;
-            int LA16_231 = input.LA(1);
-            if ( (LA16_231=='r') ) {s = 371;}
-            else if ( ((LA16_231>='\u0000' && LA16_231<='q')||(LA16_231>='s' && LA16_231<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1009(IntStream input) {
-            int s = -1;
-            int LA16_371 = input.LA(1);
-            if ( (LA16_371=='d') ) {s = 528;}
-            else if ( ((LA16_371>='\u0000' && LA16_371<='c')||(LA16_371>='e' && LA16_371<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1010(IntStream input) {
-            int s = -1;
-            int LA16_528 = input.LA(1);
-            if ( (LA16_528=='i') ) {s = 687;}
-            else if ( ((LA16_528>='\u0000' && LA16_528<='h')||(LA16_528>='j' && LA16_528<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1011(IntStream input) {
-            int s = -1;
-            int LA16_687 = input.LA(1);
-            if ( (LA16_687=='n') ) {s = 839;}
-            else if ( ((LA16_687>='\u0000' && LA16_687<='m')||(LA16_687>='o' && LA16_687<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1012(IntStream input) {
-            int s = -1;
-            int LA16_839 = input.LA(1);
-            if ( (LA16_839=='a') ) {s = 975;}
-            else if ( ((LA16_839>='\u0000' && LA16_839<='`')||(LA16_839>='b' && LA16_839<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1013(IntStream input) {
-            int s = -1;
-            int LA16_975 = input.LA(1);
-            if ( (LA16_975=='t') ) {s = 1097;}
-            else if ( ((LA16_975>='\u0000' && LA16_975<='s')||(LA16_975>='u' && LA16_975<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
         protected int specialStateTransition1014(IntStream input) {
             int s = -1;
-            int LA16_1097 = input.LA(1);
-            if ( (LA16_1097=='e') ) {s = 1203;}
-            else if ( ((LA16_1097>='\u0000' && LA16_1097<='d')||(LA16_1097>='f' && LA16_1097<='\uFFFF')) ) {s = 50;}
+            int LA16_0 = input.LA(1);
+            if ( (LA16_0=='{') ) {s = 1;}
+            else if ( (LA16_0==',') ) {s = 2;}
+            else if ( (LA16_0=='}') ) {s = 3;}
+            else if ( (LA16_0=='\"') ) {s = 4;}
+            else if ( (LA16_0==':') ) {s = 5;}
+            else if ( (LA16_0=='[') ) {s = 6;}
+            else if ( (LA16_0==']') ) {s = 7;}
+            else if ( (LA16_0=='\'') ) {s = 8;}
+            else if ( (LA16_0=='-') ) {s = 9;}
+            else if ( (LA16_0=='.') ) {s = 10;}
+            else if ( (LA16_0=='E') ) {s = 11;}
+            else if ( (LA16_0=='e') ) {s = 12;}
+            else if ( (LA16_0=='t') ) {s = 13;}
+            else if ( (LA16_0=='f') ) {s = 14;}
+            else if ( (LA16_0=='n') ) {s = 15;}
+            else if ( (LA16_0=='^') ) {s = 16;}
+            else if ( ((LA16_0>='A' && LA16_0<='D')||(LA16_0>='F' && LA16_0<='Z')||LA16_0=='_'||(LA16_0>='a' && LA16_0<='d')||(LA16_0>='g' && LA16_0<='m')||(LA16_0>='o' && LA16_0<='s')||(LA16_0>='u' && LA16_0<='z')) ) {s = 17;}
+            else if ( ((LA16_0>='0' && LA16_0<='9')) ) {s = 18;}
+            else if ( (LA16_0=='/') ) {s = 19;}
+            else if ( ((LA16_0>='\t' && LA16_0<='\n')||LA16_0=='\r'||LA16_0==' ') ) {s = 20;}
+            else if ( ((LA16_0>='\u0000' && LA16_0<='\b')||(LA16_0>='\u000B' && LA16_0<='\f')||(LA16_0>='\u000E' && LA16_0<='\u001F')||LA16_0=='!'||(LA16_0>='#' && LA16_0<='&')||(LA16_0>='(' && LA16_0<='+')||(LA16_0>=';' && LA16_0<='@')||LA16_0=='\\'||LA16_0=='`'||LA16_0=='|'||(LA16_0>='~' && LA16_0<='\uFFFF')) ) {s = 21;}
             return s;
         }
         protected int specialStateTransition1015(IntStream input) {
-            int s = -1;
-            int LA16_1203 = input.LA(1);
-            if ( (LA16_1203=='s') ) {s = 1299;}
-            else if ( ((LA16_1203>='\u0000' && LA16_1203<='r')||(LA16_1203>='t' && LA16_1203<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1016(IntStream input) {
-            int s = -1;
-            int LA16_1299 = input.LA(1);
-            if ( (LA16_1299=='\"') ) {s = 1378;}
-            else if ( ((LA16_1299>='\u0000' && LA16_1299<='!')||(LA16_1299>='#' && LA16_1299<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1017(IntStream input) {
             int s = -1;
             int LA16_469 = input.LA(1);
             if ( (LA16_469=='n') ) {s = 629;}
             else if ( ((LA16_469>='\u0000' && LA16_469<='m')||(LA16_469>='o' && LA16_469<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1018(IntStream input) {
+        protected int specialStateTransition1016(IntStream input) {
             int s = -1;
             int LA16_629 = input.LA(1);
             if ( (LA16_629=='o') ) {s = 783;}
             else if ( ((LA16_629>='\u0000' && LA16_629<='n')||(LA16_629>='p' && LA16_629<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1019(IntStream input) {
+        protected int specialStateTransition1017(IntStream input) {
             int s = -1;
             int LA16_783 = input.LA(1);
             if ( (LA16_783=='t') ) {s = 925;}
             else if ( ((LA16_783>='\u0000' && LA16_783<='s')||(LA16_783>='u' && LA16_783<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1020(IntStream input) {
+        protected int specialStateTransition1018(IntStream input) {
             int s = -1;
             int LA16_925 = input.LA(1);
             if ( (LA16_925=='\"') ) {s = 1049;}
             else if ( ((LA16_925>='\u0000' && LA16_925<='!')||(LA16_925>='#' && LA16_925<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1021(IntStream input) {
+        protected int specialStateTransition1019(IntStream input) {
             int s = -1;
             int LA16_160 = input.LA(1);
             if ( (LA16_160=='u') ) {s = 285;}
             else if ( ((LA16_160>='\u0000' && LA16_160<='t')||(LA16_160>='v' && LA16_160<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1022(IntStream input) {
+        protected int specialStateTransition1020(IntStream input) {
             int s = -1;
             int LA16_285 = input.LA(1);
             if ( (LA16_285=='l') ) {s = 432;}
             else if ( ((LA16_285>='\u0000' && LA16_285<='k')||(LA16_285>='m' && LA16_285<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1023(IntStream input) {
+        protected int specialStateTransition1021(IntStream input) {
             int s = -1;
             int LA16_432 = input.LA(1);
             if ( (LA16_432=='d') ) {s = 591;}
             else if ( ((LA16_432>='\u0000' && LA16_432<='c')||(LA16_432>='e' && LA16_432<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1024(IntStream input) {
+        protected int specialStateTransition1022(IntStream input) {
             int s = -1;
             int LA16_591 = input.LA(1);
             if ( (LA16_591=='\"') ) {s = 744;}
             else if ( ((LA16_591>='\u0000' && LA16_591<='!')||(LA16_591>='#' && LA16_591<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1025(IntStream input) {
+        protected int specialStateTransition1023(IntStream input) {
             int s = -1;
             int LA16_74 = input.LA(1);
             if ( (LA16_74=='m') ) {s = 161;}
             else if ( ((LA16_74>='\u0000' && LA16_74<='l')||(LA16_74>='n' && LA16_74<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1026(IntStream input) {
+        protected int specialStateTransition1024(IntStream input) {
             int s = -1;
             int LA16_161 = input.LA(1);
             if ( (LA16_161=='\"') ) {s = 286;}
             else if ( ((LA16_161>='\u0000' && LA16_161<='!')||(LA16_161>='#' && LA16_161<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1025(IntStream input) {
+            int s = -1;
+            int LA16_77 = input.LA(1);
+            if ( (LA16_77=='c') ) {s = 165;}
+            else if ( ((LA16_77>='\u0000' && LA16_77<='b')||(LA16_77>='d' && LA16_77<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1026(IntStream input) {
+            int s = -1;
+            int LA16_165 = input.LA(1);
+            if ( (LA16_165=='e') ) {s = 290;}
+            else if ( (LA16_165=='t') ) {s = 291;}
+            else if ( ((LA16_165>='\u0000' && LA16_165<='d')||(LA16_165>='f' && LA16_165<='s')||(LA16_165>='u' && LA16_165<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition1027(IntStream input) {
@@ -21508,69 +21498,54 @@ public class InternalSearchDslLexer extends Lexer {
         }
         protected int specialStateTransition1028(IntStream input) {
             int s = -1;
-            int LA16_77 = input.LA(1);
-            if ( (LA16_77=='c') ) {s = 165;}
-            else if ( ((LA16_77>='\u0000' && LA16_77<='b')||(LA16_77>='d' && LA16_77<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1029(IntStream input) {
-            int s = -1;
-            int LA16_165 = input.LA(1);
-            if ( (LA16_165=='e') ) {s = 290;}
-            else if ( (LA16_165=='t') ) {s = 291;}
-            else if ( ((LA16_165>='\u0000' && LA16_165<='d')||(LA16_165>='f' && LA16_165<='s')||(LA16_165>='u' && LA16_165<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1030(IntStream input) {
-            int s = -1;
             int LA16_490 = input.LA(1);
             if ( (LA16_490=='i') ) {s = 645;}
             else if ( ((LA16_490>='\u0000' && LA16_490<='h')||(LA16_490>='j' && LA16_490<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1031(IntStream input) {
+        protected int specialStateTransition1029(IntStream input) {
             int s = -1;
             int LA16_645 = input.LA(1);
             if ( (LA16_645=='s') ) {s = 798;}
             else if ( ((LA16_645>='\u0000' && LA16_645<='r')||(LA16_645>='t' && LA16_645<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1032(IntStream input) {
+        protected int specialStateTransition1030(IntStream input) {
             int s = -1;
             int LA16_798 = input.LA(1);
             if ( (LA16_798=='t') ) {s = 940;}
             else if ( ((LA16_798>='\u0000' && LA16_798<='s')||(LA16_798>='u' && LA16_798<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1033(IntStream input) {
+        protected int specialStateTransition1031(IntStream input) {
             int s = -1;
             int LA16_940 = input.LA(1);
             if ( (LA16_940=='a') ) {s = 1066;}
             else if ( ((LA16_940>='\u0000' && LA16_940<='`')||(LA16_940>='b' && LA16_940<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1034(IntStream input) {
+        protected int specialStateTransition1032(IntStream input) {
             int s = -1;
             int LA16_1066 = input.LA(1);
             if ( (LA16_1066=='n') ) {s = 1175;}
             else if ( ((LA16_1066>='\u0000' && LA16_1066<='m')||(LA16_1066>='o' && LA16_1066<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1035(IntStream input) {
+        protected int specialStateTransition1033(IntStream input) {
             int s = -1;
             int LA16_1175 = input.LA(1);
             if ( (LA16_1175=='c') ) {s = 1274;}
             else if ( ((LA16_1175>='\u0000' && LA16_1175<='b')||(LA16_1175>='d' && LA16_1175<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1036(IntStream input) {
+        protected int specialStateTransition1034(IntStream input) {
             int s = -1;
             int LA16_1274 = input.LA(1);
             if ( (LA16_1274=='e') ) {s = 1359;}
             else if ( ((LA16_1274>='\u0000' && LA16_1274<='d')||(LA16_1274>='f' && LA16_1274<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1037(IntStream input) {
+        protected int specialStateTransition1035(IntStream input) {
             int s = -1;
             int LA16_1359 = input.LA(1);
             if ( (LA16_1359=='\"') ) {s = 1427;}
@@ -21578,13 +21553,25 @@ public class InternalSearchDslLexer extends Lexer {
             else if ( ((LA16_1359>='\u0000' && LA16_1359<='!')||(LA16_1359>='#' && LA16_1359<='^')||(LA16_1359>='`' && LA16_1359<='\uFFFF')) ) {s = 50;}
             return s;
         }
+        protected int specialStateTransition1036(IntStream input) {
+            int s = -1;
+            int LA16_72 = input.LA(1);
+            if ( (LA16_72=='a') ) {s = 158;}
+            else if ( ((LA16_72>='\u0000' && LA16_72<='`')||(LA16_72>='b' && LA16_72<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1037(IntStream input) {
+            int s = -1;
+            int LA16_158 = input.LA(1);
+            if ( (LA16_158=='n') ) {s = 283;}
+            else if ( ((LA16_158>='\u0000' && LA16_158<='m')||(LA16_158>='o' && LA16_158<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
         protected int specialStateTransition1038(IntStream input) {
             int s = -1;
-            int LA16_85 = input.LA(1);
-            if ( (LA16_85=='d') ) {s = 177;}
-            else if ( (LA16_85=='s') ) {s = 178;}
-            else if ( (LA16_85=='r') ) {s = 179;}
-            else if ( ((LA16_85>='\u0000' && LA16_85<='c')||(LA16_85>='e' && LA16_85<='q')||(LA16_85>='t' && LA16_85<='\uFFFF')) ) {s = 50;}
+            int LA16_283 = input.LA(1);
+            if ( (LA16_283=='_') ) {s = 430;}
+            else if ( ((LA16_283>='\u0000' && LA16_283<='^')||(LA16_283>='`' && LA16_283<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition1039(IntStream input) {
@@ -21611,27 +21598,6 @@ public class InternalSearchDslLexer extends Lexer {
         }
         protected int specialStateTransition1042(IntStream input) {
             int s = -1;
-            int LA16_72 = input.LA(1);
-            if ( (LA16_72=='a') ) {s = 158;}
-            else if ( ((LA16_72>='\u0000' && LA16_72<='`')||(LA16_72>='b' && LA16_72<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1043(IntStream input) {
-            int s = -1;
-            int LA16_158 = input.LA(1);
-            if ( (LA16_158=='n') ) {s = 283;}
-            else if ( ((LA16_158>='\u0000' && LA16_158<='m')||(LA16_158>='o' && LA16_158<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1044(IntStream input) {
-            int s = -1;
-            int LA16_283 = input.LA(1);
-            if ( (LA16_283=='_') ) {s = 430;}
-            else if ( ((LA16_283>='\u0000' && LA16_283<='^')||(LA16_283>='`' && LA16_283<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1045(IntStream input) {
-            int s = -1;
             int LA16_430 = input.LA(1);
             if ( (LA16_430=='f') ) {s = 585;}
             else if ( (LA16_430=='m') ) {s = 586;}
@@ -21641,7 +21607,16 @@ public class InternalSearchDslLexer extends Lexer {
             else if ( ((LA16_430>='\u0000' && LA16_430<='e')||(LA16_430>='g' && LA16_430<='l')||(LA16_430>='p' && LA16_430<='s')||(LA16_430>='u' && LA16_430<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1046(IntStream input) {
+        protected int specialStateTransition1043(IntStream input) {
+            int s = -1;
+            int LA16_85 = input.LA(1);
+            if ( (LA16_85=='d') ) {s = 177;}
+            else if ( (LA16_85=='s') ) {s = 178;}
+            else if ( (LA16_85=='r') ) {s = 179;}
+            else if ( ((LA16_85>='\u0000' && LA16_85<='c')||(LA16_85>='e' && LA16_85<='q')||(LA16_85>='t' && LA16_85<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1044(IntStream input) {
             int s = -1;
             int LA16_97 = input.LA(1);
             if ( (LA16_97=='s') ) {s = 195;}
@@ -21649,14 +21624,85 @@ public class InternalSearchDslLexer extends Lexer {
             else if ( ((LA16_97>='\u0000' && LA16_97<='e')||(LA16_97>='g' && LA16_97<='r')||(LA16_97>='t' && LA16_97<='\uFFFF')) ) {s = 50;}
             return s;
         }
+        protected int specialStateTransition1045(IntStream input) {
+            int s = -1;
+            int LA16_156 = input.LA(1);
+            if ( (LA16_156=='r') ) {s = 281;}
+            else if ( ((LA16_156>='\u0000' && LA16_156<='q')||(LA16_156>='s' && LA16_156<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1046(IntStream input) {
+            int s = -1;
+            int LA16_281 = input.LA(1);
+            if ( (LA16_281=='e') ) {s = 427;}
+            else if ( ((LA16_281>='\u0000' && LA16_281<='d')||(LA16_281>='f' && LA16_281<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
         protected int specialStateTransition1047(IntStream input) {
+            int s = -1;
+            int LA16_427 = input.LA(1);
+            if ( (LA16_427=='_') ) {s = 581;}
+            else if ( (LA16_427=='\"') ) {s = 582;}
+            else if ( ((LA16_427>='\u0000' && LA16_427<='!')||(LA16_427>='#' && LA16_427<='^')||(LA16_427>='`' && LA16_427<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1048(IntStream input) {
+            int s = -1;
+            int LA16_125 = input.LA(1);
+            if ( (LA16_125=='c') ) {s = 241;}
+            else if ( (LA16_125=='i') ) {s = 242;}
+            else if ( (LA16_125=='e') ) {s = 243;}
+            else if ( ((LA16_125>='\u0000' && LA16_125<='b')||LA16_125=='d'||(LA16_125>='f' && LA16_125<='h')||(LA16_125>='j' && LA16_125<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1049(IntStream input) {
+            int s = -1;
+            int LA16_258 = input.LA(1);
+            if ( (LA16_258=='s') ) {s = 399;}
+            else if ( (LA16_258=='l') ) {s = 400;}
+            else if ( ((LA16_258>='\u0000' && LA16_258<='k')||(LA16_258>='m' && LA16_258<='r')||(LA16_258>='t' && LA16_258<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1050(IntStream input) {
+            int s = -1;
+            int LA16_118 = input.LA(1);
+            if ( (LA16_118=='s') ) {s = 227;}
+            else if ( (LA16_118=='i') ) {s = 228;}
+            else if ( ((LA16_118>='\u0000' && LA16_118<='h')||(LA16_118>='j' && LA16_118<='r')||(LA16_118>='t' && LA16_118<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1051(IntStream input) {
             int s = -1;
             int LA16_79 = input.LA(1);
             if ( (LA16_79=='z') ) {s = 168;}
             else if ( ((LA16_79>='\u0000' && LA16_79<='y')||(LA16_79>='{' && LA16_79<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1048(IntStream input) {
+        protected int specialStateTransition1052(IntStream input) {
+            int s = -1;
+            int LA16_602 = input.LA(1);
+            if ( (LA16_602=='m') ) {s = 756;}
+            else if ( (LA16_602=='p') ) {s = 757;}
+            else if ( (LA16_602=='l') ) {s = 758;}
+            else if ( ((LA16_602>='\u0000' && LA16_602<='k')||(LA16_602>='n' && LA16_602<='o')||(LA16_602>='q' && LA16_602<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1053(IntStream input) {
+            int s = -1;
+            int LA16_168 = input.LA(1);
+            if ( (LA16_168=='z') ) {s = 295;}
+            else if ( ((LA16_168>='\u0000' && LA16_168<='y')||(LA16_168>='{' && LA16_168<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1054(IntStream input) {
+            int s = -1;
+            int LA16_295 = input.LA(1);
+            if ( (LA16_295=='y') ) {s = 442;}
+            else if ( (LA16_295=='i') ) {s = 443;}
+            else if ( ((LA16_295>='\u0000' && LA16_295<='h')||(LA16_295>='j' && LA16_295<='x')||(LA16_295>='z' && LA16_295<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1055(IntStream input) {
             int s = -1;
             int LA16_25 = input.LA(1);
             if ( (LA16_25=='t') ) {s = 67;}
@@ -21670,78 +21716,15 @@ public class InternalSearchDslLexer extends Lexer {
             else if ( ((LA16_25>='\u0000' && LA16_25<='b')||(LA16_25>='d' && LA16_25<='g')||(LA16_25>='j' && LA16_25<='k')||(LA16_25>='m' && LA16_25<='n')||(LA16_25>='q' && LA16_25<='s')||(LA16_25>='v' && LA16_25<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1049(IntStream input) {
-            int s = -1;
-            int LA16_156 = input.LA(1);
-            if ( (LA16_156=='r') ) {s = 281;}
-            else if ( ((LA16_156>='\u0000' && LA16_156<='q')||(LA16_156>='s' && LA16_156<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1050(IntStream input) {
-            int s = -1;
-            int LA16_168 = input.LA(1);
-            if ( (LA16_168=='z') ) {s = 295;}
-            else if ( ((LA16_168>='\u0000' && LA16_168<='y')||(LA16_168>='{' && LA16_168<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1051(IntStream input) {
-            int s = -1;
-            int LA16_281 = input.LA(1);
-            if ( (LA16_281=='e') ) {s = 427;}
-            else if ( ((LA16_281>='\u0000' && LA16_281<='d')||(LA16_281>='f' && LA16_281<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1052(IntStream input) {
-            int s = -1;
-            int LA16_427 = input.LA(1);
-            if ( (LA16_427=='_') ) {s = 581;}
-            else if ( (LA16_427=='\"') ) {s = 582;}
-            else if ( ((LA16_427>='\u0000' && LA16_427<='!')||(LA16_427>='#' && LA16_427<='^')||(LA16_427>='`' && LA16_427<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1053(IntStream input) {
-            int s = -1;
-            int LA16_295 = input.LA(1);
-            if ( (LA16_295=='y') ) {s = 442;}
-            else if ( (LA16_295=='i') ) {s = 443;}
-            else if ( ((LA16_295>='\u0000' && LA16_295<='h')||(LA16_295>='j' && LA16_295<='x')||(LA16_295>='z' && LA16_295<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1054(IntStream input) {
-            int s = -1;
-            int LA16_258 = input.LA(1);
-            if ( (LA16_258=='s') ) {s = 399;}
-            else if ( (LA16_258=='l') ) {s = 400;}
-            else if ( ((LA16_258>='\u0000' && LA16_258<='k')||(LA16_258>='m' && LA16_258<='r')||(LA16_258>='t' && LA16_258<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1055(IntStream input) {
-            int s = -1;
-            int LA16_122 = input.LA(1);
-            if ( (LA16_122=='c') ) {s = 235;}
-            else if ( (LA16_122=='i') ) {s = 236;}
-            else if ( (LA16_122=='e') ) {s = 237;}
-            else if ( ((LA16_122>='\u0000' && LA16_122<='b')||LA16_122=='d'||(LA16_122>='f' && LA16_122<='h')||(LA16_122>='j' && LA16_122<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
         protected int specialStateTransition1056(IntStream input) {
             int s = -1;
-            int LA16_602 = input.LA(1);
-            if ( (LA16_602=='m') ) {s = 756;}
-            else if ( (LA16_602=='p') ) {s = 757;}
-            else if ( (LA16_602=='l') ) {s = 758;}
-            else if ( ((LA16_602>='\u0000' && LA16_602<='k')||(LA16_602>='n' && LA16_602<='o')||(LA16_602>='q' && LA16_602<='\uFFFF')) ) {s = 50;}
+            int LA16_248 = input.LA(1);
+            if ( (LA16_248=='_') ) {s = 388;}
+            else if ( (LA16_248=='e') ) {s = 389;}
+            else if ( ((LA16_248>='\u0000' && LA16_248<='^')||(LA16_248>='`' && LA16_248<='d')||(LA16_248>='f' && LA16_248<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition1057(IntStream input) {
-            int s = -1;
-            int LA16_242 = input.LA(1);
-            if ( (LA16_242=='_') ) {s = 382;}
-            else if ( (LA16_242=='e') ) {s = 383;}
-            else if ( ((LA16_242>='\u0000' && LA16_242<='^')||(LA16_242>='`' && LA16_242<='d')||(LA16_242>='f' && LA16_242<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1058(IntStream input) {
             int s = -1;
             int LA16_310 = input.LA(1);
             if ( (LA16_310=='t') ) {s = 457;}
@@ -21750,7 +21733,7 @@ public class InternalSearchDslLexer extends Lexer {
             else if ( ((LA16_310>='\u0000' && LA16_310<='c')||(LA16_310>='e' && LA16_310<='s')||(LA16_310>='u' && LA16_310<='v')||(LA16_310>='x' && LA16_310<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1059(IntStream input) {
+        protected int specialStateTransition1058(IntStream input) {
             int s = -1;
             int LA16_867 = input.LA(1);
             if ( (LA16_867=='s') ) {s = 1001;}
@@ -21758,17 +21741,29 @@ public class InternalSearchDslLexer extends Lexer {
             else if ( ((LA16_867>='\u0000' && LA16_867<='o')||(LA16_867>='q' && LA16_867<='r')||(LA16_867>='t' && LA16_867<='\uFFFF')) ) {s = 50;}
             return s;
         }
+        protected int specialStateTransition1059(IntStream input) {
+            int s = -1;
+            int LA16_242 = input.LA(1);
+            if ( (LA16_242=='s') ) {s = 382;}
+            else if ( ((LA16_242>='\u0000' && LA16_242<='r')||(LA16_242>='t' && LA16_242<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
         protected int specialStateTransition1060(IntStream input) {
             int s = -1;
-            int LA16_40 = input.LA(1);
-            if ( (LA16_40=='o') ) {s = 118;}
-            else if ( (LA16_40=='u') ) {s = 119;}
-            else if ( (LA16_40=='r') ) {s = 120;}
-            else if ( (LA16_40=='l') ) {s = 121;}
-            else if ( ((LA16_40>='\u0000' && LA16_40<='k')||(LA16_40>='m' && LA16_40<='n')||(LA16_40>='p' && LA16_40<='q')||(LA16_40>='s' && LA16_40<='t')||(LA16_40>='v' && LA16_40<='\uFFFF')) ) {s = 50;}
+            int LA16_382 = input.LA(1);
+            if ( (LA16_382=='t') ) {s = 539;}
+            else if ( ((LA16_382>='\u0000' && LA16_382<='s')||(LA16_382>='u' && LA16_382<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition1061(IntStream input) {
+            int s = -1;
+            int LA16_539 = input.LA(1);
+            if ( (LA16_539=='e') ) {s = 697;}
+            else if ( (LA16_539=='s') ) {s = 698;}
+            else if ( ((LA16_539>='\u0000' && LA16_539<='d')||(LA16_539>='f' && LA16_539<='r')||(LA16_539>='t' && LA16_539<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1062(IntStream input) {
             int s = -1;
             int LA16_45 = input.LA(1);
             if ( (LA16_45=='o') ) {s = 133;}
@@ -21776,61 +21771,49 @@ public class InternalSearchDslLexer extends Lexer {
             else if ( ((LA16_45>='\u0000' && LA16_45<='d')||(LA16_45>='f' && LA16_45<='n')||(LA16_45>='p' && LA16_45<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1062(IntStream input) {
-            int s = -1;
-            int LA16_236 = input.LA(1);
-            if ( (LA16_236=='s') ) {s = 376;}
-            else if ( ((LA16_236>='\u0000' && LA16_236<='r')||(LA16_236>='t' && LA16_236<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
         protected int specialStateTransition1063(IntStream input) {
             int s = -1;
-            int LA16_376 = input.LA(1);
-            if ( (LA16_376=='t') ) {s = 533;}
-            else if ( ((LA16_376>='\u0000' && LA16_376<='s')||(LA16_376>='u' && LA16_376<='\uFFFF')) ) {s = 50;}
+            int LA16_41 = input.LA(1);
+            if ( (LA16_41=='o') ) {s = 121;}
+            else if ( (LA16_41=='u') ) {s = 122;}
+            else if ( (LA16_41=='r') ) {s = 123;}
+            else if ( (LA16_41=='l') ) {s = 124;}
+            else if ( ((LA16_41>='\u0000' && LA16_41<='k')||(LA16_41>='m' && LA16_41<='n')||(LA16_41>='p' && LA16_41<='q')||(LA16_41>='s' && LA16_41<='t')||(LA16_41>='v' && LA16_41<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition1064(IntStream input) {
-            int s = -1;
-            int LA16_533 = input.LA(1);
-            if ( (LA16_533=='e') ) {s = 692;}
-            else if ( (LA16_533=='s') ) {s = 693;}
-            else if ( ((LA16_533>='\u0000' && LA16_533<='d')||(LA16_533>='f' && LA16_533<='r')||(LA16_533>='t' && LA16_533<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1065(IntStream input) {
-            int s = -1;
-            int LA16_43 = input.LA(1);
-            if ( (LA16_43=='o') ) {s = 125;}
-            else if ( (LA16_43=='t') ) {s = 126;}
-            else if ( (LA16_43=='e') ) {s = 127;}
-            else if ( (LA16_43=='i') ) {s = 128;}
-            else if ( (LA16_43=='a') ) {s = 129;}
-            else if ( ((LA16_43>='\u0000' && LA16_43<='`')||(LA16_43>='b' && LA16_43<='d')||(LA16_43>='f' && LA16_43<='h')||(LA16_43>='j' && LA16_43<='n')||(LA16_43>='p' && LA16_43<='s')||(LA16_43>='u' && LA16_43<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1066(IntStream input) {
             int s = -1;
             int LA16_91 = input.LA(1);
             if ( (LA16_91=='g') ) {s = 188;}
             else if ( ((LA16_91>='\u0000' && LA16_91<='f')||(LA16_91>='h' && LA16_91<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1067(IntStream input) {
+        protected int specialStateTransition1065(IntStream input) {
             int s = -1;
             int LA16_188 = input.LA(1);
             if ( (LA16_188=='\"') ) {s = 319;}
             else if ( ((LA16_188>='\u0000' && LA16_188<='!')||(LA16_188>='#' && LA16_188<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1068(IntStream input) {
+        protected int specialStateTransition1066(IntStream input) {
+            int s = -1;
+            int LA16_44 = input.LA(1);
+            if ( (LA16_44=='o') ) {s = 128;}
+            else if ( (LA16_44=='t') ) {s = 129;}
+            else if ( (LA16_44=='e') ) {s = 130;}
+            else if ( (LA16_44=='i') ) {s = 131;}
+            else if ( (LA16_44=='a') ) {s = 132;}
+            else if ( ((LA16_44>='\u0000' && LA16_44<='`')||(LA16_44>='b' && LA16_44<='d')||(LA16_44>='f' && LA16_44<='h')||(LA16_44>='j' && LA16_44<='n')||(LA16_44>='p' && LA16_44<='s')||(LA16_44>='u' && LA16_44<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1067(IntStream input) {
             int s = -1;
             int LA16_99 = input.LA(1);
             if ( (LA16_99=='s') ) {s = 198;}
             else if ( ((LA16_99>='\u0000' && LA16_99<='r')||(LA16_99>='t' && LA16_99<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1069(IntStream input) {
+        protected int specialStateTransition1068(IntStream input) {
             int s = -1;
             int LA16_198 = input.LA(1);
             if ( (LA16_198=='a') ) {s = 332;}
@@ -21839,7 +21822,7 @@ public class InternalSearchDslLexer extends Lexer {
             else if ( ((LA16_198>='\u0000' && LA16_198<='^')||LA16_198=='`'||(LA16_198>='b' && LA16_198<='s')||(LA16_198>='u' && LA16_198<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1070(IntStream input) {
+        protected int specialStateTransition1069(IntStream input) {
             int s = -1;
             int LA16_211 = input.LA(1);
             if ( (LA16_211=='e') ) {s = 349;}
@@ -21847,33 +21830,7 @@ public class InternalSearchDslLexer extends Lexer {
             else if ( ((LA16_211>='\u0000' && LA16_211<='d')||(LA16_211>='f' && LA16_211<='h')||(LA16_211>='j' && LA16_211<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1071(IntStream input) {
-            int s = -1;
-            int LA16_0 = input.LA(1);
-            if ( (LA16_0=='{') ) {s = 1;}
-            else if ( (LA16_0==',') ) {s = 2;}
-            else if ( (LA16_0=='}') ) {s = 3;}
-            else if ( (LA16_0=='\"') ) {s = 4;}
-            else if ( (LA16_0==':') ) {s = 5;}
-            else if ( (LA16_0=='[') ) {s = 6;}
-            else if ( (LA16_0==']') ) {s = 7;}
-            else if ( (LA16_0=='\'') ) {s = 8;}
-            else if ( (LA16_0=='-') ) {s = 9;}
-            else if ( (LA16_0=='.') ) {s = 10;}
-            else if ( (LA16_0=='E') ) {s = 11;}
-            else if ( (LA16_0=='e') ) {s = 12;}
-            else if ( (LA16_0=='t') ) {s = 13;}
-            else if ( (LA16_0=='f') ) {s = 14;}
-            else if ( (LA16_0=='n') ) {s = 15;}
-            else if ( (LA16_0=='^') ) {s = 16;}
-            else if ( ((LA16_0>='A' && LA16_0<='D')||(LA16_0>='F' && LA16_0<='Z')||LA16_0=='_'||(LA16_0>='a' && LA16_0<='d')||(LA16_0>='g' && LA16_0<='m')||(LA16_0>='o' && LA16_0<='s')||(LA16_0>='u' && LA16_0<='z')) ) {s = 17;}
-            else if ( ((LA16_0>='0' && LA16_0<='9')) ) {s = 18;}
-            else if ( (LA16_0=='/') ) {s = 19;}
-            else if ( ((LA16_0>='\t' && LA16_0<='\n')||LA16_0=='\r'||LA16_0==' ') ) {s = 20;}
-            else if ( ((LA16_0>='\u0000' && LA16_0<='\b')||(LA16_0>='\u000B' && LA16_0<='\f')||(LA16_0>='\u000E' && LA16_0<='\u001F')||LA16_0=='!'||(LA16_0>='#' && LA16_0<='&')||(LA16_0>='(' && LA16_0<='+')||(LA16_0>=';' && LA16_0<='@')||LA16_0=='\\'||LA16_0=='`'||LA16_0=='|'||(LA16_0>='~' && LA16_0<='\uFFFF')) ) {s = 21;}
-            return s;
-        }
-        protected int specialStateTransition1072(IntStream input) {
+        protected int specialStateTransition1070(IntStream input) {
             int s = -1;
             int LA16_31 = input.LA(1);
             if ( (LA16_31=='e') ) {s = 97;}
@@ -21882,21 +21839,21 @@ public class InternalSearchDslLexer extends Lexer {
             else if ( ((LA16_31>='\u0000' && LA16_31<='`')||(LA16_31>='b' && LA16_31<='d')||(LA16_31>='f' && LA16_31<='h')||(LA16_31>='j' && LA16_31<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1073(IntStream input) {
+        protected int specialStateTransition1071(IntStream input) {
             int s = -1;
             int LA16_405 = input.LA(1);
             if ( (LA16_405=='i') ) {s = 562;}
             else if ( ((LA16_405>='\u0000' && LA16_405<='h')||(LA16_405>='j' && LA16_405<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1074(IntStream input) {
+        protected int specialStateTransition1072(IntStream input) {
             int s = -1;
             int LA16_562 = input.LA(1);
             if ( (LA16_562=='x') ) {s = 718;}
             else if ( ((LA16_562>='\u0000' && LA16_562<='w')||(LA16_562>='y' && LA16_562<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1075(IntStream input) {
+        protected int specialStateTransition1073(IntStream input) {
             int s = -1;
             int LA16_718 = input.LA(1);
             if ( (LA16_718=='_') ) {s = 869;}
@@ -21904,7 +21861,7 @@ public class InternalSearchDslLexer extends Lexer {
             else if ( ((LA16_718>='\u0000' && LA16_718<='!')||(LA16_718>='#' && LA16_718<='^')||(LA16_718>='`' && LA16_718<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1076(IntStream input) {
+        protected int specialStateTransition1074(IntStream input) {
             int s = -1;
             int LA16_139 = input.LA(1);
             if ( (LA16_139=='t') ) {s = 265;}
@@ -21912,7 +21869,7 @@ public class InternalSearchDslLexer extends Lexer {
             else if ( ((LA16_139>='\u0000' && LA16_139<='q')||LA16_139=='s'||(LA16_139>='u' && LA16_139<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1077(IntStream input) {
+        protected int specialStateTransition1075(IntStream input) {
             int s = -1;
             int LA16_8 = input.LA(1);
             if ( (LA16_8=='s') ) {s = 54;}
@@ -21920,21 +21877,21 @@ public class InternalSearchDslLexer extends Lexer {
             else s = 21;
             return s;
         }
-        protected int specialStateTransition1078(IntStream input) {
+        protected int specialStateTransition1076(IntStream input) {
             int s = -1;
             int LA16_183 = input.LA(1);
             if ( (LA16_183=='c') ) {s = 313;}
             else if ( ((LA16_183>='\u0000' && LA16_183<='b')||(LA16_183>='d' && LA16_183<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1079(IntStream input) {
+        protected int specialStateTransition1077(IntStream input) {
             int s = -1;
             int LA16_313 = input.LA(1);
             if ( (LA16_313=='h') ) {s = 465;}
             else if ( ((LA16_313>='\u0000' && LA16_313<='g')||(LA16_313>='i' && LA16_313<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1080(IntStream input) {
+        protected int specialStateTransition1078(IntStream input) {
             int s = -1;
             int LA16_465 = input.LA(1);
             if ( (LA16_465=='\"') ) {s = 624;}
@@ -21942,14 +21899,14 @@ public class InternalSearchDslLexer extends Lexer {
             else if ( ((LA16_465>='\u0000' && LA16_465<='!')||(LA16_465>='#' && LA16_465<='^')||(LA16_465>='`' && LA16_465<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1081(IntStream input) {
+        protected int specialStateTransition1079(IntStream input) {
             int s = -1;
             int LA16_660 = input.LA(1);
             if ( (LA16_660=='d') ) {s = 811;}
             else if ( ((LA16_660>='\u0000' && LA16_660<='c')||(LA16_660>='e' && LA16_660<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1082(IntStream input) {
+        protected int specialStateTransition1080(IntStream input) {
             int s = -1;
             int LA16_811 = input.LA(1);
             if ( (LA16_811=='\"') ) {s = 952;}
@@ -21957,7 +21914,7 @@ public class InternalSearchDslLexer extends Lexer {
             else if ( ((LA16_811>='\u0000' && LA16_811<='!')||(LA16_811>='#' && LA16_811<='^')||(LA16_811>='`' && LA16_811<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1083(IntStream input) {
+        protected int specialStateTransition1081(IntStream input) {
             int s = -1;
             int LA16_167 = input.LA(1);
             if ( (LA16_167=='\"') ) {s = 293;}
@@ -21965,26 +21922,40 @@ public class InternalSearchDslLexer extends Lexer {
             else if ( ((LA16_167>='\u0000' && LA16_167<='!')||(LA16_167>='#' && LA16_167<='^')||(LA16_167>='`' && LA16_167<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1084(IntStream input) {
+        protected int specialStateTransition1082(IntStream input) {
+            int s = -1;
+            int LA16_420 = input.LA(1);
+            if ( (LA16_420=='\"') ) {s = 574;}
+            else if ( ((LA16_420>='\u0000' && LA16_420<='!')||(LA16_420>='#' && LA16_420<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1083(IntStream input) {
             int s = -1;
             int LA16_223 = input.LA(1);
             if ( (LA16_223=='e') ) {s = 363;}
             else if ( ((LA16_223>='\u0000' && LA16_223<='d')||(LA16_223>='f' && LA16_223<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1085(IntStream input) {
+        protected int specialStateTransition1084(IntStream input) {
             int s = -1;
             int LA16_363 = input.LA(1);
             if ( (LA16_363=='x') ) {s = 519;}
             else if ( ((LA16_363>='\u0000' && LA16_363<='w')||(LA16_363>='y' && LA16_363<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1086(IntStream input) {
+        protected int specialStateTransition1085(IntStream input) {
             int s = -1;
             int LA16_94 = input.LA(1);
             if ( (LA16_94=='a') ) {s = 191;}
             else if ( (LA16_94=='d') ) {s = 192;}
             else if ( ((LA16_94>='\u0000' && LA16_94<='`')||(LA16_94>='b' && LA16_94<='c')||(LA16_94>='e' && LA16_94<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1086(IntStream input) {
+            int s = -1;
+            int LA16_230 = input.LA(1);
+            if ( (LA16_230=='e') ) {s = 370;}
+            else if ( ((LA16_230>='\u0000' && LA16_230<='d')||(LA16_230>='f' && LA16_230<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition1087(IntStream input) {
@@ -21998,54 +21969,12 @@ public class InternalSearchDslLexer extends Lexer {
         }
         protected int specialStateTransition1088(IntStream input) {
             int s = -1;
-            int LA16_758 = input.LA(1);
-            if ( (LA16_758=='i') ) {s = 903;}
-            else if ( ((LA16_758>='\u0000' && LA16_758<='h')||(LA16_758>='j' && LA16_758<='\uFFFF')) ) {s = 50;}
+            int LA16_370 = input.LA(1);
+            if ( (LA16_370=='\"') ) {s = 527;}
+            else if ( ((LA16_370>='\u0000' && LA16_370<='!')||(LA16_370>='#' && LA16_370<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition1089(IntStream input) {
-            int s = -1;
-            int LA16_253 = input.LA(1);
-            if ( (LA16_253=='e') ) {s = 394;}
-            else if ( ((LA16_253>='\u0000' && LA16_253<='d')||(LA16_253>='f' && LA16_253<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1090(IntStream input) {
-            int s = -1;
-            int LA16_903 = input.LA(1);
-            if ( (LA16_903=='k') ) {s = 1031;}
-            else if ( ((LA16_903>='\u0000' && LA16_903<='j')||(LA16_903>='l' && LA16_903<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1091(IntStream input) {
-            int s = -1;
-            int LA16_420 = input.LA(1);
-            if ( (LA16_420=='\"') ) {s = 574;}
-            else if ( ((LA16_420>='\u0000' && LA16_420<='!')||(LA16_420>='#' && LA16_420<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1092(IntStream input) {
-            int s = -1;
-            int LA16_1031 = input.LA(1);
-            if ( (LA16_1031=='e') ) {s = 1144;}
-            else if ( ((LA16_1031>='\u0000' && LA16_1031<='d')||(LA16_1031>='f' && LA16_1031<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1093(IntStream input) {
-            int s = -1;
-            int LA16_394 = input.LA(1);
-            if ( (LA16_394=='\"') ) {s = 550;}
-            else if ( ((LA16_394>='\u0000' && LA16_394<='!')||(LA16_394>='#' && LA16_394<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1094(IntStream input) {
-            int s = -1;
-            int LA16_1144 = input.LA(1);
-            if ( (LA16_1144=='_') ) {s = 1246;}
-            else if ( ((LA16_1144>='\u0000' && LA16_1144<='^')||(LA16_1144>='`' && LA16_1144<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1095(IntStream input) {
             int s = -1;
             int LA16_89 = input.LA(1);
             if ( (LA16_89=='l') ) {s = 185;}
@@ -22053,35 +21982,98 @@ public class InternalSearchDslLexer extends Lexer {
             else if ( ((LA16_89>='\u0000' && LA16_89<='k')||(LA16_89>='m' && LA16_89<='r')||(LA16_89>='t' && LA16_89<='\uFFFF')) ) {s = 50;}
             return s;
         }
+        protected int specialStateTransition1090(IntStream input) {
+            int s = -1;
+            int LA16_75 = input.LA(1);
+            if ( (LA16_75=='o') ) {s = 162;}
+            else if ( ((LA16_75>='\u0000' && LA16_75<='n')||(LA16_75>='p' && LA16_75<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1091(IntStream input) {
+            int s = -1;
+            int LA16_758 = input.LA(1);
+            if ( (LA16_758=='i') ) {s = 903;}
+            else if ( ((LA16_758>='\u0000' && LA16_758<='h')||(LA16_758>='j' && LA16_758<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1092(IntStream input) {
+            int s = -1;
+            int LA16_162 = input.LA(1);
+            if ( (LA16_162=='m') ) {s = 287;}
+            else if ( ((LA16_162>='\u0000' && LA16_162<='l')||(LA16_162>='n' && LA16_162<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1093(IntStream input) {
+            int s = -1;
+            int LA16_287 = input.LA(1);
+            if ( (LA16_287=='\"') ) {s = 434;}
+            else if ( ((LA16_287>='\u0000' && LA16_287<='!')||(LA16_287>='#' && LA16_287<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1094(IntStream input) {
+            int s = -1;
+            int LA16_903 = input.LA(1);
+            if ( (LA16_903=='k') ) {s = 1031;}
+            else if ( ((LA16_903>='\u0000' && LA16_903<='j')||(LA16_903>='l' && LA16_903<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1095(IntStream input) {
+            int s = -1;
+            int LA16_1031 = input.LA(1);
+            if ( (LA16_1031=='e') ) {s = 1144;}
+            else if ( ((LA16_1031>='\u0000' && LA16_1031<='d')||(LA16_1031>='f' && LA16_1031<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
         protected int specialStateTransition1096(IntStream input) {
+            int s = -1;
+            int LA16_1144 = input.LA(1);
+            if ( (LA16_1144=='_') ) {s = 1246;}
+            else if ( ((LA16_1144>='\u0000' && LA16_1144<='^')||(LA16_1144>='`' && LA16_1144<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1097(IntStream input) {
             int s = -1;
             int LA16_1246 = input.LA(1);
             if ( (LA16_1246=='t') ) {s = 1335;}
             else if ( ((LA16_1246>='\u0000' && LA16_1246<='s')||(LA16_1246>='u' && LA16_1246<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1097(IntStream input) {
+        protected int specialStateTransition1098(IntStream input) {
+            int s = -1;
+            int LA16_152 = input.LA(1);
+            if ( (LA16_152=='e') ) {s = 277;}
+            else if ( ((LA16_152>='\u0000' && LA16_152<='d')||(LA16_152>='f' && LA16_152<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1099(IntStream input) {
             int s = -1;
             int LA16_1335 = input.LA(1);
             if ( (LA16_1335=='h') ) {s = 1404;}
             else if ( ((LA16_1335>='\u0000' && LA16_1335<='g')||(LA16_1335>='i' && LA16_1335<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1098(IntStream input) {
+        protected int specialStateTransition1100(IntStream input) {
+            int s = -1;
+            int LA16_277 = input.LA(1);
+            if ( (LA16_277=='\"') ) {s = 423;}
+            else if ( ((LA16_277>='\u0000' && LA16_277<='!')||(LA16_277>='#' && LA16_277<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1101(IntStream input) {
             int s = -1;
             int LA16_1404 = input.LA(1);
             if ( (LA16_1404=='i') ) {s = 1469;}
             else if ( ((LA16_1404>='\u0000' && LA16_1404<='h')||(LA16_1404>='j' && LA16_1404<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1099(IntStream input) {
+        protected int specialStateTransition1102(IntStream input) {
             int s = -1;
             int LA16_1469 = input.LA(1);
             if ( (LA16_1469=='s') ) {s = 1518;}
             else if ( ((LA16_1469>='\u0000' && LA16_1469<='r')||(LA16_1469>='t' && LA16_1469<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1100(IntStream input) {
+        protected int specialStateTransition1103(IntStream input) {
             int s = -1;
             int LA16_1518 = input.LA(1);
             if ( (LA16_1518=='\"') ) {s = 1557;}
@@ -22089,42 +22081,28 @@ public class InternalSearchDslLexer extends Lexer {
             else if ( ((LA16_1518>='\u0000' && LA16_1518<='!')||(LA16_1518>='#' && LA16_1518<='^')||(LA16_1518>='`' && LA16_1518<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1101(IntStream input) {
-            int s = -1;
-            int LA16_75 = input.LA(1);
-            if ( (LA16_75=='o') ) {s = 162;}
-            else if ( ((LA16_75>='\u0000' && LA16_75<='n')||(LA16_75>='p' && LA16_75<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1102(IntStream input) {
-            int s = -1;
-            int LA16_162 = input.LA(1);
-            if ( (LA16_162=='m') ) {s = 287;}
-            else if ( ((LA16_162>='\u0000' && LA16_162<='l')||(LA16_162>='n' && LA16_162<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1103(IntStream input) {
-            int s = -1;
-            int LA16_287 = input.LA(1);
-            if ( (LA16_287=='\"') ) {s = 434;}
-            else if ( ((LA16_287>='\u0000' && LA16_287<='!')||(LA16_287>='#' && LA16_287<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
         protected int specialStateTransition1104(IntStream input) {
             int s = -1;
-            int LA16_152 = input.LA(1);
-            if ( (LA16_152=='e') ) {s = 277;}
-            else if ( ((LA16_152>='\u0000' && LA16_152<='d')||(LA16_152>='f' && LA16_152<='\uFFFF')) ) {s = 50;}
+            int LA16_69 = input.LA(1);
+            if ( (LA16_69=='r') ) {s = 154;}
+            else if ( ((LA16_69>='\u0000' && LA16_69<='q')||(LA16_69>='s' && LA16_69<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition1105(IntStream input) {
             int s = -1;
-            int LA16_277 = input.LA(1);
-            if ( (LA16_277=='\"') ) {s = 423;}
-            else if ( ((LA16_277>='\u0000' && LA16_277<='!')||(LA16_277>='#' && LA16_277<='\uFFFF')) ) {s = 50;}
+            int LA16_154 = input.LA(1);
+            if ( (LA16_154=='t') ) {s = 279;}
+            else if ( ((LA16_154>='\u0000' && LA16_154<='s')||(LA16_154>='u' && LA16_154<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition1106(IntStream input) {
+            int s = -1;
+            int LA16_279 = input.LA(1);
+            if ( (LA16_279=='\"') ) {s = 425;}
+            else if ( ((LA16_279>='\u0000' && LA16_279<='!')||(LA16_279>='#' && LA16_279<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1107(IntStream input) {
             int s = -1;
             int LA16_213 = input.LA(1);
             if ( (LA16_213=='r') ) {s = 352;}
@@ -22132,183 +22110,201 @@ public class InternalSearchDslLexer extends Lexer {
             else if ( ((LA16_213>='\u0000' && LA16_213<='k')||(LA16_213>='m' && LA16_213<='q')||(LA16_213>='s' && LA16_213<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1107(IntStream input) {
-            int s = -1;
-            int LA16_69 = input.LA(1);
-            if ( (LA16_69=='r') ) {s = 154;}
-            else if ( ((LA16_69>='\u0000' && LA16_69<='q')||(LA16_69>='s' && LA16_69<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
         protected int specialStateTransition1108(IntStream input) {
-            int s = -1;
-            int LA16_125 = input.LA(1);
-            if ( (LA16_125=='w') ) {s = 242;}
-            else if ( (LA16_125=='c') ) {s = 243;}
-            else if ( (LA16_125=='n') ) {s = 244;}
-            else if ( ((LA16_125>='\u0000' && LA16_125<='b')||(LA16_125>='d' && LA16_125<='m')||(LA16_125>='o' && LA16_125<='v')||(LA16_125>='x' && LA16_125<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1109(IntStream input) {
-            int s = -1;
-            int LA16_154 = input.LA(1);
-            if ( (LA16_154=='t') ) {s = 279;}
-            else if ( ((LA16_154>='\u0000' && LA16_154<='s')||(LA16_154>='u' && LA16_154<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1110(IntStream input) {
-            int s = -1;
-            int LA16_279 = input.LA(1);
-            if ( (LA16_279=='\"') ) {s = 425;}
-            else if ( ((LA16_279>='\u0000' && LA16_279<='!')||(LA16_279>='#' && LA16_279<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1111(IntStream input) {
             int s = -1;
             int LA16_81 = input.LA(1);
             if ( (LA16_81=='c') ) {s = 170;}
             else if ( ((LA16_81>='\u0000' && LA16_81<='b')||(LA16_81>='d' && LA16_81<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1112(IntStream input) {
+        protected int specialStateTransition1109(IntStream input) {
             int s = -1;
             int LA16_170 = input.LA(1);
             if ( (LA16_170=='o') ) {s = 297;}
             else if ( ((LA16_170>='\u0000' && LA16_170<='n')||(LA16_170>='p' && LA16_170<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1113(IntStream input) {
+        protected int specialStateTransition1110(IntStream input) {
             int s = -1;
             int LA16_297 = input.LA(1);
             if ( (LA16_297=='r') ) {s = 445;}
             else if ( ((LA16_297>='\u0000' && LA16_297<='q')||(LA16_297>='s' && LA16_297<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1114(IntStream input) {
+        protected int specialStateTransition1111(IntStream input) {
             int s = -1;
             int LA16_445 = input.LA(1);
             if ( (LA16_445=='e') ) {s = 606;}
             else if ( ((LA16_445>='\u0000' && LA16_445<='d')||(LA16_445>='f' && LA16_445<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1115(IntStream input) {
+        protected int specialStateTransition1112(IntStream input) {
             int s = -1;
             int LA16_606 = input.LA(1);
             if ( (LA16_606=='\"') ) {s = 762;}
             else if ( ((LA16_606>='\u0000' && LA16_606<='!')||(LA16_606>='#' && LA16_606<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1116(IntStream input) {
+        protected int specialStateTransition1113(IntStream input) {
             int s = -1;
             int LA16_172 = input.LA(1);
             if ( (LA16_172=='e') ) {s = 299;}
             else if ( ((LA16_172>='\u0000' && LA16_172<='d')||(LA16_172>='f' && LA16_172<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1117(IntStream input) {
+        protected int specialStateTransition1114(IntStream input) {
             int s = -1;
             int LA16_299 = input.LA(1);
             if ( (LA16_299=='r') ) {s = 447;}
             else if ( ((LA16_299>='\u0000' && LA16_299<='q')||(LA16_299>='s' && LA16_299<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1118(IntStream input) {
+        protected int specialStateTransition1115(IntStream input) {
             int s = -1;
             int LA16_447 = input.LA(1);
             if ( (LA16_447=='\"') ) {s = 608;}
             else if ( ((LA16_447>='\u0000' && LA16_447<='!')||(LA16_447>='#' && LA16_447<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1119(IntStream input) {
+        protected int specialStateTransition1116(IntStream input) {
             int s = -1;
             int LA16_177 = input.LA(1);
             if ( (LA16_177=='e') ) {s = 304;}
             else if ( ((LA16_177>='\u0000' && LA16_177<='d')||(LA16_177>='f' && LA16_177<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1120(IntStream input) {
+        protected int specialStateTransition1117(IntStream input) {
             int s = -1;
             int LA16_304 = input.LA(1);
             if ( (LA16_304=='\"') ) {s = 451;}
             else if ( ((LA16_304>='\u0000' && LA16_304<='!')||(LA16_304>='#' && LA16_304<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1121(IntStream input) {
+        protected int specialStateTransition1118(IntStream input) {
             int s = -1;
             int LA16_180 = input.LA(1);
             if ( (LA16_180=='s') ) {s = 307;}
             else if ( ((LA16_180>='\u0000' && LA16_180<='r')||(LA16_180>='t' && LA16_180<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1122(IntStream input) {
-            int s = -1;
-            int LA16_131 = input.LA(1);
-            if ( (LA16_131=='n') ) {s = 253;}
-            else if ( (LA16_131=='_') ) {s = 254;}
-            else if ( (LA16_131=='t') ) {s = 255;}
-            else if ( ((LA16_131>='\u0000' && LA16_131<='^')||(LA16_131>='`' && LA16_131<='m')||(LA16_131>='o' && LA16_131<='s')||(LA16_131>='u' && LA16_131<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1123(IntStream input) {
+        protected int specialStateTransition1119(IntStream input) {
             int s = -1;
             int LA16_307 = input.LA(1);
             if ( (LA16_307=='i') ) {s = 454;}
             else if ( ((LA16_307>='\u0000' && LA16_307<='h')||(LA16_307>='j' && LA16_307<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1124(IntStream input) {
+        protected int specialStateTransition1120(IntStream input) {
             int s = -1;
             int LA16_454 = input.LA(1);
             if ( (LA16_454=='n') ) {s = 615;}
             else if ( ((LA16_454>='\u0000' && LA16_454<='m')||(LA16_454>='o' && LA16_454<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1125(IntStream input) {
+        protected int specialStateTransition1121(IntStream input) {
             int s = -1;
             int LA16_615 = input.LA(1);
             if ( (LA16_615=='g') ) {s = 770;}
             else if ( ((LA16_615>='\u0000' && LA16_615<='f')||(LA16_615>='h' && LA16_615<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1126(IntStream input) {
+        protected int specialStateTransition1122(IntStream input) {
+            int s = -1;
+            int LA16_128 = input.LA(1);
+            if ( (LA16_128=='w') ) {s = 248;}
+            else if ( (LA16_128=='c') ) {s = 249;}
+            else if ( (LA16_128=='n') ) {s = 250;}
+            else if ( ((LA16_128>='\u0000' && LA16_128<='b')||(LA16_128>='d' && LA16_128<='m')||(LA16_128>='o' && LA16_128<='v')||(LA16_128>='x' && LA16_128<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1123(IntStream input) {
             int s = -1;
             int LA16_770 = input.LA(1);
             if ( (LA16_770=='\"') ) {s = 913;}
             else if ( ((LA16_770>='\u0000' && LA16_770<='!')||(LA16_770>='#' && LA16_770<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1127(IntStream input) {
+        protected int specialStateTransition1124(IntStream input) {
+            int s = -1;
+            int LA16_120 = input.LA(1);
+            if ( (LA16_120=='n') ) {s = 230;}
+            else if ( (LA16_120=='_') ) {s = 231;}
+            else if ( (LA16_120=='t') ) {s = 232;}
+            else if ( ((LA16_120>='\u0000' && LA16_120<='^')||(LA16_120>='`' && LA16_120<='m')||(LA16_120>='o' && LA16_120<='s')||(LA16_120>='u' && LA16_120<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1125(IntStream input) {
             int s = -1;
             int LA16_92 = input.LA(1);
             if ( (LA16_92=='c') ) {s = 189;}
             else if ( ((LA16_92>='\u0000' && LA16_92<='b')||(LA16_92>='d' && LA16_92<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1128(IntStream input) {
+        protected int specialStateTransition1126(IntStream input) {
             int s = -1;
             int LA16_189 = input.LA(1);
             if ( (LA16_189=='\"') ) {s = 320;}
             else if ( ((LA16_189>='\u0000' && LA16_189<='!')||(LA16_189>='#' && LA16_189<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1129(IntStream input) {
+        protected int specialStateTransition1127(IntStream input) {
             int s = -1;
             int LA16_195 = input.LA(1);
             if ( (LA16_195=='c') ) {s = 329;}
             else if ( ((LA16_195>='\u0000' && LA16_195<='b')||(LA16_195>='d' && LA16_195<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1130(IntStream input) {
+        protected int specialStateTransition1128(IntStream input) {
             int s = -1;
             int LA16_329 = input.LA(1);
             if ( (LA16_329=='\"') ) {s = 482;}
             else if ( ((LA16_329>='\u0000' && LA16_329<='!')||(LA16_329>='#' && LA16_329<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1131(IntStream input) {
+        protected int specialStateTransition1129(IntStream input) {
             int s = -1;
             int LA16_593 = input.LA(1);
             if ( (LA16_593=='\"') ) {s = 745;}
             else if ( ((LA16_593>='\u0000' && LA16_593<='!')||(LA16_593>='#' && LA16_593<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1130(IntStream input) {
+            int s = -1;
+            int LA16_4 = input.LA(1);
+            if ( (LA16_4=='s') ) {s = 25;}
+            else if ( (LA16_4=='f') ) {s = 26;}
+            else if ( (LA16_4=='_') ) {s = 27;}
+            else if ( (LA16_4=='o') ) {s = 28;}
+            else if ( (LA16_4=='m') ) {s = 29;}
+            else if ( (LA16_4=='a') ) {s = 30;}
+            else if ( (LA16_4=='d') ) {s = 31;}
+            else if ( (LA16_4=='q') ) {s = 32;}
+            else if ( (LA16_4=='g') ) {s = 33;}
+            else if ( (LA16_4=='t') ) {s = 34;}
+            else if ( (LA16_4=='i') ) {s = 35;}
+            else if ( (LA16_4=='h') ) {s = 36;}
+            else if ( (LA16_4=='r') ) {s = 37;}
+            else if ( (LA16_4=='k') ) {s = 38;}
+            else if ( (LA16_4=='v') ) {s = 39;}
+            else if ( (LA16_4=='n') ) {s = 40;}
+            else if ( (LA16_4=='c') ) {s = 41;}
+            else if ( (LA16_4=='e') ) {s = 42;}
+            else if ( (LA16_4=='z') ) {s = 43;}
+            else if ( (LA16_4=='l') ) {s = 44;}
+            else if ( (LA16_4=='b') ) {s = 45;}
+            else if ( (LA16_4=='p') ) {s = 46;}
+            else if ( (LA16_4=='u') ) {s = 47;}
+            else if ( (LA16_4=='w') ) {s = 48;}
+            else if ( (LA16_4=='\"') ) {s = 49;}
+            else if ( ((LA16_4>='\u0000' && LA16_4<='!')||(LA16_4>='#' && LA16_4<='^')||LA16_4=='`'||LA16_4=='j'||(LA16_4>='x' && LA16_4<='y')||(LA16_4>='{' && LA16_4<='\uFFFF')) ) {s = 50;}
+            else s = 21;
+            return s;
+        }
+        protected int specialStateTransition1131(IntStream input) {
+            int s = -1;
+            int LA16_597 = input.LA(1);
+            if ( (LA16_597=='\"') ) {s = 751;}
+            else if ( ((LA16_597>='\u0000' && LA16_597<='!')||(LA16_597>='#' && LA16_597<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition1132(IntStream input) {
@@ -22335,54 +22331,75 @@ public class InternalSearchDslLexer extends Lexer {
         }
         protected int specialStateTransition1135(IntStream input) {
             int s = -1;
-            int LA16_597 = input.LA(1);
-            if ( (LA16_597=='\"') ) {s = 751;}
-            else if ( ((LA16_597>='\u0000' && LA16_597<='!')||(LA16_597>='#' && LA16_597<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1136(IntStream input) {
-            int s = -1;
-            int LA16_333 = input.LA(1);
-            if ( (LA16_333=='a') ) {s = 486;}
-            else if ( ((LA16_333>='\u0000' && LA16_333<='`')||(LA16_333>='b' && LA16_333<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1137(IntStream input) {
-            int s = -1;
-            int LA16_486 = input.LA(1);
-            if ( (LA16_486=='n') ) {s = 640;}
-            else if ( ((LA16_486>='\u0000' && LA16_486<='m')||(LA16_486>='o' && LA16_486<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1138(IntStream input) {
-            int s = -1;
-            int LA16_640 = input.LA(1);
-            if ( (LA16_640=='c') ) {s = 793;}
-            else if ( ((LA16_640>='\u0000' && LA16_640<='b')||(LA16_640>='d' && LA16_640<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1139(IntStream input) {
-            int s = -1;
             int LA16_651 = input.LA(1);
             if ( (LA16_651=='s') ) {s = 804;}
             else if ( ((LA16_651>='\u0000' && LA16_651<='r')||(LA16_651>='t' && LA16_651<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1140(IntStream input) {
-            int s = -1;
-            int LA16_793 = input.LA(1);
-            if ( (LA16_793=='e') ) {s = 936;}
-            else if ( ((LA16_793>='\u0000' && LA16_793<='d')||(LA16_793>='f' && LA16_793<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1141(IntStream input) {
+        protected int specialStateTransition1136(IntStream input) {
             int s = -1;
             int LA16_804 = input.LA(1);
             if ( (LA16_804=='t') ) {s = 946;}
             else if ( ((LA16_804>='\u0000' && LA16_804<='s')||(LA16_804>='u' && LA16_804<='\uFFFF')) ) {s = 50;}
             return s;
         }
+        protected int specialStateTransition1137(IntStream input) {
+            int s = -1;
+            int LA16_946 = input.LA(1);
+            if ( (LA16_946=='a') ) {s = 1071;}
+            else if ( ((LA16_946>='\u0000' && LA16_946<='`')||(LA16_946>='b' && LA16_946<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1138(IntStream input) {
+            int s = -1;
+            int LA16_1071 = input.LA(1);
+            if ( (LA16_1071=='t') ) {s = 1180;}
+            else if ( ((LA16_1071>='\u0000' && LA16_1071<='s')||(LA16_1071>='u' && LA16_1071<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1139(IntStream input) {
+            int s = -1;
+            int LA16_1180 = input.LA(1);
+            if ( (LA16_1180=='s') ) {s = 1279;}
+            else if ( ((LA16_1180>='\u0000' && LA16_1180<='r')||(LA16_1180>='t' && LA16_1180<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1140(IntStream input) {
+            int s = -1;
+            int LA16_333 = input.LA(1);
+            if ( (LA16_333=='a') ) {s = 486;}
+            else if ( ((LA16_333>='\u0000' && LA16_333<='`')||(LA16_333>='b' && LA16_333<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1141(IntStream input) {
+            int s = -1;
+            int LA16_1279 = input.LA(1);
+            if ( (LA16_1279=='\"') ) {s = 1363;}
+            else if ( ((LA16_1279>='\u0000' && LA16_1279<='!')||(LA16_1279>='#' && LA16_1279<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
         protected int specialStateTransition1142(IntStream input) {
+            int s = -1;
+            int LA16_486 = input.LA(1);
+            if ( (LA16_486=='n') ) {s = 640;}
+            else if ( ((LA16_486>='\u0000' && LA16_486<='m')||(LA16_486>='o' && LA16_486<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1143(IntStream input) {
+            int s = -1;
+            int LA16_640 = input.LA(1);
+            if ( (LA16_640=='c') ) {s = 793;}
+            else if ( ((LA16_640>='\u0000' && LA16_640<='b')||(LA16_640>='d' && LA16_640<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1144(IntStream input) {
+            int s = -1;
+            int LA16_793 = input.LA(1);
+            if ( (LA16_793=='e') ) {s = 936;}
+            else if ( ((LA16_793>='\u0000' && LA16_793<='d')||(LA16_793>='f' && LA16_793<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1145(IntStream input) {
             int s = -1;
             int LA16_936 = input.LA(1);
             if ( (LA16_936=='_') ) {s = 1061;}
@@ -22390,281 +22407,388 @@ public class InternalSearchDslLexer extends Lexer {
             else if ( ((LA16_936>='\u0000' && LA16_936<='!')||(LA16_936>='#' && LA16_936<='^')||(LA16_936>='`' && LA16_936<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1143(IntStream input) {
-            int s = -1;
-            int LA16_946 = input.LA(1);
-            if ( (LA16_946=='a') ) {s = 1071;}
-            else if ( ((LA16_946>='\u0000' && LA16_946<='`')||(LA16_946>='b' && LA16_946<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1144(IntStream input) {
-            int s = -1;
-            int LA16_1071 = input.LA(1);
-            if ( (LA16_1071=='t') ) {s = 1180;}
-            else if ( ((LA16_1071>='\u0000' && LA16_1071<='s')||(LA16_1071>='u' && LA16_1071<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1145(IntStream input) {
-            int s = -1;
-            int LA16_1180 = input.LA(1);
-            if ( (LA16_1180=='s') ) {s = 1279;}
-            else if ( ((LA16_1180>='\u0000' && LA16_1180<='r')||(LA16_1180>='t' && LA16_1180<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
         protected int specialStateTransition1146(IntStream input) {
-            int s = -1;
-            int LA16_1279 = input.LA(1);
-            if ( (LA16_1279=='\"') ) {s = 1363;}
-            else if ( ((LA16_1279>='\u0000' && LA16_1279<='!')||(LA16_1279>='#' && LA16_1279<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1147(IntStream input) {
             int s = -1;
             int LA16_421 = input.LA(1);
             if ( (LA16_421=='s') ) {s = 575;}
             else if ( ((LA16_421>='\u0000' && LA16_421<='r')||(LA16_421>='t' && LA16_421<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1148(IntStream input) {
+        protected int specialStateTransition1147(IntStream input) {
             int s = -1;
             int LA16_575 = input.LA(1);
             if ( (LA16_575=='t') ) {s = 729;}
             else if ( ((LA16_575>='\u0000' && LA16_575<='s')||(LA16_575>='u' && LA16_575<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1149(IntStream input) {
+        protected int specialStateTransition1148(IntStream input) {
             int s = -1;
             int LA16_729 = input.LA(1);
             if ( (LA16_729=='i') ) {s = 879;}
             else if ( ((LA16_729>='\u0000' && LA16_729<='h')||(LA16_729>='j' && LA16_729<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1150(IntStream input) {
+        protected int specialStateTransition1149(IntStream input) {
             int s = -1;
             int LA16_879 = input.LA(1);
             if ( (LA16_879=='c') ) {s = 1012;}
             else if ( ((LA16_879>='\u0000' && LA16_879<='b')||(LA16_879>='d' && LA16_879<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1151(IntStream input) {
+        protected int specialStateTransition1150(IntStream input) {
             int s = -1;
             int LA16_1012 = input.LA(1);
             if ( (LA16_1012=='a') ) {s = 1127;}
             else if ( ((LA16_1012>='\u0000' && LA16_1012<='`')||(LA16_1012>='b' && LA16_1012<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1152(IntStream input) {
+        protected int specialStateTransition1151(IntStream input) {
             int s = -1;
             int LA16_1127 = input.LA(1);
             if ( (LA16_1127=='l') ) {s = 1231;}
             else if ( ((LA16_1127>='\u0000' && LA16_1127<='k')||(LA16_1127>='m' && LA16_1127<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1153(IntStream input) {
+        protected int specialStateTransition1152(IntStream input) {
             int s = -1;
             int LA16_1231 = input.LA(1);
             if ( (LA16_1231=='\"') ) {s = 1324;}
             else if ( ((LA16_1231>='\u0000' && LA16_1231<='!')||(LA16_1231>='#' && LA16_1231<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1154(IntStream input) {
+        protected int specialStateTransition1153(IntStream input) {
             int s = -1;
             int LA16_98 = input.LA(1);
             if ( (LA16_98=='t') ) {s = 197;}
             else if ( ((LA16_98>='\u0000' && LA16_98<='s')||(LA16_98>='u' && LA16_98<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1155(IntStream input) {
+        protected int specialStateTransition1154(IntStream input) {
             int s = -1;
             int LA16_197 = input.LA(1);
             if ( (LA16_197=='e') ) {s = 331;}
             else if ( ((LA16_197>='\u0000' && LA16_197<='d')||(LA16_197>='f' && LA16_197<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1156(IntStream input) {
+        protected int specialStateTransition1155(IntStream input) {
             int s = -1;
             int LA16_331 = input.LA(1);
             if ( (LA16_331=='_') ) {s = 484;}
             else if ( ((LA16_331>='\u0000' && LA16_331<='^')||(LA16_331>='`' && LA16_331<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1157(IntStream input) {
+        protected int specialStateTransition1156(IntStream input) {
             int s = -1;
             int LA16_484 = input.LA(1);
             if ( (LA16_484=='h') ) {s = 638;}
             else if ( ((LA16_484>='\u0000' && LA16_484<='g')||(LA16_484>='i' && LA16_484<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1158(IntStream input) {
+        protected int specialStateTransition1157(IntStream input) {
             int s = -1;
             int LA16_638 = input.LA(1);
             if ( (LA16_638=='i') ) {s = 791;}
             else if ( ((LA16_638>='\u0000' && LA16_638<='h')||(LA16_638>='j' && LA16_638<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1159(IntStream input) {
+        protected int specialStateTransition1158(IntStream input) {
             int s = -1;
             int LA16_791 = input.LA(1);
             if ( (LA16_791=='s') ) {s = 934;}
             else if ( ((LA16_791>='\u0000' && LA16_791<='r')||(LA16_791>='t' && LA16_791<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1160(IntStream input) {
+        protected int specialStateTransition1159(IntStream input) {
             int s = -1;
             int LA16_934 = input.LA(1);
             if ( (LA16_934=='t') ) {s = 1059;}
             else if ( ((LA16_934>='\u0000' && LA16_934<='s')||(LA16_934>='u' && LA16_934<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1161(IntStream input) {
+        protected int specialStateTransition1160(IntStream input) {
             int s = -1;
             int LA16_1059 = input.LA(1);
             if ( (LA16_1059=='o') ) {s = 1170;}
             else if ( ((LA16_1059>='\u0000' && LA16_1059<='n')||(LA16_1059>='p' && LA16_1059<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1162(IntStream input) {
+        protected int specialStateTransition1161(IntStream input) {
             int s = -1;
             int LA16_1170 = input.LA(1);
             if ( (LA16_1170=='g') ) {s = 1270;}
             else if ( ((LA16_1170>='\u0000' && LA16_1170<='f')||(LA16_1170>='h' && LA16_1170<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1163(IntStream input) {
+        protected int specialStateTransition1162(IntStream input) {
             int s = -1;
             int LA16_1270 = input.LA(1);
             if ( (LA16_1270=='r') ) {s = 1355;}
             else if ( ((LA16_1270>='\u0000' && LA16_1270<='q')||(LA16_1270>='s' && LA16_1270<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1164(IntStream input) {
+        protected int specialStateTransition1163(IntStream input) {
             int s = -1;
             int LA16_1355 = input.LA(1);
             if ( (LA16_1355=='a') ) {s = 1423;}
             else if ( ((LA16_1355>='\u0000' && LA16_1355<='`')||(LA16_1355>='b' && LA16_1355<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1165(IntStream input) {
+        protected int specialStateTransition1164(IntStream input) {
             int s = -1;
             int LA16_1423 = input.LA(1);
             if ( (LA16_1423=='m') ) {s = 1485;}
             else if ( ((LA16_1423>='\u0000' && LA16_1423<='l')||(LA16_1423>='n' && LA16_1423<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1166(IntStream input) {
+        protected int specialStateTransition1165(IntStream input) {
             int s = -1;
             int LA16_1485 = input.LA(1);
             if ( (LA16_1485=='\"') ) {s = 1533;}
             else if ( ((LA16_1485>='\u0000' && LA16_1485<='!')||(LA16_1485>='#' && LA16_1485<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1167(IntStream input) {
+        protected int specialStateTransition1166(IntStream input) {
             int s = -1;
             int LA16_210 = input.LA(1);
             if ( (LA16_210=='e') ) {s = 348;}
             else if ( ((LA16_210>='\u0000' && LA16_210<='d')||(LA16_210>='f' && LA16_210<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1168(IntStream input) {
+        protected int specialStateTransition1167(IntStream input) {
             int s = -1;
             int LA16_348 = input.LA(1);
             if ( (LA16_348=='r') ) {s = 505;}
             else if ( ((LA16_348>='\u0000' && LA16_348<='q')||(LA16_348>='s' && LA16_348<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1169(IntStream input) {
+        protected int specialStateTransition1168(IntStream input) {
             int s = -1;
             int LA16_54 = input.LA(1);
             if ( (LA16_54=='u') ) {s = 146;}
             else if ( ((LA16_54>='\u0000' && LA16_54<='t')||(LA16_54>='v' && LA16_54<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1170(IntStream input) {
+        protected int specialStateTransition1169(IntStream input) {
             int s = -1;
             int LA16_505 = input.LA(1);
             if ( (LA16_505=='v') ) {s = 659;}
             else if ( ((LA16_505>='\u0000' && LA16_505<='u')||(LA16_505>='w' && LA16_505<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1171(IntStream input) {
+        protected int specialStateTransition1170(IntStream input) {
             int s = -1;
             int LA16_146 = input.LA(1);
             if ( (LA16_146=='m') ) {s = 271;}
             else if ( ((LA16_146>='\u0000' && LA16_146<='l')||(LA16_146>='n' && LA16_146<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1172(IntStream input) {
+        protected int specialStateTransition1171(IntStream input) {
             int s = -1;
             int LA16_659 = input.LA(1);
             if ( (LA16_659=='a') ) {s = 810;}
             else if ( ((LA16_659>='\u0000' && LA16_659<='`')||(LA16_659>='b' && LA16_659<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1173(IntStream input) {
-            int s = -1;
-            int LA16_128 = input.LA(1);
-            if ( (LA16_128=='k') ) {s = 249;}
-            else if ( (LA16_128=='m') ) {s = 250;}
-            else if ( ((LA16_128>='\u0000' && LA16_128<='j')||LA16_128=='l'||(LA16_128>='n' && LA16_128<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1174(IntStream input) {
+        protected int specialStateTransition1172(IntStream input) {
             int s = -1;
             int LA16_271 = input.LA(1);
             if ( (LA16_271=='\'') ) {s = 416;}
             else if ( ((LA16_271>='\u0000' && LA16_271<='&')||(LA16_271>='(' && LA16_271<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1175(IntStream input) {
+        protected int specialStateTransition1173(IntStream input) {
             int s = -1;
             int LA16_810 = input.LA(1);
             if ( (LA16_810=='l') ) {s = 951;}
             else if ( ((LA16_810>='\u0000' && LA16_810<='k')||(LA16_810>='m' && LA16_810<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1176(IntStream input) {
+        protected int specialStateTransition1174(IntStream input) {
             int s = -1;
             int LA16_951 = input.LA(1);
             if ( (LA16_951=='\"') ) {s = 1076;}
             else if ( ((LA16_951>='\u0000' && LA16_951<='!')||(LA16_951>='#' && LA16_951<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1177(IntStream input) {
+        protected int specialStateTransition1175(IntStream input) {
             int s = -1;
             int LA16_218 = input.LA(1);
             if ( (LA16_218=='t') ) {s = 358;}
             else if ( ((LA16_218>='\u0000' && LA16_218<='s')||(LA16_218>='u' && LA16_218<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1178(IntStream input) {
+        protected int specialStateTransition1176(IntStream input) {
             int s = -1;
             int LA16_358 = input.LA(1);
             if ( (LA16_358=='o') ) {s = 513;}
             else if ( ((LA16_358>='\u0000' && LA16_358<='n')||(LA16_358>='p' && LA16_358<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1179(IntStream input) {
+        protected int specialStateTransition1177(IntStream input) {
+            int s = -1;
+            int LA16_131 = input.LA(1);
+            if ( (LA16_131=='k') ) {s = 255;}
+            else if ( (LA16_131=='m') ) {s = 256;}
+            else if ( ((LA16_131>='\u0000' && LA16_131<='j')||LA16_131=='l'||(LA16_131>='n' && LA16_131<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1178(IntStream input) {
             int s = -1;
             int LA16_513 = input.LA(1);
             if ( (LA16_513=='g') ) {s = 667;}
             else if ( ((LA16_513>='\u0000' && LA16_513<='f')||(LA16_513>='h' && LA16_513<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1180(IntStream input) {
+        protected int specialStateTransition1179(IntStream input) {
             int s = -1;
             int LA16_667 = input.LA(1);
             if ( (LA16_667=='r') ) {s = 818;}
             else if ( ((LA16_667>='\u0000' && LA16_667<='q')||(LA16_667>='s' && LA16_667<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1181(IntStream input) {
+        protected int specialStateTransition1180(IntStream input) {
             int s = -1;
             int LA16_818 = input.LA(1);
             if ( (LA16_818=='a') ) {s = 959;}
             else if ( ((LA16_818>='\u0000' && LA16_818<='`')||(LA16_818>='b' && LA16_818<='\uFFFF')) ) {s = 50;}
             return s;
         }
+        protected int specialStateTransition1181(IntStream input) {
+            int s = -1;
+            int LA16_959 = input.LA(1);
+            if ( (LA16_959=='m') ) {s = 1084;}
+            else if ( ((LA16_959>='\u0000' && LA16_959<='l')||(LA16_959>='n' && LA16_959<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
         protected int specialStateTransition1182(IntStream input) {
+            int s = -1;
+            int LA16_1084 = input.LA(1);
+            if ( (LA16_1084=='\"') ) {s = 1190;}
+            else if ( ((LA16_1084>='\u0000' && LA16_1084<='!')||(LA16_1084>='#' && LA16_1084<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1183(IntStream input) {
+            int s = -1;
+            int LA16_208 = input.LA(1);
+            if ( (LA16_208=='_') ) {s = 345;}
+            else if ( (LA16_208=='\"') ) {s = 346;}
+            else if ( ((LA16_208>='\u0000' && LA16_208<='!')||(LA16_208>='#' && LA16_208<='^')||(LA16_208>='`' && LA16_208<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1184(IntStream input) {
+            int s = -1;
+            int LA16_672 = input.LA(1);
+            if ( (LA16_672=='\"') ) {s = 823;}
+            else if ( ((LA16_672>='\u0000' && LA16_672<='!')||(LA16_672>='#' && LA16_672<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1185(IntStream input) {
+            int s = -1;
+            int LA16_521 = input.LA(1);
+            if ( (LA16_521=='i') ) {s = 678;}
+            else if ( ((LA16_521>='\u0000' && LA16_521<='h')||(LA16_521>='j' && LA16_521<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1186(IntStream input) {
+            int s = -1;
+            int LA16_678 = input.LA(1);
+            if ( (LA16_678=='e') ) {s = 829;}
+            else if ( ((LA16_678>='\u0000' && LA16_678<='d')||(LA16_678>='f' && LA16_678<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1187(IntStream input) {
+            int s = -1;
+            int LA16_829 = input.LA(1);
+            if ( (LA16_829=='l') ) {s = 967;}
+            else if ( ((LA16_829>='\u0000' && LA16_829<='k')||(LA16_829>='m' && LA16_829<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1188(IntStream input) {
+            int s = -1;
+            int LA16_967 = input.LA(1);
+            if ( (LA16_967=='d') ) {s = 1091;}
+            else if ( ((LA16_967>='\u0000' && LA16_967<='c')||(LA16_967>='e' && LA16_967<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1189(IntStream input) {
+            int s = -1;
+            int LA16_1091 = input.LA(1);
+            if ( (LA16_1091=='\"') ) {s = 1197;}
+            else if ( ((LA16_1091>='\u0000' && LA16_1091<='!')||(LA16_1091>='#' && LA16_1091<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1190(IntStream input) {
+            int s = -1;
+            int LA16_831 = input.LA(1);
+            if ( (LA16_831=='i') ) {s = 969;}
+            else if ( ((LA16_831>='\u0000' && LA16_831<='h')||(LA16_831>='j' && LA16_831<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1191(IntStream input) {
+            int s = -1;
+            int LA16_130 = input.LA(1);
+            if ( (LA16_130=='n') ) {s = 253;}
+            else if ( (LA16_130=='f') ) {s = 254;}
+            else if ( ((LA16_130>='\u0000' && LA16_130<='e')||(LA16_130>='g' && LA16_130<='m')||(LA16_130>='o' && LA16_130<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1192(IntStream input) {
+            int s = -1;
+            int LA16_969 = input.LA(1);
+            if ( (LA16_969=='e') ) {s = 1093;}
+            else if ( ((LA16_969>='\u0000' && LA16_969<='d')||(LA16_969>='f' && LA16_969<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1193(IntStream input) {
+            int s = -1;
+            int LA16_1093 = input.LA(1);
+            if ( (LA16_1093=='l') ) {s = 1199;}
+            else if ( ((LA16_1093>='\u0000' && LA16_1093<='k')||(LA16_1093>='m' && LA16_1093<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1194(IntStream input) {
+            int s = -1;
+            int LA16_1199 = input.LA(1);
+            if ( (LA16_1199=='d') ) {s = 1295;}
+            else if ( ((LA16_1199>='\u0000' && LA16_1199<='c')||(LA16_1199>='e' && LA16_1199<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1195(IntStream input) {
+            int s = -1;
+            int LA16_1295 = input.LA(1);
+            if ( (LA16_1295=='\"') ) {s = 1374;}
+            else if ( ((LA16_1295>='\u0000' && LA16_1295<='!')||(LA16_1295>='#' && LA16_1295<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1196(IntStream input) {
+            int s = -1;
+            int LA16_522 = input.LA(1);
+            if ( (LA16_522=='c') ) {s = 679;}
+            else if ( ((LA16_522>='\u0000' && LA16_522<='b')||(LA16_522>='d' && LA16_522<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1197(IntStream input) {
+            int s = -1;
+            int LA16_679 = input.LA(1);
+            if ( (LA16_679=='r') ) {s = 830;}
+            else if ( ((LA16_679>='\u0000' && LA16_679<='q')||(LA16_679>='s' && LA16_679<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1198(IntStream input) {
+            int s = -1;
+            int LA16_830 = input.LA(1);
+            if ( (LA16_830=='i') ) {s = 968;}
+            else if ( ((LA16_830>='\u0000' && LA16_830<='h')||(LA16_830>='j' && LA16_830<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1199(IntStream input) {
+            int s = -1;
+            int LA16_968 = input.LA(1);
+            if ( (LA16_968=='p') ) {s = 1092;}
+            else if ( ((LA16_968>='\u0000' && LA16_968<='o')||(LA16_968>='q' && LA16_968<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1200(IntStream input) {
             int s = -1;
             int LA16_46 = input.LA(1);
             if ( (LA16_46=='e') ) {s = 135;}
@@ -22677,21 +22801,21 @@ public class InternalSearchDslLexer extends Lexer {
             else if ( ((LA16_46>='\u0000' && LA16_46<='`')||(LA16_46>='b' && LA16_46<='d')||(LA16_46>='f' && LA16_46<='g')||(LA16_46>='j' && LA16_46<='k')||(LA16_46>='m' && LA16_46<='n')||(LA16_46>='p' && LA16_46<='q')||(LA16_46>='s' && LA16_46<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1183(IntStream input) {
+        protected int specialStateTransition1201(IntStream input) {
             int s = -1;
-            int LA16_959 = input.LA(1);
-            if ( (LA16_959=='m') ) {s = 1084;}
-            else if ( ((LA16_959>='\u0000' && LA16_959<='l')||(LA16_959>='n' && LA16_959<='\uFFFF')) ) {s = 50;}
+            int LA16_1092 = input.LA(1);
+            if ( (LA16_1092=='t') ) {s = 1198;}
+            else if ( ((LA16_1092>='\u0000' && LA16_1092<='s')||(LA16_1092>='u' && LA16_1092<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1184(IntStream input) {
+        protected int specialStateTransition1202(IntStream input) {
             int s = -1;
-            int LA16_1084 = input.LA(1);
-            if ( (LA16_1084=='\"') ) {s = 1190;}
-            else if ( ((LA16_1084>='\u0000' && LA16_1084<='!')||(LA16_1084>='#' && LA16_1084<='\uFFFF')) ) {s = 50;}
+            int LA16_1198 = input.LA(1);
+            if ( (LA16_1198=='\"') ) {s = 1294;}
+            else if ( ((LA16_1198>='\u0000' && LA16_1198<='!')||(LA16_1198>='#' && LA16_1198<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1185(IntStream input) {
+        protected int specialStateTransition1203(IntStream input) {
             int s = -1;
             int LA16_35 = input.LA(1);
             if ( (LA16_35=='n') ) {s = 108;}
@@ -22700,128 +22824,56 @@ public class InternalSearchDslLexer extends Lexer {
             else if ( ((LA16_35>='\u0000' && LA16_35<='c')||(LA16_35>='e' && LA16_35<='f')||(LA16_35>='h' && LA16_35<='m')||(LA16_35>='o' && LA16_35<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1186(IntStream input) {
+        protected int specialStateTransition1204(IntStream input) {
             int s = -1;
-            int LA16_208 = input.LA(1);
-            if ( (LA16_208=='_') ) {s = 345;}
-            else if ( (LA16_208=='\"') ) {s = 346;}
-            else if ( ((LA16_208>='\u0000' && LA16_208<='!')||(LA16_208>='#' && LA16_208<='^')||(LA16_208>='`' && LA16_208<='\uFFFF')) ) {s = 50;}
+            int LA16_832 = input.LA(1);
+            if ( (LA16_832=='c') ) {s = 970;}
+            else if ( ((LA16_832>='\u0000' && LA16_832<='b')||(LA16_832>='d' && LA16_832<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1187(IntStream input) {
+        protected int specialStateTransition1205(IntStream input) {
             int s = -1;
-            int LA16_672 = input.LA(1);
-            if ( (LA16_672=='\"') ) {s = 823;}
-            else if ( ((LA16_672>='\u0000' && LA16_672<='!')||(LA16_672>='#' && LA16_672<='\uFFFF')) ) {s = 50;}
+            int LA16_970 = input.LA(1);
+            if ( (LA16_970=='r') ) {s = 1094;}
+            else if ( ((LA16_970>='\u0000' && LA16_970<='q')||(LA16_970>='s' && LA16_970<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1188(IntStream input) {
+        protected int specialStateTransition1206(IntStream input) {
             int s = -1;
-            int LA16_521 = input.LA(1);
-            if ( (LA16_521=='i') ) {s = 678;}
-            else if ( ((LA16_521>='\u0000' && LA16_521<='h')||(LA16_521>='j' && LA16_521<='\uFFFF')) ) {s = 50;}
+            int LA16_1094 = input.LA(1);
+            if ( (LA16_1094=='i') ) {s = 1200;}
+            else if ( ((LA16_1094>='\u0000' && LA16_1094<='h')||(LA16_1094>='j' && LA16_1094<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1189(IntStream input) {
+        protected int specialStateTransition1207(IntStream input) {
             int s = -1;
-            int LA16_678 = input.LA(1);
-            if ( (LA16_678=='e') ) {s = 829;}
-            else if ( ((LA16_678>='\u0000' && LA16_678<='d')||(LA16_678>='f' && LA16_678<='\uFFFF')) ) {s = 50;}
+            int LA16_1200 = input.LA(1);
+            if ( (LA16_1200=='p') ) {s = 1296;}
+            else if ( ((LA16_1200>='\u0000' && LA16_1200<='o')||(LA16_1200>='q' && LA16_1200<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1190(IntStream input) {
+        protected int specialStateTransition1208(IntStream input) {
             int s = -1;
-            int LA16_829 = input.LA(1);
-            if ( (LA16_829=='l') ) {s = 967;}
-            else if ( ((LA16_829>='\u0000' && LA16_829<='k')||(LA16_829>='m' && LA16_829<='\uFFFF')) ) {s = 50;}
+            int LA16_1296 = input.LA(1);
+            if ( (LA16_1296=='t') ) {s = 1375;}
+            else if ( ((LA16_1296>='\u0000' && LA16_1296<='s')||(LA16_1296>='u' && LA16_1296<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1191(IntStream input) {
+        protected int specialStateTransition1209(IntStream input) {
             int s = -1;
-            int LA16_967 = input.LA(1);
-            if ( (LA16_967=='d') ) {s = 1091;}
-            else if ( ((LA16_967>='\u0000' && LA16_967<='c')||(LA16_967>='e' && LA16_967<='\uFFFF')) ) {s = 50;}
+            int LA16_1375 = input.LA(1);
+            if ( (LA16_1375=='\"') ) {s = 1442;}
+            else if ( ((LA16_1375>='\u0000' && LA16_1375<='!')||(LA16_1375>='#' && LA16_1375<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1192(IntStream input) {
-            int s = -1;
-            int LA16_1091 = input.LA(1);
-            if ( (LA16_1091=='\"') ) {s = 1197;}
-            else if ( ((LA16_1091>='\u0000' && LA16_1091<='!')||(LA16_1091>='#' && LA16_1091<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1193(IntStream input) {
-            int s = -1;
-            int LA16_127 = input.LA(1);
-            if ( (LA16_127=='n') ) {s = 247;}
-            else if ( (LA16_127=='f') ) {s = 248;}
-            else if ( ((LA16_127>='\u0000' && LA16_127<='e')||(LA16_127>='g' && LA16_127<='m')||(LA16_127>='o' && LA16_127<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1194(IntStream input) {
-            int s = -1;
-            int LA16_831 = input.LA(1);
-            if ( (LA16_831=='i') ) {s = 969;}
-            else if ( ((LA16_831>='\u0000' && LA16_831<='h')||(LA16_831>='j' && LA16_831<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1195(IntStream input) {
-            int s = -1;
-            int LA16_969 = input.LA(1);
-            if ( (LA16_969=='e') ) {s = 1093;}
-            else if ( ((LA16_969>='\u0000' && LA16_969<='d')||(LA16_969>='f' && LA16_969<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1196(IntStream input) {
-            int s = -1;
-            int LA16_1093 = input.LA(1);
-            if ( (LA16_1093=='l') ) {s = 1199;}
-            else if ( ((LA16_1093>='\u0000' && LA16_1093<='k')||(LA16_1093>='m' && LA16_1093<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1197(IntStream input) {
-            int s = -1;
-            int LA16_1199 = input.LA(1);
-            if ( (LA16_1199=='d') ) {s = 1295;}
-            else if ( ((LA16_1199>='\u0000' && LA16_1199<='c')||(LA16_1199>='e' && LA16_1199<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1198(IntStream input) {
-            int s = -1;
-            int LA16_1295 = input.LA(1);
-            if ( (LA16_1295=='\"') ) {s = 1374;}
-            else if ( ((LA16_1295>='\u0000' && LA16_1295<='!')||(LA16_1295>='#' && LA16_1295<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1199(IntStream input) {
-            int s = -1;
-            int LA16_522 = input.LA(1);
-            if ( (LA16_522=='c') ) {s = 679;}
-            else if ( ((LA16_522>='\u0000' && LA16_522<='b')||(LA16_522>='d' && LA16_522<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1200(IntStream input) {
+        protected int specialStateTransition1210(IntStream input) {
             int s = -1;
             int LA16_90 = input.LA(1);
             if ( (LA16_90=='t') ) {s = 187;}
             else if ( ((LA16_90>='\u0000' && LA16_90<='s')||(LA16_90>='u' && LA16_90<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1201(IntStream input) {
-            int s = -1;
-            int LA16_679 = input.LA(1);
-            if ( (LA16_679=='r') ) {s = 830;}
-            else if ( ((LA16_679>='\u0000' && LA16_679<='q')||(LA16_679>='s' && LA16_679<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1202(IntStream input) {
-            int s = -1;
-            int LA16_830 = input.LA(1);
-            if ( (LA16_830=='i') ) {s = 968;}
-            else if ( ((LA16_830>='\u0000' && LA16_830<='h')||(LA16_830>='j' && LA16_830<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1203(IntStream input) {
+        protected int specialStateTransition1211(IntStream input) {
             int s = -1;
             int LA16_187 = input.LA(1);
             if ( (LA16_187=='\"') ) {s = 317;}
@@ -22829,182 +22881,175 @@ public class InternalSearchDslLexer extends Lexer {
             else if ( ((LA16_187>='\u0000' && LA16_187<='!')||(LA16_187>='#' && LA16_187<='^')||(LA16_187>='`' && LA16_187<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1204(IntStream input) {
-            int s = -1;
-            int LA16_968 = input.LA(1);
-            if ( (LA16_968=='p') ) {s = 1092;}
-            else if ( ((LA16_968>='\u0000' && LA16_968<='o')||(LA16_968>='q' && LA16_968<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1205(IntStream input) {
-            int s = -1;
-            int LA16_1092 = input.LA(1);
-            if ( (LA16_1092=='t') ) {s = 1198;}
-            else if ( ((LA16_1092>='\u0000' && LA16_1092<='s')||(LA16_1092>='u' && LA16_1092<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1206(IntStream input) {
-            int s = -1;
-            int LA16_1198 = input.LA(1);
-            if ( (LA16_1198=='\"') ) {s = 1294;}
-            else if ( ((LA16_1198>='\u0000' && LA16_1198<='!')||(LA16_1198>='#' && LA16_1198<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1207(IntStream input) {
-            int s = -1;
-            int LA16_832 = input.LA(1);
-            if ( (LA16_832=='c') ) {s = 970;}
-            else if ( ((LA16_832>='\u0000' && LA16_832<='b')||(LA16_832>='d' && LA16_832<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1208(IntStream input) {
-            int s = -1;
-            int LA16_970 = input.LA(1);
-            if ( (LA16_970=='r') ) {s = 1094;}
-            else if ( ((LA16_970>='\u0000' && LA16_970<='q')||(LA16_970>='s' && LA16_970<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1209(IntStream input) {
-            int s = -1;
-            int LA16_1094 = input.LA(1);
-            if ( (LA16_1094=='i') ) {s = 1200;}
-            else if ( ((LA16_1094>='\u0000' && LA16_1094<='h')||(LA16_1094>='j' && LA16_1094<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1210(IntStream input) {
-            int s = -1;
-            int LA16_1200 = input.LA(1);
-            if ( (LA16_1200=='p') ) {s = 1296;}
-            else if ( ((LA16_1200>='\u0000' && LA16_1200<='o')||(LA16_1200>='q' && LA16_1200<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1211(IntStream input) {
-            int s = -1;
-            int LA16_1296 = input.LA(1);
-            if ( (LA16_1296=='t') ) {s = 1375;}
-            else if ( ((LA16_1296>='\u0000' && LA16_1296<='s')||(LA16_1296>='u' && LA16_1296<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
         protected int specialStateTransition1212(IntStream input) {
-            int s = -1;
-            int LA16_1375 = input.LA(1);
-            if ( (LA16_1375=='\"') ) {s = 1442;}
-            else if ( ((LA16_1375>='\u0000' && LA16_1375<='!')||(LA16_1375>='#' && LA16_1375<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1213(IntStream input) {
-            int s = -1;
-            int LA16_179 = input.LA(1);
-            if ( (LA16_179=='e') ) {s = 306;}
-            else if ( ((LA16_179>='\u0000' && LA16_179<='d')||(LA16_179>='f' && LA16_179<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1214(IntStream input) {
-            int s = -1;
-            int LA16_306 = input.LA(1);
-            if ( (LA16_306=='_') ) {s = 453;}
-            else if ( ((LA16_306>='\u0000' && LA16_306<='^')||(LA16_306>='`' && LA16_306<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1215(IntStream input) {
-            int s = -1;
-            int LA16_453 = input.LA(1);
-            if ( (LA16_453=='l') ) {s = 614;}
-            else if ( ((LA16_453>='\u0000' && LA16_453<='k')||(LA16_453>='m' && LA16_453<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1216(IntStream input) {
-            int s = -1;
-            int LA16_614 = input.LA(1);
-            if ( (LA16_614=='i') ) {s = 769;}
-            else if ( ((LA16_614>='\u0000' && LA16_614<='h')||(LA16_614>='j' && LA16_614<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1217(IntStream input) {
-            int s = -1;
-            int LA16_769 = input.LA(1);
-            if ( (LA16_769=='k') ) {s = 912;}
-            else if ( ((LA16_769>='\u0000' && LA16_769<='j')||(LA16_769>='l' && LA16_769<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1218(IntStream input) {
-            int s = -1;
-            int LA16_912 = input.LA(1);
-            if ( (LA16_912=='e') ) {s = 1037;}
-            else if ( ((LA16_912>='\u0000' && LA16_912<='d')||(LA16_912>='f' && LA16_912<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1219(IntStream input) {
-            int s = -1;
-            int LA16_1037 = input.LA(1);
-            if ( (LA16_1037=='_') ) {s = 1150;}
-            else if ( ((LA16_1037>='\u0000' && LA16_1037<='^')||(LA16_1037>='`' && LA16_1037<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1220(IntStream input) {
-            int s = -1;
-            int LA16_1150 = input.LA(1);
-            if ( (LA16_1150=='t') ) {s = 1251;}
-            else if ( ((LA16_1150>='\u0000' && LA16_1150<='s')||(LA16_1150>='u' && LA16_1150<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1221(IntStream input) {
-            int s = -1;
-            int LA16_1251 = input.LA(1);
-            if ( (LA16_1251=='h') ) {s = 1339;}
-            else if ( ((LA16_1251>='\u0000' && LA16_1251<='g')||(LA16_1251>='i' && LA16_1251<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1222(IntStream input) {
             int s = -1;
             int LA16_598 = input.LA(1);
             if ( (LA16_598=='f') ) {s = 752;}
             else if ( ((LA16_598>='\u0000' && LA16_598<='e')||(LA16_598>='g' && LA16_598<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1223(IntStream input) {
-            int s = -1;
-            int LA16_1339 = input.LA(1);
-            if ( (LA16_1339=='i') ) {s = 1407;}
-            else if ( ((LA16_1339>='\u0000' && LA16_1339<='h')||(LA16_1339>='j' && LA16_1339<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1224(IntStream input) {
+        protected int specialStateTransition1213(IntStream input) {
             int s = -1;
             int LA16_752 = input.LA(1);
             if ( (LA16_752=='i') ) {s = 898;}
             else if ( ((LA16_752>='\u0000' && LA16_752<='h')||(LA16_752>='j' && LA16_752<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1225(IntStream input) {
+        protected int specialStateTransition1214(IntStream input) {
             int s = -1;
             int LA16_898 = input.LA(1);
             if ( (LA16_898=='l') ) {s = 1027;}
             else if ( ((LA16_898>='\u0000' && LA16_898<='k')||(LA16_898>='m' && LA16_898<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1226(IntStream input) {
-            int s = -1;
-            int LA16_1407 = input.LA(1);
-            if ( (LA16_1407=='s') ) {s = 1471;}
-            else if ( ((LA16_1407>='\u0000' && LA16_1407<='r')||(LA16_1407>='t' && LA16_1407<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1227(IntStream input) {
+        protected int specialStateTransition1215(IntStream input) {
             int s = -1;
             int LA16_1027 = input.LA(1);
             if ( (LA16_1027=='t') ) {s = 1140;}
             else if ( ((LA16_1027>='\u0000' && LA16_1027<='s')||(LA16_1027>='u' && LA16_1027<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1228(IntStream input) {
+        protected int specialStateTransition1216(IntStream input) {
+            int s = -1;
+            int LA16_179 = input.LA(1);
+            if ( (LA16_179=='e') ) {s = 306;}
+            else if ( ((LA16_179>='\u0000' && LA16_179<='d')||(LA16_179>='f' && LA16_179<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1217(IntStream input) {
             int s = -1;
             int LA16_1140 = input.LA(1);
             if ( (LA16_1140=='e') ) {s = 1242;}
             else if ( ((LA16_1140>='\u0000' && LA16_1140<='d')||(LA16_1140>='f' && LA16_1140<='\uFFFF')) ) {s = 50;}
             return s;
         }
+        protected int specialStateTransition1218(IntStream input) {
+            int s = -1;
+            int LA16_1242 = input.LA(1);
+            if ( (LA16_1242=='r') ) {s = 1332;}
+            else if ( ((LA16_1242>='\u0000' && LA16_1242<='q')||(LA16_1242>='s' && LA16_1242<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1219(IntStream input) {
+            int s = -1;
+            int LA16_306 = input.LA(1);
+            if ( (LA16_306=='_') ) {s = 453;}
+            else if ( ((LA16_306>='\u0000' && LA16_306<='^')||(LA16_306>='`' && LA16_306<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1220(IntStream input) {
+            int s = -1;
+            int LA16_1332 = input.LA(1);
+            if ( (LA16_1332=='\"') ) {s = 1401;}
+            else if ( ((LA16_1332>='\u0000' && LA16_1332<='!')||(LA16_1332>='#' && LA16_1332<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1221(IntStream input) {
+            int s = -1;
+            int LA16_453 = input.LA(1);
+            if ( (LA16_453=='l') ) {s = 614;}
+            else if ( ((LA16_453>='\u0000' && LA16_453<='k')||(LA16_453>='m' && LA16_453<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1222(IntStream input) {
+            int s = -1;
+            int LA16_614 = input.LA(1);
+            if ( (LA16_614=='i') ) {s = 769;}
+            else if ( ((LA16_614>='\u0000' && LA16_614<='h')||(LA16_614>='j' && LA16_614<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1223(IntStream input) {
+            int s = -1;
+            int LA16_769 = input.LA(1);
+            if ( (LA16_769=='k') ) {s = 912;}
+            else if ( ((LA16_769>='\u0000' && LA16_769<='j')||(LA16_769>='l' && LA16_769<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1224(IntStream input) {
+            int s = -1;
+            int LA16_227 = input.LA(1);
+            if ( (LA16_227=='t') ) {s = 367;}
+            else if ( ((LA16_227>='\u0000' && LA16_227<='s')||(LA16_227>='u' && LA16_227<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1225(IntStream input) {
+            int s = -1;
+            int LA16_912 = input.LA(1);
+            if ( (LA16_912=='e') ) {s = 1037;}
+            else if ( ((LA16_912>='\u0000' && LA16_912<='d')||(LA16_912>='f' && LA16_912<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1226(IntStream input) {
+            int s = -1;
+            int LA16_367 = input.LA(1);
+            if ( (LA16_367=='e') ) {s = 524;}
+            else if ( ((LA16_367>='\u0000' && LA16_367<='d')||(LA16_367>='f' && LA16_367<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1227(IntStream input) {
+            int s = -1;
+            int LA16_524 = input.LA(1);
+            if ( (LA16_524=='d') ) {s = 683;}
+            else if ( ((LA16_524>='\u0000' && LA16_524<='c')||(LA16_524>='e' && LA16_524<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1228(IntStream input) {
+            int s = -1;
+            int LA16_1037 = input.LA(1);
+            if ( (LA16_1037=='_') ) {s = 1150;}
+            else if ( ((LA16_1037>='\u0000' && LA16_1037<='^')||(LA16_1037>='`' && LA16_1037<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
         protected int specialStateTransition1229(IntStream input) {
+            int s = -1;
+            int LA16_683 = input.LA(1);
+            if ( (LA16_683=='\"') ) {s = 835;}
+            else if ( ((LA16_683>='\u0000' && LA16_683<='!')||(LA16_683>='#' && LA16_683<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1230(IntStream input) {
+            int s = -1;
+            int LA16_1150 = input.LA(1);
+            if ( (LA16_1150=='t') ) {s = 1251;}
+            else if ( ((LA16_1150>='\u0000' && LA16_1150<='s')||(LA16_1150>='u' && LA16_1150<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1231(IntStream input) {
+            int s = -1;
+            int LA16_1251 = input.LA(1);
+            if ( (LA16_1251=='h') ) {s = 1339;}
+            else if ( ((LA16_1251>='\u0000' && LA16_1251<='g')||(LA16_1251>='i' && LA16_1251<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1232(IntStream input) {
+            int s = -1;
+            int LA16_1339 = input.LA(1);
+            if ( (LA16_1339=='i') ) {s = 1407;}
+            else if ( ((LA16_1339>='\u0000' && LA16_1339<='h')||(LA16_1339>='j' && LA16_1339<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1233(IntStream input) {
+            int s = -1;
+            int LA16_1407 = input.LA(1);
+            if ( (LA16_1407=='s') ) {s = 1471;}
+            else if ( ((LA16_1407>='\u0000' && LA16_1407<='r')||(LA16_1407>='t' && LA16_1407<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1234(IntStream input) {
+            int s = -1;
+            int LA16_205 = input.LA(1);
+            if ( (LA16_205=='e') ) {s = 342;}
+            else if ( ((LA16_205>='\u0000' && LA16_205<='d')||(LA16_205>='f' && LA16_205<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1235(IntStream input) {
+            int s = -1;
+            int LA16_342 = input.LA(1);
+            if ( (LA16_342=='_') ) {s = 499;}
+            else if ( ((LA16_342>='\u0000' && LA16_342<='^')||(LA16_342>='`' && LA16_342<='\uFFFF')) ) {s = 50;}
+            return s;
+        }
+        protected int specialStateTransition1236(IntStream input) {
             int s = -1;
             int LA16_1471 = input.LA(1);
             if ( (LA16_1471=='\"') ) {s = 1520;}
@@ -23012,137 +23057,88 @@ public class InternalSearchDslLexer extends Lexer {
             else if ( ((LA16_1471>='\u0000' && LA16_1471<='!')||(LA16_1471>='#' && LA16_1471<='^')||(LA16_1471>='`' && LA16_1471<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1230(IntStream input) {
-            int s = -1;
-            int LA16_1242 = input.LA(1);
-            if ( (LA16_1242=='r') ) {s = 1332;}
-            else if ( ((LA16_1242>='\u0000' && LA16_1242<='q')||(LA16_1242>='s' && LA16_1242<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1231(IntStream input) {
-            int s = -1;
-            int LA16_1332 = input.LA(1);
-            if ( (LA16_1332=='\"') ) {s = 1401;}
-            else if ( ((LA16_1332>='\u0000' && LA16_1332<='!')||(LA16_1332>='#' && LA16_1332<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1232(IntStream input) {
-            int s = -1;
-            int LA16_205 = input.LA(1);
-            if ( (LA16_205=='e') ) {s = 342;}
-            else if ( ((LA16_205>='\u0000' && LA16_205<='d')||(LA16_205>='f' && LA16_205<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1233(IntStream input) {
-            int s = -1;
-            int LA16_342 = input.LA(1);
-            if ( (LA16_342=='_') ) {s = 499;}
-            else if ( ((LA16_342>='\u0000' && LA16_342<='^')||(LA16_342>='`' && LA16_342<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1234(IntStream input) {
+        protected int specialStateTransition1237(IntStream input) {
             int s = -1;
             int LA16_499 = input.LA(1);
             if ( (LA16_499=='i') ) {s = 654;}
             else if ( ((LA16_499>='\u0000' && LA16_499<='h')||(LA16_499>='j' && LA16_499<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1235(IntStream input) {
+        protected int specialStateTransition1238(IntStream input) {
             int s = -1;
             int LA16_654 = input.LA(1);
             if ( (LA16_654=='n') ) {s = 806;}
             else if ( ((LA16_654>='\u0000' && LA16_654<='m')||(LA16_654>='o' && LA16_654<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1236(IntStream input) {
+        protected int specialStateTransition1239(IntStream input) {
             int s = -1;
             int LA16_806 = input.LA(1);
             if ( (LA16_806=='t') ) {s = 947;}
             else if ( ((LA16_806>='\u0000' && LA16_806<='s')||(LA16_806>='u' && LA16_806<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1237(IntStream input) {
+        protected int specialStateTransition1240(IntStream input) {
             int s = -1;
             int LA16_947 = input.LA(1);
             if ( (LA16_947=='e') ) {s = 1072;}
             else if ( ((LA16_947>='\u0000' && LA16_947<='d')||(LA16_947>='f' && LA16_947<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1238(IntStream input) {
+        protected int specialStateTransition1241(IntStream input) {
             int s = -1;
             int LA16_1072 = input.LA(1);
             if ( (LA16_1072=='r') ) {s = 1181;}
             else if ( ((LA16_1072>='\u0000' && LA16_1072<='q')||(LA16_1072>='s' && LA16_1072<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1239(IntStream input) {
+        protected int specialStateTransition1242(IntStream input) {
             int s = -1;
             int LA16_1181 = input.LA(1);
             if ( (LA16_1181=='v') ) {s = 1280;}
             else if ( ((LA16_1181>='\u0000' && LA16_1181<='u')||(LA16_1181>='w' && LA16_1181<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1240(IntStream input) {
+        protected int specialStateTransition1243(IntStream input) {
             int s = -1;
             int LA16_1280 = input.LA(1);
             if ( (LA16_1280=='a') ) {s = 1364;}
             else if ( ((LA16_1280>='\u0000' && LA16_1280<='`')||(LA16_1280>='b' && LA16_1280<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1241(IntStream input) {
+        protected int specialStateTransition1244(IntStream input) {
             int s = -1;
             int LA16_1364 = input.LA(1);
             if ( (LA16_1364=='l') ) {s = 1433;}
             else if ( ((LA16_1364>='\u0000' && LA16_1364<='k')||(LA16_1364>='m' && LA16_1364<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1242(IntStream input) {
+        protected int specialStateTransition1245(IntStream input) {
             int s = -1;
             int LA16_1433 = input.LA(1);
             if ( (LA16_1433=='\"') ) {s = 1493;}
             else if ( ((LA16_1433>='\u0000' && LA16_1433<='!')||(LA16_1433>='#' && LA16_1433<='\uFFFF')) ) {s = 50;}
             return s;
         }
-        protected int specialStateTransition1243(IntStream input) {
-            int s = -1;
-            int LA16_227 = input.LA(1);
-            if ( (LA16_227=='n') ) {s = 367;}
-            else if ( ((LA16_227>='\u0000' && LA16_227<='m')||(LA16_227>='o' && LA16_227<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1244(IntStream input) {
-            int s = -1;
-            int LA16_367 = input.LA(1);
-            if ( (LA16_367=='t') ) {s = 524;}
-            else if ( ((LA16_367>='\u0000' && LA16_367<='s')||(LA16_367>='u' && LA16_367<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
-        protected int specialStateTransition1245(IntStream input) {
-            int s = -1;
-            int LA16_524 = input.LA(1);
-            if ( (LA16_524=='\"') ) {s = 683;}
-            else if ( ((LA16_524>='\u0000' && LA16_524<='!')||(LA16_524>='#' && LA16_524<='\uFFFF')) ) {s = 50;}
-            return s;
-        }
         protected int specialStateTransition1246(IntStream input) {
             int s = -1;
-            int LA16_1088 = input.LA(1);
-            if ( (LA16_1088=='o') ) {s = 1194;}
-            else if ( ((LA16_1088>='\u0000' && LA16_1088<='n')||(LA16_1088>='p' && LA16_1088<='\uFFFF')) ) {s = 50;}
+            int LA16_233 = input.LA(1);
+            if ( (LA16_233=='n') ) {s = 373;}
+            else if ( ((LA16_233>='\u0000' && LA16_233<='m')||(LA16_233>='o' && LA16_233<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition1247(IntStream input) {
             int s = -1;
-            int LA16_1194 = input.LA(1);
-            if ( (LA16_1194=='u') ) {s = 1290;}
-            else if ( ((LA16_1194>='\u0000' && LA16_1194<='t')||(LA16_1194>='v' && LA16_1194<='\uFFFF')) ) {s = 50;}
+            int LA16_373 = input.LA(1);
+            if ( (LA16_373=='t') ) {s = 530;}
+            else if ( ((LA16_373>='\u0000' && LA16_373<='s')||(LA16_373>='u' && LA16_373<='\uFFFF')) ) {s = 50;}
             return s;
         }
         protected int specialStateTransition1248(IntStream input) {
             int s = -1;
-            int LA16_1290 = input.LA(1);
-            if ( (LA16_1290=='n') ) {s = 1370;}
-            else if ( ((LA16_1290>='\u0000' && LA16_1290<='m')||(LA16_1290>='o' && LA16_1290<='\uFFFF')) ) {s = 50;}
+            int LA16_530 = input.LA(1);
+            if ( (LA16_530=='\"') ) {s = 688;}
+            else if ( ((LA16_530>='\u0000' && LA16_530<='!')||(LA16_530>='#' && LA16_530<='\uFFFF')) ) {s = 50;}
             return s;
         }
 

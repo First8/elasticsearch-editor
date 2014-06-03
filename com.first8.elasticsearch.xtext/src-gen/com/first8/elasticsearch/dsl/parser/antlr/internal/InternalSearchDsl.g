@@ -2685,9 +2685,31 @@ ruleFacetsObject returns [EObject current=null]
 	    }
 
 )
-)	otherlv_4='}' 
+)(	otherlv_4=',' 
     {
-    	newLeafNode(otherlv_4, grammarAccess.getFacetsObjectAccess().getRightCurlyBracketKeyword_4());
+    	newLeafNode(otherlv_4, grammarAccess.getFacetsObjectAccess().getCommaKeyword_4_0());
+    }
+(
+(
+		{ 
+	        newCompositeNode(grammarAccess.getFacetsObjectAccess().getParamsFacetParameterParserRuleCall_4_1_0()); 
+	    }
+		lv_params_5_0=ruleFacetParameter		{
+	        if ($current==null) {
+	            $current = createModelElementForParent(grammarAccess.getFacetsObjectRule());
+	        }
+       		add(
+       			$current, 
+       			"params",
+        		lv_params_5_0, 
+        		"FacetParameter");
+	        afterParserOrEnumRuleCall();
+	    }
+
+)
+))*	otherlv_6='}' 
+    {
+    	newLeafNode(otherlv_6, grammarAccess.getFacetsObjectAccess().getRightCurlyBracketKeyword_5());
     }
 )
 ;
@@ -2732,31 +2754,9 @@ ruleFacetTypeObject returns [EObject current=null]
 	    }
 
 )
-)(	otherlv_2=',' 
+)	otherlv_2='}' 
     {
-    	newLeafNode(otherlv_2, grammarAccess.getFacetTypeObjectAccess().getCommaKeyword_2_0());
-    }
-(
-(
-		{ 
-	        newCompositeNode(grammarAccess.getFacetTypeObjectAccess().getParamsFacetParameterParserRuleCall_2_1_0()); 
-	    }
-		lv_params_3_0=ruleFacetParameter		{
-	        if ($current==null) {
-	            $current = createModelElementForParent(grammarAccess.getFacetTypeObjectRule());
-	        }
-       		add(
-       			$current, 
-       			"params",
-        		lv_params_3_0, 
-        		"FacetParameter");
-	        afterParserOrEnumRuleCall();
-	    }
-
-)
-))*	otherlv_4='}' 
-    {
-    	newLeafNode(otherlv_4, grammarAccess.getFacetTypeObjectAccess().getRightCurlyBracketKeyword_3());
+    	newLeafNode(otherlv_2, grammarAccess.getFacetTypeObjectAccess().getRightCurlyBracketKeyword_2());
     }
 )
 ;
@@ -3475,21 +3475,21 @@ ruleHistogramFacetObject returns [EObject current=null]
 	    }
 
 )
-))(	otherlv_4=',' 
+))	otherlv_4=',' 
     {
-    	newLeafNode(otherlv_4, grammarAccess.getHistogramFacetObjectAccess().getCommaKeyword_2_0());
+    	newLeafNode(otherlv_4, grammarAccess.getHistogramFacetObjectAccess().getCommaKeyword_2());
     }
 
     { 
-        newCompositeNode(grammarAccess.getHistogramFacetObjectAccess().getHistogramFacetParameterParserRuleCall_2_1()); 
+        newCompositeNode(grammarAccess.getHistogramFacetObjectAccess().getHistogramFacetParameterParserRuleCall_3()); 
     }
 ruleHistogramFacetParameter
     { 
         afterParserOrEnumRuleCall();
     }
-)*	otherlv_6='}' 
+	otherlv_6='}' 
     {
-    	newLeafNode(otherlv_6, grammarAccess.getHistogramFacetObjectAccess().getRightCurlyBracketKeyword_3());
+    	newLeafNode(otherlv_6, grammarAccess.getHistogramFacetObjectAccess().getRightCurlyBracketKeyword_4());
     }
 )
 ;
@@ -4353,6 +4353,25 @@ ruleFacetParameter returns [EObject current=null]
 	    }
 
 )
+)
+    |(
+(
+		{ 
+	        newCompositeNode(grammarAccess.getFacetParameterAccess().getNestedNestedParamParserRuleCall_2_0()); 
+	    }
+		lv_nested_2_0=ruleNestedParam		{
+	        if ($current==null) {
+	            $current = createModelElementForParent(grammarAccess.getFacetParameterRule());
+	        }
+       		set(
+       			$current, 
+       			"nested",
+        		lv_nested_2_0, 
+        		"NestedParam");
+	        afterParserOrEnumRuleCall();
+	    }
+
+)
 ))
 ;
 
@@ -4384,11 +4403,11 @@ ruleFacetFilterParam returns [EObject current=null]
     }
 
     { 
-        newCompositeNode(grammarAccess.getFacetFilterParamAccess().getFilterParserRuleCall_2()); 
+        newCompositeNode(grammarAccess.getFacetFilterParamAccess().getFilterObjectParserRuleCall_2()); 
     }
-    this_Filter_2=ruleFilter
+    this_FilterObject_2=ruleFilterObject
     { 
-        $current = $this_Filter_2.current; 
+        $current = $this_FilterObject_2.current; 
         afterParserOrEnumRuleCall();
     }
 )
@@ -4430,6 +4449,46 @@ ruleIntervalParam returns [AntlrDatatypeRuleToken current=new AntlrDatatypeRuleT
 
     { 
     newLeafNode(this_INT_2, grammarAccess.getIntervalParamAccess().getINTTerminalRuleCall_2()); 
+    }
+)
+    ;
+
+
+
+
+
+// Entry rule entryRuleNestedParam
+entryRuleNestedParam returns [String current=null] 
+	:
+	{ newCompositeNode(grammarAccess.getNestedParamRule()); } 
+	 iv_ruleNestedParam=ruleNestedParam 
+	 { $current=$iv_ruleNestedParam.current.getText(); }  
+	 EOF 
+;
+
+// Rule NestedParam
+ruleNestedParam returns [AntlrDatatypeRuleToken current=new AntlrDatatypeRuleToken()] 
+    @init { enterRule(); 
+    }
+    @after { leaveRule(); }:
+(
+	kw='"nested"' 
+    {
+        $current.merge(kw);
+        newLeafNode(kw, grammarAccess.getNestedParamAccess().getNestedKeyword_0()); 
+    }
+
+	kw=':' 
+    {
+        $current.merge(kw);
+        newLeafNode(kw, grammarAccess.getNestedParamAccess().getColonKeyword_1()); 
+    }
+    this_STRING_2=RULE_STRING    {
+		$current.merge(this_STRING_2);
+    }
+
+    { 
+    newLeafNode(this_STRING_2, grammarAccess.getNestedParamAccess().getSTRINGTerminalRuleCall_2()); 
     }
 )
     ;

@@ -2,17 +2,25 @@
  */
 package com.first8.elasticsearch.dsl.search.impl;
 
+import com.first8.elasticsearch.dsl.search.FacetParameter;
 import com.first8.elasticsearch.dsl.search.FacetTypeObject;
 import com.first8.elasticsearch.dsl.search.FacetsObject;
 import com.first8.elasticsearch.dsl.search.SearchPackage;
 
+import java.util.Collection;
+
 import org.eclipse.emf.common.notify.Notification;
 import org.eclipse.emf.common.notify.NotificationChain;
+
+import org.eclipse.emf.common.util.EList;
 
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.InternalEObject;
 
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
+
+import org.eclipse.emf.ecore.util.EObjectContainmentEList;
+import org.eclipse.emf.ecore.util.InternalEList;
 
 /**
  * <!-- begin-user-doc -->
@@ -23,6 +31,7 @@ import org.eclipse.emf.ecore.impl.ENotificationImpl;
  * <ul>
  *   <li>{@link com.first8.elasticsearch.dsl.search.impl.FacetsObjectImpl#getFacetName <em>Facet Name</em>}</li>
  *   <li>{@link com.first8.elasticsearch.dsl.search.impl.FacetsObjectImpl#getConfig <em>Config</em>}</li>
+ *   <li>{@link com.first8.elasticsearch.dsl.search.impl.FacetsObjectImpl#getParams <em>Params</em>}</li>
  * </ul>
  * </p>
  *
@@ -59,6 +68,16 @@ public class FacetsObjectImpl extends FacetsImpl implements FacetsObject
    * @ordered
    */
   protected FacetTypeObject config;
+
+  /**
+   * The cached value of the '{@link #getParams() <em>Params</em>}' containment reference list.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @see #getParams()
+   * @generated
+   * @ordered
+   */
+  protected EList<FacetParameter> params;
 
   /**
    * <!-- begin-user-doc -->
@@ -157,6 +176,20 @@ public class FacetsObjectImpl extends FacetsImpl implements FacetsObject
    * <!-- end-user-doc -->
    * @generated
    */
+  public EList<FacetParameter> getParams()
+  {
+    if (params == null)
+    {
+      params = new EObjectContainmentEList<FacetParameter>(FacetParameter.class, this, SearchPackage.FACETS_OBJECT__PARAMS);
+    }
+    return params;
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
   @Override
   public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs)
   {
@@ -164,6 +197,8 @@ public class FacetsObjectImpl extends FacetsImpl implements FacetsObject
     {
       case SearchPackage.FACETS_OBJECT__CONFIG:
         return basicSetConfig(null, msgs);
+      case SearchPackage.FACETS_OBJECT__PARAMS:
+        return ((InternalEList<?>)getParams()).basicRemove(otherEnd, msgs);
     }
     return super.eInverseRemove(otherEnd, featureID, msgs);
   }
@@ -182,6 +217,8 @@ public class FacetsObjectImpl extends FacetsImpl implements FacetsObject
         return getFacetName();
       case SearchPackage.FACETS_OBJECT__CONFIG:
         return getConfig();
+      case SearchPackage.FACETS_OBJECT__PARAMS:
+        return getParams();
     }
     return super.eGet(featureID, resolve, coreType);
   }
@@ -191,6 +228,7 @@ public class FacetsObjectImpl extends FacetsImpl implements FacetsObject
    * <!-- end-user-doc -->
    * @generated
    */
+  @SuppressWarnings("unchecked")
   @Override
   public void eSet(int featureID, Object newValue)
   {
@@ -201,6 +239,10 @@ public class FacetsObjectImpl extends FacetsImpl implements FacetsObject
         return;
       case SearchPackage.FACETS_OBJECT__CONFIG:
         setConfig((FacetTypeObject)newValue);
+        return;
+      case SearchPackage.FACETS_OBJECT__PARAMS:
+        getParams().clear();
+        getParams().addAll((Collection<? extends FacetParameter>)newValue);
         return;
     }
     super.eSet(featureID, newValue);
@@ -222,6 +264,9 @@ public class FacetsObjectImpl extends FacetsImpl implements FacetsObject
       case SearchPackage.FACETS_OBJECT__CONFIG:
         setConfig((FacetTypeObject)null);
         return;
+      case SearchPackage.FACETS_OBJECT__PARAMS:
+        getParams().clear();
+        return;
     }
     super.eUnset(featureID);
   }
@@ -240,6 +285,8 @@ public class FacetsObjectImpl extends FacetsImpl implements FacetsObject
         return FACET_NAME_EDEFAULT == null ? facetName != null : !FACET_NAME_EDEFAULT.equals(facetName);
       case SearchPackage.FACETS_OBJECT__CONFIG:
         return config != null;
+      case SearchPackage.FACETS_OBJECT__PARAMS:
+        return params != null && !params.isEmpty();
     }
     return super.eIsSet(featureID);
   }

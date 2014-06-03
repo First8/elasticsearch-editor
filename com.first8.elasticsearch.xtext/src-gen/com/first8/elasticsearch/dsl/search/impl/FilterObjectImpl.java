@@ -7,8 +7,6 @@ import com.first8.elasticsearch.dsl.search.SearchPackage;
 
 import org.eclipse.emf.ecore.EClass;
 
-import org.eclipse.emf.ecore.impl.MinimalEObjectImpl;
-
 /**
  * <!-- begin-user-doc -->
  * An implementation of the model object '<em><b>Filter Object</b></em>'.
@@ -18,7 +16,7 @@ import org.eclipse.emf.ecore.impl.MinimalEObjectImpl;
  *
  * @generated
  */
-public class FilterObjectImpl extends MinimalEObjectImpl.Container implements FilterObject
+public class FilterObjectImpl extends FacetFilterParamImpl implements FilterObject
 {
   /**
    * <!-- begin-user-doc -->

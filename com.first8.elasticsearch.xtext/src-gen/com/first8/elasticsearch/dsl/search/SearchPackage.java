@@ -722,6 +722,25 @@ public interface SearchPackage extends EPackage
   int FILTER_FEATURE_COUNT = FILTER_FACET_FEATURE_COUNT + 1;
 
   /**
+   * The meta object id for the '{@link com.first8.elasticsearch.dsl.search.impl.FacetFilterParamImpl <em>Facet Filter Param</em>}' class.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @see com.first8.elasticsearch.dsl.search.impl.FacetFilterParamImpl
+   * @see com.first8.elasticsearch.dsl.search.impl.SearchPackageImpl#getFacetFilterParam()
+   * @generated
+   */
+  int FACET_FILTER_PARAM = 43;
+
+  /**
+   * The number of structural features of the '<em>Facet Filter Param</em>' class.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   * @ordered
+   */
+  int FACET_FILTER_PARAM_FEATURE_COUNT = 0;
+
+  /**
    * The meta object id for the '{@link com.first8.elasticsearch.dsl.search.impl.FilterObjectImpl <em>Filter Object</em>}' class.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
@@ -738,7 +757,7 @@ public interface SearchPackage extends EPackage
    * @generated
    * @ordered
    */
-  int FILTER_OBJECT_FEATURE_COUNT = 0;
+  int FILTER_OBJECT_FEATURE_COUNT = FACET_FILTER_PARAM_FEATURE_COUNT + 0;
 
   /**
    * The meta object id for the '{@link com.first8.elasticsearch.dsl.search.impl.FilterTypeImpl <em>Filter Type</em>}' class.
@@ -1553,13 +1572,22 @@ public interface SearchPackage extends EPackage
   int FACETS_OBJECT__CONFIG = FACETS_FEATURE_COUNT + 1;
 
   /**
+   * The feature id for the '<em><b>Params</b></em>' containment reference list.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   * @ordered
+   */
+  int FACETS_OBJECT__PARAMS = FACETS_FEATURE_COUNT + 2;
+
+  /**
    * The number of structural features of the '<em>Facets Object</em>' class.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @generated
    * @ordered
    */
-  int FACETS_OBJECT_FEATURE_COUNT = FACETS_FEATURE_COUNT + 2;
+  int FACETS_OBJECT_FEATURE_COUNT = FACETS_FEATURE_COUNT + 3;
 
   /**
    * The meta object id for the '{@link com.first8.elasticsearch.dsl.search.impl.FacetTypeObjectImpl <em>Facet Type Object</em>}' class.
@@ -1581,22 +1609,13 @@ public interface SearchPackage extends EPackage
   int FACET_TYPE_OBJECT__FACET_TYPE = 0;
 
   /**
-   * The feature id for the '<em><b>Params</b></em>' containment reference list.
-   * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
-   * @generated
-   * @ordered
-   */
-  int FACET_TYPE_OBJECT__PARAMS = 1;
-
-  /**
    * The number of structural features of the '<em>Facet Type Object</em>' class.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @generated
    * @ordered
    */
-  int FACET_TYPE_OBJECT_FEATURE_COUNT = 2;
+  int FACET_TYPE_OBJECT_FEATURE_COUNT = 1;
 
   /**
    * The meta object id for the '{@link com.first8.elasticsearch.dsl.search.impl.GeoDistanceFacetImpl <em>Geo Distance Facet</em>}' class.
@@ -2291,32 +2310,22 @@ public interface SearchPackage extends EPackage
   int FACET_PARAMETER__FACE_FILTER = 1;
 
   /**
+   * The feature id for the '<em><b>Nested</b></em>' attribute.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   * @ordered
+   */
+  int FACET_PARAMETER__NESTED = 2;
+
+  /**
    * The number of structural features of the '<em>Facet Parameter</em>' class.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @generated
    * @ordered
    */
-  int FACET_PARAMETER_FEATURE_COUNT = 2;
-
-  /**
-   * The meta object id for the '{@link com.first8.elasticsearch.dsl.search.impl.FacetFilterParamImpl <em>Facet Filter Param</em>}' class.
-   * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
-   * @see com.first8.elasticsearch.dsl.search.impl.FacetFilterParamImpl
-   * @see com.first8.elasticsearch.dsl.search.impl.SearchPackageImpl#getFacetFilterParam()
-   * @generated
-   */
-  int FACET_FILTER_PARAM = 43;
-
-  /**
-   * The number of structural features of the '<em>Facet Filter Param</em>' class.
-   * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
-   * @generated
-   * @ordered
-   */
-  int FACET_FILTER_PARAM_FEATURE_COUNT = 0;
+  int FACET_PARAMETER_FEATURE_COUNT = 3;
 
   /**
    * The meta object id for the '{@link com.first8.elasticsearch.dsl.search.impl.AllTermsParamImpl <em>All Terms Param</em>}' class.
@@ -7915,6 +7924,17 @@ public interface SearchPackage extends EPackage
   EReference getFacetsObject_Config();
 
   /**
+   * Returns the meta object for the containment reference list '{@link com.first8.elasticsearch.dsl.search.FacetsObject#getParams <em>Params</em>}'.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the meta object for the containment reference list '<em>Params</em>'.
+   * @see com.first8.elasticsearch.dsl.search.FacetsObject#getParams()
+   * @see #getFacetsObject()
+   * @generated
+   */
+  EReference getFacetsObject_Params();
+
+  /**
    * Returns the meta object for class '{@link com.first8.elasticsearch.dsl.search.FacetTypeObject <em>Facet Type Object</em>}'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
@@ -7934,17 +7954,6 @@ public interface SearchPackage extends EPackage
    * @generated
    */
   EReference getFacetTypeObject_FacetType();
-
-  /**
-   * Returns the meta object for the containment reference list '{@link com.first8.elasticsearch.dsl.search.FacetTypeObject#getParams <em>Params</em>}'.
-   * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
-   * @return the meta object for the containment reference list '<em>Params</em>'.
-   * @see com.first8.elasticsearch.dsl.search.FacetTypeObject#getParams()
-   * @see #getFacetTypeObject()
-   * @generated
-   */
-  EReference getFacetTypeObject_Params();
 
   /**
    * Returns the meta object for class '{@link com.first8.elasticsearch.dsl.search.FacetType <em>Facet Type</em>}'.
@@ -8497,6 +8506,17 @@ public interface SearchPackage extends EPackage
    * @generated
    */
   EReference getFacetParameter_FaceFilter();
+
+  /**
+   * Returns the meta object for the attribute '{@link com.first8.elasticsearch.dsl.search.FacetParameter#getNested <em>Nested</em>}'.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the meta object for the attribute '<em>Nested</em>'.
+   * @see com.first8.elasticsearch.dsl.search.FacetParameter#getNested()
+   * @see #getFacetParameter()
+   * @generated
+   */
+  EAttribute getFacetParameter_Nested();
 
   /**
    * Returns the meta object for class '{@link com.first8.elasticsearch.dsl.search.FacetFilterParam <em>Facet Filter Param</em>}'.

@@ -14,6 +14,7 @@ import org.eclipse.emf.ecore.EObject;
  * <ul>
  *   <li>{@link com.first8.elasticsearch.dsl.search.FacetParameter#getGlobal <em>Global</em>}</li>
  *   <li>{@link com.first8.elasticsearch.dsl.search.FacetParameter#getFaceFilter <em>Face Filter</em>}</li>
+ *   <li>{@link com.first8.elasticsearch.dsl.search.FacetParameter#getNested <em>Nested</em>}</li>
  * </ul>
  * </p>
  *
@@ -74,5 +75,31 @@ public interface FacetParameter extends EObject
    * @generated
    */
   void setFaceFilter(FacetFilterParam value);
+
+  /**
+   * Returns the value of the '<em><b>Nested</b></em>' attribute.
+   * <!-- begin-user-doc -->
+   * <p>
+   * If the meaning of the '<em>Nested</em>' attribute isn't clear,
+   * there really should be more of a description here...
+   * </p>
+   * <!-- end-user-doc -->
+   * @return the value of the '<em>Nested</em>' attribute.
+   * @see #setNested(String)
+   * @see com.first8.elasticsearch.dsl.search.SearchPackage#getFacetParameter_Nested()
+   * @model
+   * @generated
+   */
+  String getNested();
+
+  /**
+   * Sets the value of the '{@link com.first8.elasticsearch.dsl.search.FacetParameter#getNested <em>Nested</em>}' attribute.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @param value the new value of the '<em>Nested</em>' attribute.
+   * @see #getNested()
+   * @generated
+   */
+  void setNested(String value);
 
 } // FacetParameter

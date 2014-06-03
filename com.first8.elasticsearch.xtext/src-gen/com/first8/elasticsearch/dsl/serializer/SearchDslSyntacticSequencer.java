@@ -34,7 +34,6 @@ public class SearchDslSyntacticSequencer extends AbstractSyntacticSequencer {
 	protected AbstractElementAlias match_HasChildQueryObject___CommaKeyword_4_0_ScoreModeParamParserRuleCall_4_1__q;
 	protected AbstractElementAlias match_HasParentFilterObject_Parent_typeKeyword_1_1_or_TypeKeyword_1_0;
 	protected AbstractElementAlias match_HasParentQueryObject___CommaKeyword_4_0_ScoreModeParamParserRuleCall_4_1__q;
-	protected AbstractElementAlias match_HistogramFacetObject___CommaKeyword_2_0_HistogramFacetParameterParserRuleCall_2_1__a;
 	protected AbstractElementAlias match_IndicesFilterObject_IndexParamParserRuleCall_0_1_or_IndicesParamParserRuleCall_0_0;
 	protected AbstractElementAlias match_IndicesQueryObject_IndexParamParserRuleCall_1_1_or_IndicesParamParserRuleCall_1_0;
 	protected AbstractElementAlias match_MoreLikeThisFieldQuery_Mlt_fieldKeyword_0_0_or_More_like_this_fieldKeyword_0_1;
@@ -72,7 +71,6 @@ public class SearchDslSyntacticSequencer extends AbstractSyntacticSequencer {
 		match_HasChildQueryObject___CommaKeyword_4_0_ScoreModeParamParserRuleCall_4_1__q = new GroupAlias(false, true, new TokenAlias(false, false, grammarAccess.getHasChildQueryObjectAccess().getCommaKeyword_4_0()), new TokenAlias(false, false, grammarAccess.getHasChildQueryObjectAccess().getScoreModeParamParserRuleCall_4_1()));
 		match_HasParentFilterObject_Parent_typeKeyword_1_1_or_TypeKeyword_1_0 = new AlternativeAlias(false, false, new TokenAlias(false, false, grammarAccess.getHasParentFilterObjectAccess().getParent_typeKeyword_1_1()), new TokenAlias(false, false, grammarAccess.getHasParentFilterObjectAccess().getTypeKeyword_1_0()));
 		match_HasParentQueryObject___CommaKeyword_4_0_ScoreModeParamParserRuleCall_4_1__q = new GroupAlias(false, true, new TokenAlias(false, false, grammarAccess.getHasParentQueryObjectAccess().getCommaKeyword_4_0()), new TokenAlias(false, false, grammarAccess.getHasParentQueryObjectAccess().getScoreModeParamParserRuleCall_4_1()));
-		match_HistogramFacetObject___CommaKeyword_2_0_HistogramFacetParameterParserRuleCall_2_1__a = new GroupAlias(true, true, new TokenAlias(false, false, grammarAccess.getHistogramFacetObjectAccess().getCommaKeyword_2_0()), new TokenAlias(false, false, grammarAccess.getHistogramFacetObjectAccess().getHistogramFacetParameterParserRuleCall_2_1()));
 		match_IndicesFilterObject_IndexParamParserRuleCall_0_1_or_IndicesParamParserRuleCall_0_0 = new AlternativeAlias(false, false, new TokenAlias(false, false, grammarAccess.getIndicesFilterObjectAccess().getIndexParamParserRuleCall_0_1()), new TokenAlias(false, false, grammarAccess.getIndicesFilterObjectAccess().getIndicesParamParserRuleCall_0_0()));
 		match_IndicesQueryObject_IndexParamParserRuleCall_1_1_or_IndicesParamParserRuleCall_1_0 = new AlternativeAlias(false, false, new TokenAlias(false, false, grammarAccess.getIndicesQueryObjectAccess().getIndexParamParserRuleCall_1_1()), new TokenAlias(false, false, grammarAccess.getIndicesQueryObjectAccess().getIndicesParamParserRuleCall_1_0()));
 		match_MoreLikeThisFieldQuery_Mlt_fieldKeyword_0_0_or_More_like_this_fieldKeyword_0_1 = new AlternativeAlias(false, false, new TokenAlias(false, false, grammarAccess.getMoreLikeThisFieldQueryAccess().getMlt_fieldKeyword_0_0()), new TokenAlias(false, false, grammarAccess.getMoreLikeThisFieldQueryAccess().getMore_like_this_fieldKeyword_0_1()));
@@ -356,8 +354,6 @@ public class SearchDslSyntacticSequencer extends AbstractSyntacticSequencer {
 				emit_HasParentFilterObject_Parent_typeKeyword_1_1_or_TypeKeyword_1_0(semanticObject, getLastNavigableState(), syntaxNodes);
 			else if(match_HasParentQueryObject___CommaKeyword_4_0_ScoreModeParamParserRuleCall_4_1__q.equals(syntax))
 				emit_HasParentQueryObject___CommaKeyword_4_0_ScoreModeParamParserRuleCall_4_1__q(semanticObject, getLastNavigableState(), syntaxNodes);
-			else if(match_HistogramFacetObject___CommaKeyword_2_0_HistogramFacetParameterParserRuleCall_2_1__a.equals(syntax))
-				emit_HistogramFacetObject___CommaKeyword_2_0_HistogramFacetParameterParserRuleCall_2_1__a(semanticObject, getLastNavigableState(), syntaxNodes);
 			else if(match_IndicesFilterObject_IndexParamParserRuleCall_0_1_or_IndicesParamParserRuleCall_0_0.equals(syntax))
 				emit_IndicesFilterObject_IndexParamParserRuleCall_0_1_or_IndicesParamParserRuleCall_0_0(semanticObject, getLastNavigableState(), syntaxNodes);
 			else if(match_IndicesQueryObject_IndexParamParserRuleCall_1_1_or_IndicesParamParserRuleCall_1_0.equals(syntax))
@@ -440,7 +436,7 @@ public class SearchDslSyntacticSequencer extends AbstractSyntacticSequencer {
 	
 	/**
 	 * Syntax:
-	 *     '"fuzzy_like_this"' | '"flt"'
+	 *     '"flt"' | '"fuzzy_like_this"'
 	 */
 	protected void emit_FuzzyLikeThisQuery_FltKeyword_0_0_or_Fuzzy_like_thisKeyword_0_1(EObject semanticObject, ISynNavigable transition, List<INode> nodes) {
 		acceptNodes(transition, nodes);
@@ -504,7 +500,7 @@ public class SearchDslSyntacticSequencer extends AbstractSyntacticSequencer {
 	
 	/**
 	 * Syntax:
-	 *     '"parent_type"' | '"type"'
+	 *     '"type"' | '"parent_type"'
 	 */
 	protected void emit_HasParentFilterObject_Parent_typeKeyword_1_1_or_TypeKeyword_1_0(EObject semanticObject, ISynNavigable transition, List<INode> nodes) {
 		acceptNodes(transition, nodes);
@@ -515,14 +511,6 @@ public class SearchDslSyntacticSequencer extends AbstractSyntacticSequencer {
 	 *     (',' ScoreModeParam)?
 	 */
 	protected void emit_HasParentQueryObject___CommaKeyword_4_0_ScoreModeParamParserRuleCall_4_1__q(EObject semanticObject, ISynNavigable transition, List<INode> nodes) {
-		acceptNodes(transition, nodes);
-	}
-	
-	/**
-	 * Syntax:
-	 *     (',' HistogramFacetParameter)*
-	 */
-	protected void emit_HistogramFacetObject___CommaKeyword_2_0_HistogramFacetParameterParserRuleCall_2_1__a(EObject semanticObject, ISynNavigable transition, List<INode> nodes) {
 		acceptNodes(transition, nodes);
 	}
 	
@@ -552,7 +540,7 @@ public class SearchDslSyntacticSequencer extends AbstractSyntacticSequencer {
 	
 	/**
 	 * Syntax:
-	 *     '"mlt"' | '"more_like_this"'
+	 *     '"more_like_this"' | '"mlt"'
 	 */
 	protected void emit_MoreLikeThisQuery_MltKeyword_0_0_or_More_like_thisKeyword_0_1(EObject semanticObject, ISynNavigable transition, List<INode> nodes) {
 		acceptNodes(transition, nodes);
@@ -640,7 +628,7 @@ public class SearchDslSyntacticSequencer extends AbstractSyntacticSequencer {
 	
 	/**
 	 * Syntax:
-	 *     ('"wildcard"' ':') | ('"term"' ':')
+	 *     ('"term"' ':') | ('"wildcard"' ':')
 	 */
 	protected void emit_TermQuery_WildcardQuery___TermKeyword_0_ColonKeyword_1___or___WildcardKeyword_0_ColonKeyword_1__(EObject semanticObject, ISynNavigable transition, List<INode> nodes) {
 		acceptNodes(transition, nodes);
@@ -656,7 +644,7 @@ public class SearchDslSyntacticSequencer extends AbstractSyntacticSequencer {
 	
 	/**
 	 * Syntax:
-	 *     '"terms"' | '"in"'
+	 *     '"in"' | '"terms"'
 	 */
 	protected void emit_TermsFilter_InKeyword_0_0_or_TermsKeyword_0_1(EObject semanticObject, ISynNavigable transition, List<INode> nodes) {
 		acceptNodes(transition, nodes);
@@ -664,7 +652,7 @@ public class SearchDslSyntacticSequencer extends AbstractSyntacticSequencer {
 	
 	/**
 	 * Syntax:
-	 *     '"in"' | '"terms"'
+	 *     '"terms"' | '"in"'
 	 */
 	protected void emit_TermsQuery_InKeyword_0_0_or_TermsKeyword_0_1(EObject semanticObject, ISynNavigable transition, List<INode> nodes) {
 		acceptNodes(transition, nodes);
